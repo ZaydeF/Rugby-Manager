@@ -1,0 +1,12 @@
+'use client';
+import {PenaltySettings,PreMatchIntelligence} from './match-intelligence';
+import type {Season} from '@/lib/sim/types';
+import {projected,catalog} from '@/lib/world/catalog';
+import {worldProjected23} from '@/lib/world/match-preview';
+import {aiBenchSplit} from '@/lib/world/selection';
+import {matchSlots} from '@/lib/sim/positions';
+import {Jersey} from './team-kit';
+import {matchDue} from '@/lib/world/calendar';
+import {shieldChallenge} from '@/lib/world/shield';
+import PlayerStars from './stars';
+export default function WorldMatchday({s,onPlayer,onPlay,onQuick,onSelection,mutate}:{s:Season;mutate:(f:(s:Season)=>void)=>void;onPlayer:(id:string)=>void;onPlay:()=>void;onQuick:()=>void;onSelection:()=>void}){const f=s.fixtures.filter(f=>f.round>=s.round&&!f.result&&[f.home,f.away].includes(s.teamId)).sort((a,b)=>a.date.localeCompare(b.date))[0],data=projected(s);if(!f)return <section className="panel"><h2>No upcoming match</h2><p>Review the season and prepare your next squad.</p></section>;return <><section className="panel"><span className="eyebrow">MATCHDAY PREVIEW · {f.date.slice(0,10)}</span><h2>{catalog.teams.find(t=>t.id===f.home)?.name} v {catalog.teams.find(t=>t.id===f.away)?.name}</h2><p>{f.stage} · {f.venue}{shieldChallenge(s,f)?' · RANFURLY SHIELD CHALLENGE':''}</p><div className="inline-actions"><button className="secondary" onClick={onSelection}>Edit selection & roles</button><button className="primary" disabled={!matchDue(s)||!!s.activeMatch} onClick={onPlay}>Play match</button><button className="secondary" disabled={!matchDue(s)||!!s.activeMatch} onClick={onQuick}>Quick sim</button></div>{!matchDue(s)&&<p>Advance the calendar to matchday to play. These are provisional squads.</p>}<PenaltySettings s={s} mutate={mutate}/></section><PreMatchIntelligence s={s} onPlayer={onPlayer}/><div className="dash-world">{[f.home,f.away].map(team=>{const squad=data.players.filter(p=>p.squad_id===team),ids=team===s.teamId?s.selection:worldProjected23(s,f,team);return <section className="panel" key={team}><h2><Jersey team={team}/>{catalog.teams.find(t=>t.id===team)?.name}</h2>{ids.map((id,i)=><div className="dash-row" key={i}><span>{i+1} · {matchSlots(team===s.teamId?s.benchSplit:aiBenchSplit(squad,s.condition))[i][0]}</span><button onClick={()=>id&&onPlayer(id)}>{squad.find(p=>p.player_id===id)?.name??'Unfilled position'}</button>{id&&<PlayerStars s={s} id={id}/>}</div>)}</section>})}</div></>}

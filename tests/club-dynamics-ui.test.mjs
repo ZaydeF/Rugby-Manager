@@ -1,0 +1,12 @@
+import test,{after} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {createServer} from 'vite';
+import {newSeason} from '../lib/sim/career.ts';
+const root=fileURLToPath(new URL('..',import.meta.url)),data=JSON.parse(fs.readFileSync(new URL('../data/generated/universe.json',import.meta.url),'utf8'));
+const vite=await createServer({appType:'custom',configFile:false,root,resolve:{alias:{'@':root}},server:{middlewareMode:true}});after(()=>vite.close());
+test('club workspace renders actionable commitments, named players, stars and conversations',async()=>{const {default:Centre}=await vite.ssrLoadModule('/app/play/dynamics.tsx');const s=newSeason(data,'4',75),html=renderToStaticMarkup(React.createElement(Centre,{s,data,mutate:()=>{},onPlayer:()=>{},navigate:()=>{}}));for(const text of ['Commit: Ambitious','Commit: Cautious','Player relationships','Nicholas Conway','fm-stars','Talk','Season memories'])assert.ok(html.includes(text),text);assert.doesNotMatch(html,/\$&lt;PlayerStars/);});
+test('dismissed onboarding stays dismissed and profiles display the relationship note',async()=>{const {WelcomeGuide,RelationshipSummary}=await vite.ssrLoadModule('/app/play/dynamics.tsx');const s=newSeason(data,'4',75);s.dynamics.onboarding=true;assert.equal(renderToStaticMarkup(React.createElement(WelcomeGuide,{s,mutate:()=>{},navigate:()=>{}})),'');const html=renderToStaticMarkup(React.createElement(RelationshipSummary,{s,id:s.selection[0]}));assert.match(html,/Manager trust/);assert.match(html,/Getting to know the manager/);});

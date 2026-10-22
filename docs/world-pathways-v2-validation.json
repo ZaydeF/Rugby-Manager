@@ -1,0 +1,5894 @@
+{
+  "seeds": [
+    {
+      "seed": 33,
+      "team": "1",
+      "days": 1556,
+      "matches": 70,
+      "shieldChallenges": 29,
+      "representativeFixtures": 220
+    },
+    {
+      "seed": 72,
+      "team": "npc-1",
+      "days": 1556,
+      "matches": 56,
+      "shieldChallenges": 26,
+      "representativeFixtures": 220
+    }
+  ],
+  "careers": [
+    {
+      "seed": 33,
+      "id": "1",
+      "name": "Ben Ake",
+      "position": "prop",
+      "start": 73,
+      "peak": 78.1,
+      "pa": 81,
+      "minutes": 4571.297330880974
+    },
+    {
+      "seed": 33,
+      "id": "11",
+      "name": "Tristyn Cook",
+      "position": "lock",
+      "start": 68,
+      "peak": 76.8,
+      "pa": 84.1,
+      "minutes": 3082.071323046385
+    },
+    {
+      "seed": 33,
+      "id": "15",
+      "name": "Cameron Christie",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 70.9,
+      "pa": 79.9,
+      "minutes": 1979.4621976236674
+    },
+    {
+      "seed": 33,
+      "id": "16",
+      "name": "Che Clark",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 76.5,
+      "pa": 79.9,
+      "minutes": 4734.3291508748
+    },
+    {
+      "seed": 33,
+      "id": "21",
+      "name": "Malachi Wrampling",
+      "position": "loose_forward",
+      "start": 79,
+      "peak": 84.7,
+      "pa": 85.8,
+      "minutes": 7356.516124812892
+    },
+    {
+      "seed": 33,
+      "id": "27",
+      "name": "Rico Simpson",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 75.5,
+      "pa": 88.3,
+      "minutes": 1178.50232529246
+    },
+    {
+      "seed": 33,
+      "id": "29",
+      "name": "James Cameron",
+      "position": "center",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 82.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "32",
+      "name": "Xavi Taele",
+      "position": "center",
+      "start": 79,
+      "peak": 84.3,
+      "pa": 85,
+      "minutes": 11190.752119093351
+    },
+    {
+      "seed": 33,
+      "id": "36",
+      "name": "Payton Spencer",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 83,
+      "pa": 84.2,
+      "minutes": 9461.222734849924
+    },
+    {
+      "seed": 33,
+      "id": "38",
+      "name": "Codemeru Vai",
+      "position": "outside_back",
+      "start": 78,
+      "peak": 84.7,
+      "pa": 85.5,
+      "minutes": 10698.554880390486
+    },
+    {
+      "seed": 33,
+      "id": "40",
+      "name": "Tevita Alatini",
+      "position": "prop",
+      "start": 73,
+      "peak": 74.3,
+      "pa": 76.7,
+      "minutes": 1142.7665825384715
+    },
+    {
+      "seed": 33,
+      "id": "41",
+      "name": "Lington Ieli",
+      "position": "prop",
+      "start": 68,
+      "peak": 68.2,
+      "pa": 71.8,
+      "minutes": 24.08511140413192
+    },
+    {
+      "seed": 33,
+      "id": "45",
+      "name": "Liam Bowron",
+      "position": "hooker",
+      "start": 78,
+      "peak": 79.9,
+      "pa": 81.9,
+      "minutes": 1922.5289252255725
+    },
+    {
+      "seed": 33,
+      "id": "47",
+      "name": "Chris Mickelson",
+      "position": "hooker",
+      "start": 68,
+      "peak": 68,
+      "pa": 68,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "49",
+      "name": "Harvey Cordukes",
+      "position": "lock",
+      "start": 64,
+      "peak": 64.9,
+      "pa": 67.5,
+      "minutes": 819.3903537389724
+    },
+    {
+      "seed": 33,
+      "id": "52",
+      "name": "Lachie Shaw",
+      "position": "lock",
+      "start": 85,
+      "peak": 88.4,
+      "pa": 89.4,
+      "minutes": 5720.5442392334735
+    },
+    {
+      "seed": 33,
+      "id": "54",
+      "name": "Eli Langi",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 65.7,
+      "pa": 68.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "55",
+      "name": "Toby Macpherson",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 80.4,
+      "pa": 81.6,
+      "minutes": 5125.076614244427
+    },
+    {
+      "seed": 33,
+      "id": "62",
+      "name": "Klayton Thorn",
+      "position": "scrum_half",
+      "start": 77,
+      "peak": 78.2,
+      "pa": 80.6,
+      "minutes": 915.9777781517896
+    },
+    {
+      "seed": 33,
+      "id": "63",
+      "name": "Joe Dillon",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 64,
+      "pa": 64,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "66",
+      "name": "Austin Anderson",
+      "position": "center",
+      "start": 72,
+      "peak": 75.1,
+      "pa": 77.7,
+      "minutes": 4021.4588314046514
+    },
+    {
+      "seed": 33,
+      "id": "69",
+      "name": "Jarrah McLeod",
+      "position": "center",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 73.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "70",
+      "name": "Kadin Pritchard",
+      "position": "center",
+      "start": 78,
+      "peak": 83.3,
+      "pa": 84.9,
+      "minutes": 5643.260445342939
+    },
+    {
+      "seed": 33,
+      "id": "75",
+      "name": "Shane Wilcox",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 68.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "85",
+      "name": "Taine Kolose",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "87",
+      "name": "Aisake Vakasiuola",
+      "position": "lock",
+      "start": 64,
+      "peak": 73.7,
+      "pa": 80.8,
+      "minutes": 3487.6535025767885
+    },
+    {
+      "seed": 33,
+      "id": "88",
+      "name": "Fiti Sa",
+      "position": "lock",
+      "start": 73,
+      "peak": 76.8,
+      "pa": 78.7,
+      "minutes": 4377.437712363989
+    },
+    {
+      "seed": 33,
+      "id": "89",
+      "name": "Jayden Sa",
+      "position": "lock",
+      "start": 64,
+      "peak": 75.8,
+      "pa": 81.1,
+      "minutes": 2959.9699418776568
+    },
+    {
+      "seed": 33,
+      "id": "111",
+      "name": "Isaac Hutchinson",
+      "position": "outside_back",
+      "start": 76,
+      "peak": 80.6,
+      "pa": 82,
+      "minutes": 6002.536214640285
+    },
+    {
+      "seed": 33,
+      "id": "112",
+      "name": "Kyren Taumoefolau",
+      "position": "outside_back",
+      "start": 82,
+      "peak": 84.2,
+      "pa": 85,
+      "minutes": 9676.896407763885
+    },
+    {
+      "seed": 33,
+      "id": "120",
+      "name": "Tahlor Cahill",
+      "position": "lock",
+      "start": 80,
+      "peak": 84,
+      "pa": 86,
+      "minutes": 5603.220169514036
+    },
+    {
+      "seed": 33,
+      "id": "125",
+      "name": "Liam Jack",
+      "position": "lock",
+      "start": 68,
+      "peak": 72.4,
+      "pa": 81.5,
+      "minutes": 1017.2156385056026
+    },
+    {
+      "seed": 33,
+      "id": "127",
+      "name": "Manumaua Letiu",
+      "position": "hooker",
+      "start": 74,
+      "peak": 82.3,
+      "pa": 91.5,
+      "minutes": 2394.82701427724
+    },
+    {
+      "seed": 33,
+      "id": "130",
+      "name": "Xavier Saifoloi",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 72.2,
+      "pa": 76.1,
+      "minutes": 298.6534445299885
+    },
+    {
+      "seed": 33,
+      "id": "135",
+      "name": "Toby Bell",
+      "position": "center",
+      "start": 68,
+      "peak": 69.2,
+      "pa": 80.7,
+      "minutes": 205.3859499922936
+    },
+    {
+      "seed": 33,
+      "id": "141",
+      "name": "Noah Hotham",
+      "position": "scrum_half",
+      "start": 88,
+      "peak": 89.8,
+      "pa": 90.6,
+      "minutes": 5923.741575513422
+    },
+    {
+      "seed": 33,
+      "id": "143",
+      "name": "Taha Kemara",
+      "position": "fly_half",
+      "start": 81,
+      "peak": 86.1,
+      "pa": 87.3,
+      "minutes": 6798.751464561795
+    },
+    {
+      "seed": 33,
+      "id": "144",
+      "name": "Maloni Kunawave",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 73.9,
+      "pa": 77.3,
+      "minutes": 3216.4019712287654
+    },
+    {
+      "seed": 33,
+      "id": "150",
+      "name": "Macca Springer",
+      "position": "outside_back",
+      "start": 74,
+      "peak": 77.5,
+      "pa": 79,
+      "minutes": 5649.330495178983
+    },
+    {
+      "seed": 33,
+      "id": "151",
+      "name": "Aki Tuivailala",
+      "position": "center",
+      "start": 64,
+      "peak": 65.9,
+      "pa": 81.6,
+      "minutes": 199.56906163156629
+    },
+    {
+      "seed": 33,
+      "id": "152",
+      "name": "James White",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 71.4,
+      "pa": 72.9,
+      "minutes": 3785.7975961325697
+    },
+    {
+      "seed": 33,
+      "id": "160",
+      "name": "Jack Taylor",
+      "position": "hooker",
+      "start": 83,
+      "peak": 86,
+      "pa": 87.3,
+      "minutes": 6203.803006735523
+    },
+    {
+      "seed": 33,
+      "id": "163",
+      "name": "Tai Cribb",
+      "position": "lock",
+      "start": 68,
+      "peak": 70.2,
+      "pa": 77.9,
+      "minutes": 680.7787158787569
+    },
+    {
+      "seed": 33,
+      "id": "171",
+      "name": "Will Stodart",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73.8,
+      "pa": 81.3,
+      "minutes": 1128.1808093276873
+    },
+    {
+      "seed": 33,
+      "id": "175",
+      "name": "Dylan Pledger",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 82.9,
+      "pa": 96.7,
+      "minutes": 2781.3233414313927
+    },
+    {
+      "seed": 33,
+      "id": "183",
+      "name": "Josh Whaanga",
+      "position": "center",
+      "start": 64,
+      "peak": 75.2,
+      "pa": 83.2,
+      "minutes": 4019.3270683711085
+    },
+    {
+      "seed": 33,
+      "id": "185",
+      "name": "Finn Hurley",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 81.3,
+      "pa": 89.3,
+      "minutes": 4902.030960131872
+    },
+    {
+      "seed": 33,
+      "id": "188",
+      "name": "Stanley Solomon",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 78.6,
+      "pa": 82.5,
+      "minutes": 4240
+    },
+    {
+      "seed": 33,
+      "id": "189",
+      "name": "Caleb Tangitau",
+      "position": "outside_back",
+      "start": 86,
+      "peak": 88.2,
+      "pa": 89.6,
+      "minutes": 8084.3672405235775
+    },
+    {
+      "seed": 33,
+      "id": "190",
+      "name": "Xavier Tito-Harris",
+      "position": "outside_back",
+      "start": 72,
+      "peak": 77.9,
+      "pa": 86,
+      "minutes": 1450.881163318735
+    },
+    {
+      "seed": 33,
+      "id": "191",
+      "name": "Siale Lauaki",
+      "position": "prop",
+      "start": 81,
+      "peak": 86.7,
+      "pa": 90,
+      "minutes": 5355.275916137217
+    },
+    {
+      "seed": 33,
+      "id": "198",
+      "name": "Vernon Bason",
+      "position": "hooker",
+      "start": 73,
+      "peak": 83.7,
+      "pa": 87.7,
+      "minutes": 4115.649990065664
+    },
+    {
+      "seed": 33,
+      "id": "200",
+      "name": "Raymond Tuputupu",
+      "position": "hooker",
+      "start": 73,
+      "peak": 75.5,
+      "pa": 81.3,
+      "minutes": 1432.6185910768636
+    },
+    {
+      "seed": 33,
+      "id": "201",
+      "name": "Tom Allen",
+      "position": "lock",
+      "start": 68,
+      "peak": 76.4,
+      "pa": 82.2,
+      "minutes": 2953.3790696349865
+    },
+    {
+      "seed": 33,
+      "id": "209",
+      "name": "Peter Lakai",
+      "position": "loose_forward",
+      "start": 88,
+      "peak": 93.3,
+      "pa": 94.7,
+      "minutes": 9144.581426083347
+    },
+    {
+      "seed": 33,
+      "id": "214",
+      "name": "Jordi Viljoen",
+      "position": "scrum_half",
+      "start": 73,
+      "peak": 76.8,
+      "pa": 79.5,
+      "minutes": 3992.4976150339944
+    },
+    {
+      "seed": 33,
+      "id": "216",
+      "name": "Harry Godfrey",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 77.3,
+      "pa": 85.8,
+      "minutes": 6172.064629771404
+    },
+    {
+      "seed": 33,
+      "id": "230",
+      "name": "Vaiuta Latu",
+      "position": "loose_forward",
+      "start": 77,
+      "peak": 84.2,
+      "pa": 87,
+      "minutes": 3945.962595847888
+    },
+    {
+      "seed": 33,
+      "id": "236",
+      "name": "Massimo De Lutiis",
+      "position": "prop",
+      "start": 82,
+      "peak": 84.8,
+      "pa": 86.3,
+      "minutes": 5033.595597002486
+    },
+    {
+      "seed": 33,
+      "id": "239",
+      "name": "Nick Bloomfield",
+      "position": "prop",
+      "start": 73,
+      "peak": 73.2,
+      "pa": 79.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "240",
+      "name": "Trevor King",
+      "position": "prop",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 68.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "244",
+      "name": "Hamish Muller",
+      "position": "lock",
+      "start": 77,
+      "peak": 77.1,
+      "pa": 77.7,
+      "minutes": 65.77584278426275
+    },
+    {
+      "seed": 33,
+      "id": "248",
+      "name": "John Bryant",
+      "position": "loose_forward",
+      "start": 73,
+      "peak": 73.1,
+      "pa": 76,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "252",
+      "name": "Tom Lynagh",
+      "position": "fly_half",
+      "start": 82,
+      "peak": 82.8,
+      "pa": 85.1,
+      "minutes": 792.203277936521
+    },
+    {
+      "seed": 33,
+      "id": "254",
+      "name": "Harry McLaughlin-Phillips",
+      "position": "fly_half",
+      "start": 80,
+      "peak": 81.6,
+      "pa": 84.4,
+      "minutes": 431.7385419831352
+    },
+    {
+      "seed": 33,
+      "id": "258",
+      "name": "Dre Pakeho",
+      "position": "center",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "259",
+      "name": "Frankie Goldsbrough",
+      "position": "center",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 64.8,
+      "minutes": 160
+    },
+    {
+      "seed": 33,
+      "id": "260",
+      "name": "Will McCulloch",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 66.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "261",
+      "name": "Nicholas Conway",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.4,
+      "pa": 65.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "263",
+      "name": "Tim Ryan",
+      "position": "outside_back",
+      "start": 83,
+      "peak": 85.3,
+      "pa": 86.9,
+      "minutes": 6189.173899156836
+    },
+    {
+      "seed": 33,
+      "id": "266",
+      "name": "Treyvon Pritchard",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 88,
+      "pa": 89.2,
+      "minutes": 5172.421039305996
+    },
+    {
+      "seed": 33,
+      "id": "272",
+      "name": "Jack Barrett",
+      "position": "prop",
+      "start": 73,
+      "peak": 74.3,
+      "pa": 75.7,
+      "minutes": 2500.6933830489033
+    },
+    {
+      "seed": 33,
+      "id": "275",
+      "name": "Will Goddard",
+      "position": "prop",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 72.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "281",
+      "name": "Eamon Doyle",
+      "position": "lock",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 68.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "284",
+      "name": "Austin Durbidge",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 68.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "287",
+      "name": "Lachlan Hooper",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 65.1,
+      "pa": 66.3,
+      "minutes": 3889.979663837971
+    },
+    {
+      "seed": 33,
+      "id": "288",
+      "name": "Leafi Talataina",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73,
+      "pa": 76.1,
+      "minutes": 934.1074860798575
+    },
+    {
+      "seed": 33,
+      "id": "292",
+      "name": "Teddy Wilson",
+      "position": "scrum_half",
+      "start": 78,
+      "peak": 78.7,
+      "pa": 79.8,
+      "minutes": 1365.4690697867427
+    },
+    {
+      "seed": 33,
+      "id": "293",
+      "name": "Jack Bowen",
+      "position": "fly_half",
+      "start": 73,
+      "peak": 73.2,
+      "pa": 78.4,
+      "minutes": 78.78657217428156
+    },
+    {
+      "seed": 33,
+      "id": "298",
+      "name": "Joseph-Aukuso Suaalii",
+      "position": "center",
+      "start": 88,
+      "peak": 93.6,
+      "pa": 95.9,
+      "minutes": 7816.110287507866
+    },
+    {
+      "seed": 33,
+      "id": "300",
+      "name": "Archie Saunders",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 67,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "302",
+      "name": "James Hendren",
+      "position": "outside_back",
+      "start": 72,
+      "peak": 72.1,
+      "pa": 73.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "303",
+      "name": "Leo Jaques",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 65.2,
+      "pa": 68.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "304",
+      "name": "Max Jorgensen",
+      "position": "outside_back",
+      "start": 88,
+      "peak": 90.4,
+      "pa": 91.3,
+      "minutes": 6908.7721034982915
+    },
+    {
+      "seed": 33,
+      "id": "305",
+      "name": "Sid Harvey",
+      "position": "outside_back",
+      "start": 83,
+      "peak": 85.5,
+      "pa": 86.3,
+      "minutes": 5192.70371131893
+    },
+    {
+      "seed": 33,
+      "id": "311",
+      "name": "Marley Pearce",
+      "position": "prop",
+      "start": 73,
+      "peak": 75,
+      "pa": 77.6,
+      "minutes": 2312.981879322286
+    },
+    {
+      "seed": 33,
+      "id": "313",
+      "name": "Joshua Smith",
+      "position": "prop",
+      "start": 64,
+      "peak": 74.5,
+      "pa": 81.7,
+      "minutes": 3043.849058268931
+    },
+    {
+      "seed": 33,
+      "id": "314",
+      "name": "Albert Alcock",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 67.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "327",
+      "name": "Agustin Moyano",
+      "position": "scrum_half",
+      "start": 72,
+      "peak": 72.2,
+      "pa": 75,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "329",
+      "name": "Doug Philipson",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 66.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "334",
+      "name": "Boston Fakafanua",
+      "position": "center",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 75.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "336",
+      "name": "Divad Palu",
+      "position": "center",
+      "start": 72,
+      "peak": 75.2,
+      "pa": 76.4,
+      "minutes": 5538.474226368471
+    },
+    {
+      "seed": 33,
+      "id": "341",
+      "name": "Darby Lancaster",
+      "position": "outside_back",
+      "start": 80,
+      "peak": 83.9,
+      "pa": 84.8,
+      "minutes": 9170.187080737287
+    },
+    {
+      "seed": 33,
+      "id": "342",
+      "name": "Ronan Leahy",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64,
+      "pa": 64,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "350",
+      "name": "Kavaia Tagivetaua",
+      "position": "hooker",
+      "start": 73,
+      "peak": 73,
+      "pa": 73.7,
+      "minutes": 72.05624805386411
+    },
+    {
+      "seed": 33,
+      "id": "355",
+      "name": "Mesake Vocevoce",
+      "position": "lock",
+      "start": 82,
+      "peak": 83.1,
+      "pa": 84,
+      "minutes": 4056.427284155469
+    },
+    {
+      "seed": 33,
+      "id": "363",
+      "name": "Motikiai Murray",
+      "position": "loose_forward",
+      "start": 73,
+      "peak": 75.2,
+      "pa": 77.3,
+      "minutes": 3630.1750123195134
+    },
+    {
+      "seed": 33,
+      "id": "366",
+      "name": "Philip Baselala",
+      "position": "scrum_half",
+      "start": 72,
+      "peak": 72.2,
+      "pa": 78.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "368",
+      "name": "Isaiah Armstrong-Ravula",
+      "position": "fly_half",
+      "start": 84,
+      "peak": 88.1,
+      "pa": 88.9,
+      "minutes": 5999.092648618683
+    },
+    {
+      "seed": 33,
+      "id": "370",
+      "name": "Isikeli Rabitu",
+      "position": "fly_half",
+      "start": 82,
+      "peak": 86,
+      "pa": 87.7,
+      "minutes": 3736.1841297537294
+    },
+    {
+      "seed": 33,
+      "id": "374",
+      "name": "Maika Tuitubou",
+      "position": "center",
+      "start": 73,
+      "peak": 73.2,
+      "pa": 76.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "376",
+      "name": "Aisea Nawai",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "379",
+      "name": "Isikeli Basiyalo",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 70.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "384",
+      "name": "Alefosio Aho",
+      "position": "lock",
+      "start": 72,
+      "peak": 74,
+      "pa": 75.4,
+      "minutes": 5000.394681512985
+    },
+    {
+      "seed": 33,
+      "id": "388",
+      "name": "Dominic Ropeti",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73.2,
+      "pa": 74,
+      "minutes": 5854.974934062408
+    },
+    {
+      "seed": 33,
+      "id": "392",
+      "name": "Israel Leota",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 82.6,
+      "pa": 83.3,
+      "minutes": 8567.042721876542
+    },
+    {
+      "seed": 33,
+      "id": "398",
+      "name": "Malakai Hala-Ngatai",
+      "position": "prop",
+      "start": 78,
+      "peak": 79.2,
+      "pa": 80,
+      "minutes": 6571.088793984296
+    },
+    {
+      "seed": 33,
+      "id": "411",
+      "name": "Semisi Tupou Ta'eiloa",
+      "position": "loose_forward",
+      "start": 84,
+      "peak": 90.4,
+      "pa": 92.2,
+      "minutes": 9351.734857489095
+    },
+    {
+      "seed": 33,
+      "id": "425",
+      "name": "Henry Palmer",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 67.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "426",
+      "name": "Clem Halaholo",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 79.1,
+      "pa": 79.5,
+      "minutes": 8438.370531864068
+    },
+    {
+      "seed": 33,
+      "id": "427",
+      "name": "James Martens",
+      "position": "scrum_half",
+      "start": 68,
+      "peak": 68,
+      "pa": 68.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "428",
+      "name": "Tom Robinson",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 66.7,
+      "pa": 71.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "429",
+      "name": "Lucas Casey",
+      "position": "loose_forward",
+      "start": 82,
+      "peak": 85.7,
+      "pa": 86.8,
+      "minutes": 7024.612248816925
+    },
+    {
+      "seed": 33,
+      "id": "431",
+      "name": "Torian Barnes",
+      "position": "loose_forward",
+      "start": 79,
+      "peak": 85.6,
+      "pa": 88,
+      "minutes": 8536.297405485013
+    },
+    {
+      "seed": 33,
+      "id": "434",
+      "name": "Finn Mackay",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 71.5,
+      "pa": 72.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "435",
+      "name": "Xavier Rubens",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 73,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "437",
+      "name": "Denzel Samoa",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 70.2,
+      "pa": 72.3,
+      "minutes": 1839.6066054654648
+    },
+    {
+      "seed": 33,
+      "id": "438",
+      "name": "Konrad Toleafoa",
+      "position": "loose_forward",
+      "start": 68,
+      "peak": 68.5,
+      "pa": 69.6,
+      "minutes": 1965.5653472700112
+    },
+    {
+      "seed": 33,
+      "id": "442",
+      "name": "Matolu Petaia",
+      "position": "lock",
+      "start": 68,
+      "peak": 69,
+      "pa": 72.1,
+      "minutes": 432.9873424455482
+    },
+    {
+      "seed": 33,
+      "id": "445",
+      "name": "Tyler Pulini",
+      "position": "fly_half",
+      "start": 72,
+      "peak": 74,
+      "pa": 75.1,
+      "minutes": 3969.861833475178
+    },
+    {
+      "seed": 33,
+      "id": "446",
+      "name": "Johnny Lee",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 83.5,
+      "pa": 84.3,
+      "minutes": 10823.075743593728
+    },
+    {
+      "seed": 33,
+      "id": "447",
+      "name": "Taj Annan",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 70.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "448",
+      "name": "Sairusi Ravudi",
+      "position": "hooker",
+      "start": 72,
+      "peak": 73.4,
+      "pa": 74.6,
+      "minutes": 2231.680427420919
+    },
+    {
+      "seed": 33,
+      "id": "449",
+      "name": "Cooper Grant",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 74.8,
+      "pa": 80.7,
+      "minutes": 2767.9511588239316
+    },
+    {
+      "seed": 33,
+      "id": "451",
+      "name": "Nic Shearer",
+      "position": "scrum_half",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 68.4,
+      "minutes": 2596.4637326483767
+    },
+    {
+      "seed": 33,
+      "id": "453",
+      "name": "Oli Mathis",
+      "position": "loose_forward",
+      "start": 69,
+      "peak": 88.2,
+      "pa": 89.9,
+      "minutes": 8132.297350124135
+    },
+    {
+      "seed": 33,
+      "id": "455",
+      "name": "Charlie Sinton",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 76.6,
+      "pa": 90.2,
+      "minutes": 2041.1313677575858
+    },
+    {
+      "seed": 33,
+      "id": "458",
+      "name": "Dylan Eti",
+      "position": "lock",
+      "start": 68,
+      "peak": 81.4,
+      "pa": 90.8,
+      "minutes": 3590.4502052100097
+    },
+    {
+      "seed": 33,
+      "id": "463",
+      "name": "Andrew Smith",
+      "position": "loose_forward",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 79,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "465",
+      "name": "Micah Fale",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 64.9,
+      "pa": 84.1,
+      "minutes": 1200.4278691039806
+    },
+    {
+      "seed": 33,
+      "id": "467",
+      "name": "Will Martin",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 79.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "468",
+      "name": "Taipari Quinn",
+      "position": "unknown",
+      "start": 59,
+      "peak": 59,
+      "pa": 60.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "469",
+      "name": "Gabe Robinson",
+      "position": "unknown",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 80.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "470",
+      "name": "Rui Farrant",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 64.7,
+      "pa": 67,
+      "minutes": 599.4251117577401
+    },
+    {
+      "seed": 33,
+      "id": "473",
+      "name": "Nathan Stephens",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 81.8,
+      "pa": 86.5,
+      "minutes": 3975.6902040423265
+    },
+    {
+      "seed": 33,
+      "id": "474",
+      "name": "David Lewai",
+      "position": "center",
+      "start": 64,
+      "peak": 72.8,
+      "pa": 82.1,
+      "minutes": 1355.906936988487
+    },
+    {
+      "seed": 33,
+      "id": "477",
+      "name": "Waisake Salabiau",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59.9,
+      "pa": 61,
+      "minutes": 1770.0531069596966
+    },
+    {
+      "seed": 33,
+      "id": "478",
+      "name": "Sione Tupou",
+      "position": "hooker",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 70.8,
+      "minutes": 123.8992851948921
+    },
+    {
+      "seed": 33,
+      "id": "481",
+      "name": "Harold Rounds",
+      "position": "lock",
+      "start": 59,
+      "peak": 59.2,
+      "pa": 60.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "482",
+      "name": "Trent Ririnui",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.7,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "484",
+      "name": "Jai Knight",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "485",
+      "name": "Reuben Palmer",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "487",
+      "name": "Toby Taylor",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 55.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "494",
+      "name": "Frank Vaenuku",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 82.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "495",
+      "name": "Kele Lasaqa",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 71.2,
+      "pa": 84.5,
+      "minutes": 2574.405238764257
+    },
+    {
+      "seed": 33,
+      "id": "497",
+      "name": "Tamiro Armstrong",
+      "position": "center",
+      "start": 52,
+      "peak": 53.9,
+      "pa": 55.9,
+      "minutes": 1758.8556124343172
+    },
+    {
+      "seed": 33,
+      "id": "501",
+      "name": "Aaron Gibbs",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 53.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "502",
+      "name": "Reegan Aarsen",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 58,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "504",
+      "name": "Dylan Irvine",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "505",
+      "name": "Eli Oudenryn",
+      "position": "hooker",
+      "start": 73,
+      "peak": 84,
+      "pa": 90.5,
+      "minutes": 3585.6170673216748
+    },
+    {
+      "seed": 33,
+      "id": "506",
+      "name": "Sione Mafi",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.6,
+      "pa": 54.8,
+      "minutes": 606.6024089705597
+    },
+    {
+      "seed": 33,
+      "id": "508",
+      "name": "Tayne Hemopo",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 54.1,
+      "minutes": 77.78409669095107
+    },
+    {
+      "seed": 33,
+      "id": "509",
+      "name": "Hunter Leppien",
+      "position": "lock",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 528.9702748879829
+    },
+    {
+      "seed": 33,
+      "id": "511",
+      "name": "Matt Lowe",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 55.5,
+      "pa": 57.9,
+      "minutes": 232.1107731132214
+    },
+    {
+      "seed": 33,
+      "id": "517",
+      "name": "Jake Pacey",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "518",
+      "name": "Nic Sauira",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "519",
+      "name": "Cooper Roberts",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 55.3,
+      "pa": 84.2,
+      "minutes": 394.4178125143965
+    },
+    {
+      "seed": 33,
+      "id": "520",
+      "name": "Timoci Sauira",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "521",
+      "name": "Jake Frost",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 63.4,
+      "pa": 85.4,
+      "minutes": 469.20352462779465
+    },
+    {
+      "seed": 33,
+      "id": "525",
+      "name": "Fletcher Hewitt-Smart",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 56.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "528",
+      "name": "Moses Hafoka",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 64.7,
+      "minutes": 1146.7410856673198
+    },
+    {
+      "seed": 33,
+      "id": "531",
+      "name": "Jack Lee",
+      "position": "lock",
+      "start": 68,
+      "peak": 69.3,
+      "pa": 71,
+      "minutes": 1442.3504907341703
+    },
+    {
+      "seed": 33,
+      "id": "532",
+      "name": "Taeao Pomale-Time",
+      "position": "lock",
+      "start": 74,
+      "peak": 79.6,
+      "pa": 82.2,
+      "minutes": 3526.559105444947
+    },
+    {
+      "seed": 33,
+      "id": "534",
+      "name": "Dane Sawers",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 83.7,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "535",
+      "name": "Sam Tuitupou Ah-Hing",
+      "position": "loose_forward",
+      "start": 74,
+      "peak": 81.7,
+      "pa": 84,
+      "minutes": 3960
+    },
+    {
+      "seed": 33,
+      "id": "537",
+      "name": "Malaesaili Elato",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73.1,
+      "pa": 73.9,
+      "minutes": 4040
+    },
+    {
+      "seed": 33,
+      "id": "538",
+      "name": "George Reeves",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.4,
+      "pa": 65.4,
+      "minutes": 1080.7303703257462
+    },
+    {
+      "seed": 33,
+      "id": "539",
+      "name": "Bradley Fifita",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 23.988879023630485
+    },
+    {
+      "seed": 33,
+      "id": "541",
+      "name": "Tony Tafa",
+      "position": "prop",
+      "start": 64,
+      "peak": 64,
+      "pa": 64,
+      "minutes": 1345.9849559800637
+    },
+    {
+      "seed": 33,
+      "id": "542",
+      "name": "Riley Tofilau",
+      "position": "prop",
+      "start": 65,
+      "peak": 65.9,
+      "pa": 66.7,
+      "minutes": 2742.4306198702516
+    },
+    {
+      "seed": 33,
+      "id": "548",
+      "name": "Rory Taylor",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 71.7,
+      "pa": 73,
+      "minutes": 3960
+    },
+    {
+      "seed": 33,
+      "id": "549",
+      "name": "Leo Gordon",
+      "position": "center",
+      "start": 64,
+      "peak": 66.2,
+      "pa": 76.9,
+      "minutes": 789.4033713434752
+    },
+    {
+      "seed": 33,
+      "id": "553",
+      "name": "Oscar Cowley-Andrea",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.4,
+      "pa": 54,
+      "minutes": 131.19261329075624
+    },
+    {
+      "seed": 33,
+      "id": "558",
+      "name": "Hunter Rice",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59,
+      "pa": 59.1,
+      "minutes": 39.99999999999988
+    },
+    {
+      "seed": 33,
+      "id": "560",
+      "name": "Austin Atiga",
+      "position": "hooker",
+      "start": 54,
+      "peak": 54,
+      "pa": 54,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "565",
+      "name": "Cameron Church",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.7,
+      "minutes": 435.98060025635215
+    },
+    {
+      "seed": 33,
+      "id": "568",
+      "name": "Cohen Brady-Leathem",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.9,
+      "minutes": 73.2492844541564
+    },
+    {
+      "seed": 33,
+      "id": "571",
+      "name": "Larenz Tupaea-Thomsen",
+      "position": "center",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 52.9,
+      "minutes": 560
+    },
+    {
+      "seed": 33,
+      "id": "574",
+      "name": "Antonio Popoalii",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59.1,
+      "pa": 77.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "579",
+      "name": "Jackson Rainsford",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 56.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "580",
+      "name": "Josiah Unga",
+      "position": "outside_back",
+      "start": 74,
+      "peak": 74.4,
+      "pa": 75,
+      "minutes": 3854.7401023666157
+    },
+    {
+      "seed": 33,
+      "id": "582",
+      "name": "Gus Brown",
+      "position": "prop",
+      "start": 68,
+      "peak": 75.2,
+      "pa": 82.1,
+      "minutes": 2029.328496171177
+    },
+    {
+      "seed": 33,
+      "id": "583",
+      "name": "Xavier Treacy",
+      "position": "lock",
+      "start": 59,
+      "peak": 59.3,
+      "pa": 80.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "584",
+      "name": "Phoenix Abbott",
+      "position": "lock",
+      "start": 59,
+      "peak": 59,
+      "pa": 59.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "585",
+      "name": "Max Fale",
+      "position": "lock",
+      "start": 55,
+      "peak": 61.6,
+      "pa": 82,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "587",
+      "name": "Finn McLeod",
+      "position": "loose_forward",
+      "start": 68,
+      "peak": 79.9,
+      "pa": 84.7,
+      "minutes": 3863.9309089813946
+    },
+    {
+      "seed": 33,
+      "id": "590",
+      "name": "Tonga Helu",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 55,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "591",
+      "name": "Ollie Burra",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 61.4,
+      "pa": 77.4,
+      "minutes": 940.5139020742612
+    },
+    {
+      "seed": 33,
+      "id": "593",
+      "name": "Kurtis MacDonald",
+      "position": "center",
+      "start": 73,
+      "peak": 73.5,
+      "pa": 76,
+      "minutes": 599.6824305856212
+    },
+    {
+      "seed": 33,
+      "id": "598",
+      "name": "Joey Taumateine",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.3,
+      "minutes": 382.4704070123444
+    },
+    {
+      "seed": 33,
+      "id": "600",
+      "name": "Vainikolo Fifita",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "601",
+      "name": "Thomas Polo",
+      "position": "prop",
+      "start": 59,
+      "peak": 59,
+      "pa": 59,
+      "minutes": 1505.7308638369586
+    },
+    {
+      "seed": 33,
+      "id": "602",
+      "name": "Tim Brady",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 310.1552110264404
+    },
+    {
+      "seed": 33,
+      "id": "604",
+      "name": "Kurene Luamanuvae",
+      "position": "prop",
+      "start": 52,
+      "peak": 55.1,
+      "pa": 78.5,
+      "minutes": 477.733099270989
+    },
+    {
+      "seed": 33,
+      "id": "607",
+      "name": "Aidan Spratley",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 70.9,
+      "pa": 82.1,
+      "minutes": 4069.359744628015
+    },
+    {
+      "seed": 33,
+      "id": "608",
+      "name": "Tamatea Winiana",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 56.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "611",
+      "name": "Nathaniel Pole",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.7,
+      "minutes": 297.7796827132692
+    },
+    {
+      "seed": 33,
+      "id": "612",
+      "name": "Josh Tengblad",
+      "position": "lock",
+      "start": 64,
+      "peak": 71.7,
+      "pa": 82.6,
+      "minutes": 927.3157299770849
+    },
+    {
+      "seed": 33,
+      "id": "614",
+      "name": "Randall Baker",
+      "position": "lock",
+      "start": 52,
+      "peak": 55.2,
+      "pa": 82.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "615",
+      "name": "Logan Platt",
+      "position": "lock",
+      "start": 55,
+      "peak": 73.3,
+      "pa": 85,
+      "minutes": 891.2679501820566
+    },
+    {
+      "seed": 33,
+      "id": "616",
+      "name": "Caleb Woodley",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 64.2,
+      "pa": 81.5,
+      "minutes": 499.0528355180561
+    },
+    {
+      "seed": 33,
+      "id": "617",
+      "name": "Ofa Topeni",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 56.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "618",
+      "name": "Sam Hainsworth-Fa'aofo",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 73.7,
+      "pa": 79.8,
+      "minutes": 4671.88077133602
+    },
+    {
+      "seed": 33,
+      "id": "620",
+      "name": "Tamiano Ahloo",
+      "position": "prop",
+      "start": 52,
+      "peak": 57.1,
+      "pa": 85.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "621",
+      "name": "Robson Faleafa",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 84.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "623",
+      "name": "Quinton Nichols",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 53,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "624",
+      "name": "Siale Pahulu",
+      "position": "center",
+      "start": 55,
+      "peak": 77.3,
+      "pa": 83.1,
+      "minutes": 2684.1382727671016
+    },
+    {
+      "seed": 33,
+      "id": "627",
+      "name": "Harlyn Saunoa",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 82.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "628",
+      "name": "Cohen Norrie",
+      "position": "outside_back",
+      "start": 60,
+      "peak": 65.5,
+      "pa": 87.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "629",
+      "name": "King Maxwell",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 80.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "635",
+      "name": "Suli Pahulu",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "636",
+      "name": "Bradley Tocker",
+      "position": "lock",
+      "start": 55,
+      "peak": 69.7,
+      "pa": 86.9,
+      "minutes": 1481.4480952707918
+    },
+    {
+      "seed": 33,
+      "id": "638",
+      "name": "Josefa Namosimalua",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 247.5130288941141
+    },
+    {
+      "seed": 33,
+      "id": "642",
+      "name": "Perry Lawrence",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.4,
+      "pa": 54.6,
+      "minutes": 683.8625480736242
+    },
+    {
+      "seed": 33,
+      "id": "643",
+      "name": "Keightley Watson",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 53.6,
+      "minutes": 523.2262618125187
+    },
+    {
+      "seed": 33,
+      "id": "652",
+      "name": "Haki Wiseman",
+      "position": "center",
+      "start": 55,
+      "peak": 65.5,
+      "pa": 87.3,
+      "minutes": 1176.9529918888395
+    },
+    {
+      "seed": 33,
+      "id": "657",
+      "name": "Jamie Viljoen",
+      "position": "fly_half",
+      "start": 52,
+      "peak": 52.5,
+      "pa": 53.8,
+      "minutes": 88.23012016688611
+    },
+    {
+      "seed": 33,
+      "id": "658",
+      "name": "Dane Johnston",
+      "position": "prop",
+      "start": 55,
+      "peak": 70.8,
+      "pa": 87.4,
+      "minutes": 1842.2996206328983
+    },
+    {
+      "seed": 33,
+      "id": "661",
+      "name": "Alani Fakava",
+      "position": "hooker",
+      "start": 54,
+      "peak": 68.6,
+      "pa": 87.5,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "662",
+      "name": "Mosese Bason",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 74.9,
+      "pa": 85,
+      "minutes": 3665.6031277943252
+    },
+    {
+      "seed": 33,
+      "id": "663",
+      "name": "Jai Tamati",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 69.4,
+      "pa": 79.2,
+      "minutes": 936.3521787732581
+    },
+    {
+      "seed": 33,
+      "id": "668",
+      "name": "A-One Lolofie",
+      "position": "hooker",
+      "start": 52,
+      "peak": 56.7,
+      "pa": 82,
+      "minutes": 543.5935103361483
+    },
+    {
+      "seed": 33,
+      "id": "670",
+      "name": "Nic Souchon",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "671",
+      "name": "Jake Fowler",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.2,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "673",
+      "name": "Cody Lokotui",
+      "position": "lock",
+      "start": 52,
+      "peak": 53.2,
+      "pa": 55.1,
+      "minutes": 1366.8069064242823
+    },
+    {
+      "seed": 33,
+      "id": "674",
+      "name": "Slade McDowall",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "675",
+      "name": "Harry Irving",
+      "position": "lock",
+      "start": 54,
+      "peak": 68.7,
+      "pa": 77.4,
+      "minutes": 3397.83628533895
+    },
+    {
+      "seed": 33,
+      "id": "678",
+      "name": "Moana Takataka",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "679",
+      "name": "Kieran McClea",
+      "position": "scrum_half",
+      "start": 54,
+      "peak": 54,
+      "pa": 54,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "680",
+      "name": "Cam Allan-McNeill",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.7,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "683",
+      "name": "Jae Broomfield",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "684",
+      "name": "Riley Lucas",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54,
+      "pa": 54.6,
+      "minutes": 80
+    },
+    {
+      "seed": 33,
+      "id": "685",
+      "name": "Samuel Nemec-Vial",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 79.2,
+      "pa": 83.2,
+      "minutes": 4020.524076175927
+    },
+    {
+      "seed": 33,
+      "id": "686",
+      "name": "Charlie Breen",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "687",
+      "name": "Joseph Gavigan",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "689",
+      "name": "Rob Harley",
+      "position": "lock",
+      "start": 54,
+      "peak": 54.9,
+      "pa": 56.6,
+      "minutes": 2200.58862057411
+    },
+    {
+      "seed": 33,
+      "id": "690",
+      "name": "Rory Woods",
+      "position": "loose_forward",
+      "start": 54,
+      "peak": 54.4,
+      "pa": 55.9,
+      "minutes": 1179.6277399238406
+    },
+    {
+      "seed": 33,
+      "id": "692",
+      "name": "James Tofa",
+      "position": "center",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 59.7,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "698",
+      "name": "Samuel Johnson",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "702",
+      "name": "Logan Wallace",
+      "position": "prop",
+      "start": 64,
+      "peak": 70.2,
+      "pa": 81,
+      "minutes": 849.5995365319295
+    },
+    {
+      "seed": 33,
+      "id": "703",
+      "name": "Pena Va'a",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.3,
+      "minutes": 160
+    },
+    {
+      "seed": 33,
+      "id": "704",
+      "name": "Tofuka Paongo",
+      "position": "center",
+      "start": 52,
+      "peak": 58.9,
+      "pa": 78,
+      "minutes": 1157.3974498604546
+    },
+    {
+      "seed": 33,
+      "id": "705",
+      "name": "Albert Bradshaw",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.4,
+      "pa": 54,
+      "minutes": 560
+    },
+    {
+      "seed": 33,
+      "id": "706",
+      "name": "Liam O'Connor",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 240
+    },
+    {
+      "seed": 33,
+      "id": "712",
+      "name": "Hunter Morrison",
+      "position": "lock",
+      "start": 64,
+      "peak": 72.9,
+      "pa": 86.6,
+      "minutes": 1938.3508920049744
+    },
+    {
+      "seed": 33,
+      "id": "713",
+      "name": "Zach Taulapapa",
+      "position": "lock",
+      "start": 52,
+      "peak": 63.9,
+      "pa": 80.9,
+      "minutes": 1014.0534988614631
+    },
+    {
+      "seed": 33,
+      "id": "717",
+      "name": "Cooper Flanders",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 71,
+      "pa": 80.8,
+      "minutes": 3609.9340623243197
+    },
+    {
+      "seed": 33,
+      "id": "718",
+      "name": "Drew Berg-McLean",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 55.9,
+      "pa": 79.6,
+      "minutes": 228.20236511053585
+    },
+    {
+      "seed": 33,
+      "id": "719",
+      "name": "Patrick Mauga",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 76.2,
+      "pa": 87.9,
+      "minutes": 3763.9864669033263
+    },
+    {
+      "seed": 33,
+      "id": "720",
+      "name": "Nik Patumaka",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "725",
+      "name": "Kade Manuel",
+      "position": "scrum_half",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 55.1,
+      "minutes": 164.57756941117464
+    },
+    {
+      "seed": 33,
+      "id": "729",
+      "name": "Anaru Paenga-Morgan",
+      "position": "center",
+      "start": 54,
+      "peak": 54,
+      "pa": 54,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "733",
+      "name": "Will Cole",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 74.4,
+      "pa": 81.7,
+      "minutes": 2879.1390625312843
+    },
+    {
+      "seed": 33,
+      "id": "734",
+      "name": "Bryson Loane",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "736",
+      "name": "Shaun Kempton",
+      "position": "hooker",
+      "start": 52,
+      "peak": 53.6,
+      "pa": 56.9,
+      "minutes": 318.34335880795766
+    },
+    {
+      "seed": 33,
+      "id": "740",
+      "name": "Gregor Rutledge",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 52.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "743",
+      "name": "Jackson Hughan",
+      "position": "scrum_half",
+      "start": 55,
+      "peak": 64.3,
+      "pa": 87,
+      "minutes": 815.3081893633663
+    },
+    {
+      "seed": 33,
+      "id": "744",
+      "name": "Mika Muliaina",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 71.8,
+      "pa": 87,
+      "minutes": 698.9299203498372
+    },
+    {
+      "seed": 33,
+      "id": "745",
+      "name": "Jimmy Taylor",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 77.7,
+      "pa": 86.9,
+      "minutes": 2399.8605616324103
+    },
+    {
+      "seed": 33,
+      "id": "747",
+      "name": "Tayne Harvey",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 80.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "748",
+      "name": "Fletcher Morgan",
+      "position": "center",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 53.1,
+      "minutes": 1145.482982437884
+    },
+    {
+      "seed": 33,
+      "id": "750",
+      "name": "Hayata Taniyama",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "751",
+      "name": "Josh Augustine",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.1,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "754",
+      "name": "Cameron Burgess",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 55,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "755",
+      "name": "Johnny Falloon",
+      "position": "lock",
+      "start": 59,
+      "peak": 70.4,
+      "pa": 83.1,
+      "minutes": 1509.4465548826463
+    },
+    {
+      "seed": 33,
+      "id": "757",
+      "name": "Sione Halalilo",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.2,
+      "minutes": 83.71104530683718
+    },
+    {
+      "seed": 33,
+      "id": "759",
+      "name": "Alex Hewitt",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 77.5,
+      "pa": 85.2,
+      "minutes": 4125.996630814506
+    },
+    {
+      "seed": 33,
+      "id": "760",
+      "name": "Sekope Lopeti-Moli",
+      "position": "hooker",
+      "start": 72,
+      "peak": 72,
+      "pa": 72,
+      "minutes": 2341.6789133452885
+    },
+    {
+      "seed": 33,
+      "id": "761",
+      "name": "Reo Matsushita",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.7,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "766",
+      "name": "Rupeni Raviyawa",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 54.8,
+      "pa": 57.4,
+      "minutes": 1030.19581876138
+    },
+    {
+      "seed": 33,
+      "id": "767",
+      "name": "Jackson Ropata",
+      "position": "center",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 56.6,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "770",
+      "name": "Jordan Soli",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "772",
+      "name": "Sam Thomson",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 81.8,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "774",
+      "name": "Riley Williams",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 57.6,
+      "pa": 80.6,
+      "minutes": 516.7312827704757
+    },
+    {
+      "seed": 33,
+      "id": "777",
+      "name": "Bradley Crichton",
+      "position": "prop",
+      "start": 52,
+      "peak": 57.7,
+      "pa": 79,
+      "minutes": 1369.497527108063
+    },
+    {
+      "seed": 33,
+      "id": "778",
+      "name": "William Davis",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54,
+      "pa": 54,
+      "minutes": 654.0344298827565
+    },
+    {
+      "seed": 33,
+      "id": "780",
+      "name": "Esile Fono",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.6,
+      "minutes": 775.3744920458079
+    },
+    {
+      "seed": 33,
+      "id": "786",
+      "name": "Zac Shanks",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.9,
+      "pa": 53.9,
+      "minutes": 2626.769308750445
+    },
+    {
+      "seed": 33,
+      "id": "788",
+      "name": "Olly Ryan",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.9,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "793",
+      "name": "Nathan Salmon",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 53.2,
+      "minutes": 760
+    },
+    {
+      "seed": 33,
+      "id": "794",
+      "name": "Reuben Stewart",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "796",
+      "name": "Grady Forbes",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.2,
+      "minutes": 150.1677525690663
+    },
+    {
+      "seed": 33,
+      "id": "797",
+      "name": "Heath MacEwan",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 160
+    },
+    {
+      "seed": 33,
+      "id": "798",
+      "name": "Jade Stewart",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.8,
+      "minutes": 240
+    },
+    {
+      "seed": 33,
+      "id": "801",
+      "name": "Woody Kirkwood",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.6,
+      "pa": 54.7,
+      "minutes": 453.617770356967
+    },
+    {
+      "seed": 33,
+      "id": "802",
+      "name": "Alex Yallop",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54,
+      "minutes": 79.99999999999987
+    },
+    {
+      "seed": 33,
+      "id": "804",
+      "name": "Sloane Lankshear",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 53,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "805",
+      "name": "Louis Lepionka",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "806",
+      "name": "Darius Fidow",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 187.1218006482742
+    },
+    {
+      "seed": 33,
+      "id": "808",
+      "name": "Jay Reihana",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 71.7,
+      "pa": 84.4,
+      "minutes": 555.5197510239295
+    },
+    {
+      "seed": 33,
+      "id": "811",
+      "name": "Willi Gualter",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 53.3,
+      "minutes": 0
+    },
+    {
+      "seed": 33,
+      "id": "812",
+      "name": "Liam Chapman",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 56.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "1",
+      "name": "Ben Ake",
+      "position": "prop",
+      "start": 73,
+      "peak": 77.4,
+      "pa": 81,
+      "minutes": 2757.765644864787
+    },
+    {
+      "seed": 72,
+      "id": "11",
+      "name": "Tristyn Cook",
+      "position": "lock",
+      "start": 68,
+      "peak": 73.9,
+      "pa": 78,
+      "minutes": 3018.1159409026386
+    },
+    {
+      "seed": 72,
+      "id": "15",
+      "name": "Cameron Christie",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 72,
+      "pa": 80.6,
+      "minutes": 1883.527309069325
+    },
+    {
+      "seed": 72,
+      "id": "16",
+      "name": "Che Clark",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 74.3,
+      "pa": 76.2,
+      "minutes": 2758.262706899532
+    },
+    {
+      "seed": 72,
+      "id": "21",
+      "name": "Malachi Wrampling",
+      "position": "loose_forward",
+      "start": 79,
+      "peak": 83.6,
+      "pa": 84.9,
+      "minutes": 7306.543339446056
+    },
+    {
+      "seed": 72,
+      "id": "27",
+      "name": "Rico Simpson",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 70.2,
+      "pa": 86.7,
+      "minutes": 792.1819332066899
+    },
+    {
+      "seed": 72,
+      "id": "29",
+      "name": "James Cameron",
+      "position": "center",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 82.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "32",
+      "name": "Xavi Taele",
+      "position": "center",
+      "start": 79,
+      "peak": 87.2,
+      "pa": 88.3,
+      "minutes": 9315.709465107337
+    },
+    {
+      "seed": 72,
+      "id": "36",
+      "name": "Payton Spencer",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 83.6,
+      "pa": 84.9,
+      "minutes": 7009.32119279262
+    },
+    {
+      "seed": 72,
+      "id": "38",
+      "name": "Codemeru Vai",
+      "position": "outside_back",
+      "start": 78,
+      "peak": 82.2,
+      "pa": 83,
+      "minutes": 8193.772721737281
+    },
+    {
+      "seed": 72,
+      "id": "40",
+      "name": "Tevita Alatini",
+      "position": "prop",
+      "start": 73,
+      "peak": 73.3,
+      "pa": 79.4,
+      "minutes": 24.066743074154235
+    },
+    {
+      "seed": 72,
+      "id": "41",
+      "name": "Lington Ieli",
+      "position": "prop",
+      "start": 68,
+      "peak": 68.2,
+      "pa": 71.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "45",
+      "name": "Liam Bowron",
+      "position": "hooker",
+      "start": 78,
+      "peak": 80.6,
+      "pa": 82.8,
+      "minutes": 1765.7822905130834
+    },
+    {
+      "seed": 72,
+      "id": "47",
+      "name": "Chris Mickelson",
+      "position": "hooker",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 69.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "49",
+      "name": "Harvey Cordukes",
+      "position": "lock",
+      "start": 64,
+      "peak": 64.5,
+      "pa": 66.1,
+      "minutes": 1185.7759421936732
+    },
+    {
+      "seed": 72,
+      "id": "52",
+      "name": "Lachie Shaw",
+      "position": "lock",
+      "start": 85,
+      "peak": 89.2,
+      "pa": 90.6,
+      "minutes": 5406.8977353444025
+    },
+    {
+      "seed": 72,
+      "id": "54",
+      "name": "Eli Langi",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 65.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "55",
+      "name": "Toby Macpherson",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 78.8,
+      "pa": 79.3,
+      "minutes": 3918.3677526982074
+    },
+    {
+      "seed": 72,
+      "id": "62",
+      "name": "Klayton Thorn",
+      "position": "scrum_half",
+      "start": 77,
+      "peak": 77.6,
+      "pa": 78.8,
+      "minutes": 358.4342531218307
+    },
+    {
+      "seed": 72,
+      "id": "63",
+      "name": "Joe Dillon",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 66.2,
+      "minutes": 9.937768385605844
+    },
+    {
+      "seed": 72,
+      "id": "66",
+      "name": "Austin Anderson",
+      "position": "center",
+      "start": 72,
+      "peak": 76.8,
+      "pa": 79.7,
+      "minutes": 4560.471056536704
+    },
+    {
+      "seed": 72,
+      "id": "69",
+      "name": "Jarrah McLeod",
+      "position": "center",
+      "start": 68,
+      "peak": 68.2,
+      "pa": 73.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "70",
+      "name": "Kadin Pritchard",
+      "position": "center",
+      "start": 78,
+      "peak": 79.6,
+      "pa": 80.1,
+      "minutes": 5420.902197728898
+    },
+    {
+      "seed": 72,
+      "id": "75",
+      "name": "Shane Wilcox",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 70,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "85",
+      "name": "Taine Kolose",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 67.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "87",
+      "name": "Aisake Vakasiuola",
+      "position": "lock",
+      "start": 64,
+      "peak": 75.8,
+      "pa": 81.6,
+      "minutes": 4072.5612223618123
+    },
+    {
+      "seed": 72,
+      "id": "88",
+      "name": "Fiti Sa",
+      "position": "lock",
+      "start": 73,
+      "peak": 73,
+      "pa": 73,
+      "minutes": 4340.70286288849
+    },
+    {
+      "seed": 72,
+      "id": "89",
+      "name": "Jayden Sa",
+      "position": "lock",
+      "start": 64,
+      "peak": 68.5,
+      "pa": 78.5,
+      "minutes": 1112.541100680377
+    },
+    {
+      "seed": 72,
+      "id": "111",
+      "name": "Isaac Hutchinson",
+      "position": "outside_back",
+      "start": 76,
+      "peak": 82.7,
+      "pa": 85,
+      "minutes": 7319.0853020136
+    },
+    {
+      "seed": 72,
+      "id": "112",
+      "name": "Kyren Taumoefolau",
+      "position": "outside_back",
+      "start": 82,
+      "peak": 86,
+      "pa": 86.9,
+      "minutes": 9938.847378937782
+    },
+    {
+      "seed": 72,
+      "id": "120",
+      "name": "Tahlor Cahill",
+      "position": "lock",
+      "start": 80,
+      "peak": 86,
+      "pa": 88.2,
+      "minutes": 7326.547220334678
+    },
+    {
+      "seed": 72,
+      "id": "125",
+      "name": "Liam Jack",
+      "position": "lock",
+      "start": 68,
+      "peak": 73.3,
+      "pa": 78.9,
+      "minutes": 1758.0602715785142
+    },
+    {
+      "seed": 72,
+      "id": "127",
+      "name": "Manumaua Letiu",
+      "position": "hooker",
+      "start": 74,
+      "peak": 79.6,
+      "pa": 91.2,
+      "minutes": 1470.5421878850027
+    },
+    {
+      "seed": 72,
+      "id": "130",
+      "name": "Xavier Saifoloi",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 72.2,
+      "pa": 76,
+      "minutes": 276.9477966117429
+    },
+    {
+      "seed": 72,
+      "id": "135",
+      "name": "Toby Bell",
+      "position": "center",
+      "start": 68,
+      "peak": 68.2,
+      "pa": 81.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "141",
+      "name": "Noah Hotham",
+      "position": "scrum_half",
+      "start": 88,
+      "peak": 89.1,
+      "pa": 89.7,
+      "minutes": 6290.794539142542
+    },
+    {
+      "seed": 72,
+      "id": "143",
+      "name": "Taha Kemara",
+      "position": "fly_half",
+      "start": 81,
+      "peak": 85.5,
+      "pa": 86.7,
+      "minutes": 10139.33938404725
+    },
+    {
+      "seed": 72,
+      "id": "144",
+      "name": "Maloni Kunawave",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 75.5,
+      "pa": 78.3,
+      "minutes": 3073.6908364225264
+    },
+    {
+      "seed": 72,
+      "id": "150",
+      "name": "Macca Springer",
+      "position": "outside_back",
+      "start": 74,
+      "peak": 75.2,
+      "pa": 76.6,
+      "minutes": 5164.9070510654865
+    },
+    {
+      "seed": 72,
+      "id": "151",
+      "name": "Aki Tuivailala",
+      "position": "center",
+      "start": 64,
+      "peak": 67.8,
+      "pa": 80.6,
+      "minutes": 527.5485888481181
+    },
+    {
+      "seed": 72,
+      "id": "152",
+      "name": "James White",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 69.5,
+      "pa": 71.3,
+      "minutes": 3221.1787125287105
+    },
+    {
+      "seed": 72,
+      "id": "160",
+      "name": "Jack Taylor",
+      "position": "hooker",
+      "start": 83,
+      "peak": 87.4,
+      "pa": 88.8,
+      "minutes": 7294.797376737939
+    },
+    {
+      "seed": 72,
+      "id": "163",
+      "name": "Tai Cribb",
+      "position": "lock",
+      "start": 68,
+      "peak": 73.6,
+      "pa": 82.2,
+      "minutes": 1554.904232035144
+    },
+    {
+      "seed": 72,
+      "id": "171",
+      "name": "Will Stodart",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 74.4,
+      "pa": 81.8,
+      "minutes": 941.8085322431294
+    },
+    {
+      "seed": 72,
+      "id": "175",
+      "name": "Dylan Pledger",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 76.2,
+      "pa": 94.8,
+      "minutes": 1898.9044861686853
+    },
+    {
+      "seed": 72,
+      "id": "183",
+      "name": "Josh Whaanga",
+      "position": "center",
+      "start": 64,
+      "peak": 74.9,
+      "pa": 82.3,
+      "minutes": 4089.7509121149706
+    },
+    {
+      "seed": 72,
+      "id": "185",
+      "name": "Finn Hurley",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 80.5,
+      "pa": 88.4,
+      "minutes": 6107.143695962149
+    },
+    {
+      "seed": 72,
+      "id": "188",
+      "name": "Stanley Solomon",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 80.6,
+      "pa": 84.4,
+      "minutes": 5303.092214575411
+    },
+    {
+      "seed": 72,
+      "id": "189",
+      "name": "Caleb Tangitau",
+      "position": "outside_back",
+      "start": 86,
+      "peak": 90.9,
+      "pa": 93.4,
+      "minutes": 8805.933817323574
+    },
+    {
+      "seed": 72,
+      "id": "190",
+      "name": "Xavier Tito-Harris",
+      "position": "outside_back",
+      "start": 72,
+      "peak": 75.5,
+      "pa": 83,
+      "minutes": 601.0803132412397
+    },
+    {
+      "seed": 72,
+      "id": "191",
+      "name": "Siale Lauaki",
+      "position": "prop",
+      "start": 81,
+      "peak": 87.9,
+      "pa": 90.9,
+      "minutes": 6249.022018163116
+    },
+    {
+      "seed": 72,
+      "id": "198",
+      "name": "Vernon Bason",
+      "position": "hooker",
+      "start": 73,
+      "peak": 82.4,
+      "pa": 84.7,
+      "minutes": 5443.837753248629
+    },
+    {
+      "seed": 72,
+      "id": "200",
+      "name": "Raymond Tuputupu",
+      "position": "hooker",
+      "start": 73,
+      "peak": 75.5,
+      "pa": 79.7,
+      "minutes": 1352.1071064566854
+    },
+    {
+      "seed": 72,
+      "id": "201",
+      "name": "Tom Allen",
+      "position": "lock",
+      "start": 68,
+      "peak": 75.5,
+      "pa": 82.4,
+      "minutes": 3291.3027746714106
+    },
+    {
+      "seed": 72,
+      "id": "209",
+      "name": "Peter Lakai",
+      "position": "loose_forward",
+      "start": 88,
+      "peak": 89.7,
+      "pa": 90.3,
+      "minutes": 8963.275190285136
+    },
+    {
+      "seed": 72,
+      "id": "214",
+      "name": "Jordi Viljoen",
+      "position": "scrum_half",
+      "start": 73,
+      "peak": 76.3,
+      "pa": 78.3,
+      "minutes": 4214.819198437603
+    },
+    {
+      "seed": 72,
+      "id": "216",
+      "name": "Harry Godfrey",
+      "position": "fly_half",
+      "start": 64,
+      "peak": 79.1,
+      "pa": 87.1,
+      "minutes": 5428.093594271037
+    },
+    {
+      "seed": 72,
+      "id": "230",
+      "name": "Vaiuta Latu",
+      "position": "loose_forward",
+      "start": 77,
+      "peak": 83.1,
+      "pa": 87.7,
+      "minutes": 2267.9991885952186
+    },
+    {
+      "seed": 72,
+      "id": "236",
+      "name": "Massimo De Lutiis",
+      "position": "prop",
+      "start": 82,
+      "peak": 87.4,
+      "pa": 89.8,
+      "minutes": 4902.035081568214
+    },
+    {
+      "seed": 72,
+      "id": "239",
+      "name": "Nick Bloomfield",
+      "position": "prop",
+      "start": 73,
+      "peak": 73.1,
+      "pa": 74,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "240",
+      "name": "Trevor King",
+      "position": "prop",
+      "start": 64,
+      "peak": 64,
+      "pa": 64.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "244",
+      "name": "Hamish Muller",
+      "position": "lock",
+      "start": 77,
+      "peak": 77.1,
+      "pa": 79,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "248",
+      "name": "John Bryant",
+      "position": "loose_forward",
+      "start": 73,
+      "peak": 73.1,
+      "pa": 74.5,
+      "minutes": 43.66770909870036
+    },
+    {
+      "seed": 72,
+      "id": "252",
+      "name": "Tom Lynagh",
+      "position": "fly_half",
+      "start": 82,
+      "peak": 84.3,
+      "pa": 86.9,
+      "minutes": 3403.400580383055
+    },
+    {
+      "seed": 72,
+      "id": "254",
+      "name": "Harry McLaughlin-Phillips",
+      "position": "fly_half",
+      "start": 80,
+      "peak": 82.8,
+      "pa": 87.2,
+      "minutes": 1059.0384024474401
+    },
+    {
+      "seed": 72,
+      "id": "258",
+      "name": "Dre Pakeho",
+      "position": "center",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 68,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "259",
+      "name": "Frankie Goldsbrough",
+      "position": "center",
+      "start": 64,
+      "peak": 66,
+      "pa": 68.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "260",
+      "name": "Will McCulloch",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "261",
+      "name": "Nicholas Conway",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 67.4,
+      "pa": 71,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "263",
+      "name": "Tim Ryan",
+      "position": "outside_back",
+      "start": 83,
+      "peak": 84.3,
+      "pa": 85.2,
+      "minutes": 5729.605975044422
+    },
+    {
+      "seed": 72,
+      "id": "266",
+      "name": "Treyvon Pritchard",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 86.1,
+      "pa": 87.6,
+      "minutes": 4055.3957834264493
+    },
+    {
+      "seed": 72,
+      "id": "272",
+      "name": "Jack Barrett",
+      "position": "prop",
+      "start": 73,
+      "peak": 74.7,
+      "pa": 76.3,
+      "minutes": 2628.6203264838505
+    },
+    {
+      "seed": 72,
+      "id": "275",
+      "name": "Will Goddard",
+      "position": "prop",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 68.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "281",
+      "name": "Eamon Doyle",
+      "position": "lock",
+      "start": 64,
+      "peak": 64.4,
+      "pa": 67.9,
+      "minutes": 61.9321577719528
+    },
+    {
+      "seed": 72,
+      "id": "284",
+      "name": "Austin Durbidge",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 69.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "287",
+      "name": "Lachlan Hooper",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.4,
+      "pa": 64.9,
+      "minutes": 2818.0793811864164
+    },
+    {
+      "seed": 72,
+      "id": "288",
+      "name": "Leafi Talataina",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73.4,
+      "pa": 78,
+      "minutes": 1106.1604515724864
+    },
+    {
+      "seed": 72,
+      "id": "292",
+      "name": "Teddy Wilson",
+      "position": "scrum_half",
+      "start": 78,
+      "peak": 80,
+      "pa": 82.3,
+      "minutes": 2597.1923319522703
+    },
+    {
+      "seed": 72,
+      "id": "293",
+      "name": "Jack Bowen",
+      "position": "fly_half",
+      "start": 73,
+      "peak": 73.1,
+      "pa": 75.1,
+      "minutes": 19.657154950177457
+    },
+    {
+      "seed": 72,
+      "id": "298",
+      "name": "Joseph-Aukuso Suaalii",
+      "position": "center",
+      "start": 88,
+      "peak": 89.9,
+      "pa": 90.7,
+      "minutes": 7748.3858307307055
+    },
+    {
+      "seed": 72,
+      "id": "300",
+      "name": "Archie Saunders",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 66.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "302",
+      "name": "James Hendren",
+      "position": "outside_back",
+      "start": 72,
+      "peak": 72,
+      "pa": 72.3,
+      "minutes": 320
+    },
+    {
+      "seed": 72,
+      "id": "303",
+      "name": "Leo Jaques",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64,
+      "pa": 64,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "304",
+      "name": "Max Jorgensen",
+      "position": "outside_back",
+      "start": 88,
+      "peak": 93.6,
+      "pa": 95,
+      "minutes": 7273.912330229017
+    },
+    {
+      "seed": 72,
+      "id": "305",
+      "name": "Sid Harvey",
+      "position": "outside_back",
+      "start": 83,
+      "peak": 90.6,
+      "pa": 94,
+      "minutes": 4810.777948794867
+    },
+    {
+      "seed": 72,
+      "id": "311",
+      "name": "Marley Pearce",
+      "position": "prop",
+      "start": 73,
+      "peak": 74.9,
+      "pa": 77.4,
+      "minutes": 2405.6412646314384
+    },
+    {
+      "seed": 72,
+      "id": "313",
+      "name": "Joshua Smith",
+      "position": "prop",
+      "start": 64,
+      "peak": 72.9,
+      "pa": 78.9,
+      "minutes": 3002.688485258917
+    },
+    {
+      "seed": 72,
+      "id": "314",
+      "name": "Albert Alcock",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "327",
+      "name": "Agustin Moyano",
+      "position": "scrum_half",
+      "start": 72,
+      "peak": 72.1,
+      "pa": 73.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "329",
+      "name": "Doug Philipson",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 66.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "334",
+      "name": "Boston Fakafanua",
+      "position": "center",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 70.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "336",
+      "name": "Divad Palu",
+      "position": "center",
+      "start": 72,
+      "peak": 73.6,
+      "pa": 74.6,
+      "minutes": 4759.070071529275
+    },
+    {
+      "seed": 72,
+      "id": "341",
+      "name": "Darby Lancaster",
+      "position": "outside_back",
+      "start": 80,
+      "peak": 82.8,
+      "pa": 83.8,
+      "minutes": 8883.485507291392
+    },
+    {
+      "seed": 72,
+      "id": "342",
+      "name": "Ronan Leahy",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 65.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "350",
+      "name": "Kavaia Tagivetaua",
+      "position": "hooker",
+      "start": 73,
+      "peak": 73.2,
+      "pa": 77.6,
+      "minutes": 24.034554360605195
+    },
+    {
+      "seed": 72,
+      "id": "355",
+      "name": "Mesake Vocevoce",
+      "position": "lock",
+      "start": 82,
+      "peak": 83.9,
+      "pa": 85,
+      "minutes": 4571.287443812979
+    },
+    {
+      "seed": 72,
+      "id": "363",
+      "name": "Motikiai Murray",
+      "position": "loose_forward",
+      "start": 73,
+      "peak": 75,
+      "pa": 77,
+      "minutes": 3324.8111882942458
+    },
+    {
+      "seed": 72,
+      "id": "366",
+      "name": "Philip Baselala",
+      "position": "scrum_half",
+      "start": 72,
+      "peak": 72.2,
+      "pa": 75.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "368",
+      "name": "Isaiah Armstrong-Ravula",
+      "position": "fly_half",
+      "start": 84,
+      "peak": 89.4,
+      "pa": 90.5,
+      "minutes": 5899.946077500776
+    },
+    {
+      "seed": 72,
+      "id": "370",
+      "name": "Isikeli Rabitu",
+      "position": "fly_half",
+      "start": 82,
+      "peak": 86,
+      "pa": 87.1,
+      "minutes": 3596.3893378544003
+    },
+    {
+      "seed": 72,
+      "id": "374",
+      "name": "Maika Tuitubou",
+      "position": "center",
+      "start": 73,
+      "peak": 73.2,
+      "pa": 75.4,
+      "minutes": 341.12753499974366
+    },
+    {
+      "seed": 72,
+      "id": "376",
+      "name": "Aisea Nawai",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 66.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "379",
+      "name": "Isikeli Basiyalo",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 70.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "384",
+      "name": "Alefosio Aho",
+      "position": "lock",
+      "start": 72,
+      "peak": 74.8,
+      "pa": 76.2,
+      "minutes": 4740.002073261287
+    },
+    {
+      "seed": 72,
+      "id": "388",
+      "name": "Dominic Ropeti",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 73.3,
+      "pa": 74.3,
+      "minutes": 4874.9742229565445
+    },
+    {
+      "seed": 72,
+      "id": "392",
+      "name": "Israel Leota",
+      "position": "outside_back",
+      "start": 77,
+      "peak": 82.9,
+      "pa": 83.6,
+      "minutes": 8266.963699409127
+    },
+    {
+      "seed": 72,
+      "id": "398",
+      "name": "Malakai Hala-Ngatai",
+      "position": "prop",
+      "start": 78,
+      "peak": 80.4,
+      "pa": 81.2,
+      "minutes": 6992.399120610003
+    },
+    {
+      "seed": 72,
+      "id": "411",
+      "name": "Semisi Tupou Ta'eiloa",
+      "position": "loose_forward",
+      "start": 84,
+      "peak": 91,
+      "pa": 92.2,
+      "minutes": 8716.208187441316
+    },
+    {
+      "seed": 72,
+      "id": "425",
+      "name": "Henry Palmer",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.1,
+      "pa": 67.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "426",
+      "name": "Clem Halaholo",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 82.7,
+      "pa": 83.9,
+      "minutes": 8190.632369398307
+    },
+    {
+      "seed": 72,
+      "id": "427",
+      "name": "James Martens",
+      "position": "scrum_half",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 71.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "428",
+      "name": "Tom Robinson",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 66.4,
+      "pa": 73,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "429",
+      "name": "Lucas Casey",
+      "position": "loose_forward",
+      "start": 82,
+      "peak": 86.9,
+      "pa": 87.9,
+      "minutes": 9065.579808739345
+    },
+    {
+      "seed": 72,
+      "id": "431",
+      "name": "Torian Barnes",
+      "position": "loose_forward",
+      "start": 79,
+      "peak": 83.8,
+      "pa": 86.6,
+      "minutes": 7171.051003964165
+    },
+    {
+      "seed": 72,
+      "id": "434",
+      "name": "Finn Mackay",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 69.3,
+      "pa": 70.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "435",
+      "name": "Xavier Rubens",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 69.2,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "437",
+      "name": "Denzel Samoa",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.2,
+      "pa": 68.7,
+      "minutes": 2070.1245216896455
+    },
+    {
+      "seed": 72,
+      "id": "438",
+      "name": "Konrad Toleafoa",
+      "position": "loose_forward",
+      "start": 68,
+      "peak": 69.9,
+      "pa": 71.4,
+      "minutes": 3665.2454247780383
+    },
+    {
+      "seed": 72,
+      "id": "442",
+      "name": "Matolu Petaia",
+      "position": "lock",
+      "start": 68,
+      "peak": 69,
+      "pa": 72.2,
+      "minutes": 504.2480746993751
+    },
+    {
+      "seed": 72,
+      "id": "445",
+      "name": "Tyler Pulini",
+      "position": "fly_half",
+      "start": 72,
+      "peak": 76.5,
+      "pa": 77.7,
+      "minutes": 4202.10046197917
+    },
+    {
+      "seed": 72,
+      "id": "446",
+      "name": "Johnny Lee",
+      "position": "loose_forward",
+      "start": 78,
+      "peak": 82,
+      "pa": 82.8,
+      "minutes": 10995.202575014833
+    },
+    {
+      "seed": 72,
+      "id": "447",
+      "name": "Taj Annan",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 68.1,
+      "pa": 73,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "448",
+      "name": "Sairusi Ravudi",
+      "position": "hooker",
+      "start": 72,
+      "peak": 75.2,
+      "pa": 77.3,
+      "minutes": 2677.3857122700683
+    },
+    {
+      "seed": 72,
+      "id": "449",
+      "name": "Cooper Grant",
+      "position": "fly_half",
+      "start": 68,
+      "peak": 76.8,
+      "pa": 81,
+      "minutes": 3436.9918075683177
+    },
+    {
+      "seed": 72,
+      "id": "451",
+      "name": "Nic Shearer",
+      "position": "scrum_half",
+      "start": 68,
+      "peak": 68.3,
+      "pa": 69,
+      "minutes": 2219.8781881634945
+    },
+    {
+      "seed": 72,
+      "id": "453",
+      "name": "Oli Mathis",
+      "position": "loose_forward",
+      "start": 69,
+      "peak": 87.2,
+      "pa": 89.3,
+      "minutes": 8247.473828984083
+    },
+    {
+      "seed": 72,
+      "id": "455",
+      "name": "Charlie Sinton",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 76.9,
+      "pa": 88.3,
+      "minutes": 2148.2260596038795
+    },
+    {
+      "seed": 72,
+      "id": "458",
+      "name": "Dylan Eti",
+      "position": "lock",
+      "start": 68,
+      "peak": 79.5,
+      "pa": 88.7,
+      "minutes": 3109.651340896901
+    },
+    {
+      "seed": 72,
+      "id": "463",
+      "name": "Andrew Smith",
+      "position": "loose_forward",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 78.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "465",
+      "name": "Micah Fale",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 62.6,
+      "pa": 82.7,
+      "minutes": 237.85234553352663
+    },
+    {
+      "seed": 72,
+      "id": "467",
+      "name": "Will Martin",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 81.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "468",
+      "name": "Taipari Quinn",
+      "position": "unknown",
+      "start": 59,
+      "peak": 59.1,
+      "pa": 62.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "469",
+      "name": "Gabe Robinson",
+      "position": "unknown",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 77.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "470",
+      "name": "Rui Farrant",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 64.3,
+      "pa": 65.1,
+      "minutes": 782.4327173700399
+    },
+    {
+      "seed": 72,
+      "id": "473",
+      "name": "Nathan Stephens",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 82,
+      "pa": 84.8,
+      "minutes": 3952.405165394189
+    },
+    {
+      "seed": 72,
+      "id": "474",
+      "name": "David Lewai",
+      "position": "center",
+      "start": 64,
+      "peak": 73.2,
+      "pa": 86.6,
+      "minutes": 619.6391651521153
+    },
+    {
+      "seed": 72,
+      "id": "477",
+      "name": "Waisake Salabiau",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59,
+      "pa": 59.2,
+      "minutes": 2047.4101668005553
+    },
+    {
+      "seed": 72,
+      "id": "478",
+      "name": "Sione Tupou",
+      "position": "hooker",
+      "start": 68,
+      "peak": 68.8,
+      "pa": 71.3,
+      "minutes": 613.7537798031026
+    },
+    {
+      "seed": 72,
+      "id": "481",
+      "name": "Harold Rounds",
+      "position": "lock",
+      "start": 59,
+      "peak": 60.1,
+      "pa": 62.4,
+      "minutes": 9.791614341197942
+    },
+    {
+      "seed": 72,
+      "id": "482",
+      "name": "Trent Ririnui",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "484",
+      "name": "Jai Knight",
+      "position": "lock",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "485",
+      "name": "Reuben Palmer",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "487",
+      "name": "Toby Taylor",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54,
+      "pa": 55.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "494",
+      "name": "Frank Vaenuku",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 81.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "495",
+      "name": "Kele Lasaqa",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 71.1,
+      "pa": 87.2,
+      "minutes": 2005.9267565704383
+    },
+    {
+      "seed": 72,
+      "id": "497",
+      "name": "Tamiro Armstrong",
+      "position": "center",
+      "start": 52,
+      "peak": 52.5,
+      "pa": 54.4,
+      "minutes": 560
+    },
+    {
+      "seed": 72,
+      "id": "501",
+      "name": "Aaron Gibbs",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "502",
+      "name": "Reegan Aarsen",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54,
+      "pa": 54.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "504",
+      "name": "Dylan Irvine",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "505",
+      "name": "Eli Oudenryn",
+      "position": "hooker",
+      "start": 73,
+      "peak": 81.3,
+      "pa": 88.5,
+      "minutes": 3439.6516121060463
+    },
+    {
+      "seed": 72,
+      "id": "506",
+      "name": "Sione Mafi",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.6,
+      "minutes": 142.31827735014164
+    },
+    {
+      "seed": 72,
+      "id": "508",
+      "name": "Tayne Hemopo",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.2,
+      "minutes": 240.5404108818354
+    },
+    {
+      "seed": 72,
+      "id": "509",
+      "name": "Hunter Leppien",
+      "position": "lock",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 54.5,
+      "minutes": 43.81699225110145
+    },
+    {
+      "seed": 72,
+      "id": "511",
+      "name": "Matt Lowe",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 55.2,
+      "pa": 59.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "517",
+      "name": "Jake Pacey",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "518",
+      "name": "Nic Sauira",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "519",
+      "name": "Cooper Roberts",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 79.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "520",
+      "name": "Timoci Sauira",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "521",
+      "name": "Jake Frost",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 63.5,
+      "pa": 88.3,
+      "minutes": 341.18875915719445
+    },
+    {
+      "seed": 72,
+      "id": "525",
+      "name": "Fletcher Hewitt-Smart",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.2,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "528",
+      "name": "Moses Hafoka",
+      "position": "hooker",
+      "start": 64,
+      "peak": 64,
+      "pa": 64,
+      "minutes": 948.732136106979
+    },
+    {
+      "seed": 72,
+      "id": "531",
+      "name": "Jack Lee",
+      "position": "lock",
+      "start": 68,
+      "peak": 69.4,
+      "pa": 70.9,
+      "minutes": 2116.591296629844
+    },
+    {
+      "seed": 72,
+      "id": "532",
+      "name": "Taeao Pomale-Time",
+      "position": "lock",
+      "start": 74,
+      "peak": 79.5,
+      "pa": 82.3,
+      "minutes": 3476.6562250533666
+    },
+    {
+      "seed": 72,
+      "id": "534",
+      "name": "Dane Sawers",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 77.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "535",
+      "name": "Sam Tuitupou Ah-Hing",
+      "position": "loose_forward",
+      "start": 74,
+      "peak": 81.6,
+      "pa": 84.2,
+      "minutes": 4045.241493097223
+    },
+    {
+      "seed": 72,
+      "id": "537",
+      "name": "Malaesaili Elato",
+      "position": "loose_forward",
+      "start": 72,
+      "peak": 74.2,
+      "pa": 75.3,
+      "minutes": 4018.1809308147826
+    },
+    {
+      "seed": 72,
+      "id": "538",
+      "name": "George Reeves",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 64.6,
+      "pa": 66.4,
+      "minutes": 1153.2103774202433
+    },
+    {
+      "seed": 72,
+      "id": "539",
+      "name": "Bradley Fifita",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "541",
+      "name": "Tony Tafa",
+      "position": "prop",
+      "start": 64,
+      "peak": 64.6,
+      "pa": 65.7,
+      "minutes": 1425.299484742497
+    },
+    {
+      "seed": 72,
+      "id": "542",
+      "name": "Riley Tofilau",
+      "position": "prop",
+      "start": 65,
+      "peak": 66.1,
+      "pa": 67,
+      "minutes": 2681.6039815762997
+    },
+    {
+      "seed": 72,
+      "id": "548",
+      "name": "Rory Taylor",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 72.3,
+      "pa": 73.8,
+      "minutes": 3800.097325081529
+    },
+    {
+      "seed": 72,
+      "id": "549",
+      "name": "Leo Gordon",
+      "position": "center",
+      "start": 64,
+      "peak": 66.3,
+      "pa": 79.3,
+      "minutes": 638.7607521810484
+    },
+    {
+      "seed": 72,
+      "id": "553",
+      "name": "Oscar Cowley-Andrea",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "558",
+      "name": "Hunter Rice",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59.1,
+      "pa": 61.2,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "560",
+      "name": "Austin Atiga",
+      "position": "hooker",
+      "start": 54,
+      "peak": 54.6,
+      "pa": 56.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "565",
+      "name": "Cameron Church",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.9,
+      "minutes": 452.17855167594377
+    },
+    {
+      "seed": 72,
+      "id": "568",
+      "name": "Cohen Brady-Leathem",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.1,
+      "minutes": 293.6233518550563
+    },
+    {
+      "seed": 72,
+      "id": "571",
+      "name": "Larenz Tupaea-Thomsen",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 470.107446035884
+    },
+    {
+      "seed": 72,
+      "id": "574",
+      "name": "Antonio Popoalii",
+      "position": "outside_back",
+      "start": 59,
+      "peak": 59.2,
+      "pa": 79.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "579",
+      "name": "Jackson Rainsford",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "580",
+      "name": "Josiah Unga",
+      "position": "outside_back",
+      "start": 74,
+      "peak": 75.1,
+      "pa": 76.5,
+      "minutes": 4000
+    },
+    {
+      "seed": 72,
+      "id": "582",
+      "name": "Gus Brown",
+      "position": "prop",
+      "start": 68,
+      "peak": 73.1,
+      "pa": 79.4,
+      "minutes": 1520.7338598311194
+    },
+    {
+      "seed": 72,
+      "id": "583",
+      "name": "Xavier Treacy",
+      "position": "lock",
+      "start": 59,
+      "peak": 59.2,
+      "pa": 82.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "584",
+      "name": "Phoenix Abbott",
+      "position": "lock",
+      "start": 59,
+      "peak": 59.2,
+      "pa": 62.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "585",
+      "name": "Max Fale",
+      "position": "lock",
+      "start": 55,
+      "peak": 61.6,
+      "pa": 85.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "587",
+      "name": "Finn McLeod",
+      "position": "loose_forward",
+      "start": 68,
+      "peak": 78.2,
+      "pa": 85.1,
+      "minutes": 3414.293731332043
+    },
+    {
+      "seed": 72,
+      "id": "590",
+      "name": "Tonga Helu",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 57.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "591",
+      "name": "Ollie Burra",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 54.9,
+      "pa": 84.1,
+      "minutes": 325.90906162811416
+    },
+    {
+      "seed": 72,
+      "id": "593",
+      "name": "Kurtis MacDonald",
+      "position": "center",
+      "start": 73,
+      "peak": 74.5,
+      "pa": 77.5,
+      "minutes": 651.9047296752873
+    },
+    {
+      "seed": 72,
+      "id": "598",
+      "name": "Joey Taumateine",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.8,
+      "pa": 57.6,
+      "minutes": 338.2323353266045
+    },
+    {
+      "seed": 72,
+      "id": "600",
+      "name": "Vainikolo Fifita",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "601",
+      "name": "Thomas Polo",
+      "position": "prop",
+      "start": 59,
+      "peak": 59,
+      "pa": 59,
+      "minutes": 584.3671071633612
+    },
+    {
+      "seed": 72,
+      "id": "602",
+      "name": "Tim Brady",
+      "position": "center",
+      "start": 52,
+      "peak": 53.7,
+      "pa": 56.1,
+      "minutes": 270.0775167519413
+    },
+    {
+      "seed": 72,
+      "id": "604",
+      "name": "Kurene Luamanuvae",
+      "position": "prop",
+      "start": 52,
+      "peak": 56.1,
+      "pa": 80.7,
+      "minutes": 494.5520925810766
+    },
+    {
+      "seed": 72,
+      "id": "607",
+      "name": "Aidan Spratley",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 70.4,
+      "pa": 81.9,
+      "minutes": 3532.7391170396813
+    },
+    {
+      "seed": 72,
+      "id": "608",
+      "name": "Tamatea Winiana",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 52,
+      "pa": 53,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "611",
+      "name": "Nathaniel Pole",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 53.7,
+      "minutes": 313.9123530168595
+    },
+    {
+      "seed": 72,
+      "id": "612",
+      "name": "Josh Tengblad",
+      "position": "lock",
+      "start": 64,
+      "peak": 65.3,
+      "pa": 82.4,
+      "minutes": 275.06662430709355
+    },
+    {
+      "seed": 72,
+      "id": "614",
+      "name": "Randall Baker",
+      "position": "lock",
+      "start": 52,
+      "peak": 56,
+      "pa": 81.2,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "615",
+      "name": "Logan Platt",
+      "position": "lock",
+      "start": 55,
+      "peak": 63.3,
+      "pa": 82.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "616",
+      "name": "Caleb Woodley",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 63.5,
+      "pa": 87.3,
+      "minutes": 276.67613665692943
+    },
+    {
+      "seed": 72,
+      "id": "617",
+      "name": "Ofa Topeni",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "618",
+      "name": "Sam Hainsworth-Fa'aofo",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 71.1,
+      "pa": 77.5,
+      "minutes": 2770.0194735966124
+    },
+    {
+      "seed": 72,
+      "id": "620",
+      "name": "Tamiano Ahloo",
+      "position": "prop",
+      "start": 52,
+      "peak": 55.4,
+      "pa": 81.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "621",
+      "name": "Robson Faleafa",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 84.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "623",
+      "name": "Quinton Nichols",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "624",
+      "name": "Siale Pahulu",
+      "position": "center",
+      "start": 55,
+      "peak": 70.6,
+      "pa": 88.7,
+      "minutes": 288.3140819550445
+    },
+    {
+      "seed": 72,
+      "id": "627",
+      "name": "Harlyn Saunoa",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 64.2,
+      "pa": 80.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "628",
+      "name": "Cohen Norrie",
+      "position": "outside_back",
+      "start": 60,
+      "peak": 65.8,
+      "pa": 92.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "629",
+      "name": "King Maxwell",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 80.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "635",
+      "name": "Suli Pahulu",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52,
+      "pa": 53.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "636",
+      "name": "Bradley Tocker",
+      "position": "lock",
+      "start": 55,
+      "peak": 66,
+      "pa": 85.5,
+      "minutes": 1036.0493160521753
+    },
+    {
+      "seed": 72,
+      "id": "638",
+      "name": "Josefa Namosimalua",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 53.4,
+      "minutes": 513.8725199837329
+    },
+    {
+      "seed": 72,
+      "id": "642",
+      "name": "Perry Lawrence",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 54.4,
+      "minutes": 330.1291686470485
+    },
+    {
+      "seed": 72,
+      "id": "643",
+      "name": "Keightley Watson",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.6,
+      "minutes": 263.8068244313454
+    },
+    {
+      "seed": 72,
+      "id": "652",
+      "name": "Haki Wiseman",
+      "position": "center",
+      "start": 55,
+      "peak": 68.9,
+      "pa": 90,
+      "minutes": 1648.9528993943497
+    },
+    {
+      "seed": 72,
+      "id": "657",
+      "name": "Jamie Viljoen",
+      "position": "fly_half",
+      "start": 52,
+      "peak": 52.4,
+      "pa": 52.8,
+      "minutes": 1288.2562275783548
+    },
+    {
+      "seed": 72,
+      "id": "658",
+      "name": "Dane Johnston",
+      "position": "prop",
+      "start": 55,
+      "peak": 66.7,
+      "pa": 84.1,
+      "minutes": 1595.3582784868972
+    },
+    {
+      "seed": 72,
+      "id": "661",
+      "name": "Alani Fakava",
+      "position": "hooker",
+      "start": 54,
+      "peak": 65.2,
+      "pa": 87.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "662",
+      "name": "Mosese Bason",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 78.4,
+      "pa": 84.9,
+      "minutes": 4096.225175261703
+    },
+    {
+      "seed": 72,
+      "id": "663",
+      "name": "Jai Tamati",
+      "position": "scrum_half",
+      "start": 64,
+      "peak": 69.6,
+      "pa": 80.8,
+      "minutes": 936.6869688384496
+    },
+    {
+      "seed": 72,
+      "id": "668",
+      "name": "A-One Lolofie",
+      "position": "hooker",
+      "start": 52,
+      "peak": 58.2,
+      "pa": 77.1,
+      "minutes": 849.3250097183097
+    },
+    {
+      "seed": 72,
+      "id": "670",
+      "name": "Nic Souchon",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 58.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "671",
+      "name": "Jake Fowler",
+      "position": "hooker",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 55.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "673",
+      "name": "Cody Lokotui",
+      "position": "lock",
+      "start": 52,
+      "peak": 55.5,
+      "pa": 57.7,
+      "minutes": 2879.489523288724
+    },
+    {
+      "seed": 72,
+      "id": "674",
+      "name": "Slade McDowall",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "675",
+      "name": "Harry Irving",
+      "position": "lock",
+      "start": 54,
+      "peak": 68.8,
+      "pa": 81.2,
+      "minutes": 3434.613577406978
+    },
+    {
+      "seed": 72,
+      "id": "678",
+      "name": "Moana Takataka",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 55.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "679",
+      "name": "Kieran McClea",
+      "position": "scrum_half",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 57.5,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "680",
+      "name": "Cam Allan-McNeill",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "683",
+      "name": "Jae Broomfield",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 53.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "684",
+      "name": "Riley Lucas",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 55.9,
+      "minutes": 80
+    },
+    {
+      "seed": 72,
+      "id": "685",
+      "name": "Samuel Nemec-Vial",
+      "position": "outside_back",
+      "start": 68,
+      "peak": 80.3,
+      "pa": 84.3,
+      "minutes": 4220.153266751069
+    },
+    {
+      "seed": 72,
+      "id": "686",
+      "name": "Charlie Breen",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "687",
+      "name": "Joseph Gavigan",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "689",
+      "name": "Rob Harley",
+      "position": "lock",
+      "start": 54,
+      "peak": 55.4,
+      "pa": 57.1,
+      "minutes": 2135.8205378298394
+    },
+    {
+      "seed": 72,
+      "id": "690",
+      "name": "Rory Woods",
+      "position": "loose_forward",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 55.2,
+      "minutes": 1513.694759985379
+    },
+    {
+      "seed": 72,
+      "id": "692",
+      "name": "James Tofa",
+      "position": "center",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 55.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "698",
+      "name": "Samuel Johnson",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 57.4,
+      "minutes": 21.800002673940426
+    },
+    {
+      "seed": 72,
+      "id": "702",
+      "name": "Logan Wallace",
+      "position": "prop",
+      "start": 64,
+      "peak": 70.5,
+      "pa": 78.3,
+      "minutes": 1310.6238246588791
+    },
+    {
+      "seed": 72,
+      "id": "703",
+      "name": "Pena Va'a",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 160
+    },
+    {
+      "seed": 72,
+      "id": "704",
+      "name": "Tofuka Paongo",
+      "position": "center",
+      "start": 52,
+      "peak": 54.5,
+      "pa": 84.2,
+      "minutes": 251.3681978166396
+    },
+    {
+      "seed": 72,
+      "id": "705",
+      "name": "Albert Bradshaw",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.6,
+      "pa": 55,
+      "minutes": 700.4234067861076
+    },
+    {
+      "seed": 72,
+      "id": "706",
+      "name": "Liam O'Connor",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 53.1,
+      "pa": 54.9,
+      "minutes": 1330.0792551069117
+    },
+    {
+      "seed": 72,
+      "id": "712",
+      "name": "Hunter Morrison",
+      "position": "lock",
+      "start": 64,
+      "peak": 72.2,
+      "pa": 87,
+      "minutes": 1859.6180176952203
+    },
+    {
+      "seed": 72,
+      "id": "713",
+      "name": "Zach Taulapapa",
+      "position": "lock",
+      "start": 52,
+      "peak": 61.9,
+      "pa": 83.5,
+      "minutes": 1017.2443632980675
+    },
+    {
+      "seed": 72,
+      "id": "717",
+      "name": "Cooper Flanders",
+      "position": "loose_forward",
+      "start": 64,
+      "peak": 72.2,
+      "pa": 79.2,
+      "minutes": 3784.7994315884353
+    },
+    {
+      "seed": 72,
+      "id": "718",
+      "name": "Drew Berg-McLean",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 60.4,
+      "pa": 85.2,
+      "minutes": 381.4609929876166
+    },
+    {
+      "seed": 72,
+      "id": "719",
+      "name": "Patrick Mauga",
+      "position": "loose_forward",
+      "start": 55,
+      "peak": 73.5,
+      "pa": 83.5,
+      "minutes": 3920
+    },
+    {
+      "seed": 72,
+      "id": "720",
+      "name": "Nik Patumaka",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "725",
+      "name": "Kade Manuel",
+      "position": "scrum_half",
+      "start": 54,
+      "peak": 54.1,
+      "pa": 55.1,
+      "minutes": 384.8887317574158
+    },
+    {
+      "seed": 72,
+      "id": "729",
+      "name": "Anaru Paenga-Morgan",
+      "position": "center",
+      "start": 54,
+      "peak": 54,
+      "pa": 55.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "733",
+      "name": "Will Cole",
+      "position": "outside_back",
+      "start": 64,
+      "peak": 73.4,
+      "pa": 82,
+      "minutes": 2737.194908037089
+    },
+    {
+      "seed": 72,
+      "id": "734",
+      "name": "Bryson Loane",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "736",
+      "name": "Shaun Kempton",
+      "position": "hooker",
+      "start": 52,
+      "peak": 53.2,
+      "pa": 56.9,
+      "minutes": 161.3263670781083
+    },
+    {
+      "seed": 72,
+      "id": "740",
+      "name": "Gregor Rutledge",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.5,
+      "pa": 54,
+      "minutes": 24.895772072886256
+    },
+    {
+      "seed": 72,
+      "id": "743",
+      "name": "Jackson Hughan",
+      "position": "scrum_half",
+      "start": 55,
+      "peak": 70.4,
+      "pa": 86.2,
+      "minutes": 1756.1071953340563
+    },
+    {
+      "seed": 72,
+      "id": "744",
+      "name": "Mika Muliaina",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 73.1,
+      "pa": 85.9,
+      "minutes": 1582.9474209446973
+    },
+    {
+      "seed": 72,
+      "id": "745",
+      "name": "Jimmy Taylor",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 76.9,
+      "pa": 86.1,
+      "minutes": 2085.060435937068
+    },
+    {
+      "seed": 72,
+      "id": "747",
+      "name": "Tayne Harvey",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 77.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "748",
+      "name": "Fletcher Morgan",
+      "position": "center",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 52.7,
+      "minutes": 1136.9090544254582
+    },
+    {
+      "seed": 72,
+      "id": "750",
+      "name": "Hayata Taniyama",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 55.4,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "751",
+      "name": "Josh Augustine",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 58.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "754",
+      "name": "Cameron Burgess",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "755",
+      "name": "Johnny Falloon",
+      "position": "lock",
+      "start": 59,
+      "peak": 63.4,
+      "pa": 81,
+      "minutes": 449.78778575066957
+    },
+    {
+      "seed": 72,
+      "id": "757",
+      "name": "Sione Halalilo",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 53.3,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "759",
+      "name": "Alex Hewitt",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 70.2,
+      "pa": 86.9,
+      "minutes": 3145.3019476705313
+    },
+    {
+      "seed": 72,
+      "id": "760",
+      "name": "Sekope Lopeti-Moli",
+      "position": "hooker",
+      "start": 72,
+      "peak": 72.7,
+      "pa": 73.4,
+      "minutes": 2640.850421182854
+    },
+    {
+      "seed": 72,
+      "id": "761",
+      "name": "Reo Matsushita",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "766",
+      "name": "Rupeni Raviyawa",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.4,
+      "pa": 53.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "767",
+      "name": "Jackson Ropata",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.7,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "770",
+      "name": "Jordan Soli",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "772",
+      "name": "Sam Thomson",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 80.6,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "774",
+      "name": "Riley Williams",
+      "position": "scrum_half",
+      "start": 52,
+      "peak": 59.3,
+      "pa": 80.6,
+      "minutes": 1098.8034432631785
+    },
+    {
+      "seed": 72,
+      "id": "777",
+      "name": "Bradley Crichton",
+      "position": "prop",
+      "start": 52,
+      "peak": 57.3,
+      "pa": 78.8,
+      "minutes": 1338.7340777104541
+    },
+    {
+      "seed": 72,
+      "id": "778",
+      "name": "William Davis",
+      "position": "outside_back",
+      "start": 54,
+      "peak": 54.2,
+      "pa": 55.9,
+      "minutes": 80
+    },
+    {
+      "seed": 72,
+      "id": "780",
+      "name": "Esile Fono",
+      "position": "prop",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 345.3701401764002
+    },
+    {
+      "seed": 72,
+      "id": "786",
+      "name": "Zac Shanks",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 53.1,
+      "minutes": 1061.381783949037
+    },
+    {
+      "seed": 72,
+      "id": "788",
+      "name": "Olly Ryan",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.2,
+      "pa": 55.9,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "793",
+      "name": "Nathan Salmon",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 55,
+      "minutes": 70.15204408574701
+    },
+    {
+      "seed": 72,
+      "id": "794",
+      "name": "Reuben Stewart",
+      "position": "center",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "796",
+      "name": "Grady Forbes",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.3,
+      "pa": 55,
+      "minutes": 280
+    },
+    {
+      "seed": 72,
+      "id": "797",
+      "name": "Heath MacEwan",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.7,
+      "minutes": 80
+    },
+    {
+      "seed": 72,
+      "id": "798",
+      "name": "Jade Stewart",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.3,
+      "minutes": 400
+    },
+    {
+      "seed": 72,
+      "id": "801",
+      "name": "Woody Kirkwood",
+      "position": "lock",
+      "start": 52,
+      "peak": 52,
+      "pa": 52.1,
+      "minutes": 101.90643880413147
+    },
+    {
+      "seed": 72,
+      "id": "802",
+      "name": "Alex Yallop",
+      "position": "lock",
+      "start": 52,
+      "peak": 52,
+      "pa": 52,
+      "minutes": 247.60891812165008
+    },
+    {
+      "seed": 72,
+      "id": "804",
+      "name": "Sloane Lankshear",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 55.8,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "805",
+      "name": "Louis Lepionka",
+      "position": "loose_forward",
+      "start": 52,
+      "peak": 52,
+      "pa": 53,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "806",
+      "name": "Darius Fidow",
+      "position": "prop",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 53.6,
+      "minutes": 130.6775733143865
+    },
+    {
+      "seed": 72,
+      "id": "808",
+      "name": "Jay Reihana",
+      "position": "outside_back",
+      "start": 55,
+      "peak": 76.3,
+      "pa": 88.6,
+      "minutes": 2103.9365701564575
+    },
+    {
+      "seed": 72,
+      "id": "811",
+      "name": "Willi Gualter",
+      "position": "outside_back",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 54.1,
+      "minutes": 0
+    },
+    {
+      "seed": 72,
+      "id": "812",
+      "name": "Liam Chapman",
+      "position": "unknown",
+      "start": 52,
+      "peak": 52.1,
+      "pa": 56.1,
+      "minutes": 0
+    }
+  ],
+  "notes": [
+    "Actual AI selections and simulated club minutes. No manufactured exposure.",
+    "Future international calendars are simplified game templates."
+  ],
+  "summary": {
+    "players": 584,
+    "meanGain": 3.31,
+    "nearCeiling": 126,
+    "overCeiling": 0,
+    "pledger": [
+      {
+        "seed": 33,
+        "id": "175",
+        "name": "Dylan Pledger",
+        "position": "scrum_half",
+        "start": 64,
+        "peak": 82.9,
+        "pa": 96.7,
+        "minutes": 2781.3233414313927
+      },
+      {
+        "seed": 72,
+        "id": "175",
+        "name": "Dylan Pledger",
+        "position": "scrum_half",
+        "start": 64,
+        "peak": 76.2,
+        "pa": 94.8,
+        "minutes": 1898.9044861686853
+      }
+    ]
+  }
+}

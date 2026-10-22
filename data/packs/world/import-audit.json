@@ -1,0 +1,593 @@
+{
+  "players": 812,
+  "teams": 25,
+  "memberships": 1070,
+  "mappedLegacy": 454,
+  "issues": [
+    {
+      "player": "99",
+      "name": "Cortez Ratima",
+      "issue": "Age only"
+    },
+    {
+      "player": "102",
+      "name": "Damian McKenzie",
+      "issue": "Age only"
+    },
+    {
+      "player": "227",
+      "name": "Josh Moorby",
+      "issue": "Age only"
+    },
+    {
+      "player": "414",
+      "name": "Tevita Latu",
+      "issue": "Conflicting NPC evidence",
+      "teams": [
+        "Canterbury",
+        "Auckland"
+      ],
+      "provisional": "Canterbury"
+    },
+    {
+      "player": "448",
+      "name": "Sairusi Ravudi",
+      "issue": "Age only"
+    },
+    {
+      "player": "453",
+      "name": "Oli Mathis",
+      "issue": "Age only"
+    },
+    {
+      "player": "457",
+      "name": "Pita Anae Ah-Sue",
+      "issue": "Age only"
+    },
+    {
+      "player": "458",
+      "name": "Dylan Eti",
+      "issue": "Age only"
+    },
+    {
+      "player": "459",
+      "name": "James Tucker",
+      "issue": "Age only"
+    },
+    {
+      "player": "465",
+      "name": "Micah Fale",
+      "issue": "Age only"
+    },
+    {
+      "player": "466",
+      "name": "Manaaki Boyle-Tiatia",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "467",
+      "name": "Will Martin",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "467",
+      "name": "Will Martin",
+      "issue": "Age only"
+    },
+    {
+      "player": "468",
+      "name": "Taipari Quinn",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "468",
+      "name": "Taipari Quinn",
+      "issue": "Age only"
+    },
+    {
+      "player": "469",
+      "name": "Gabe Robinson",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "473",
+      "name": "Nathan Stephens",
+      "issue": "Age only"
+    },
+    {
+      "player": "474",
+      "name": "David Lewai",
+      "issue": "Age only"
+    },
+    {
+      "player": "476",
+      "name": "Anton Lienert-Brown",
+      "issue": "Age only"
+    },
+    {
+      "player": "477",
+      "name": "Waisake Salabiau",
+      "issue": "Age only"
+    },
+    {
+      "player": "478",
+      "name": "Sione Tupou",
+      "issue": "Age only"
+    },
+    {
+      "player": "480",
+      "name": "Viliami Tosi",
+      "issue": "Age only"
+    },
+    {
+      "player": "481",
+      "name": "Harold Rounds",
+      "issue": "Age only"
+    },
+    {
+      "player": "482",
+      "name": "Trent Ririnui",
+      "issue": "Age only"
+    },
+    {
+      "player": "485",
+      "name": "Reuben Palmer",
+      "issue": "Age only"
+    },
+    {
+      "player": "487",
+      "name": "Toby Taylor",
+      "issue": "Age only"
+    },
+    {
+      "player": "488",
+      "name": "Joe Johnston",
+      "issue": "Age only"
+    },
+    {
+      "player": "489",
+      "name": "Richard Judd",
+      "issue": "Age only"
+    },
+    {
+      "player": "490",
+      "name": "Riley Hohepa",
+      "issue": "Age only"
+    },
+    {
+      "player": "491",
+      "name": "Jason Robertson",
+      "issue": "Age only"
+    },
+    {
+      "player": "492",
+      "name": "Viliami Lea",
+      "issue": "Age only"
+    },
+    {
+      "player": "496",
+      "name": "Roderick Solo",
+      "issue": "Age only"
+    },
+    {
+      "player": "498",
+      "name": "Reon Paul",
+      "issue": "Age only"
+    },
+    {
+      "player": "499",
+      "name": "Regan Ware",
+      "issue": "Age only"
+    },
+    {
+      "player": "503",
+      "name": "Ryan Coxon",
+      "issue": "Age only"
+    },
+    {
+      "player": "505",
+      "name": "Eli Oudenryn",
+      "issue": "Age only"
+    },
+    {
+      "player": "506",
+      "name": "Sione Mafi",
+      "issue": "Age only"
+    },
+    {
+      "player": "507",
+      "name": "Vea Taumoefolau",
+      "issue": "Age only"
+    },
+    {
+      "player": "508",
+      "name": "Tayne Hemopo",
+      "issue": "Age only"
+    },
+    {
+      "player": "510",
+      "name": "Shannon Frizell",
+      "issue": "Age only"
+    },
+    {
+      "player": "512",
+      "name": "Isaiah Malaulau",
+      "issue": "Conflicting NPC evidence",
+      "teams": [
+        "Manawatu",
+        "Tasman Mako"
+      ],
+      "provisional": "Manawatu"
+    },
+    {
+      "player": "513",
+      "name": "Mitchell Drummond",
+      "issue": "Age only"
+    },
+    {
+      "player": "516",
+      "name": "Jack Gray",
+      "issue": "Age only"
+    },
+    {
+      "player": "517",
+      "name": "Jake Pacey",
+      "issue": "Age only"
+    },
+    {
+      "player": "518",
+      "name": "Nic Sauira",
+      "issue": "Age only"
+    },
+    {
+      "player": "519",
+      "name": "Cooper Roberts",
+      "issue": "Age only"
+    },
+    {
+      "player": "520",
+      "name": "Timoci Sauira",
+      "issue": "Age only"
+    },
+    {
+      "player": "521",
+      "name": "Jake Frost",
+      "issue": "Age only"
+    },
+    {
+      "player": "525",
+      "name": "Fletcher Hewitt-Smart",
+      "issue": "Age only"
+    },
+    {
+      "player": "527",
+      "name": "Bryn Gordon",
+      "issue": "Age only"
+    },
+    {
+      "player": "530",
+      "name": "James Fiebig",
+      "issue": "Age only"
+    },
+    {
+      "player": "531",
+      "name": "Jack Lee",
+      "issue": "Age only"
+    },
+    {
+      "player": "532",
+      "name": "Taeao Pomale-Time",
+      "issue": "Age only"
+    },
+    {
+      "player": "534",
+      "name": "Dane Sawers",
+      "issue": "Age only"
+    },
+    {
+      "player": "535",
+      "name": "Sam Tuitupou Ah-Hing",
+      "issue": "Age only"
+    },
+    {
+      "player": "537",
+      "name": "Malaesaili Elato",
+      "issue": "Age only"
+    },
+    {
+      "player": "538",
+      "name": "George Reeves",
+      "issue": "Age only"
+    },
+    {
+      "player": "541",
+      "name": "Tony Tafa",
+      "issue": "Age only"
+    },
+    {
+      "player": "542",
+      "name": "Riley Tofilau",
+      "issue": "Age only"
+    },
+    {
+      "player": "543",
+      "name": "Leka Tu'ungafasi",
+      "issue": "Age only"
+    },
+    {
+      "player": "544",
+      "name": "Sam Wye",
+      "issue": "Age only"
+    },
+    {
+      "player": "545",
+      "name": "Bryn Hall",
+      "issue": "Age only"
+    },
+    {
+      "player": "547",
+      "name": "Coby Miln",
+      "issue": "Age only"
+    },
+    {
+      "player": "548",
+      "name": "Rory Taylor",
+      "issue": "Age only"
+    },
+    {
+      "player": "549",
+      "name": "Leo Gordon",
+      "issue": "Age only"
+    },
+    {
+      "player": "551",
+      "name": "Tima Fainga'anuku",
+      "issue": "Age only"
+    },
+    {
+      "player": "555",
+      "name": "Cameron Howell",
+      "issue": "Age only"
+    },
+    {
+      "player": "556",
+      "name": "Oscar Koller",
+      "issue": "Age only"
+    },
+    {
+      "player": "557",
+      "name": "Sofai Notoa-Tipo",
+      "issue": "Age only"
+    },
+    {
+      "player": "558",
+      "name": "Hunter Rice",
+      "issue": "Age only"
+    },
+    {
+      "player": "559",
+      "name": "Jarred Adams",
+      "issue": "Age only"
+    },
+    {
+      "player": "563",
+      "name": "Atunaisa Moli",
+      "issue": "Age only"
+    },
+    {
+      "player": "566",
+      "name": "Alamanda Motuga",
+      "issue": "Age only"
+    },
+    {
+      "player": "582",
+      "name": "Gus Brown",
+      "issue": "Age only"
+    },
+    {
+      "player": "586",
+      "name": "Hamish Dalzell",
+      "issue": "Age only"
+    },
+    {
+      "player": "588",
+      "name": "Lewis Ponini",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "589",
+      "name": "Nick Hyde",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "590",
+      "name": "Tonga Helu",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "595",
+      "name": "Shun Miyake",
+      "issue": "Age only"
+    },
+    {
+      "player": "596",
+      "name": "Ezekiel Lindenmuth",
+      "issue": "Age only"
+    },
+    {
+      "player": "597",
+      "name": "Sione Takai",
+      "issue": "Age only"
+    },
+    {
+      "player": "598",
+      "name": "Joey Taumateine",
+      "issue": "Age only"
+    },
+    {
+      "player": "599",
+      "name": "Aporosa Vuniyayawa",
+      "issue": "Age only"
+    },
+    {
+      "player": "603",
+      "name": "Tomasi Alosio",
+      "issue": "Age only"
+    },
+    {
+      "player": "607",
+      "name": "Aidan Spratley",
+      "issue": "Age only"
+    },
+    {
+      "player": "611",
+      "name": "Nathaniel Pole",
+      "issue": "Age only"
+    },
+    {
+      "player": "614",
+      "name": "Randall Baker",
+      "issue": "Age only"
+    },
+    {
+      "player": "615",
+      "name": "Logan Platt",
+      "issue": "Age only"
+    },
+    {
+      "player": "616",
+      "name": "Caleb Woodley",
+      "issue": "Age only"
+    },
+    {
+      "player": "619",
+      "name": "Kitiona Vai",
+      "issue": "Age only"
+    },
+    {
+      "player": "620",
+      "name": "Tamiano Ahloo",
+      "issue": "Age only"
+    },
+    {
+      "player": "624",
+      "name": "Siale Pahulu",
+      "issue": "Age only"
+    },
+    {
+      "player": "701",
+      "name": "Tyler Laubscher",
+      "issue": "Age only"
+    },
+    {
+      "player": "704",
+      "name": "Tofuka Paongo",
+      "issue": "Age only"
+    },
+    {
+      "player": "706",
+      "name": "Liam O'Connor",
+      "issue": "Age only"
+    },
+    {
+      "player": "707",
+      "name": "Bryn Wilson",
+      "issue": "Age only"
+    },
+    {
+      "player": "713",
+      "name": "Zach Taulapapa",
+      "issue": "Age only"
+    },
+    {
+      "player": "718",
+      "name": "Drew Berg-McLean",
+      "issue": "Age only"
+    },
+    {
+      "player": "720",
+      "name": "Nik Patumaka",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "721",
+      "name": "Manahi Goulton",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "722",
+      "name": "Tiaki Fabish",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "722",
+      "name": "Tiaki Fabish",
+      "issue": "Age only"
+    },
+    {
+      "player": "723",
+      "name": "Liam Udy-Johns",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "738",
+      "name": "Sam Fischli",
+      "issue": "Age only"
+    },
+    {
+      "player": "740",
+      "name": "Gregor Rutledge",
+      "issue": "Age only"
+    },
+    {
+      "player": "745",
+      "name": "Jimmy Taylor",
+      "issue": "Age only"
+    },
+    {
+      "player": "753",
+      "name": "Geordie Bean",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "763",
+      "name": "Piri Paraone",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "772",
+      "name": "Sam Thomson",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "787",
+      "name": "Fanguna Apea Tau Junior Fifita",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "788",
+      "name": "Olly Ryan",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "789",
+      "name": "Ricki Heremaia",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "790",
+      "name": "Brady Rush",
+      "issue": "Unverified playing position"
+    },
+    {
+      "player": "808",
+      "name": "Jay Reihana",
+      "issue": "Age only"
+    },
+    {
+      "player": "812",
+      "name": "Liam Chapman",
+      "issue": "Unverified playing position"
+    }
+  ]
+}

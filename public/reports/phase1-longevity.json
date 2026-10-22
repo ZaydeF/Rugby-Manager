@@ -1,0 +1,516 @@
+{
+  "pack": {
+    "schemaVersion": 1,
+    "id": "super-rugby-2026-dev",
+    "version": "1.1.0",
+    "name": "Super Rugby development database",
+    "adapter": "super-rugby-11-v1",
+    "modelVersion": "playable-0.2.0",
+    "engineVersion": "0.2.0",
+    "competition": {
+      "id": "super-rugby-pacific",
+      "clubs": 11,
+      "regularRounds": 16,
+      "regularFixtures": 77,
+      "finalists": 6
+    },
+    "unions": [
+      "New Zealand",
+      "Australia",
+      "Fiji",
+      "Samoa",
+      "Tonga"
+    ],
+    "assets": {
+      "playersTeamsFixtures": "/data/universe.json",
+      "birthDates": "data/packs/super-rugby/database.ts",
+      "ratings": "data/curated-ratings.json",
+      "simulationRules": "data/packs/super-rugby/simulation.ts",
+      "finances": "data/packs/super-rugby/finances.ts",
+      "eligibility": "data/packs/super-rugby/eligibility.ts",
+      "staff": null,
+      "portraits": null
+    },
+    "rightsStatus": "Development reference data; not cleared for commercial distribution",
+    "limitations": [
+      "Only the existing 11-club competition adapter is supported.",
+      "Missing birth dates remain unknown.",
+      "Player ratings still include legacy statistical proxies.",
+      "Staff, image packs and a generic fictional pack are future phases."
+    ]
+  },
+  "seed": 75,
+  "seasons": 5,
+  "requestedSeasons": 5,
+  "failure": null,
+  "checkpoints": [
+    5
+  ],
+  "structuralChecks": "passed",
+  "balanceGate": "requires review",
+  "policy": "User club contracts and intake automated; incoming offers rejected; representative series simulated where a legal pool is available.",
+  "audit": {
+    "pack": "super-rugby-2026-dev",
+    "errors": [],
+    "realPlayers": 450,
+    "clubs": 11,
+    "knownBirthDates": 450,
+    "missingBirthDates": [],
+    "warnings": [
+      "Some dates use single secondary sources; five conflicts were accepted by the database owner.",
+      "Legacy statistical rating inputs remain; curated ratings are preserved."
+    ]
+  },
+  "metrics": [
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 6451000,
+          "cap": 7000000,
+          "cash": 130000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 6554000,
+          "cap": 7140000,
+          "cash": 1360000
+        },
+        {
+          "id": "8",
+          "squad": 44,
+          "payroll": 8719000,
+          "cap": 9190000,
+          "cash": 1053000
+        },
+        {
+          "id": "2",
+          "squad": 40,
+          "payroll": 8588000,
+          "cap": 10790000,
+          "cash": 2886000
+        },
+        {
+          "id": "5",
+          "squad": 43,
+          "payroll": 5027000,
+          "cap": 7000000,
+          "cash": 2285000
+        },
+        {
+          "id": "1",
+          "squad": 39,
+          "payroll": 6208000,
+          "cap": 7580000,
+          "cash": 1800000
+        },
+        {
+          "id": "11",
+          "squad": 41,
+          "payroll": 7619000,
+          "cap": 9560000,
+          "cash": 2955000
+        },
+        {
+          "id": "6",
+          "squad": 46,
+          "payroll": 6970000,
+          "cap": 7000000,
+          "cash": 760000
+        },
+        {
+          "id": "3",
+          "squad": 42,
+          "payroll": 4778000,
+          "cap": 7000000,
+          "cash": 2835000
+        },
+        {
+          "id": "4",
+          "squad": 45,
+          "payroll": 7622000,
+          "cap": 8190000,
+          "cash": 1485000
+        },
+        {
+          "id": "9",
+          "squad": 43,
+          "payroll": 5733000,
+          "cap": 7050000,
+          "cash": 2251000
+        }
+      ],
+      "season": 1,
+      "year": 2027,
+      "players": 862,
+      "retired": 219,
+      "elite": 11,
+      "saveMB": 7.3749494552612305,
+      "gzipMB": 0.9293975830078125,
+      "elapsedSeconds": 4.540927352000001,
+      "champion": "2"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 46,
+          "payroll": 7094000,
+          "cap": 7140000,
+          "cash": 1854000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 6808000,
+          "cap": 7283000,
+          "cash": 3051000
+        },
+        {
+          "id": "8",
+          "squad": 40,
+          "payroll": 7308000,
+          "cap": 9374000,
+          "cash": 4235000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 9624000,
+          "cap": 11006000,
+          "cash": 3776000
+        },
+        {
+          "id": "5",
+          "squad": 46,
+          "payroll": 6585000,
+          "cap": 7140000,
+          "cash": 2800000
+        },
+        {
+          "id": "1",
+          "squad": 39,
+          "payroll": 6208000,
+          "cap": 7732000,
+          "cash": 3600000
+        },
+        {
+          "id": "11",
+          "squad": 41,
+          "payroll": 7464000,
+          "cap": 9751000,
+          "cash": 5405000
+        },
+        {
+          "id": "6",
+          "squad": 44,
+          "payroll": 6524000,
+          "cap": 7140000,
+          "cash": 3078000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 5428000,
+          "cap": 7140000,
+          "cash": 4376000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 7281000,
+          "cap": 8354000,
+          "cash": 4151000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 7175000,
+          "cap": 7191000,
+          "cash": 3274000
+        }
+      ],
+      "season": 2,
+      "year": 2028,
+      "players": 980,
+      "retired": 365,
+      "elite": 13,
+      "saveMB": 8.466300964355469,
+      "gzipMB": 1.0697784423828125,
+      "elapsedSeconds": 9.326348287,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 6687000,
+          "cap": 7283000,
+          "cash": 3764000
+        },
+        {
+          "id": "7",
+          "squad": 46,
+          "payroll": 7387000,
+          "cap": 7429000,
+          "cash": 4353000
+        },
+        {
+          "id": "8",
+          "squad": 43,
+          "payroll": 9098000,
+          "cap": 9561000,
+          "cash": 5505000
+        },
+        {
+          "id": "2",
+          "squad": 38,
+          "payroll": 6794000,
+          "cap": 11226000,
+          "cash": 9065000
+        },
+        {
+          "id": "5",
+          "squad": 44,
+          "payroll": 6510000,
+          "cap": 7283000,
+          "cash": 4784000
+        },
+        {
+          "id": "1",
+          "squad": 37,
+          "payroll": 6137000,
+          "cap": 7887000,
+          "cash": 5400000
+        },
+        {
+          "id": "11",
+          "squad": 43,
+          "payroll": 9063000,
+          "cap": 9946000,
+          "cash": 5918000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 7221000,
+          "cap": 7283000,
+          "cash": 4221000
+        },
+        {
+          "id": "3",
+          "squad": 46,
+          "payroll": 7002000,
+          "cap": 7283000,
+          "cash": 4978000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 7555000,
+          "cap": 8521000,
+          "cash": 5951000
+        },
+        {
+          "id": "9",
+          "squad": 43,
+          "payroll": 6752000,
+          "cap": 7335000,
+          "cash": 5461000
+        }
+      ],
+      "season": 3,
+      "year": 2029,
+      "players": 1096,
+      "retired": 516,
+      "elite": 16,
+      "saveMB": 9.577508926391602,
+      "gzipMB": 1.1717348098754883,
+      "elapsedSeconds": 15.297626216000001,
+      "champion": "11"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 44,
+          "payroll": 7128000,
+          "cap": 7429000,
+          "cash": 5454000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 7512000,
+          "cap": 7578000,
+          "cash": 6115000
+        },
+        {
+          "id": "8",
+          "squad": 43,
+          "payroll": 8633000,
+          "cap": 9752000,
+          "cash": 7577000
+        },
+        {
+          "id": "2",
+          "squad": 41,
+          "payroll": 7683000,
+          "cap": 11451000,
+          "cash": 10461000
+        },
+        {
+          "id": "5",
+          "squad": 45,
+          "payroll": 7373000,
+          "cap": 7429000,
+          "cash": 6361000
+        },
+        {
+          "id": "1",
+          "squad": 37,
+          "payroll": 6137000,
+          "cap": 8045000,
+          "cash": 7200000
+        },
+        {
+          "id": "11",
+          "squad": 42,
+          "payroll": 8490000,
+          "cap": 10145000,
+          "cash": 8192000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 7319000,
+          "cap": 7429000,
+          "cash": 5802000
+        },
+        {
+          "id": "3",
+          "squad": 43,
+          "payroll": 6744000,
+          "cap": 7429000,
+          "cash": 7007000
+        },
+        {
+          "id": "4",
+          "squad": 42,
+          "payroll": 6830000,
+          "cap": 8691000,
+          "cash": 8185000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 7439000,
+          "cap": 7482000,
+          "cash": 6846000
+        }
+      ],
+      "season": 4,
+      "year": 2030,
+      "players": 1229,
+      "retired": 654,
+      "elite": 17,
+      "saveMB": 10.692380905151367,
+      "gzipMB": 1.2709665298461914,
+      "elapsedSeconds": 21.796553927,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 42,
+          "payroll": 6529000,
+          "cap": 7578000,
+          "cash": 8185000
+        },
+        {
+          "id": "7",
+          "squad": 43,
+          "payroll": 6706000,
+          "cap": 7730000,
+          "cash": 8506000
+        },
+        {
+          "id": "8",
+          "squad": 44,
+          "payroll": 9809000,
+          "cap": 9947000,
+          "cash": 8450000
+        },
+        {
+          "id": "2",
+          "squad": 42,
+          "payroll": 8692000,
+          "cap": 11680000,
+          "cash": 11577000
+        },
+        {
+          "id": "5",
+          "squad": 42,
+          "payroll": 6201000,
+          "cap": 7578000,
+          "cash": 9852000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 5730000,
+          "cap": 8206000,
+          "cash": 9000000
+        },
+        {
+          "id": "11",
+          "squad": 45,
+          "payroll": 8835000,
+          "cap": 10348000,
+          "cash": 9544000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 7323000,
+          "cap": 7578000,
+          "cash": 7609000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 7099000,
+          "cap": 7578000,
+          "cash": 8601000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 8181000,
+          "cap": 8865000,
+          "cash": 8947000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 7521000,
+          "cap": 7632000,
+          "cash": 8729000
+        }
+      ],
+      "season": 5,
+      "year": 2031,
+      "players": 1373,
+      "retired": 799,
+      "elite": 18,
+      "saveMB": 11.914640426635742,
+      "gzipMB": 1.3760595321655273,
+      "elapsedSeconds": 29.613626817,
+      "champion": "8"
+    }
+  ]
+}

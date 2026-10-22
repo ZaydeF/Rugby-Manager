@@ -1,0 +1,78 @@
+{
+  "seasons": 8,
+  "lastReadyYear": 2035,
+  "metrics": [
+    {
+      "year": 2027,
+      "generated": 627,
+      "seniorNewgens": 30,
+      "u21Forfeits": 0,
+      "incomingBids": 7,
+      "activeAcademy": 40,
+      "megabytes": 6.95
+    },
+    {
+      "year": 2028,
+      "generated": 891,
+      "seniorNewgens": 41,
+      "u21Forfeits": 0,
+      "incomingBids": 2,
+      "activeAcademy": 40,
+      "megabytes": 7.85
+    },
+    {
+      "year": 2029,
+      "generated": 1156,
+      "seniorNewgens": 60,
+      "u21Forfeits": 0,
+      "incomingBids": 1,
+      "activeAcademy": 34,
+      "megabytes": 8.69
+    },
+    {
+      "year": 2030,
+      "generated": 1424,
+      "seniorNewgens": 73,
+      "u21Forfeits": 0,
+      "incomingBids": 2,
+      "activeAcademy": 27,
+      "megabytes": 9.62
+    },
+    {
+      "year": 2031,
+      "generated": 1704,
+      "seniorNewgens": 89,
+      "u21Forfeits": 0,
+      "incomingBids": 6,
+      "activeAcademy": 32,
+      "megabytes": 10.62
+    },
+    {
+      "year": 2032,
+      "generated": 1979,
+      "seniorNewgens": 96,
+      "u21Forfeits": 0,
+      "incomingBids": 3,
+      "activeAcademy": 28,
+      "megabytes": 11.58
+    },
+    {
+      "year": 2033,
+      "generated": 2254,
+      "seniorNewgens": 104,
+      "u21Forfeits": 0,
+      "incomingBids": 5,
+      "activeAcademy": 28,
+      "megabytes": 12.67
+    },
+    {
+      "year": 2034,
+      "generated": 2526,
+      "seniorNewgens": 115,
+      "u21Forfeits": 0,
+      "incomingBids": 2,
+      "activeAcademy": 25,
+      "megabytes": 13.73
+    }
+  ]
+}

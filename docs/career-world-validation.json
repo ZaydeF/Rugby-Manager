@@ -1,0 +1,76 @@
+{
+  "canonicalPlayers": 812,
+  "careers": [
+    {
+      "team": "1",
+      "years": 2,
+      "players": 943,
+      "bytes": 4018918,
+      "reviews": 4,
+      "squads": 12
+    },
+    {
+      "team": "npc-1",
+      "years": 2,
+      "players": 947,
+      "bytes": 4054390,
+      "reviews": 4,
+      "squads": 12
+    }
+  ],
+  "development": [
+    {
+      "seed": 1,
+      "hiddenPA": 95.62134910171153,
+      "finalCA": 92.3646575172424
+    },
+    {
+      "seed": 2,
+      "hiddenPA": 93.91011764295399,
+      "finalCA": 91.1989526022093
+    },
+    {
+      "seed": 3,
+      "hiddenPA": 95.08083830308169,
+      "finalCA": 76.47921506372407
+    },
+    {
+      "seed": 4,
+      "hiddenPA": 95.22859984339448,
+      "finalCA": 92.66368478934196
+    },
+    {
+      "seed": 5,
+      "hiddenPA": 97,
+      "finalCA": 93.95268291736423
+    },
+    {
+      "seed": 6,
+      "hiddenPA": 96.00321324542165,
+      "finalCA": 75.58440141971224
+    },
+    {
+      "seed": 7,
+      "hiddenPA": 94.62693707231665,
+      "finalCA": 91.75584233696165
+    },
+    {
+      "seed": 8,
+      "hiddenPA": 94.99918673274806,
+      "finalCA": 92.2277968765151
+    },
+    {
+      "seed": 9,
+      "hiddenPA": 93.05838669475634,
+      "finalCA": 77.16199467233821
+    },
+    {
+      "seed": 10,
+      "hiddenPA": 97,
+      "finalCA": 92.6106899783496
+    }
+  ],
+  "checks": [
+    "10 seeds: NPC 10 unique opponents, five home/five away"
+  ]
+}

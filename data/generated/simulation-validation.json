@@ -1,0 +1,23 @@
+{
+  "matches": 4000,
+  "means": {
+    "points": 55.281,
+    "tries": 8.146,
+    "penaltyGoals": 1.036,
+    "penalties": 17.6,
+    "tackles": 296.838,
+    "missedTackles": 45.55,
+    "metres": 934.356,
+    "linebreaks": 13.412,
+    "turnovers": 12.607,
+    "yellow": 0.883,
+    "red": 0.054,
+    "lineouts": 18.607,
+    "scrums": 7.924,
+    "margin": 16.51,
+    "homeWins": 0.603,
+    "draws": 0.025
+  },
+  "minTotal": 10,
+  "maxTotal": 120
+}

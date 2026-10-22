@@ -1,0 +1,78 @@
+tournament_id,round_id,round_number,date,status,venue_id,venue_name,home_squad_id,home_squad_name,home_squad_abbr,home_score,away_squad_id,away_squad_name,away_squad_abbr,away_score
+1,1,1,2026-02-13T17:05:00+11:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,25,2,Crusaders,CRUS,23
+2,1,1,2026-02-13T19:35:00+11:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,36,4,Queensland Reds,REDS,12
+3,1,1,2026-02-14T14:35:00+11:00,completed,13,Churchill Park,5,Fijian Drua,FDRU,26,6,Moana Pasifika,MOPA,40
+4,1,1,2026-02-14T17:05:00+11:00,completed,4,Eden Park,7,Blues,BLUE,15,8,Chiefs,CHIE,19
+5,1,1,2026-02-14T19:35:00+11:00,completed,5,HBF Park,9,Western Force,FORC,24,10,ACT Brumbies,BRUM,56
+6,2,2,2026-02-20T17:05:00+11:00,completed,12,Sky Stadium,11,Hurricanes,HURR,52,6,Moana Pasifika,MOPA,10
+7,2,2,2026-02-20T19:35:00+11:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,36,5,Fijian Drua,FDRU,13
+8,2,2,2026-02-21T17:05:00+11:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,23,8,Chiefs,CHIE,26
+9,2,2,2026-02-21T19:35:00+11:00,completed,17,HIF Health Insurance Oval,9,Western Force,FORC,32,7,Blues,BLUE,42
+10,2,2,2026-02-22T13:35:00+11:00,completed,1,Apollo Projects Stadium,2,Crusaders,CRUS,24,10,ACT Brumbies,BRUM,50
+11,3,3,2026-02-27T17:05:00+11:00,completed,15,Navigation Homes Stadium,6,Moana Pasifika,MOPA,19,9,Western Force,FORC,35
+12,3,3,2026-02-27T19:35:00+11:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,31,1,Highlanders,HIGH,14
+13,3,3,2026-02-28T14:35:00+11:00,completed,13,Churchill Park,5,Fijian Drua,FDRU,25,11,Hurricanes,HURR,20
+14,3,3,2026-02-28T17:05:00+11:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,33,2,Crusaders,CRUS,43
+15,3,3,2026-02-28T19:35:00+11:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,30,7,Blues,BLUE,27
+16,4,4,2026-03-06T17:05:00+11:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,57,6,Moana Pasifika,MOPA,24
+17,4,4,2026-03-06T19:35:00+11:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,19,11,Hurricanes,HURR,59
+18,4,4,2026-03-07T14:35:00+11:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,39,9,Western Force,FORC,31
+19,4,4,2026-03-07T17:05:00+11:00,completed,4,Eden Park,7,Blues,BLUE,29,2,Crusaders,CRUS,13
+20,4,4,2026-03-07T19:35:00+11:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,31,4,Queensland Reds,REDS,34
+21,5,5,2026-03-13T17:05:00+11:00,completed,8,McLean Park,11,Hurricanes,HURR,31,9,Western Force,FORC,23
+22,5,5,2026-03-14T14:35:00+11:00,completed,19,Four R Stadium,5,Fijian Drua,FDRU,42,10,ACT Brumbies,BRUM,27
+23,5,5,2026-03-14T17:05:00+11:00,completed,1,Apollo Projects Stadium,2,Crusaders,CRUS,29,1,Highlanders,HIGH,18
+24,5,5,2026-03-14T19:35:00+11:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,26,3,NSW Waratahs,WARA,17
+25,5,5,2026-03-15T13:35:00+11:00,completed,4,Eden Park,7,Blues,BLUE,43,6,Moana Pasifika,MOPA,7
+26,6,6,2026-03-20T17:05:00+11:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,7,11,Hurricanes,HURR,50
+27,6,6,2026-03-20T19:35:00+11:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,33,8,Chiefs,CHIE,24
+28,6,6,2026-03-21T14:35:00+11:00,completed,13,Churchill Park,5,Fijian Drua,FDRU,6,4,Queensland Reds,REDS,21
+29,6,6,2026-03-21T17:05:00+11:00,completed,11,North Harbour Stadium,6,Moana Pasifika,MOPA,21,2,Crusaders,CRUS,50
+30,6,6,2026-03-21T19:35:00+11:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,20,7,Blues,BLUE,35
+31,7,7,2026-03-27T17:05:00+11:00,completed,11,North Harbour Stadium,6,Moana Pasifika,MOPA,19,1,Highlanders,HIGH,39
+32,7,7,2026-03-27T19:35:00+11:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,28,3,NSW Waratahs,WARA,30
+33,7,7,2026-03-28T14:35:00+11:00,completed,12,Sky Stadium,11,Hurricanes,HURR,52,4,Queensland Reds,REDS,14
+34,7,7,2026-03-28T17:05:00+11:00,completed,4,Eden Park,7,Blues,BLUE,40,5,Fijian Drua,FDRU,15
+35,7,7,2026-03-28T19:35:00+11:00,completed,5,HBF Park,9,Western Force,FORC,14,8,Chiefs,CHIE,24
+36,8,8,2026-04-03T17:05:00+11:00,completed,1,Apollo Projects Stadium,2,Crusaders,CRUS,69,5,Fijian Drua,FDRU,26
+37,8,8,2026-04-04T17:05:00+11:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,42,3,NSW Waratahs,WARA,14
+38,8,8,2026-04-04T19:35:00+11:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,19,9,Western Force,FORC,42
+39,9,9,2026-04-10T17:05:00+10:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,10,10,ACT Brumbies,BRUM,14
+40,9,9,2026-04-11T12:05:00+10:00,completed,14,Teufaiva Stadium,6,Moana Pasifika,MOPA,17,8,Chiefs,CHIE,62
+41,9,9,2026-04-11T14:35:00+10:00,completed,13,Churchill Park,5,Fijian Drua,FDRU,24,9,Western Force,FORC,22
+42,9,9,2026-04-11T17:05:00+10:00,completed,12,Sky Stadium,11,Hurricanes,HURR,42,7,Blues,BLUE,19
+43,9,9,2026-04-11T19:35:00+10:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,31,2,Crusaders,CRUS,26
+44,10,10,2026-04-17T17:05:00+10:00,completed,4,Eden Park,7,Blues,BLUE,47,1,Highlanders,HIGH,40
+45,10,10,2026-04-17T19:35:00+10:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,29,6,Moana Pasifika,MOPA,14
+46,10,10,2026-04-18T17:05:00+10:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,22,11,Hurricanes,HURR,17
+47,10,10,2026-04-18T19:35:00+10:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,28,5,Fijian Drua,FDRU,33
+48,10,10,2026-04-18T21:55:00+10:00,completed,5,HBF Park,9,Western Force,FORC,31,2,Crusaders,CRUS,26
+49,11,11,2026-04-24T17:35:00+10:00,completed,20,One NZ Stadium,2,Crusaders,CRUS,35,3,NSW Waratahs,WARA,20
+50,11,11,2026-04-25T15:05:00+10:00,completed,20,One NZ Stadium,11,Hurricanes,HURR,45,10,ACT Brumbies,BRUM,12
+51,11,11,2026-04-25T17:35:00+10:00,completed,20,One NZ Stadium,7,Blues,BLUE,36,4,Queensland Reds,REDS,33
+52,11,11,2026-04-26T12:00:00+10:00,completed,20,One NZ Stadium,1,Highlanders,HIGH,27,6,Moana Pasifika,MOPA,17
+53,11,11,2026-04-26T14:30:00+10:00,completed,20,One NZ Stadium,8,Chiefs,CHIE,42,5,Fijian Drua,FDRU,22
+54,12,12,2026-05-01T17:05:00+10:00,completed,12,Sky Stadium,11,Hurricanes,HURR,38,2,Crusaders,CRUS,31
+55,12,12,2026-05-01T19:35:00+10:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,17,9,Western Force,FORC,20
+56,12,12,2026-05-02T14:00:00+10:00,completed,19,Four R Stadium,5,Fijian Drua,FDRU,24,1,Highlanders,HIGH,14
+57,12,12,2026-05-02T17:05:00+10:00,completed,11,North Harbour Stadium,6,Moana Pasifika,MOPA,19,7,Blues,BLUE,45
+58,12,12,2026-05-02T19:35:00+10:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,30,10,ACT Brumbies,BRUM,21
+59,13,13,2026-05-08T17:05:00+10:00,completed,20,One NZ Stadium,2,Crusaders,CRUS,36,7,Blues,BLUE,20
+60,13,13,2026-05-08T19:35:00+10:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,21,8,Chiefs,CHIE,31
+61,13,13,2026-05-09T14:35:00+10:00,completed,9,Forsyth Barr Stadium,1,Highlanders,HIGH,31,3,NSW Waratahs,WARA,26
+62,13,13,2026-05-09T17:05:00+10:00,completed,11,North Harbour Stadium,6,Moana Pasifika,MOPA,17,11,Hurricanes,HURR,50
+63,13,13,2026-05-09T19:35:00+10:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,32,9,Western Force,FORC,15
+64,14,14,2026-05-15T17:05:00+10:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,42,1,Highlanders,HIGH,12
+65,14,14,2026-05-16T14:35:00+10:00,completed,3,HFC Bank Stadium,5,Fijian Drua,FDRU,35,3,NSW Waratahs,WARA,50
+66,14,14,2026-05-16T17:05:00+10:00,completed,4,Eden Park,7,Blues,BLUE,24,11,Hurricanes,HURR,47
+67,14,14,2026-05-16T19:35:00+10:00,completed,5,HBF Park,9,Western Force,FORC,19,4,Queensland Reds,REDS,14
+68,15,15,2026-05-22T17:05:00+10:00,completed,20,One NZ Stadium,2,Crusaders,CRUS,36,8,Chiefs,CHIE,32
+69,15,15,2026-05-22T19:35:00+10:00,completed,2,Allianz Stadium,3,NSW Waratahs,WARA,14,10,ACT Brumbies,BRUM,21
+70,15,15,2026-05-23T14:35:00+10:00,completed,11,North Harbour Stadium,6,Moana Pasifika,MOPA,31,4,Queensland Reds,REDS,33
+71,15,15,2026-05-23T17:05:00+10:00,completed,12,Sky Stadium,11,Hurricanes,HURR,45,1,Highlanders,HIGH,28
+72,15,15,2026-05-23T19:35:00+10:00,completed,5,HBF Park,9,Western Force,FORC,19,5,Fijian Drua,FDRU,15
+73,16,16,2026-05-29T17:05:00+10:00,completed,20,One NZ Stadium,2,Crusaders,CRUS,47,11,Hurricanes,HURR,14
+74,16,16,2026-05-29T19:35:00+10:00,completed,7,Suncorp Stadium,4,Queensland Reds,REDS,45,5,Fijian Drua,FDRU,24
+75,16,16,2026-05-30T14:35:00+10:00,completed,10,GIO Stadium,10,ACT Brumbies,BRUM,19,6,Moana Pasifika,MOPA,21
+76,16,16,2026-05-30T17:05:00+10:00,completed,6,FMG Stadium Waikato,8,Chiefs,CHIE,59,7,Blues,BLUE,34
+77,16,16,2026-05-30T19:35:00+10:00,completed,5,HBF Park,9,Western Force,FORC,31,3,NSW Waratahs,WARA,25

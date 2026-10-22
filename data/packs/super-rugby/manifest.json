@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "super-rugby-2026-dev",
+  "version": "1.2.0",
+  "name": "Super Rugby development database",
+  "adapter": "super-rugby-11-v1",
+  "modelVersion": "playable-0.2.0",
+  "engineVersion": "0.3.1",
+  "competition": {"id": "super-rugby-pacific", "clubs": 11, "regularRounds": 16, "regularFixtures": 77, "finalists": 6},
+  "unions": ["New Zealand", "Australia", "Fiji", "Samoa", "Tonga"],
+  "assets": {
+    "playersTeamsFixtures": "/data/universe.json",
+    "birthDates": "data/packs/super-rugby/database.ts",
+    "ratings": "data/curated-ratings.json",
+    "simulationRules": "data/packs/super-rugby/simulation.ts",
+    "finances": "data/packs/super-rugby/finances.ts",
+    "eligibility": "data/packs/super-rugby/eligibility.ts",
+    "staff": null,
+    "portraits": null
+  },
+  "rightsStatus": "Development reference data; not cleared for commercial distribution",
+  "limitations": ["Only the existing 11-club competition adapter is supported.", "All 450 retained real players have recorded birth dates; five source conflicts were accepted by the user.", "Player ratings still include legacy statistical proxies.", "Staff, image packs and a generic fictional pack are future phases."]
+}

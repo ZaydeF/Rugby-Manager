@@ -1,0 +1,85 @@
+{
+  "matchesPerScenario": 500,
+  "results": {
+    "balanced": {
+      "phases": 147.498,
+      "fatigue": 15.696,
+      "turnovers": 6.58,
+      "penalties": 8.832,
+      "errors": 4.528,
+      "metres": 485.458,
+      "wins": 0.622,
+      "margin": 6.086
+    },
+    "fast": {
+      "phases": 149.252,
+      "fatigue": 19.229,
+      "turnovers": 7.096,
+      "penalties": 9.772,
+      "errors": 5.352,
+      "metres": 579.64,
+      "wins": 0.618,
+      "margin": 7.414
+    },
+    "slow": {
+      "phases": 143.872,
+      "fatigue": 12.178,
+      "turnovers": 5.96,
+      "penalties": 7.796,
+      "errors": 3.636,
+      "metres": 394.588,
+      "wins": 0.572,
+      "margin": 4.304
+    },
+    "aggressive": {
+      "phases": 151.834,
+      "fatigue": 17.965,
+      "turnovers": 7.8,
+      "penalties": 10.818,
+      "errors": 4.482,
+      "metres": 498.122,
+      "wins": 0.632,
+      "margin": 7.924
+    },
+    "passive": {
+      "phases": 141.328,
+      "fatigue": 13.423,
+      "turnovers": 5.244,
+      "penalties": 6.438,
+      "errors": 4.3,
+      "metres": 468.49,
+      "wins": 0.552,
+      "margin": 3.222
+    },
+    "highRisk": {
+      "phases": 134.492,
+      "fatigue": 15.699,
+      "turnovers": 7.172,
+      "penalties": 9.352,
+      "errors": 6.296,
+      "metres": 555.28,
+      "wins": 0.598,
+      "margin": 5.266
+    },
+    "lowRisk": {
+      "phases": 161.402,
+      "fatigue": 15.709,
+      "turnovers": 6.102,
+      "penalties": 7.75,
+      "errors": 2.458,
+      "metres": 395.92,
+      "wins": 0.616,
+      "margin": 5.968
+    },
+    "stronger": {
+      "phases": 143.946,
+      "fatigue": 15.716,
+      "turnovers": 7.398,
+      "penalties": 7.586,
+      "errors": 4.468,
+      "metres": 541.246,
+      "wins": 0.852,
+      "margin": 23.11
+    }
+  }
+}

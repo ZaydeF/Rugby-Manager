@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {newSeason,startFixture,currentFixture,validSave} from '../lib/sim/career.ts';
+import {migrateCareer} from '../lib/management/migrate.ts';
+import {CURATED} from '../lib/management/curated.ts';
+import {ageAt} from '../lib/management/state.ts';
+import {developmentFactors} from '../lib/management/development.ts';
+const data=JSON.parse(fs.readFileSync('data/generated/universe.json','utf8'));
+const catalog=JSON.parse(fs.readFileSync('data/generated/simulation-catalog.json','utf8'));
+const prior=JSON.parse(execFileSync('git',['show','a070abf79369e31bca5410ec266b7780c07c367d:data/generated/universe.json'],{maxBuffer:20000000}).toString());
+const old=newSeason(prior,'1',75);delete old.ratingReview;if(currentFixture(old))startFixture(old,prior);
+old.management!.players['226'].ability-=1.25;
+const updated=migrateCareer(old,data)!;assert.ok(updated);assert.ok(validSave(updated,data));assert.ok(validSave(updated,catalog));
+assert.equal(updated.management!.players['226'].ability,85.75);assert.equal(ageAt(updated.management!.players['226'],2027),26);
+for(const[id,r]of Object.entries(CURATED))if(r.review!==2)assert.deepEqual(updated.management!.players[id],old.management!.players[id]);
+assert.deepEqual(updated.activeMatch,old.activeMatch);assert.deepEqual(updated.fixtures,old.fixtures);assert.deepEqual(updated.future,old.future);assert.deepEqual(updated.representative,old.representative);
+assert.deepEqual(migrateCareer(updated,data),updated);
+const fresh=newSeason(data,'1',75);for(const[id,r]of Object.entries(CURATED)){assert.equal(fresh.management!.players[id].ability,r.ability);assert.equal(fresh.management!.players[id].potential,r.potential);}
+assert.deepEqual(migrateCareer(fresh,data),fresh);assert.ok(validSave(fresh,catalog));
+assert.ok(developmentFactors(fresh.management!.players['25'],'fly_half',2027,2027,900,6.7,6.7,0,70).factors[0].value<0);
+console.log('PASS 12 reviewed ratings, existing career deltas, no repeated buffs, preserved active match/history, new-career values, verified Love age and Barrett decline; full and server saves valid.');

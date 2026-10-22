@@ -1,0 +1,4 @@
+import type {Season} from '../sim/types.ts';
+// Reconstruct the extra fields only where original match evidence still exists.
+// Older archived seasons retain their known ledger values without invented scoring/caps.
+export function repairWorldRecords(s:Season){const w=s.world!;for(const c of [{competition:w.primary,fixtures:s.fixtures},w.background]){const stats=w.stats[`${s.year}-${c.competition}`];if(!stats)continue;for(const [id,r] of Object.entries(stats)){if(r.points!==undefined&&r.clubApps)continue;let points=0;const clubs:Record<string,number>={};for(const f of c.fixtures)for(const t of f.result?.teams??[]){const p=t.players[id];if(!p?.stats.minutes)continue;clubs[t.id]=(clubs[t.id]??0)+1;points+=p.stats.tries*5+p.stats.conversions*2+p.stats.penaltyGoals*3+(p.stats.dropGoals??0)*3;}if(Object.values(clubs).reduce((n,v)=>n+v,0)===r.apps){r.points??=points;r.clubApps??=clubs;}}}}

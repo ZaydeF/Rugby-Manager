@@ -1,0 +1,81 @@
+position,rank,player_id,player,team,overall,confidence,minutes,appearances,attack,defence,work_rate,set_piece,kicking,discipline,engine,impact
+Prop,1,192,Tyrel Lomax,Hurricanes,92,Low,75,2,93,88,88,99,,98,88,88
+Prop,2,118,George Bower,Crusaders,87,Medium,571,13,69,81,92,95,,96,82,82
+Prop,3,80,Ollie Norris,Chiefs,84,Medium,463,10,93,96,93,65,,81,75,96
+Prop,4,154,Ethan de Groot,Highlanders,84,High,780,13,65,94,83,80,,67,99,93
+Prop,5,311,Marley Pearce,Western Force,82,Low,162,6,87,85,86,84,,78,62,82
+Prop,6,191,Siale Lauaki,Hurricanes,81,Medium,306,11,80,90,78,82,,88,56,84
+Prop,7,129,Fletcher Newell,Crusaders,81,High,728,13,88,78,74,77,,93,97,68
+Prop,8,387,Chris Apoua,Moana Pasifika,80,Medium,304,7,86,70,88,87,,86,62,76
+Prop,9,39,Allan Alaalatoa,ACT Brumbies,80,Medium,263,5,83,89,91,67,,77,68,88
+Prop,10,79,Jared Proffit,Chiefs,80,Medium,547,12,76,84,78,81,,84,79,66
+Hooker,1,316,Brandon Paenga-Amosa,Western Force,83,High,708,13,55,87,71,95,,92,92,82
+Hooker,2,84,Samisoni Taukei'aho,Chiefs,83,Medium,622,11,90,67,69,98,,80,85,90
+Hooker,3,160,Jack Taylor,Highlanders,82,High,808,14,65,90,73,79,,90,99,85
+Hooker,4,401,Millennium Sanerivi,Moana Pasifika,78,High,780,13,77,82,88,66,,74,96,79
+Hooker,5,116,George Bell,Crusaders,77,Medium,503,11,94,70,87,70,,60,70,92
+Hooker,6,276,Ethan Dobbins,NSW Waratahs,76,Medium,487,9,71,83,80,76,,66,73,76
+Hooker,7,199,Jacob Devery,Hurricanes,76,Low,199,7,77,81,77,75,,86,59,66
+Hooker,8,233,Richie Asiata,Queensland Reds,75,Low,174,7,73,73,76,83,,69,62,83
+Hooker,9,231,Josh Nasser,Queensland Reds,75,Medium,473,11,75,87,87,66,,80,63,56
+Hooker,10,7,Kurt Eklund,Blues,73,Medium,284,7,55,74,79,81,,77,63,70
+Lock,1,124,Jamie Hannah,Crusaders,91,High,825,13,87,90,95,99,,79,80,82
+Lock,2,12,Sam Darry,Blues,89,High,986,13,89,93,93,83,,77,96,91
+Lock,3,166,Fabian Holland,Highlanders,88,Low,0,0,88,88,88,88,,88,88,88
+Lock,4,202,Warner Dearns,Hurricanes,85,High,811,12,81,87,70,97,,76,83,99
+Lock,5,10,Josh Beehre,Blues,84,High,701,11,77,99,97,56,,91,76,91
+Lock,6,320,Jeremy Williams,Western Force,82,High,1032,13,86,68,65,98,,91,99,98
+Lock,7,283,Miles Amatosero,NSW Waratahs,82,High,692,14,69,94,91,82,,55,71,71
+Lock,8,242,Seru Uru,Queensland Reds,82,High,867,13,95,95,88,59,,64,87,90
+Lock,9,385,Allan Craig,Moana Pasifika,81,High,886,12,72,93,95,64,,80,90,57
+Lock,10,241,Josh Canham,Queensland Reds,81,Medium,370,5,90,77,83,92,,71,65,65
+Loose forward,1,246,Harry Wilson,Queensland Reds,88,High,893,13,88,81,96,84,,89,99,87
+Loose forward,2,208,Du'Plessis Kirifi,Hurricanes,87,Medium,627,10,90,96,93,56,,79,78,86
+Loose forward,3,17,Dalton Papali'i,Blues,86,Medium,597,9,85,94,94,58,,87,76,79
+Loose forward,4,98,Wallace Sititi,Chiefs,86,Medium,434,7,92,73,93,84,,96,71,97
+Loose forward,5,245,Fraser McReight,Queensland Reds,85,High,963,12,68,99,92,52,,64,98,97
+Loose forward,6,53,Charlie Cale,ACT Brumbies,83,Medium,555,8,95,84,72,98,,58,74,97
+Loose forward,7,209,Peter Lakai,Hurricanes,82,High,781,11,95,82,68,67,,80,87,94
+Loose forward,8,326,Carlo Tizzano,Western Force,82,High,911,12,69,96,79,50,,77,95,94
+Loose forward,9,56,Luke Reimer,ACT Brumbies,82,Medium,369,13,84,92,92,60,,53,55,92
+Loose forward,10,19,Anton Segner,Blues,81,High,982,14,74,87,62,99,,86,96,89
+Scrum-half,1,213,Cam Roigard,Hurricanes,94,High,666,11,99,89,89,,,96,94,94
+Scrum-half,2,141,Noah Hotham,Crusaders,88,High,749,13,89,92,92,,,60,97,97
+Scrum-half,3,364,Frank Lomani,Fijian Drua,85,Medium,545,9,90,92,96,,,58,85,81
+Scrum-half,4,147,Kyle Preston,Crusaders,80,Low,175,9,85,80,80,,,79,59,84
+Scrum-half,5,174,Adam Lennox,Highlanders,79,Medium,543,14,66,93,91,,,69,71,93
+Scrum-half,6,292,Teddy Wilson,NSW Waratahs,79,Medium,397,14,76,92,90,,,66,60,82
+Scrum-half,7,367,Simione Kuruvoli,Fijian Drua,79,Low,151,5,82,79,78,,,77,60,84
+Scrum-half,8,101,Xavier Roe,Chiefs,76,Medium,475,11,83,79,64,,,66,66,85
+Scrum-half,9,249,Tate McDermott,Queensland Reds,76,Low,124,2,83,65,75,,,85,65,71
+Scrum-half,10,290,Jake Gordon,NSW Waratahs,75,High,671,12,73,78,80,,,80,90,58
+Fly-half,1,102,Damian McKenzie,Chiefs,93,Medium,634,8,99,86,81,,93,95,90,93
+Fly-half,2,253,Carter Gordon,Queensland Reds,87,Medium,573,9,81,94,97,,86,88,74,97
+Fly-half,3,254,Harry McLaughlin-Phillips,Queensland Reds,87,Medium,461,11,91,85,87,,94,79,60,83
+Fly-half,4,103,Josh Jacomb,Chiefs,84,High,730,13,93,98,93,,74,51,76,93
+Fly-half,5,332,Ben Donaldson,Western Force,82,High,916,12,85,69,51,,95,77,99,80
+Fly-half,6,149,Rivez Reihana,Crusaders,80,Medium,470,11,77,92,85,,76,66,64,94
+Fly-half,7,407,Patrick Pellegrini,Moana Pasifika,80,High,697,11,88,52,67,,78,91,81,88
+Fly-half,8,25,Beauden Barrett,Blues,76,High,670,10,87,65,75,,68,68,84,82
+Fly-half,9,215,Brett Cameron,Hurricanes,75,Low,24,1,75,75,75,,,75,70,75
+Fly-half,10,216,Harry Godfrey,Hurricanes,74,Low,0,0,74,74,74,,,74,74,74
+Centre,1,138,Leicester Fainga'anuku,Crusaders,95,High,866,13,99,99,99,,,62,92,99
+Centre,2,108,Quinn Tupaea,Chiefs,94,High,903,12,95,99,99,,,66,97,99
+Centre,3,180,Timoci Tavatavanawai,Highlanders,90,High,950,13,99,98,80,,,58,99,86
+Centre,4,219,Jordie Barrett,Hurricanes,86,High,821,11,93,82,76,,57,85,90,87
+Centre,5,221,Billy Proctor,Hurricanes,86,High,844,12,96,77,73,,,70,89,96
+Centre,6,140,David Havili,Crusaders,84,High,745,11,83,91,94,,,68,80,83
+Centre,7,145,Dallas McLeod,Crusaders,82,High,708,12,84,86,87,,,77,72,78
+Centre,8,257,Isaac Henry,Queensland Reds,76,Medium,419,6,74,81,84,,,85,63,67
+Centre,9,372,Iosefo Namoce,Fijian Drua,76,Low,188,4,78,77,78,,,80,54,77
+Centre,10,430,Virimi Vakatawa,Fijian Drua,76,Medium,596,10,92,59,63,,,69,69,89
+Outside back,1,142,Will Jordan,Crusaders,92,Medium,506,7,99,78,79,,,95,78,99
+Outside back,2,189,Caleb Tangitau,Highlanders,90,High,819,11,99,69,79,,,93,86,94
+Outside back,3,148,Sevu Reece,Crusaders,89,High,931,12,93,85,76,,,77,97,96
+Outside back,4,304,Max Jorgensen,NSW Waratahs,89,High,1073,14,98,73,64,,,97,99,90
+Outside back,5,139,Chay Fihaki,Crusaders,89,High,756,10,93,91,96,,89,54,78,97
+Outside back,6,225,Fehi Fineanganofo,Hurricanes,88,High,910,12,99,60,83,,,64,93,99
+Outside back,7,343,Dylan Pietsch,Western Force,85,Medium,574,8,89,94,90,,,50,72,93
+Outside back,8,113,Leroy Carter,Chiefs,85,High,689,9,83,93,95,,,73,77,85
+Outside back,9,267,Filipo Daugunu,Queensland Reds,85,High,825,12,78,97,99,,,63,80,92
+Outside back,10,112,Kyren Taumoefolau,Chiefs,84,High,730,10,88,82,80,,,77,77,86

@@ -1,0 +1,14 @@
+import test,{after} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {createServer} from 'vite';
+import {newSeason} from '../lib/sim/career.ts';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const data=JSON.parse(fs.readFileSync(new URL('../data/generated/universe.json',import.meta.url),'utf8'));
+const s=newSeason(data,'4',75);
+const vite=await createServer({appType:'custom',configFile:false,root,resolve:{alias:{'@':root}},server:{middlewareMode:true}});after(()=>vite.close());
+test('development workspace renders real players, stars and editable plans',async()=>{const {PathwayWorkspace}=await vite.ssrLoadModule('/app/play/coaching.tsx');const html=renderToStaticMarkup(React.createElement(PathwayWorkspace,{s,data,mutate:()=>{}}));assert.match(html,/Nicholas Conway/);assert.match(html,/fm-stars/);assert.match(html,/Manage plan/);assert.doesNotMatch(html,/\$&lt;PlayerStars/);});
+test('staff workspace renders three roles, recruitment instructions and transparent costs',async()=>{const {CoachingCentre}=await vite.ssrLoadModule('/app/play/coaching.tsx');const html=renderToStaticMarkup(React.createElement(CoachingCentre,{s,data,mutate:()=>{}}));for(const label of ['Forwards coach','Backs/skills coach','Head of Youth Development','Staff budget','Academy recruitment brief','19 round instalments'])assert.ok(html.includes(label),label);});

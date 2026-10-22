@@ -1,0 +1,13 @@
+{
+  "checks": "passed",
+  "controlledMatches": 200,
+  "strong": {
+    "metres": 543.51,
+    "quickBallRate": 0.22159850299414607
+  },
+  "weak": {
+    "metres": 436.54,
+    "quickBallRate": 0.13629845491451856
+  },
+  "scope": "Atomic selection, stable stars, migration, live save resume, eight exact legacy Phase 2 continuations, matched-CA carrier contrasts and support tradeoffs. Sensitivity evidence, not empirical calibration."
+}

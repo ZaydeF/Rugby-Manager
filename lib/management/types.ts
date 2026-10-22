@@ -1,0 +1,10 @@
+import type {Attribute} from '../types.ts';
+export type SquadRole='Star'|'Important'|'Regular'|'Rotation'|'Development';
+export type Focus='Balanced'|'Attack'|'Defence'|'Skills'|'Kicking'|'Set piece'|'Physical';
+export type DevelopmentChange={archivedFactors?:[number,number][];year:number;before:number;after:number;age:number|null;minutes:number;average:number|null;injuryWeeks:number;factors:{label:string;value:number}[]};
+export type CareerPlayer={clubId:string|null;ability:number;attributes:Record<Attribute,number|null>;potential:number;birthDate:string|null;birthSource:string|null;salary:number;contractEnd:number;role:SquadRole;focus:Focus;development:DevelopmentChange[];lastConcernYear:number;listed:boolean};
+export type ClubFinance={payrollCap:number;cash:number;annualAllowance:number};
+export type Negotiation={id:string;playerId:string;clubId:string;salary:number;years:number;role:SquadRole;fee:number;demand:number;status:'counter'|'agreed'|'rejected'|'completed'|'cancelled';message:string;year:number;round:number};
+export type Transfer={id:string;playerId:string;from:string|null;to:string|null;salary:number;fee:number;year:number;kind:'Signing'|'Renewal'|'Release'|'Expiry'};
+export type Concern={carriedStarts?:number;carriedGames?:number;id:string;playerId:string;clubId:string;year:number;round:number;message:string;status:'open'|'promised'|'resolved'|'fulfilled'|'broken';response:string|null;baselineGames:number;baselineStarts:number;targetStarts:number};
+export type Management={version:1;sequence:number;originYear:number;phase:'inSeason'|'offseason';offseasonWeek:number;developedYear:number|null;players:Record<string,CareerPlayer>;finances:Record<string,ClubFinance>;negotiations:Negotiation[];transfers:Transfer[];concerns:Concern[]};

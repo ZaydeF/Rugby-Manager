@@ -1,0 +1,26 @@
+import {repYear,initRepresentative} from '../representative/state.ts';
+import {fullUniverse} from '../future/catalog.ts';
+import {generateIntakes,aiAcademies,aiPromotions,reviewRetirements,finishYouthOffseason} from '../future/engine.ts';
+import {marketDay,aiBids,closeWindow} from '../market/engine.ts';
+import {initMarket,bulletin} from '../market/state.ts';
+import type {Season,SimUniverse} from '../sim/types.ts';
+import {MANAGEMENT,POSITION_TARGET,POSITION_MIN,bound} from './config.ts';
+import {developPlayers} from './development.ts';
+import {squadIds,payroll,minimumIssues,addNews} from './state.ts';
+import {releasePlayer,salaryDemand,negotiate,confirmContract,recommendedRole} from './contracts.ts';
+export function runAIContracts(s:Season,data:SimUniverse,includeUser=false){data=fullUniverse(s,data);const m=s.management!;for(const team of data.teams){if(team.id===s.teamId&&!includeUser)continue;const ids=squadIds(s,team.id).sort((a,b)=>m.players[b].ability-m.players[a].ability);let released=0;
+ for(const id of [...ids].reverse()){const c=m.players[id];if(c.contractEnd>s.year)continue;const position=data.players.find(p=>p.player_id===id)!.position;const count=squadIds(s,team.id).filter(pid=>data.players.find(p=>p.player_id===pid)?.position===position).length;
+  if(released<2&&count>POSITION_TARGET[position]){releasePlayer(s,data,id,team.id,true);released++;continue;}
+ }
+ for(const id of squadIds(s,team.id).sort((a,b)=>m.players[b].ability-m.players[a].ability)){const c=m.players[id];if(c.contractEnd>s.year)continue;const role=recommendedRole(s,id,team.id);const offer=negotiate(s,data,id,team.id,salaryDemand(s,id,role),2,role);if(offer.status==='agreed')confirmContract(s,data,offer.id);else if(minimumIssues(s,data,team.id,id).length===0)releasePlayer(s,data,id,team.id,true);else{const remaining=m.finances[team.id].payrollCap-payroll(s,team.id)+c.salary;c.salary=Math.min(c.salary,remaining);c.contractEnd=s.year+1;/* Club/player use a one-year continuity option at existing terms. */}}
+ }}
+export function runAIRecruitment(s:Season,data:SimUniverse){aiBids(s,data);}
+import {applyBiographies} from '../packs/biography.ts';
+export function beginOffseason(s:Season,data:SimUniverse){if(!s.champion)throw Error('Finish the season first.');if(s.activeMatch)throw Error('Record the final result before entering the offseason.');const m=s.management!;if(m.phase==='offseason')return;if(s.representative&&!['selected','skipped'].includes(repYear(s)?.stage??''))throw Error('Complete the representative programme before the annual review.');applyBiographies(s,data);developPlayers(s,data);m.phase='offseason';m.offseasonWeek=0;initMarket(s).windowDay=0;s.market!.windowMoves={};for(const n of m.negotiations)if(['counter','agreed'].includes(n.status)){n.status='cancelled';n.message='The offseason review changed the terms. Make a fresh offer.';}if(s.future){generateIntakes(s,data);reviewRetirements(s,data);aiPromotions(s,data);aiAcademies(s,data);if(s.representative)initRepresentative(s);}runAIContracts(s,data);addNews(s,`market-${s.year}`,'The recruitment window is open','Review development, renew expiring contracts and recruit cover. AI clubs have reviewed their squads. Six recruitment weeks are available.');}
+export function advanceMarket(s:Season,data:SimUniverse){if(s.management!.phase!=='offseason')throw Error('The window is not open.');for(let i=0;i<7&&s.market!.windowDay<42;i++)marketDay(s,data);}
+export function offseasonIssues(s:Season,data:SimUniverse){data=fullUniverse(s,data);const m=s.management!,errors:string[]=[];if(m.phase!=='offseason')return ['Enter the offseason review first.'];if(m.offseasonWeek<1)errors.push('Advance at least one recruitment week before starting the next season.');if(s.future?.intakes.some(i=>i.year===s.year&&i.clubId===s.teamId&&!i.decided))errors.push('Run the academy trial and finalise your intake.');const remaining=squadIds(s,s.teamId).filter(id=>m.players[id].contractEnd>s.year);for(const [pos,min] of Object.entries(POSITION_MIN))if(remaining.filter(id=>data.players.find(p=>p.player_id===id)?.position===pos).length<min)errors.push(`Renew or recruit ${pos.replaceAll('_',' ')} cover before expiring contracts end.`);if(payroll(s,s.teamId)>m.finances[s.teamId].payrollCap)errors.push('Resolve the payroll overspend.');return errors;}
+export function finishOffseason(s:Season,data:SimUniverse){data=fullUniverse(s,data);const errors=offseasonIssues(s,data);if(errors.length)throw Error(errors.join(' '));if(s.future)finishYouthOffseason(s,data);closeWindow(s);const m=s.management!;for(const team of data.teams)for(const id of [...squadIds(s,team.id)])if(m.players[id].contractEnd<=s.year)releasePlayer(s,data,id,team.id,true);
+ for(const team of data.teams)if(minimumIssues(s,data,team.id).length)throw Error(`${team.name} cannot yet field a viable squad.`);
+ for(const c of Object.values(m.finances)){c.cash=Math.min(100000000,c.cash+c.annualAllowance);c.payrollCap=Math.min(100000000,Math.round(c.payrollCap*1.02/1000)*1000);}
+ for(const p of Object.values(m.players))p.listed=false;for(const n of m.negotiations)if(['agreed','counter'].includes(n.status)){n.status='cancelled';n.message='The recruitment window closed.';}m.phase='inSeason';m.offseasonWeek=0;
+}

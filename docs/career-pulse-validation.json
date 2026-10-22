@@ -1,0 +1,22 @@
+[
+  {
+    "team": "1",
+    "year": 2031,
+    "steps": 385,
+    "matches": 800,
+    "awards": 493,
+    "stories": 3557,
+    "bytes": 16009620,
+    "valid": true
+  },
+  {
+    "team": "npc-1",
+    "year": 2031,
+    "steps": 385,
+    "matches": 800,
+    "awards": 478,
+    "stories": 3525,
+    "bytes": 16062056,
+    "valid": true
+  }
+]

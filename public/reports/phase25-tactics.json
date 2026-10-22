@@ -1,0 +1,87 @@
+{
+  "matchesPerScenario": 80,
+  "checks": "passed",
+  "results": {
+    "balanced": {
+      "points": 31.85,
+      "margin": 6.025,
+      "errors": 5.162,
+      "breaks": 6.6,
+      "kicks": 6.112,
+      "mauls": 0,
+      "dropGoals": 0,
+      "tries": 4.112
+    },
+    "power": {
+      "points": 31.262,
+      "margin": 7.763,
+      "errors": 4.35,
+      "breaks": 3.763,
+      "kicks": 6.263,
+      "mauls": 8.188,
+      "dropGoals": 0,
+      "tries": 3.813
+    },
+    "wide": {
+      "points": 28.225,
+      "margin": 0.35,
+      "errors": 6.787,
+      "breaks": 8.088,
+      "kicks": 5.862,
+      "mauls": 0,
+      "dropGoals": 0,
+      "tries": 3.8
+    },
+    "outBack": {
+      "points": 25.988,
+      "margin": -4.75,
+      "errors": 8.05,
+      "breaks": 8.938,
+      "kicks": 5.325,
+      "mauls": 0,
+      "dropGoals": 0,
+      "tries": 3.575
+    },
+    "kickPressure": {
+      "points": 24.488,
+      "margin": -4.537,
+      "errors": 4.975,
+      "breaks": 5.888,
+      "kicks": 12.912,
+      "mauls": 0,
+      "dropGoals": 0.037,
+      "tries": 3.325
+    },
+    "territory": {
+      "points": 29.538,
+      "margin": 2.087,
+      "errors": 5.175,
+      "breaks": 6.075,
+      "kicks": 8.275,
+      "mauls": 0,
+      "dropGoals": 0.025,
+      "tries": 3.825
+    },
+    "tap": {
+      "points": 30.1,
+      "margin": 10.012,
+      "errors": 5.25,
+      "breaks": 7.975,
+      "kicks": 5.037,
+      "mauls": 0,
+      "dropGoals": 0,
+      "tries": 4.537
+    },
+    "posts": {
+      "points": 28.325,
+      "margin": 2.45,
+      "errors": 4.487,
+      "breaks": 6.975,
+      "kicks": 4.975,
+      "mauls": 0,
+      "dropGoals": 0.025,
+      "tries": 3.15
+    }
+  },
+  "limitations": "Simulation sensitivity checks, not empirical real-rugby calibration. Height and dedicated aerial attributes are not yet verified."
+}

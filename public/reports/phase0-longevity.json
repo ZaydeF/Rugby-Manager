@@ -1,0 +1,3938 @@
+{
+  "pack": {
+    "schemaVersion": 1,
+    "id": "super-rugby-2026-dev",
+    "version": "1.0.0",
+    "name": "Super Rugby development database",
+    "adapter": "super-rugby-11-v1",
+    "modelVersion": "playable-0.2.0",
+    "engineVersion": "0.2.0",
+    "competition": {
+      "id": "super-rugby-pacific",
+      "clubs": 11,
+      "regularRounds": 16,
+      "regularFixtures": 77,
+      "finalists": 6
+    },
+    "unions": [
+      "New Zealand",
+      "Australia",
+      "Fiji",
+      "Samoa",
+      "Tonga"
+    ],
+    "assets": {
+      "playersTeamsFixtures": "/data/universe.json",
+      "birthDates": "data/verified-birthdates.json",
+      "ratings": "data/curated-ratings.json",
+      "simulationRules": "data/packs/super-rugby/simulation.ts",
+      "finances": "data/packs/super-rugby/finances.ts",
+      "eligibility": "data/packs/super-rugby/eligibility.ts",
+      "staff": null,
+      "portraits": null
+    },
+    "rightsStatus": "Development reference data; not cleared for commercial distribution",
+    "limitations": [
+      "Only the existing 11-club competition adapter is supported.",
+      "Missing birth dates remain unknown.",
+      "Player ratings still include legacy statistical proxies.",
+      "Staff, image packs and a generic fictional pack are future phases."
+    ]
+  },
+  "seed": 75,
+  "seasons": 19,
+  "requestedSeasons": 20,
+  "failure": "Decoded save exceeds account storage limit",
+  "checkpoints": [
+    5,
+    10
+  ],
+  "structuralChecks": "failed",
+  "balanceGate": "blocked by incomplete real-player ages",
+  "policy": "User club contracts and intake automated; incoming offers rejected; representative series simulated where a legal pool is available.",
+  "audit": {
+    "pack": "super-rugby-2026-dev",
+    "errors": [],
+    "realPlayers": 454,
+    "clubs": 11,
+    "knownBirthDates": 22,
+    "missingBirthDates": [
+      {
+        "id": "1",
+        "name": "Ben Ake",
+        "club": "7"
+      },
+      {
+        "id": "2",
+        "name": "Joshua Fusitu'a",
+        "club": "7"
+      },
+      {
+        "id": "3",
+        "name": "Jordan Lay",
+        "club": "7"
+      },
+      {
+        "id": "4",
+        "name": "Marcel Renata",
+        "club": "7"
+      },
+      {
+        "id": "5",
+        "name": "Ofa Tu'ungafasi",
+        "club": "7"
+      },
+      {
+        "id": "6",
+        "name": "Flyn Yates",
+        "club": "7"
+      },
+      {
+        "id": "7",
+        "name": "Kurt Eklund",
+        "club": "7"
+      },
+      {
+        "id": "8",
+        "name": "James Mullan",
+        "club": "7"
+      },
+      {
+        "id": "9",
+        "name": "Bradley Slater",
+        "club": "7"
+      },
+      {
+        "id": "10",
+        "name": "Josh Beehre",
+        "club": "7"
+      },
+      {
+        "id": "11",
+        "name": "Tristyn Cook",
+        "club": "7"
+      },
+      {
+        "id": "12",
+        "name": "Sam Darry",
+        "club": "7"
+      },
+      {
+        "id": "13",
+        "name": "Laghlan McWhannell",
+        "club": "7"
+      },
+      {
+        "id": "14",
+        "name": "Patrick Tuipulotu",
+        "club": "7"
+      },
+      {
+        "id": "15",
+        "name": "Cameron Christie",
+        "club": "7"
+      },
+      {
+        "id": "16",
+        "name": "Che Clark",
+        "club": "7"
+      },
+      {
+        "id": "17",
+        "name": "Dalton Papali'i",
+        "club": "7"
+      },
+      {
+        "id": "18",
+        "name": "Terrell Peita",
+        "club": "7"
+      },
+      {
+        "id": "19",
+        "name": "Anton Segner",
+        "club": "7"
+      },
+      {
+        "id": "20",
+        "name": "Hoskins Sotutu",
+        "club": "7"
+      },
+      {
+        "id": "21",
+        "name": "Malachi Wrampling",
+        "club": "7"
+      },
+      {
+        "id": "22",
+        "name": "Finlay Christie",
+        "club": "7"
+      },
+      {
+        "id": "23",
+        "name": "Taufa Funaki",
+        "club": "7"
+      },
+      {
+        "id": "24",
+        "name": "Sam Nock",
+        "club": "7"
+      },
+      {
+        "id": "26",
+        "name": "Stephen Perofeta",
+        "club": "7"
+      },
+      {
+        "id": "27",
+        "name": "Rico Simpson",
+        "club": "7"
+      },
+      {
+        "id": "28",
+        "name": "Pita Ahki",
+        "club": "7"
+      },
+      {
+        "id": "29",
+        "name": "James Cameron",
+        "club": "7"
+      },
+      {
+        "id": "30",
+        "name": "Corey Evans",
+        "club": "7"
+      },
+      {
+        "id": "31",
+        "name": "AJ Lam",
+        "club": "7"
+      },
+      {
+        "id": "32",
+        "name": "Xavi Taele",
+        "club": "7"
+      },
+      {
+        "id": "33",
+        "name": "Kade Banks",
+        "club": "7"
+      },
+      {
+        "id": "34",
+        "name": "Caleb Clarke",
+        "club": "7"
+      },
+      {
+        "id": "35",
+        "name": "Cole Forbes",
+        "club": "7"
+      },
+      {
+        "id": "36",
+        "name": "Payton Spencer",
+        "club": "7"
+      },
+      {
+        "id": "37",
+        "name": "Zarn Sullivan",
+        "club": "7"
+      },
+      {
+        "id": "38",
+        "name": "Codemeru Vai",
+        "club": "7"
+      },
+      {
+        "id": "39",
+        "name": "Allan Alaalatoa",
+        "club": "10"
+      },
+      {
+        "id": "40",
+        "name": "Tevita Alatini",
+        "club": "10"
+      },
+      {
+        "id": "41",
+        "name": "Lington Ieli",
+        "club": "10"
+      },
+      {
+        "id": "42",
+        "name": "Blake Schoupp",
+        "club": "10"
+      },
+      {
+        "id": "44",
+        "name": "Rhys van Nek",
+        "club": "10"
+      },
+      {
+        "id": "45",
+        "name": "Liam Bowron",
+        "club": "10"
+      },
+      {
+        "id": "46",
+        "name": "Lachlan Lonergan",
+        "club": "10"
+      },
+      {
+        "id": "47",
+        "name": "Chris Mickelson",
+        "club": "10"
+      },
+      {
+        "id": "48",
+        "name": "Billy Pollard",
+        "club": "10"
+      },
+      {
+        "id": "49",
+        "name": "Harvey Cordukes",
+        "club": "10"
+      },
+      {
+        "id": "50",
+        "name": "Nick Frost",
+        "club": "10"
+      },
+      {
+        "id": "51",
+        "name": "Cadeyrn Neville",
+        "club": "10"
+      },
+      {
+        "id": "52",
+        "name": "Lachie Shaw",
+        "club": "10"
+      },
+      {
+        "id": "53",
+        "name": "Charlie Cale",
+        "club": "10"
+      },
+      {
+        "id": "54",
+        "name": "Eli Langi",
+        "club": "10"
+      },
+      {
+        "id": "55",
+        "name": "Toby Macpherson",
+        "club": "10"
+      },
+      {
+        "id": "56",
+        "name": "Luke Reimer",
+        "club": "10"
+      },
+      {
+        "id": "57",
+        "name": "Rory Scott",
+        "club": "10"
+      },
+      {
+        "id": "58",
+        "name": "Tuaina Taii Tualima",
+        "club": "10"
+      },
+      {
+        "id": "59",
+        "name": "Rob Valetini",
+        "club": "10"
+      },
+      {
+        "id": "60",
+        "name": "Ryan Lonergan",
+        "club": "10"
+      },
+      {
+        "id": "61",
+        "name": "Dan Nelson",
+        "club": "10"
+      },
+      {
+        "id": "62",
+        "name": "Klayton Thorn",
+        "club": "10"
+      },
+      {
+        "id": "63",
+        "name": "Joe Dillon",
+        "club": "10"
+      },
+      {
+        "id": "64",
+        "name": "Tane Edmed",
+        "club": "10"
+      },
+      {
+        "id": "65",
+        "name": "Declan Meredith",
+        "club": "10"
+      },
+      {
+        "id": "66",
+        "name": "Austin Anderson",
+        "club": "10"
+      },
+      {
+        "id": "67",
+        "name": "Hudson Creighton",
+        "club": "10"
+      },
+      {
+        "id": "68",
+        "name": "David Feliuai",
+        "club": "10"
+      },
+      {
+        "id": "69",
+        "name": "Jarrah McLeod",
+        "club": "10"
+      },
+      {
+        "id": "70",
+        "name": "Kadin Pritchard",
+        "club": "10"
+      },
+      {
+        "id": "71",
+        "name": "Andy Muirhead",
+        "club": "10"
+      },
+      {
+        "id": "72",
+        "name": "Kye Oates",
+        "club": "10"
+      },
+      {
+        "id": "73",
+        "name": "Ollie Sapsford",
+        "club": "10"
+      },
+      {
+        "id": "74",
+        "name": "Corey Toole",
+        "club": "10"
+      },
+      {
+        "id": "75",
+        "name": "Shane Wilcox",
+        "club": "10"
+      },
+      {
+        "id": "76",
+        "name": "Tom Wright",
+        "club": "10"
+      },
+      {
+        "id": "77",
+        "name": "Benét Kumeroa",
+        "club": "8"
+      },
+      {
+        "id": "78",
+        "name": "George Dyer",
+        "club": "8"
+      },
+      {
+        "id": "79",
+        "name": "Jared Proffit",
+        "club": "8"
+      },
+      {
+        "id": "81",
+        "name": "Reuben O'Neill",
+        "club": "8"
+      },
+      {
+        "id": "82",
+        "name": "Sione Ahio",
+        "club": "8"
+      },
+      {
+        "id": "84",
+        "name": "Samisoni Taukei'aho",
+        "club": "8"
+      },
+      {
+        "id": "85",
+        "name": "Taine Kolose",
+        "club": "8"
+      },
+      {
+        "id": "86",
+        "name": "Tyrone Thompson",
+        "club": "8"
+      },
+      {
+        "id": "87",
+        "name": "Aisake Vakasiuola",
+        "club": "8"
+      },
+      {
+        "id": "88",
+        "name": "Fiti Sa",
+        "club": "8"
+      },
+      {
+        "id": "89",
+        "name": "Jayden Sa",
+        "club": "8"
+      },
+      {
+        "id": "91",
+        "name": "Seu Seu Naitoa Ah Kuoi",
+        "club": "8"
+      },
+      {
+        "id": "92",
+        "name": "Tupou Vaa'i",
+        "club": "8"
+      },
+      {
+        "id": "93",
+        "name": "Jahrome Brown",
+        "club": "8"
+      },
+      {
+        "id": "94",
+        "name": "Kaylum Boshier",
+        "club": "8"
+      },
+      {
+        "id": "95",
+        "name": "Luke Jacobson",
+        "club": "8"
+      },
+      {
+        "id": "96",
+        "name": "Samipeni Finau",
+        "club": "8"
+      },
+      {
+        "id": "100",
+        "name": "Te Toiroa Tahuriorangi",
+        "club": "8"
+      },
+      {
+        "id": "101",
+        "name": "Xavier Roe",
+        "club": "8"
+      },
+      {
+        "id": "103",
+        "name": "Josh Jacomb",
+        "club": "8"
+      },
+      {
+        "id": "104",
+        "name": "Tepaea Cook-Savage",
+        "club": "8"
+      },
+      {
+        "id": "105",
+        "name": "Daniel Rona",
+        "club": "8"
+      },
+      {
+        "id": "106",
+        "name": "Kyle Brown",
+        "club": "8"
+      },
+      {
+        "id": "107",
+        "name": "Lalakai Foketi",
+        "club": "8"
+      },
+      {
+        "id": "108",
+        "name": "Quinn Tupaea",
+        "club": "8"
+      },
+      {
+        "id": "109",
+        "name": "Emoni Narawa",
+        "club": "8"
+      },
+      {
+        "id": "110",
+        "name": "Etene Nanai-Seturo",
+        "club": "8"
+      },
+      {
+        "id": "111",
+        "name": "Isaac Hutchinson",
+        "club": "8"
+      },
+      {
+        "id": "112",
+        "name": "Kyren Taumoefolau",
+        "club": "8"
+      },
+      {
+        "id": "113",
+        "name": "Leroy Carter",
+        "club": "8"
+      },
+      {
+        "id": "114",
+        "name": "Liam Coombes-Fabling",
+        "club": "8"
+      },
+      {
+        "id": "116",
+        "name": "George Bell",
+        "club": "2"
+      },
+      {
+        "id": "117",
+        "name": "Ethan Blackadder",
+        "club": "2"
+      },
+      {
+        "id": "118",
+        "name": "George Bower",
+        "club": "2"
+      },
+      {
+        "id": "119",
+        "name": "Finlay Brewis",
+        "club": "2"
+      },
+      {
+        "id": "120",
+        "name": "Tahlor Cahill",
+        "club": "2"
+      },
+      {
+        "id": "121",
+        "name": "Seb Calder",
+        "club": "2"
+      },
+      {
+        "id": "122",
+        "name": "Dom Gardiner",
+        "club": "2"
+      },
+      {
+        "id": "123",
+        "name": "Cullen Grace",
+        "club": "2"
+      },
+      {
+        "id": "124",
+        "name": "Jamie Hannah",
+        "club": "2"
+      },
+      {
+        "id": "125",
+        "name": "Liam Jack",
+        "club": "2"
+      },
+      {
+        "id": "126",
+        "name": "Corey Kellow",
+        "club": "2"
+      },
+      {
+        "id": "127",
+        "name": "Manumaua Letiu",
+        "club": "2"
+      },
+      {
+        "id": "128",
+        "name": "Christian Lio-Willie",
+        "club": "2"
+      },
+      {
+        "id": "129",
+        "name": "Fletcher Newell",
+        "club": "2"
+      },
+      {
+        "id": "130",
+        "name": "Xavier Saifoloi",
+        "club": "2"
+      },
+      {
+        "id": "131",
+        "name": "Antonio Shalfoon",
+        "club": "2"
+      },
+      {
+        "id": "132",
+        "name": "Kershawl Sykes-Martin",
+        "club": "2"
+      },
+      {
+        "id": "133",
+        "name": "Codie Taylor",
+        "club": "2"
+      },
+      {
+        "id": "135",
+        "name": "Toby Bell",
+        "club": "2"
+      },
+      {
+        "id": "136",
+        "name": "Louie Chapman",
+        "club": "2"
+      },
+      {
+        "id": "137",
+        "name": "Braydon Ennor",
+        "club": "2"
+      },
+      {
+        "id": "138",
+        "name": "Leicester Fainga'anuku",
+        "club": "2"
+      },
+      {
+        "id": "139",
+        "name": "Chay Fihaki",
+        "club": "2"
+      },
+      {
+        "id": "140",
+        "name": "David Havili",
+        "club": "2"
+      },
+      {
+        "id": "141",
+        "name": "Noah Hotham",
+        "club": "2"
+      },
+      {
+        "id": "143",
+        "name": "Taha Kemara",
+        "club": "2"
+      },
+      {
+        "id": "144",
+        "name": "Maloni Kunawave",
+        "club": "2"
+      },
+      {
+        "id": "145",
+        "name": "Dallas McLeod",
+        "club": "2"
+      },
+      {
+        "id": "146",
+        "name": "Johnny McNicholl",
+        "club": "2"
+      },
+      {
+        "id": "147",
+        "name": "Kyle Preston",
+        "club": "2"
+      },
+      {
+        "id": "148",
+        "name": "Sevu Reece",
+        "club": "2"
+      },
+      {
+        "id": "149",
+        "name": "Rivez Reihana",
+        "club": "2"
+      },
+      {
+        "id": "150",
+        "name": "Macca Springer",
+        "club": "2"
+      },
+      {
+        "id": "151",
+        "name": "Aki Tuivailala",
+        "club": "2"
+      },
+      {
+        "id": "152",
+        "name": "James White",
+        "club": "2"
+      },
+      {
+        "id": "153",
+        "name": "Josh Bartlett",
+        "club": "1"
+      },
+      {
+        "id": "154",
+        "name": "Ethan de Groot",
+        "club": "1"
+      },
+      {
+        "id": "155",
+        "name": "Sefo Kautai",
+        "club": "1"
+      },
+      {
+        "id": "156",
+        "name": "Daniel Lienert-Brown",
+        "club": "1"
+      },
+      {
+        "id": "157",
+        "name": "Saula Ma'u",
+        "club": "1"
+      },
+      {
+        "id": "158",
+        "name": "Angus Ta'avao",
+        "club": "1"
+      },
+      {
+        "id": "159",
+        "name": "Henry Bell",
+        "club": "1"
+      },
+      {
+        "id": "160",
+        "name": "Jack Taylor",
+        "club": "1"
+      },
+      {
+        "id": "161",
+        "name": "Soane Vikena",
+        "club": "1"
+      },
+      {
+        "id": "162",
+        "name": "Nikora Broughton",
+        "club": "1"
+      },
+      {
+        "id": "163",
+        "name": "Tai Cribb",
+        "club": "1"
+      },
+      {
+        "id": "164",
+        "name": "Mitchell Dunshea",
+        "club": "1"
+      },
+      {
+        "id": "165",
+        "name": "Oliver Haig",
+        "club": "1"
+      },
+      {
+        "id": "167",
+        "name": "Te Kamaka Howden",
+        "club": "1"
+      },
+      {
+        "id": "168",
+        "name": "Veveni Lasaqa",
+        "club": "1"
+      },
+      {
+        "id": "169",
+        "name": "Tomás Lavanini",
+        "club": "1"
+      },
+      {
+        "id": "170",
+        "name": "Hugh Renton",
+        "club": "1"
+      },
+      {
+        "id": "171",
+        "name": "Will Stodart",
+        "club": "1"
+      },
+      {
+        "id": "172",
+        "name": "Sean Withy",
+        "club": "1"
+      },
+      {
+        "id": "173",
+        "name": "Folau Fakatava",
+        "club": "1"
+      },
+      {
+        "id": "174",
+        "name": "Adam Lennox",
+        "club": "1"
+      },
+      {
+        "id": "176",
+        "name": "Andrew Knewstubb",
+        "club": "1"
+      },
+      {
+        "id": "177",
+        "name": "Cameron Millar",
+        "club": "1"
+      },
+      {
+        "id": "178",
+        "name": "Taine Robinson",
+        "club": "1"
+      },
+      {
+        "id": "179",
+        "name": "Reesjan Pasitoa",
+        "club": "1"
+      },
+      {
+        "id": "181",
+        "name": "Tanielu Tele'a",
+        "club": "1"
+      },
+      {
+        "id": "182",
+        "name": "Jake Te Hiwi",
+        "club": "1"
+      },
+      {
+        "id": "183",
+        "name": "Josh Whaanga",
+        "club": "1"
+      },
+      {
+        "id": "184",
+        "name": "Jona Nareki",
+        "club": "1"
+      },
+      {
+        "id": "185",
+        "name": "Finn Hurley",
+        "club": "1"
+      },
+      {
+        "id": "186",
+        "name": "Jonah Lowe",
+        "club": "1"
+      },
+      {
+        "id": "187",
+        "name": "Jacob Ratumaitavuki-Kneepkens",
+        "club": "1"
+      },
+      {
+        "id": "188",
+        "name": "Stanley Solomon",
+        "club": "1"
+      },
+      {
+        "id": "189",
+        "name": "Caleb Tangitau",
+        "club": "1"
+      },
+      {
+        "id": "190",
+        "name": "Xavier Tito-Harris",
+        "club": "1"
+      },
+      {
+        "id": "191",
+        "name": "Siale Lauaki",
+        "club": "11"
+      },
+      {
+        "id": "192",
+        "name": "Tyrel Lomax",
+        "club": "11"
+      },
+      {
+        "id": "193",
+        "name": "Tevita Mafile'o",
+        "club": "11"
+      },
+      {
+        "id": "194",
+        "name": "Xavier Numia",
+        "club": "11"
+      },
+      {
+        "id": "195",
+        "name": "Pouri Rakete-Stones",
+        "club": "11"
+      },
+      {
+        "id": "196",
+        "name": "Pasilio Tosi",
+        "club": "11"
+      },
+      {
+        "id": "198",
+        "name": "Vernon Bason",
+        "club": "11"
+      },
+      {
+        "id": "199",
+        "name": "Jacob Devery",
+        "club": "11"
+      },
+      {
+        "id": "200",
+        "name": "Raymond Tuputupu",
+        "club": "11"
+      },
+      {
+        "id": "201",
+        "name": "Tom Allen",
+        "club": "11"
+      },
+      {
+        "id": "202",
+        "name": "Warner Dearns",
+        "club": "11"
+      },
+      {
+        "id": "203",
+        "name": "Caleb Delany",
+        "club": "11"
+      },
+      {
+        "id": "204",
+        "name": "Hugo Plummer",
+        "club": "11"
+      },
+      {
+        "id": "205",
+        "name": "Isaia Walker-Leawere",
+        "club": "11"
+      },
+      {
+        "id": "207",
+        "name": "Brayden Iose",
+        "club": "11"
+      },
+      {
+        "id": "209",
+        "name": "Peter Lakai",
+        "club": "11"
+      },
+      {
+        "id": "210",
+        "name": "Arese Poliko",
+        "club": "11"
+      },
+      {
+        "id": "211",
+        "name": "Brad Shields",
+        "club": "11"
+      },
+      {
+        "id": "212",
+        "name": "Ere Enari",
+        "club": "11"
+      },
+      {
+        "id": "214",
+        "name": "Jordi Viljoen",
+        "club": "11"
+      },
+      {
+        "id": "215",
+        "name": "Brett Cameron",
+        "club": "11"
+      },
+      {
+        "id": "216",
+        "name": "Harry Godfrey",
+        "club": "11"
+      },
+      {
+        "id": "217",
+        "name": "Callum Harkin",
+        "club": "11"
+      },
+      {
+        "id": "218",
+        "name": "Lucas Cashmore",
+        "club": "11"
+      },
+      {
+        "id": "219",
+        "name": "Jordie Barrett",
+        "club": "11"
+      },
+      {
+        "id": "220",
+        "name": "Riley Higgins",
+        "club": "11"
+      },
+      {
+        "id": "221",
+        "name": "Billy Proctor",
+        "club": "11"
+      },
+      {
+        "id": "222",
+        "name": "Jone Rova",
+        "club": "11"
+      },
+      {
+        "id": "223",
+        "name": "Bailyn Sullivan",
+        "club": "11"
+      },
+      {
+        "id": "224",
+        "name": "Josh Timu",
+        "club": "11"
+      },
+      {
+        "id": "225",
+        "name": "Fehi Fineanganofo",
+        "club": "11"
+      },
+      {
+        "id": "228",
+        "name": "Kini Naholo",
+        "club": "11"
+      },
+      {
+        "id": "229",
+        "name": "Ngantungane Punivai",
+        "club": "11"
+      },
+      {
+        "id": "230",
+        "name": "Vaiuta Latu",
+        "club": "4"
+      },
+      {
+        "id": "231",
+        "name": "Josh Nasser",
+        "club": "4"
+      },
+      {
+        "id": "232",
+        "name": "Matt Faessler",
+        "club": "4"
+      },
+      {
+        "id": "233",
+        "name": "Richie Asiata",
+        "club": "4"
+      },
+      {
+        "id": "234",
+        "name": "Jeffery Toomaga-Allen",
+        "club": "4"
+      },
+      {
+        "id": "235",
+        "name": "Zane Nonggorr",
+        "club": "4"
+      },
+      {
+        "id": "236",
+        "name": "Massimo De Lutiis",
+        "club": "4"
+      },
+      {
+        "id": "237",
+        "name": "Aidan Ross",
+        "club": "4"
+      },
+      {
+        "id": "238",
+        "name": "George Blake",
+        "club": "4"
+      },
+      {
+        "id": "239",
+        "name": "Nick Bloomfield",
+        "club": "4"
+      },
+      {
+        "id": "240",
+        "name": "Trevor King",
+        "club": "4"
+      },
+      {
+        "id": "241",
+        "name": "Josh Canham",
+        "club": "4"
+      },
+      {
+        "id": "242",
+        "name": "Seru Uru",
+        "club": "4"
+      },
+      {
+        "id": "243",
+        "name": "Lukhan Salakaia-Loto",
+        "club": "4"
+      },
+      {
+        "id": "244",
+        "name": "Hamish Muller",
+        "club": "4"
+      },
+      {
+        "id": "245",
+        "name": "Fraser McReight",
+        "club": "4"
+      },
+      {
+        "id": "246",
+        "name": "Harry Wilson",
+        "club": "4"
+      },
+      {
+        "id": "247",
+        "name": "Joe Brial",
+        "club": "4"
+      },
+      {
+        "id": "248",
+        "name": "John Bryant",
+        "club": "4"
+      },
+      {
+        "id": "249",
+        "name": "Tate McDermott",
+        "club": "4"
+      },
+      {
+        "id": "250",
+        "name": "Louis Werchon",
+        "club": "4"
+      },
+      {
+        "id": "251",
+        "name": "Kalani Thomas",
+        "club": "4"
+      },
+      {
+        "id": "252",
+        "name": "Tom Lynagh",
+        "club": "4"
+      },
+      {
+        "id": "253",
+        "name": "Carter Gordon",
+        "club": "4"
+      },
+      {
+        "id": "254",
+        "name": "Harry McLaughlin-Phillips",
+        "club": "4"
+      },
+      {
+        "id": "255",
+        "name": "Josh Flook",
+        "club": "4"
+      },
+      {
+        "id": "256",
+        "name": "Hunter Paisami",
+        "club": "4"
+      },
+      {
+        "id": "257",
+        "name": "Isaac Henry",
+        "club": "4"
+      },
+      {
+        "id": "258",
+        "name": "Dre Pakeho",
+        "club": "4"
+      },
+      {
+        "id": "259",
+        "name": "Frankie Goldsbrough",
+        "club": "4"
+      },
+      {
+        "id": "260",
+        "name": "Will McCulloch",
+        "club": "4"
+      },
+      {
+        "id": "261",
+        "name": "Nicholas Conway",
+        "club": "4"
+      },
+      {
+        "id": "262",
+        "name": "Jock Campbell",
+        "club": "4"
+      },
+      {
+        "id": "263",
+        "name": "Tim Ryan",
+        "club": "4"
+      },
+      {
+        "id": "264",
+        "name": "Heremaia Murray",
+        "club": "4"
+      },
+      {
+        "id": "265",
+        "name": "Lachie Anderson",
+        "club": "4"
+      },
+      {
+        "id": "266",
+        "name": "Treyvon Pritchard",
+        "club": "4"
+      },
+      {
+        "id": "267",
+        "name": "Filipo Daugunu",
+        "club": "4"
+      },
+      {
+        "id": "268",
+        "name": "Ben Volavola",
+        "club": "4"
+      },
+      {
+        "id": "269",
+        "name": "Apolosi Ranawai",
+        "club": "3"
+      },
+      {
+        "id": "270",
+        "name": "Daniel Botha",
+        "club": "3"
+      },
+      {
+        "id": "271",
+        "name": "Isaac Kailea",
+        "club": "3"
+      },
+      {
+        "id": "272",
+        "name": "Jack Barrett",
+        "club": "3"
+      },
+      {
+        "id": "273",
+        "name": "Siosifa Amone",
+        "club": "3"
+      },
+      {
+        "id": "274",
+        "name": "Tom Lambert",
+        "club": "3"
+      },
+      {
+        "id": "275",
+        "name": "Will Goddard",
+        "club": "3"
+      },
+      {
+        "id": "276",
+        "name": "Ethan Dobbins",
+        "club": "3"
+      },
+      {
+        "id": "277",
+        "name": "Folau Fainga'a",
+        "club": "3"
+      },
+      {
+        "id": "278",
+        "name": "Ioane Moananu",
+        "club": "3"
+      },
+      {
+        "id": "279",
+        "name": "Angus Blyth",
+        "club": "3"
+      },
+      {
+        "id": "280",
+        "name": "Ben Grant",
+        "club": "3"
+      },
+      {
+        "id": "281",
+        "name": "Eamon Doyle",
+        "club": "3"
+      },
+      {
+        "id": "282",
+        "name": "Matt Philip",
+        "club": "3"
+      },
+      {
+        "id": "283",
+        "name": "Miles Amatosero",
+        "club": "3"
+      },
+      {
+        "id": "284",
+        "name": "Austin Durbidge",
+        "club": "3"
+      },
+      {
+        "id": "285",
+        "name": "Charlie Gamble",
+        "club": "3"
+      },
+      {
+        "id": "286",
+        "name": "Jamie Adamson",
+        "club": "3"
+      },
+      {
+        "id": "287",
+        "name": "Lachlan Hooper",
+        "club": "3"
+      },
+      {
+        "id": "288",
+        "name": "Leafi Talataina",
+        "club": "3"
+      },
+      {
+        "id": "289",
+        "name": "Pete Samu",
+        "club": "3"
+      },
+      {
+        "id": "290",
+        "name": "Jake Gordon",
+        "club": "3"
+      },
+      {
+        "id": "291",
+        "name": "Michael McDonald",
+        "club": "3"
+      },
+      {
+        "id": "292",
+        "name": "Teddy Wilson",
+        "club": "3"
+      },
+      {
+        "id": "293",
+        "name": "Jack Bowen",
+        "club": "3"
+      },
+      {
+        "id": "294",
+        "name": "Jack Debreczeni",
+        "club": "3"
+      },
+      {
+        "id": "295",
+        "name": "Lawson Creighton",
+        "club": "3"
+      },
+      {
+        "id": "296",
+        "name": "George Poolman",
+        "club": "3"
+      },
+      {
+        "id": "297",
+        "name": "Joey Walton",
+        "club": "3"
+      },
+      {
+        "id": "298",
+        "name": "Joseph-Aukuso Suaalii",
+        "club": "3"
+      },
+      {
+        "id": "299",
+        "name": "Andrew Kellaway",
+        "club": "3"
+      },
+      {
+        "id": "300",
+        "name": "Archie Saunders",
+        "club": "3"
+      },
+      {
+        "id": "301",
+        "name": "Harry Potter",
+        "club": "3"
+      },
+      {
+        "id": "302",
+        "name": "James Hendren",
+        "club": "3"
+      },
+      {
+        "id": "303",
+        "name": "Leo Jaques",
+        "club": "3"
+      },
+      {
+        "id": "304",
+        "name": "Max Jorgensen",
+        "club": "3"
+      },
+      {
+        "id": "305",
+        "name": "Sid Harvey",
+        "club": "3"
+      },
+      {
+        "id": "306",
+        "name": "Triston Reilly",
+        "club": "3"
+      },
+      {
+        "id": "307",
+        "name": "Angus Scott-Young",
+        "club": "3"
+      },
+      {
+        "id": "308",
+        "name": "Sef Fa'agase",
+        "club": "9"
+      },
+      {
+        "id": "309",
+        "name": "Feao Fotuaika",
+        "club": "9"
+      },
+      {
+        "id": "310",
+        "name": "Harry Johnson-Holmes",
+        "club": "9"
+      },
+      {
+        "id": "311",
+        "name": "Marley Pearce",
+        "club": "9"
+      },
+      {
+        "id": "312",
+        "name": "Tom Robertson",
+        "club": "9"
+      },
+      {
+        "id": "313",
+        "name": "Joshua Smith",
+        "club": "9"
+      },
+      {
+        "id": "314",
+        "name": "Albert Alcock",
+        "club": "9"
+      },
+      {
+        "id": "315",
+        "name": "Nic Dolly",
+        "club": "9"
+      },
+      {
+        "id": "316",
+        "name": "Brandon Paenga-Amosa",
+        "club": "9"
+      },
+      {
+        "id": "317",
+        "name": "Lopeti Faifua",
+        "club": "9"
+      },
+      {
+        "id": "318",
+        "name": "Franco Molina",
+        "club": "9"
+      },
+      {
+        "id": "319",
+        "name": "Darcy Swain",
+        "club": "9"
+      },
+      {
+        "id": "320",
+        "name": "Jeremy Williams",
+        "club": "9"
+      },
+      {
+        "id": "321",
+        "name": "Nicholas Champion de Crespigny",
+        "club": "9"
+      },
+      {
+        "id": "322",
+        "name": "Vaiolini Ekuasi",
+        "club": "9"
+      },
+      {
+        "id": "323",
+        "name": "Will Harris",
+        "club": "9"
+      },
+      {
+        "id": "324",
+        "name": "Kane Koteka",
+        "club": "9"
+      },
+      {
+        "id": "325",
+        "name": "Titi Nofoagatotoa",
+        "club": "9"
+      },
+      {
+        "id": "326",
+        "name": "Carlo Tizzano",
+        "club": "9"
+      },
+      {
+        "id": "327",
+        "name": "Agustin Moyano",
+        "club": "9"
+      },
+      {
+        "id": "328",
+        "name": "Nathan Hastie",
+        "club": "9"
+      },
+      {
+        "id": "329",
+        "name": "Doug Philipson",
+        "club": "9"
+      },
+      {
+        "id": "330",
+        "name": "Henry Robertson",
+        "club": "9"
+      },
+      {
+        "id": "331",
+        "name": "Max Burey",
+        "club": "9"
+      },
+      {
+        "id": "332",
+        "name": "Ben Donaldson",
+        "club": "9"
+      },
+      {
+        "id": "333",
+        "name": "Alex Harford",
+        "club": "9"
+      },
+      {
+        "id": "334",
+        "name": "Boston Fakafanua",
+        "club": "9"
+      },
+      {
+        "id": "335",
+        "name": "Bayley Kuenzle",
+        "club": "9"
+      },
+      {
+        "id": "336",
+        "name": "Divad Palu",
+        "club": "9"
+      },
+      {
+        "id": "337",
+        "name": "Hamish Stewart",
+        "club": "9"
+      },
+      {
+        "id": "338",
+        "name": "Kurtley Beale",
+        "club": "9"
+      },
+      {
+        "id": "339",
+        "name": "George Bridge",
+        "club": "9"
+      },
+      {
+        "id": "340",
+        "name": "Mac Grealy",
+        "club": "9"
+      },
+      {
+        "id": "341",
+        "name": "Darby Lancaster",
+        "club": "9"
+      },
+      {
+        "id": "342",
+        "name": "Ronan Leahy",
+        "club": "9"
+      },
+      {
+        "id": "343",
+        "name": "Dylan Pietsch",
+        "club": "9"
+      },
+      {
+        "id": "344",
+        "name": "Emosi Tuqiri",
+        "club": "5"
+      },
+      {
+        "id": "345",
+        "name": "Haereiti Hetet",
+        "club": "5"
+      },
+      {
+        "id": "346",
+        "name": "Meli Tuni",
+        "club": "5"
+      },
+      {
+        "id": "347",
+        "name": "Mesake Doge",
+        "club": "5"
+      },
+      {
+        "id": "348",
+        "name": "Peni Ravai",
+        "club": "5"
+      },
+      {
+        "id": "349",
+        "name": "Samu Tawake",
+        "club": "5"
+      },
+      {
+        "id": "350",
+        "name": "Kavaia Tagivetaua",
+        "club": "5"
+      },
+      {
+        "id": "351",
+        "name": "Mesulame Dolokoto",
+        "club": "5"
+      },
+      {
+        "id": "352",
+        "name": "Zuriel Togiatama",
+        "club": "5"
+      },
+      {
+        "id": "353",
+        "name": "Angelo Smith",
+        "club": "5"
+      },
+      {
+        "id": "354",
+        "name": "Isoa Nasilasila",
+        "club": "5"
+      },
+      {
+        "id": "355",
+        "name": "Mesake Vocevoce",
+        "club": "5"
+      },
+      {
+        "id": "356",
+        "name": "Temo Mayanavanua",
+        "club": "5"
+      },
+      {
+        "id": "357",
+        "name": "Vilive Miramira",
+        "club": "5"
+      },
+      {
+        "id": "358",
+        "name": "Elia Canakaivata",
+        "club": "5"
+      },
+      {
+        "id": "359",
+        "name": "Etonia Waqa",
+        "club": "5"
+      },
+      {
+        "id": "360",
+        "name": "Isoa Tuwai",
+        "club": "5"
+      },
+      {
+        "id": "361",
+        "name": "Joseva Tamani",
+        "club": "5"
+      },
+      {
+        "id": "362",
+        "name": "Kitione Salawa",
+        "club": "5"
+      },
+      {
+        "id": "363",
+        "name": "Motikiai Murray",
+        "club": "5"
+      },
+      {
+        "id": "364",
+        "name": "Frank Lomani",
+        "club": "5"
+      },
+      {
+        "id": "365",
+        "name": "Issak Fines-Leleiwasa",
+        "club": "5"
+      },
+      {
+        "id": "366",
+        "name": "Philip Baselala",
+        "club": "5"
+      },
+      {
+        "id": "367",
+        "name": "Simione Kuruvoli",
+        "club": "5"
+      },
+      {
+        "id": "368",
+        "name": "Isaiah Armstrong-Ravula",
+        "club": "5"
+      },
+      {
+        "id": "369",
+        "name": "Kemu Valetini",
+        "club": "5"
+      },
+      {
+        "id": "370",
+        "name": "Isikeli Rabitu",
+        "club": "5"
+      },
+      {
+        "id": "371",
+        "name": "Inia Tabuavou",
+        "club": "5"
+      },
+      {
+        "id": "372",
+        "name": "Iosefo Namoce",
+        "club": "5"
+      },
+      {
+        "id": "373",
+        "name": "Joji Nasova",
+        "club": "5"
+      },
+      {
+        "id": "374",
+        "name": "Maika Tuitubou",
+        "club": "5"
+      },
+      {
+        "id": "375",
+        "name": "Tuidraki Samusamuvodre",
+        "club": "5"
+      },
+      {
+        "id": "376",
+        "name": "Aisea Nawai",
+        "club": "5"
+      },
+      {
+        "id": "377",
+        "name": "Epeli Momo",
+        "club": "5"
+      },
+      {
+        "id": "378",
+        "name": "Ilaisa Droasese",
+        "club": "5"
+      },
+      {
+        "id": "379",
+        "name": "Isikeli Basiyalo",
+        "club": "5"
+      },
+      {
+        "id": "380",
+        "name": "Manasa Mataele",
+        "club": "5"
+      },
+      {
+        "id": "381",
+        "name": "Ponipate Loganimasi",
+        "club": "5"
+      },
+      {
+        "id": "382",
+        "name": "Taniela Rakuro",
+        "club": "5"
+      },
+      {
+        "id": "383",
+        "name": "Abraham Pole",
+        "club": "6"
+      },
+      {
+        "id": "384",
+        "name": "Alefosio Aho",
+        "club": "6"
+      },
+      {
+        "id": "385",
+        "name": "Allan Craig",
+        "club": "6"
+      },
+      {
+        "id": "386",
+        "name": "Augustine Pulu",
+        "club": "6"
+      },
+      {
+        "id": "387",
+        "name": "Chris Apoua",
+        "club": "6"
+      },
+      {
+        "id": "388",
+        "name": "Dominic Ropeti",
+        "club": "6"
+      },
+      {
+        "id": "389",
+        "name": "Faletoi Peni",
+        "club": "6"
+      },
+      {
+        "id": "390",
+        "name": "Feleti Sae-Ta'ufo'ou",
+        "club": "6"
+      },
+      {
+        "id": "391",
+        "name": "Glen Vaihu",
+        "club": "6"
+      },
+      {
+        "id": "392",
+        "name": "Israel Leota",
+        "club": "6"
+      },
+      {
+        "id": "393",
+        "name": "Jackson Garden-Bachop",
+        "club": "6"
+      },
+      {
+        "id": "394",
+        "name": "Jimmy Tupou",
+        "club": "6"
+      },
+      {
+        "id": "395",
+        "name": "Moana Halfback",
+        "club": "6"
+      },
+      {
+        "id": "396",
+        "name": "Julian Savea",
+        "club": "6"
+      },
+      {
+        "id": "397",
+        "name": "Lalomilo Lalomilo",
+        "club": "6"
+      },
+      {
+        "id": "398",
+        "name": "Malakai Hala-Ngatai",
+        "club": "6"
+      },
+      {
+        "id": "399",
+        "name": "Mamoru Harada",
+        "club": "6"
+      },
+      {
+        "id": "400",
+        "name": "Melani Matavao",
+        "club": "6"
+      },
+      {
+        "id": "401",
+        "name": "Millennium Sanerivi",
+        "club": "6"
+      },
+      {
+        "id": "402",
+        "name": "Miracle Faiilagi",
+        "club": "6"
+      },
+      {
+        "id": "403",
+        "name": "Ngani Laumape",
+        "club": "6"
+      },
+      {
+        "id": "404",
+        "name": "Niko Jones",
+        "club": "6"
+      },
+      {
+        "id": "405",
+        "name": "Ofa Tauatevalu",
+        "club": "6"
+      },
+      {
+        "id": "406",
+        "name": "Ola Tauelangi",
+        "club": "6"
+      },
+      {
+        "id": "407",
+        "name": "Patrick Pellegrini",
+        "club": "6"
+      },
+      {
+        "id": "408",
+        "name": "Paula Latu",
+        "club": "6"
+      },
+      {
+        "id": "409",
+        "name": "Samiuela Moli",
+        "club": "6"
+      },
+      {
+        "id": "410",
+        "name": "Semisi Paea",
+        "club": "6"
+      },
+      {
+        "id": "411",
+        "name": "Semisi Tupou Ta'eiloa",
+        "club": "6"
+      },
+      {
+        "id": "412",
+        "name": "Siaosi Nginingini",
+        "club": "6"
+      },
+      {
+        "id": "413",
+        "name": "Solomon Alaimalo",
+        "club": "6"
+      },
+      {
+        "id": "414",
+        "name": "Tevita Latu",
+        "club": "6"
+      },
+      {
+        "id": "415",
+        "name": "Tevita Ofa",
+        "club": "6"
+      },
+      {
+        "id": "416",
+        "name": "Tito Tuipulotu",
+        "club": "6"
+      },
+      {
+        "id": "417",
+        "name": "Tom Savage",
+        "club": "6"
+      },
+      {
+        "id": "418",
+        "name": "Tuna Tuitama",
+        "club": "6"
+      },
+      {
+        "id": "419",
+        "name": "Tupou Ma'afu-Afungia",
+        "club": "6"
+      },
+      {
+        "id": "420",
+        "name": "William Havili",
+        "club": "6"
+      },
+      {
+        "id": "421",
+        "name": "Will Tucker",
+        "club": "2"
+      },
+      {
+        "id": "422",
+        "name": "Leonel Oviedo",
+        "club": "9"
+      },
+      {
+        "id": "423",
+        "name": "Jack Daly",
+        "club": "9"
+      },
+      {
+        "id": "424",
+        "name": "Misinale Epenisa",
+        "club": "9"
+      },
+      {
+        "id": "425",
+        "name": "Henry Palmer",
+        "club": "9"
+      },
+      {
+        "id": "426",
+        "name": "Clem Halaholo",
+        "club": "3"
+      },
+      {
+        "id": "427",
+        "name": "James Martens",
+        "club": "4"
+      },
+      {
+        "id": "428",
+        "name": "Tom Robinson",
+        "club": "4"
+      },
+      {
+        "id": "429",
+        "name": "Lucas Casey",
+        "club": "1"
+      },
+      {
+        "id": "430",
+        "name": "Virimi Vakatawa",
+        "club": "5"
+      },
+      {
+        "id": "431",
+        "name": "Torian Barnes",
+        "club": "7"
+      },
+      {
+        "id": "432",
+        "name": "Mason Tupaea",
+        "club": "7"
+      },
+      {
+        "id": "433",
+        "name": "Rohan Wingham",
+        "club": "1"
+      },
+      {
+        "id": "434",
+        "name": "Finn Mackay",
+        "club": "4"
+      },
+      {
+        "id": "435",
+        "name": "Xavier Rubens",
+        "club": "4"
+      },
+      {
+        "id": "436",
+        "name": "Penaia Cakobau",
+        "club": "5"
+      },
+      {
+        "id": "437",
+        "name": "Denzel Samoa",
+        "club": "6"
+      },
+      {
+        "id": "438",
+        "name": "Konrad Toleafoa",
+        "club": "6"
+      },
+      {
+        "id": "439",
+        "name": "Simon-Peter Toleafoa",
+        "club": "6"
+      },
+      {
+        "id": "440",
+        "name": "Lolani Faleiva",
+        "club": "6"
+      },
+      {
+        "id": "441",
+        "name": "Veikoso Poloniati",
+        "club": "6"
+      },
+      {
+        "id": "442",
+        "name": "Matolu Petaia",
+        "club": "11"
+      },
+      {
+        "id": "443",
+        "name": "Sam Matenga",
+        "club": "7"
+      },
+      {
+        "id": "444",
+        "name": "Joel Lam",
+        "club": "6"
+      },
+      {
+        "id": "445",
+        "name": "Tyler Pulini",
+        "club": "6"
+      },
+      {
+        "id": "446",
+        "name": "Johnny Lee",
+        "club": "2"
+      },
+      {
+        "id": "447",
+        "name": "Taj Annan",
+        "club": "9"
+      },
+      {
+        "id": "448",
+        "name": "Sairusi Ravudi",
+        "club": "5"
+      },
+      {
+        "id": "449",
+        "name": "Cooper Grant",
+        "club": "2"
+      },
+      {
+        "id": "450",
+        "name": "Zac Lomax",
+        "club": "9"
+      },
+      {
+        "id": "451",
+        "name": "Nic Shearer",
+        "club": "1"
+      },
+      {
+        "id": "452",
+        "name": "Jack Sexton",
+        "club": "2"
+      },
+      {
+        "id": "454",
+        "name": "Dan Sinkinson",
+        "club": "8"
+      }
+    ],
+    "warnings": [
+      "Unknown ages prevent reliable long-term retirement balance.",
+      "Fantasy-derived inputs have not yet been replaced by a fully researched ratings database."
+    ]
+  },
+  "metrics": [
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 44,
+          "payroll": 6581000,
+          "cap": 7000000,
+          "cash": 102000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 7072000,
+          "cap": 7140000,
+          "cash": 1050000
+        },
+        {
+          "id": "8",
+          "squad": 42,
+          "payroll": 8049000,
+          "cap": 9190000,
+          "cash": 1966000
+        },
+        {
+          "id": "2",
+          "squad": 41,
+          "payroll": 7835000,
+          "cap": 10790000,
+          "cash": 4067000
+        },
+        {
+          "id": "5",
+          "squad": 42,
+          "payroll": 4662000,
+          "cap": 7000000,
+          "cash": 2608000
+        },
+        {
+          "id": "1",
+          "squad": 39,
+          "payroll": 6221000,
+          "cap": 7580000,
+          "cash": 1800000
+        },
+        {
+          "id": "11",
+          "squad": 42,
+          "payroll": 8137000,
+          "cap": 9560000,
+          "cash": 2266000
+        },
+        {
+          "id": "6",
+          "squad": 46,
+          "payroll": 6751000,
+          "cap": 7000000,
+          "cash": 1036000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 6268000,
+          "cap": 7000000,
+          "cash": 1474000
+        },
+        {
+          "id": "4",
+          "squad": 43,
+          "payroll": 7396000,
+          "cap": 8190000,
+          "cash": 1836000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 6754000,
+          "cap": 7050000,
+          "cash": 1595000
+        }
+      ],
+      "season": 1,
+      "year": 2027,
+      "players": 864,
+      "retired": 217,
+      "elite": 10,
+      "saveMB": 7.359818458557129,
+      "gzipMB": 0.9243459701538086,
+      "elapsedSeconds": 5.400171075,
+      "champion": "2"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 5993000,
+          "cap": 7140000,
+          "cash": 2168000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 6902000,
+          "cap": 7283000,
+          "cash": 3100000
+        },
+        {
+          "id": "8",
+          "squad": 44,
+          "payroll": 8610000,
+          "cap": 9374000,
+          "cash": 3214000
+        },
+        {
+          "id": "2",
+          "squad": 42,
+          "payroll": 7269000,
+          "cap": 11006000,
+          "cash": 6766000
+        },
+        {
+          "id": "5",
+          "squad": 46,
+          "payroll": 6134000,
+          "cap": 7140000,
+          "cash": 3664000
+        },
+        {
+          "id": "1",
+          "squad": 39,
+          "payroll": 6221000,
+          "cap": 7732000,
+          "cash": 3600000
+        },
+        {
+          "id": "11",
+          "squad": 43,
+          "payroll": 8573000,
+          "cap": 9751000,
+          "cash": 3784000
+        },
+        {
+          "id": "6",
+          "squad": 44,
+          "payroll": 6287000,
+          "cap": 7140000,
+          "cash": 3360000
+        },
+        {
+          "id": "3",
+          "squad": 46,
+          "payroll": 6817000,
+          "cap": 7140000,
+          "cash": 2872000
+        },
+        {
+          "id": "4",
+          "squad": 46,
+          "payroll": 8211000,
+          "cap": 8354000,
+          "cash": 3022000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 6323000,
+          "cap": 7191000,
+          "cash": 4050000
+        }
+      ],
+      "season": 2,
+      "year": 2028,
+      "players": 983,
+      "retired": 362,
+      "elite": 14,
+      "saveMB": 8.488085746765137,
+      "gzipMB": 1.069925308227539,
+      "elapsedSeconds": 11.501513161,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 45,
+          "payroll": 7028000,
+          "cap": 7283000,
+          "cash": 3530000
+        },
+        {
+          "id": "7",
+          "squad": 45,
+          "payroll": 7342000,
+          "cap": 7429000,
+          "cash": 4655000
+        },
+        {
+          "id": "8",
+          "squad": 44,
+          "payroll": 8902000,
+          "cap": 9561000,
+          "cash": 4553000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 8723000,
+          "cap": 11226000,
+          "cash": 8351000
+        },
+        {
+          "id": "5",
+          "squad": 46,
+          "payroll": 7064000,
+          "cap": 7283000,
+          "cash": 5440000
+        },
+        {
+          "id": "1",
+          "squad": 37,
+          "payroll": 6169000,
+          "cap": 7887000,
+          "cash": 5400000
+        },
+        {
+          "id": "11",
+          "squad": 42,
+          "payroll": 8412000,
+          "cap": 9946000,
+          "cash": 6148000
+        },
+        {
+          "id": "6",
+          "squad": 46,
+          "payroll": 7152000,
+          "cap": 7283000,
+          "cash": 4694000
+        },
+        {
+          "id": "3",
+          "squad": 42,
+          "payroll": 6083000,
+          "cap": 7283000,
+          "cash": 5250000
+        },
+        {
+          "id": "4",
+          "squad": 42,
+          "payroll": 6917000,
+          "cap": 8521000,
+          "cash": 6283000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 7231000,
+          "cap": 7335000,
+          "cash": 5096000
+        }
+      ],
+      "season": 3,
+      "year": 2029,
+      "players": 1103,
+      "retired": 509,
+      "elite": 15,
+      "saveMB": 9.595638275146484,
+      "gzipMB": 1.168060302734375,
+      "elapsedSeconds": 20.226783768999997,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 46,
+          "payroll": 7420000,
+          "cap": 7429000,
+          "cash": 4894000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 7507000,
+          "cap": 7578000,
+          "cash": 6966000
+        },
+        {
+          "id": "8",
+          "squad": 43,
+          "payroll": 8755000,
+          "cap": 9752000,
+          "cash": 6494000
+        },
+        {
+          "id": "2",
+          "squad": 43,
+          "payroll": 8310000,
+          "cap": 11451000,
+          "cash": 11131000
+        },
+        {
+          "id": "5",
+          "squad": 46,
+          "payroll": 7384000,
+          "cap": 7429000,
+          "cash": 7344000
+        },
+        {
+          "id": "1",
+          "squad": 37,
+          "payroll": 6169000,
+          "cap": 8045000,
+          "cash": 7200000
+        },
+        {
+          "id": "11",
+          "squad": 44,
+          "payroll": 9424000,
+          "cap": 10145000,
+          "cash": 6598000
+        },
+        {
+          "id": "6",
+          "squad": 43,
+          "payroll": 6423000,
+          "cap": 7429000,
+          "cash": 7388000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 6947000,
+          "cap": 7429000,
+          "cash": 6731000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 7656000,
+          "cap": 8691000,
+          "cash": 7448000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 7173000,
+          "cap": 7482000,
+          "cash": 7006000
+        }
+      ],
+      "season": 4,
+      "year": 2030,
+      "players": 1239,
+      "retired": 644,
+      "elite": 16,
+      "saveMB": 10.736624717712402,
+      "gzipMB": 1.2717905044555664,
+      "elapsedSeconds": 30.608290873999998,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 42,
+          "payroll": 6841000,
+          "cap": 7578000,
+          "cash": 7414000
+        },
+        {
+          "id": "7",
+          "squad": 43,
+          "payroll": 7456000,
+          "cap": 7730000,
+          "cash": 8951000
+        },
+        {
+          "id": "8",
+          "squad": 45,
+          "payroll": 9812000,
+          "cap": 9947000,
+          "cash": 7170000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 8831000,
+          "cap": 11680000,
+          "cash": 12336000
+        },
+        {
+          "id": "5",
+          "squad": 43,
+          "payroll": 6983000,
+          "cap": 7578000,
+          "cash": 9953000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 6051000,
+          "cap": 8206000,
+          "cash": 9000000
+        },
+        {
+          "id": "11",
+          "squad": 45,
+          "payroll": 9813000,
+          "cap": 10348000,
+          "cash": 8339000
+        },
+        {
+          "id": "6",
+          "squad": 43,
+          "payroll": 6227000,
+          "cap": 7578000,
+          "cash": 9746000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 7158000,
+          "cap": 7578000,
+          "cash": 8497000
+        },
+        {
+          "id": "4",
+          "squad": 45,
+          "payroll": 8310000,
+          "cap": 8865000,
+          "cash": 9039000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 7555000,
+          "cap": 7632000,
+          "cash": 8555000
+        }
+      ],
+      "season": 5,
+      "year": 2031,
+      "players": 1390,
+      "retired": 783,
+      "elite": 20,
+      "saveMB": 11.890909194946289,
+      "gzipMB": 1.3638830184936523,
+      "elapsedSeconds": 44.753651792,
+      "champion": "5"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 45,
+          "payroll": 7643000,
+          "cap": 7730000,
+          "cash": 9240000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 7345000,
+          "cap": 7885000,
+          "cash": 11227000
+        },
+        {
+          "id": "8",
+          "squad": 42,
+          "payroll": 9481000,
+          "cap": 10146000,
+          "cash": 9524000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 9166000,
+          "cap": 11914000,
+          "cash": 13494000
+        },
+        {
+          "id": "5",
+          "squad": 45,
+          "payroll": 7730000,
+          "cap": 7730000,
+          "cash": 11880000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 6051000,
+          "cap": 8370000,
+          "cash": 10800000
+        },
+        {
+          "id": "11",
+          "squad": 46,
+          "payroll": 10153000,
+          "cap": 10555000,
+          "cash": 10424000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 7716000,
+          "cap": 7730000,
+          "cash": 11015000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 6945000,
+          "cap": 7730000,
+          "cash": 10338000
+        },
+        {
+          "id": "4",
+          "squad": 46,
+          "payroll": 8987000,
+          "cap": 9042000,
+          "cash": 10849000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 7511000,
+          "cap": 7785000,
+          "cash": 10009000
+        }
+      ],
+      "season": 6,
+      "year": 2032,
+      "players": 1515,
+      "retired": 941,
+      "elite": 21,
+      "saveMB": 13.191728591918945,
+      "gzipMB": 1.4759864807128906,
+      "elapsedSeconds": 56.50910368699999,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 44,
+          "payroll": 7832000,
+          "cap": 7885000,
+          "cash": 11489000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 7709000,
+          "cap": 8043000,
+          "cash": 13027000
+        },
+        {
+          "id": "8",
+          "squad": 42,
+          "payroll": 9477000,
+          "cap": 10349000,
+          "cash": 11345000
+        },
+        {
+          "id": "2",
+          "squad": 45,
+          "payroll": 9861000,
+          "cap": 12152000,
+          "cash": 15293000
+        },
+        {
+          "id": "5",
+          "squad": 44,
+          "payroll": 7636000,
+          "cap": 7885000,
+          "cash": 13533000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 5959000,
+          "cap": 8537000,
+          "cash": 12600000
+        },
+        {
+          "id": "11",
+          "squad": 44,
+          "payroll": 10347000,
+          "cap": 10766000,
+          "cash": 11185000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 7769000,
+          "cap": 7885000,
+          "cash": 13663000
+        },
+        {
+          "id": "3",
+          "squad": 46,
+          "payroll": 7760000,
+          "cap": 7885000,
+          "cash": 11542000
+        },
+        {
+          "id": "4",
+          "squad": 42,
+          "payroll": 8195000,
+          "cap": 9223000,
+          "cash": 13480000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 7845000,
+          "cap": 7941000,
+          "cash": 11443000
+        }
+      ],
+      "season": 7,
+      "year": 2033,
+      "players": 1645,
+      "retired": 1093,
+      "elite": 21,
+      "saveMB": 14.513692855834961,
+      "gzipMB": 1.577138900756836,
+      "elapsedSeconds": 73.107452789,
+      "champion": "3"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 42,
+          "payroll": 7717000,
+          "cap": 8043000,
+          "cash": 13176000
+        },
+        {
+          "id": "7",
+          "squad": 45,
+          "payroll": 8182000,
+          "cap": 8204000,
+          "cash": 14138000
+        },
+        {
+          "id": "8",
+          "squad": 43,
+          "payroll": 10211000,
+          "cap": 10556000,
+          "cash": 12127000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 9447000,
+          "cap": 12395000,
+          "cash": 17079000
+        },
+        {
+          "id": "5",
+          "squad": 42,
+          "payroll": 7639000,
+          "cap": 8043000,
+          "cash": 16376000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 5959000,
+          "cap": 8708000,
+          "cash": 14400000
+        },
+        {
+          "id": "11",
+          "squad": 44,
+          "payroll": 10484000,
+          "cap": 10981000,
+          "cash": 12968000
+        },
+        {
+          "id": "6",
+          "squad": 46,
+          "payroll": 7971000,
+          "cap": 8043000,
+          "cash": 16453000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 7924000,
+          "cap": 8043000,
+          "cash": 13317000
+        },
+        {
+          "id": "4",
+          "squad": 43,
+          "payroll": 8718000,
+          "cap": 9407000,
+          "cash": 14877000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 7674000,
+          "cap": 8100000,
+          "cash": 13489000
+        }
+      ],
+      "season": 8,
+      "year": 2034,
+      "players": 1748,
+      "retired": 1274,
+      "elite": 22,
+      "saveMB": 15.834217071533203,
+      "gzipMB": 1.6804275512695312,
+      "elapsedSeconds": 89.112434941,
+      "champion": "11"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 45,
+          "payroll": 8137000,
+          "cap": 8204000,
+          "cash": 15176000
+        },
+        {
+          "id": "7",
+          "squad": 41,
+          "payroll": 7340000,
+          "cap": 8368000,
+          "cash": 16804000
+        },
+        {
+          "id": "8",
+          "squad": 41,
+          "payroll": 10489000,
+          "cap": 10767000,
+          "cash": 13397000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 10035000,
+          "cap": 12643000,
+          "cash": 18234000
+        },
+        {
+          "id": "5",
+          "squad": 46,
+          "payroll": 8138000,
+          "cap": 8204000,
+          "cash": 18468000
+        },
+        {
+          "id": "1",
+          "squad": 35,
+          "payroll": 5808000,
+          "cap": 8882000,
+          "cash": 16200000
+        },
+        {
+          "id": "11",
+          "squad": 45,
+          "payroll": 10845000,
+          "cap": 11201000,
+          "cash": 14723000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 8120000,
+          "cap": 8204000,
+          "cash": 18352000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 7769000,
+          "cap": 8204000,
+          "cash": 15688000
+        },
+        {
+          "id": "4",
+          "squad": 46,
+          "payroll": 9420000,
+          "cap": 9595000,
+          "cash": 16054000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 8135000,
+          "cap": 8262000,
+          "cash": 15104000
+        }
+      ],
+      "season": 9,
+      "year": 2035,
+      "players": 1858,
+      "retired": 1448,
+      "elite": 23,
+      "saveMB": 17.22840976715088,
+      "gzipMB": 1.7846031188964844,
+      "elapsedSeconds": 107.04801914400001,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 7790000,
+          "cap": 8368000,
+          "cash": 17513000
+        },
+        {
+          "id": "7",
+          "squad": 43,
+          "payroll": 7766000,
+          "cap": 8535000,
+          "cash": 18586000
+        },
+        {
+          "id": "8",
+          "squad": 41,
+          "payroll": 10658000,
+          "cap": 10982000,
+          "cash": 14613000
+        },
+        {
+          "id": "2",
+          "squad": 45,
+          "payroll": 10524000,
+          "cap": 12896000,
+          "cash": 19187000
+        },
+        {
+          "id": "5",
+          "squad": 45,
+          "payroll": 8281000,
+          "cap": 8368000,
+          "cash": 20134000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5611000,
+          "cap": 9060000,
+          "cash": 18000000
+        },
+        {
+          "id": "11",
+          "squad": 43,
+          "payroll": 10177000,
+          "cap": 11425000,
+          "cash": 17375000
+        },
+        {
+          "id": "6",
+          "squad": 44,
+          "payroll": 7901000,
+          "cap": 8368000,
+          "cash": 20342000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 8335000,
+          "cap": 8368000,
+          "cash": 16928000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 9061000,
+          "cap": 9787000,
+          "cash": 18384000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 8395000,
+          "cap": 8427000,
+          "cash": 16938000
+        }
+      ],
+      "season": 10,
+      "year": 2036,
+      "players": 1950,
+      "retired": 1633,
+      "elite": 23,
+      "saveMB": 18.67376708984375,
+      "gzipMB": 1.8939142227172852,
+      "elapsedSeconds": 123.162875377,
+      "champion": "11"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 44,
+          "payroll": 8533000,
+          "cap": 8535000,
+          "cash": 18790000
+        },
+        {
+          "id": "7",
+          "squad": 46,
+          "payroll": 8606000,
+          "cap": 8706000,
+          "cash": 19825000
+        },
+        {
+          "id": "8",
+          "squad": 40,
+          "payroll": 10982000,
+          "cap": 11202000,
+          "cash": 16192000
+        },
+        {
+          "id": "2",
+          "squad": 41,
+          "payroll": 9151000,
+          "cap": 13154000,
+          "cash": 22157000
+        },
+        {
+          "id": "5",
+          "squad": 44,
+          "payroll": 8061000,
+          "cap": 8535000,
+          "cash": 22678000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5527000,
+          "cap": 9241000,
+          "cash": 19800000
+        },
+        {
+          "id": "11",
+          "squad": 44,
+          "payroll": 11421000,
+          "cap": 11654000,
+          "cash": 18150000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 8373000,
+          "cap": 8535000,
+          "cash": 21794000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 8513000,
+          "cap": 8535000,
+          "cash": 19190000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 9309000,
+          "cap": 9983000,
+          "cash": 19963000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 8170000,
+          "cap": 8596000,
+          "cash": 19261000
+        }
+      ],
+      "season": 11,
+      "year": 2037,
+      "players": 2075,
+      "retired": 1795,
+      "elite": 23,
+      "saveMB": 20.126317024230957,
+      "gzipMB": 1.9967641830444336,
+      "elapsedSeconds": 147.99405367900002,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 45,
+          "payroll": 8696000,
+          "cap": 8706000,
+          "cash": 20865000
+        },
+        {
+          "id": "7",
+          "squad": 43,
+          "payroll": 8475000,
+          "cap": 8880000,
+          "cash": 22008000
+        },
+        {
+          "id": "8",
+          "squad": 38,
+          "payroll": 11130000,
+          "cap": 11426000,
+          "cash": 17180000
+        },
+        {
+          "id": "2",
+          "squad": 40,
+          "payroll": 9614000,
+          "cap": 13417000,
+          "cash": 23751000
+        },
+        {
+          "id": "5",
+          "squad": 43,
+          "payroll": 8392000,
+          "cap": 8706000,
+          "cash": 24582000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5527000,
+          "cap": 9426000,
+          "cash": 21600000
+        },
+        {
+          "id": "11",
+          "squad": 43,
+          "payroll": 11051000,
+          "cap": 11887000,
+          "cash": 20525000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 8613000,
+          "cap": 8706000,
+          "cash": 23722000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 8340000,
+          "cap": 8706000,
+          "cash": 20777000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 9493000,
+          "cap": 10183000,
+          "cash": 22249000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 8747000,
+          "cap": 8768000,
+          "cash": 20341000
+        }
+      ],
+      "season": 12,
+      "year": 2038,
+      "players": 2182,
+      "retired": 1967,
+      "elite": 25,
+      "saveMB": 21.681693077087402,
+      "gzipMB": 2.109010696411133,
+      "elapsedSeconds": 172.533199709,
+      "champion": "11"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 8492000,
+          "cap": 8880000,
+          "cash": 23052000
+        },
+        {
+          "id": "7",
+          "squad": 45,
+          "payroll": 9048000,
+          "cap": 9058000,
+          "cash": 23387000
+        },
+        {
+          "id": "8",
+          "squad": 37,
+          "payroll": 11376000,
+          "cap": 11655000,
+          "cash": 18317000
+        },
+        {
+          "id": "2",
+          "squad": 40,
+          "payroll": 9379000,
+          "cap": 13685000,
+          "cash": 26299000
+        },
+        {
+          "id": "5",
+          "squad": 42,
+          "payroll": 8774000,
+          "cap": 8880000,
+          "cash": 26257000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5424000,
+          "cap": 9615000,
+          "cash": 23400000
+        },
+        {
+          "id": "11",
+          "squad": 40,
+          "payroll": 10196000,
+          "cap": 12125000,
+          "cash": 22838000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 8815000,
+          "cap": 8880000,
+          "cash": 25710000
+        },
+        {
+          "id": "3",
+          "squad": 43,
+          "payroll": 8541000,
+          "cap": 8880000,
+          "cash": 22716000
+        },
+        {
+          "id": "4",
+          "squad": 45,
+          "payroll": 10173000,
+          "cap": 10387000,
+          "cash": 23240000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 8939000,
+          "cap": 8943000,
+          "cash": 22184000
+        }
+      ],
+      "season": 13,
+      "year": 2039,
+      "players": 2305,
+      "retired": 2129,
+      "elite": 28,
+      "saveMB": 23.31247901916504,
+      "gzipMB": 2.227487564086914,
+      "elapsedSeconds": 200.360778759,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 43,
+          "payroll": 9023000,
+          "cap": 9058000,
+          "cash": 24565000
+        },
+        {
+          "id": "7",
+          "squad": 42,
+          "payroll": 8051000,
+          "cap": 9239000,
+          "cash": 25989000
+        },
+        {
+          "id": "8",
+          "squad": 37,
+          "payroll": 11506000,
+          "cap": 11888000,
+          "cash": 20203000
+        },
+        {
+          "id": "2",
+          "squad": 43,
+          "payroll": 10265000,
+          "cap": 13959000,
+          "cash": 26509000
+        },
+        {
+          "id": "5",
+          "squad": 39,
+          "payroll": 8060000,
+          "cap": 9058000,
+          "cash": 28425000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5424000,
+          "cap": 9807000,
+          "cash": 25200000
+        },
+        {
+          "id": "11",
+          "squad": 40,
+          "payroll": 10784000,
+          "cap": 12368000,
+          "cash": 23731000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 9056000,
+          "cap": 9058000,
+          "cash": 28100000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 8366000,
+          "cap": 9058000,
+          "cash": 25067000
+        },
+        {
+          "id": "4",
+          "squad": 42,
+          "payroll": 9082000,
+          "cap": 10595000,
+          "cash": 25923000
+        },
+        {
+          "id": "9",
+          "squad": 45,
+          "payroll": 9105000,
+          "cap": 9122000,
+          "cash": 23488000
+        }
+      ],
+      "season": 14,
+      "year": 2040,
+      "players": 2411,
+      "retired": 2307,
+      "elite": 30,
+      "saveMB": 24.90813159942627,
+      "gzipMB": 2.3362255096435547,
+      "elapsedSeconds": 230.42357319,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 40,
+          "payroll": 8797000,
+          "cap": 9239000,
+          "cash": 26624000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 9044000,
+          "cap": 9424000,
+          "cash": 27661000
+        },
+        {
+          "id": "8",
+          "squad": 36,
+          "payroll": 11873000,
+          "cap": 12126000,
+          "cash": 21271000
+        },
+        {
+          "id": "2",
+          "squad": 44,
+          "payroll": 10762000,
+          "cap": 14238000,
+          "cash": 27956000
+        },
+        {
+          "id": "5",
+          "squad": 39,
+          "payroll": 8837000,
+          "cap": 9239000,
+          "cash": 29427000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5309000,
+          "cap": 10003000,
+          "cash": 27000000
+        },
+        {
+          "id": "11",
+          "squad": 36,
+          "payroll": 9160000,
+          "cap": 12615000,
+          "cash": 27729000
+        },
+        {
+          "id": "6",
+          "squad": 44,
+          "payroll": 8963000,
+          "cap": 9239000,
+          "cash": 29889000
+        },
+        {
+          "id": "3",
+          "squad": 46,
+          "payroll": 9216000,
+          "cap": 9239000,
+          "cash": 26865000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 9117000,
+          "cap": 10807000,
+          "cash": 27341000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 9294000,
+          "cap": 9304000,
+          "cash": 25237000
+        }
+      ],
+      "season": 15,
+      "year": 2041,
+      "players": 2520,
+      "retired": 2485,
+      "elite": 32,
+      "saveMB": 26.63830852508545,
+      "gzipMB": 2.454601287841797,
+      "elapsedSeconds": 259.770583134,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 38,
+          "payroll": 8280000,
+          "cap": 9424000,
+          "cash": 29080000
+        },
+        {
+          "id": "7",
+          "squad": 45,
+          "payroll": 9569000,
+          "cap": 9612000,
+          "cash": 28803000
+        },
+        {
+          "id": "8",
+          "squad": 37,
+          "payroll": 12339000,
+          "cap": 12369000,
+          "cash": 22127000
+        },
+        {
+          "id": "2",
+          "squad": 40,
+          "payroll": 9302000,
+          "cap": 14523000,
+          "cash": 30684000
+        },
+        {
+          "id": "5",
+          "squad": 39,
+          "payroll": 8959000,
+          "cap": 9424000,
+          "cash": 31227000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5309000,
+          "cap": 10203000,
+          "cash": 28800000
+        },
+        {
+          "id": "11",
+          "squad": 36,
+          "payroll": 8757000,
+          "cap": 12867000,
+          "cash": 30567000
+        },
+        {
+          "id": "6",
+          "squad": 45,
+          "payroll": 9318000,
+          "cap": 9424000,
+          "cash": 31421000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 9405000,
+          "cap": 9424000,
+          "cash": 28687000
+        },
+        {
+          "id": "4",
+          "squad": 46,
+          "payroll": 10371000,
+          "cap": 11023000,
+          "cash": 27835000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 9451000,
+          "cap": 9490000,
+          "cash": 27569000
+        }
+      ],
+      "season": 16,
+      "year": 2042,
+      "players": 2605,
+      "retired": 2680,
+      "elite": 34,
+      "saveMB": 28.400195121765137,
+      "gzipMB": 2.574967384338379,
+      "elapsedSeconds": 290.98290403,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 38,
+          "payroll": 9578000,
+          "cap": 9612000,
+          "cash": 29895000
+        },
+        {
+          "id": "7",
+          "squad": 41,
+          "payroll": 7786000,
+          "cap": 9804000,
+          "cash": 32306000
+        },
+        {
+          "id": "8",
+          "squad": 33,
+          "payroll": 10783000,
+          "cap": 12616000,
+          "cash": 24362000
+        },
+        {
+          "id": "2",
+          "squad": 38,
+          "payroll": 9248000,
+          "cap": 14813000,
+          "cash": 33117000
+        },
+        {
+          "id": "5",
+          "squad": 41,
+          "payroll": 9537000,
+          "cap": 9612000,
+          "cash": 32949000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5197000,
+          "cap": 10407000,
+          "cash": 30600000
+        },
+        {
+          "id": "11",
+          "squad": 37,
+          "payroll": 9256000,
+          "cap": 13124000,
+          "cash": 32527000
+        },
+        {
+          "id": "6",
+          "squad": 46,
+          "payroll": 9495000,
+          "cap": 9612000,
+          "cash": 32880000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 9539000,
+          "cap": 9612000,
+          "cash": 29776000
+        },
+        {
+          "id": "4",
+          "squad": 44,
+          "payroll": 10028000,
+          "cap": 11243000,
+          "cash": 29768000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 9558000,
+          "cap": 9680000,
+          "cash": 28420000
+        }
+      ],
+      "season": 17,
+      "year": 2043,
+      "players": 2701,
+      "retired": 2869,
+      "elite": 33,
+      "saveMB": 30.16666603088379,
+      "gzipMB": 2.6910667419433594,
+      "elapsedSeconds": 335.096978499,
+      "champion": "11"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 37,
+          "payroll": 8744000,
+          "cap": 9804000,
+          "cash": 32221000
+        },
+        {
+          "id": "7",
+          "squad": 44,
+          "payroll": 8638000,
+          "cap": 10000000,
+          "cash": 33816000
+        },
+        {
+          "id": "8",
+          "squad": 37,
+          "payroll": 12035000,
+          "cap": 12868000,
+          "cash": 25051000
+        },
+        {
+          "id": "2",
+          "squad": 37,
+          "payroll": 8690000,
+          "cap": 15109000,
+          "cash": 34708000
+        },
+        {
+          "id": "5",
+          "squad": 39,
+          "payroll": 9504000,
+          "cap": 9804000,
+          "cash": 34866000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5197000,
+          "cap": 10615000,
+          "cash": 32400000
+        },
+        {
+          "id": "11",
+          "squad": 36,
+          "payroll": 9089000,
+          "cap": 13386000,
+          "cash": 34633000
+        },
+        {
+          "id": "6",
+          "squad": 44,
+          "payroll": 9398000,
+          "cap": 9804000,
+          "cash": 35640000
+        },
+        {
+          "id": "3",
+          "squad": 44,
+          "payroll": 9228000,
+          "cap": 9804000,
+          "cash": 31210000
+        },
+        {
+          "id": "4",
+          "squad": 43,
+          "payroll": 9885000,
+          "cap": 11468000,
+          "cash": 32022000
+        },
+        {
+          "id": "9",
+          "squad": 46,
+          "payroll": 9864000,
+          "cap": 9874000,
+          "cash": 29833000
+        }
+      ],
+      "season": 18,
+      "year": 2044,
+      "players": 2768,
+      "retired": 3083,
+      "elite": 34,
+      "saveMB": 31.950881958007812,
+      "gzipMB": 2.810666084289551,
+      "elapsedSeconds": 368.605952199,
+      "champion": "8"
+    },
+    {
+      "clubs": [
+        {
+          "id": "10",
+          "squad": 35,
+          "payroll": 7537000,
+          "cap": 10000000,
+          "cash": 35063000
+        },
+        {
+          "id": "7",
+          "squad": 46,
+          "payroll": 10049000,
+          "cap": 10200000,
+          "cash": 34363000
+        },
+        {
+          "id": "8",
+          "squad": 35,
+          "payroll": 10908000,
+          "cap": 13125000,
+          "cash": 27293000
+        },
+        {
+          "id": "2",
+          "squad": 39,
+          "payroll": 8871000,
+          "cap": 15411000,
+          "cash": 36436000
+        },
+        {
+          "id": "5",
+          "squad": 39,
+          "payroll": 9979000,
+          "cap": 10000000,
+          "cash": 37110000
+        },
+        {
+          "id": "1",
+          "squad": 34,
+          "payroll": 5153000,
+          "cap": 10827000,
+          "cash": 34200000
+        },
+        {
+          "id": "11",
+          "squad": 36,
+          "payroll": 8853000,
+          "cap": 13654000,
+          "cash": 37010000
+        },
+        {
+          "id": "6",
+          "squad": 43,
+          "payroll": 8875000,
+          "cap": 10000000,
+          "cash": 37440000
+        },
+        {
+          "id": "3",
+          "squad": 45,
+          "payroll": 9640000,
+          "cap": 10000000,
+          "cash": 32670000
+        },
+        {
+          "id": "4",
+          "squad": 43,
+          "payroll": 10255000,
+          "cap": 11697000,
+          "cash": 32982000
+        },
+        {
+          "id": "9",
+          "squad": 44,
+          "payroll": 9119000,
+          "cap": 10071000,
+          "cash": 31633000
+        }
+      ],
+      "season": 19,
+      "year": 2045,
+      "players": 2828,
+      "retired": 3306,
+      "elite": 34,
+      "saveMB": 33.794114112854004,
+      "gzipMB": 2.9309396743774414,
+      "elapsedSeconds": 411.62212900199995,
+      "champion": "11"
+    }
+  ]
+}

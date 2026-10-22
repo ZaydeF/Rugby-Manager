@@ -1,0 +1,13 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE import_sources (filename TEXT PRIMARY KEY, sha256 TEXT NOT NULL, row_count INTEGER, columns_json TEXT, raw_json TEXT);
+CREATE TABLE teams (team_id TEXT PRIMARY KEY, name TEXT NOT NULL, abbreviation TEXT NOT NULL);
+CREATE TABLE rounds (round_id TEXT PRIMARY KEY, round_number INTEGER NOT NULL UNIQUE, start_date TEXT, end_date TEXT, source_json TEXT NOT NULL);
+CREATE TABLE players (player_id TEXT PRIMARY KEY, feed_id TEXT, full_name TEXT NOT NULL, team_id TEXT NOT NULL REFERENCES teams(team_id), position TEXT NOT NULL, age INTEGER, date_of_birth TEXT, nationality TEXT, all_blacks_eligible INTEGER, north_south_region TEXT NOT NULL DEFAULT 'UNKNOWN', potential REAL, source_json TEXT NOT NULL);
+CREATE TABLE matches (match_id TEXT PRIMARY KEY, round_id TEXT NOT NULL REFERENCES rounds(round_id), date TEXT NOT NULL, home_team_id TEXT NOT NULL REFERENCES teams(team_id), away_team_id TEXT NOT NULL REFERENCES teams(team_id), home_score INTEGER, away_score INTEGER, source_json TEXT NOT NULL);
+CREATE TABLE player_match_stats (player_id TEXT NOT NULL REFERENCES players(player_id), match_id TEXT NOT NULL REFERENCES matches(match_id), round_id TEXT NOT NULL REFERENCES rounds(round_id), minutes REAL NOT NULL CHECK(minutes>=0), fantasy_points REAL, stats_json TEXT NOT NULL, PRIMARY KEY(player_id,match_id));
+CREATE TABLE player_price_history (player_id TEXT NOT NULL REFERENCES players(player_id), round_id TEXT NOT NULL REFERENCES rounds(round_id), price REAL NOT NULL, PRIMARY KEY(player_id,round_id));
+CREATE TABLE player_selection_history (player_id TEXT NOT NULL REFERENCES players(player_id), round_id TEXT NOT NULL REFERENCES rounds(round_id), selected_percent REAL NOT NULL, PRIMARY KEY(player_id,round_id));
+CREATE TABLE player_round_scores (player_id TEXT NOT NULL REFERENCES players(player_id), round_id TEXT NOT NULL REFERENCES rounds(round_id), fantasy_points REAL NOT NULL, PRIMARY KEY(player_id,round_id));
+CREATE TABLE player_ratings (player_id TEXT PRIMARY KEY REFERENCES players(player_id), model_version TEXT NOT NULL, current_ability REAL NOT NULL CHECK(current_ability BETWEEN 1 AND 100), confidence TEXT NOT NULL, evidence_weight REAL NOT NULL, attributes_json TEXT NOT NULL, derivation_json TEXT NOT NULL);
+CREATE TABLE player_state (player_id TEXT PRIMARY KEY REFERENCES players(player_id), form REAL, fitness REAL, fatigue REAL, morale REAL, sharpness REAL, injury_json TEXT, contract_json TEXT, development_focus TEXT, satisfaction REAL);
+CREATE TABLE import_exceptions (exception_id INTEGER PRIMARY KEY, severity TEXT NOT NULL, code TEXT NOT NULL, player_id TEXT, match_id TEXT, detail TEXT NOT NULL);

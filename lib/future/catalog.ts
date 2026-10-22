@@ -1,0 +1,7 @@
+import type {Season,SimUniverse} from '../sim/types.ts';
+import type {Player} from '../types.ts';
+export function fullUniverse(s:Season,data:SimUniverse):SimUniverse{
+ if(!s.future)return data;
+ const known=new Set(data.players.map(p=>p.player_id));const extra=Object.values(s.future.generated).filter(g=>!known.has(g.id)).map(g=>{const c=s.management!.players[g.id];return {player_id:g.id,feed_id:g.id,name:g.name,first_name:g.name.split(' ')[0],last_name:g.name.split(' ').slice(1).join(' '),position:g.position,squad_id:c.clubId??'free',squad_name:'Academy',squad_abbr:'U21',overall:Math.round(c.ability),overall_unrounded:c.ability,statistical_ability:c.ability,established_prior:null,reputation:null,attributes:{...c.attributes},rating_detail:Object.fromEntries(Object.keys(c.attributes).map(a=>[a,{raw:null,percentile:null,weight:1}])) as Player['rating_detail'],minutes:0,played_appearances:0,source_appearances:0,confidence:'Fictional prospect',evidence_weight:0,prior_rating:50,opening_price:null,prior_round:null,totals:{},recent:[],history:[],flags:['Fictional academy player'],fantasy_price:0,fantasy_total:0,fantasy_average:null,price_history:[]} as Player;});return {...data,players:[...data.players,...extra]};
+}
+export function isSeniorAvailable(s:Season,id:string,to?:string){const g=s.future?.generated[id];return !s.future?.retired[id]&&(!g||g.level==='senior'||g.level==='academy'&&g.academyId===to);}

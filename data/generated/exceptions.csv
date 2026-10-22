@@ -1,0 +1,213 @@
+severity,code,player_id,match_id,detail
+warning,zero_minutes,62,15,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,62,27,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,62,39,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,62,58,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,62,69,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,64,27,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,64,69,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,66,27,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,67,39,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,178,52,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,179,39,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,230,60,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,273,2,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,327,41,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,334,77,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,336,35,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,zero_minutes,407,31,Source records an appearance with 0 minutes. Preserved in history; excluded from ability rates.
+warning,small_sample,1,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,2,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,3,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,6,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,11,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,13,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,15,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,16,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,18,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,27,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,29,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,30,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,36,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,40,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,41,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,45,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,47,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,49,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,54,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,61,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,62,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,63,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,66,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,69,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,75,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,77,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,82,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,83,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,85,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,87,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,88,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,89,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,100,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,104,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,107,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,115,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,123,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,125,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,127,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,130,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,132,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,134,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,135,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,136,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,144,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,147,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,151,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,152,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,153,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,155,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,156,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,157,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,159,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,161,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,163,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,166,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,170,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,171,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,175,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,176,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,178,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,179,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,182,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,183,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,185,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,188,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,190,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,192,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,198,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,199,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,200,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,201,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,210,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,214,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,215,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,216,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,218,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,220,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,224,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,228,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,229,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,230,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,233,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,236,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,240,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,244,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,248,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,249,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,252,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,258,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,259,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,260,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,261,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,264,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,268,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,269,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,272,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,273,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,275,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,277,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,280,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,281,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,284,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,287,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,288,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,291,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,293,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,296,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,300,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,302,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,303,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,309,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,311,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,313,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,314,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,317,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,324,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,325,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,327,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,329,,Player retained; current ability comes from conservative positional price prior.
+warning,no_appearances,333,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,334,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,336,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,342,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,344,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,346,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,350,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,351,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,353,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,357,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,363,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,366,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,367,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,371,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,372,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,374,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,376,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,377,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,379,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,384,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,390,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,394,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,396,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,399,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,400,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,404,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,405,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,406,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,408,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,409,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,412,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,416,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,419,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,421,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,422,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,423,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,425,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,427,,Fewer than 240 minutes; rating requires caution.
+warning,no_appearances,428,,Player retained; current ability comes from conservative positional price prior.
+warning,small_sample,433,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,434,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,435,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,436,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,437,,Fewer than 240 minutes; rating requires caution.
+warning,small_sample,438,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,438,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,439,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,439,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,440,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,440,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,late_price_prior,441,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,442,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,442,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,443,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,443,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,444,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,444,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,445,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,445,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,late_price_prior,446,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,447,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,447,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,448,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,448,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,449,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,449,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,late_price_prior,450,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,451,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,451,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,452,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,452,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,453,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,453,,Earliest available price is after Round 1 and can already reflect 2026 information.
+warning,small_sample,454,,Fewer than 240 minutes; rating requires caution.
+warning,late_price_prior,454,,Earliest available price is after Round 1 and can already reflect 2026 information.

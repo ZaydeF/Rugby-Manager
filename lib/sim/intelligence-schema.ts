@@ -1,0 +1,10 @@
+import {z} from 'zod';
+import {rugbySchema} from './rugby.ts';
+const n=z.number().finite().nonnegative(),text=z.string().max(800),side=z.number().int().min(0).max(1),log=z.record(z.string().max(80),n.int());
+export const penaltyModeSchema=z.enum(['delegate','key','all']);
+export const penaltyControlSchema=z.object({side,mode:penaltyModeSchema});
+export const pendingPenaltySchema=z.object({id:n.int(),side,field:n.max(100),minute:n.max(100),fromScrum:z.boolean(),key:z.boolean(),reason:text});
+const sample=z.object({minute:n.max(100),score:n.int(),log,territory:n,possession:n,linebreaks:n,errors:n,penalties:n,lineouts:n,lineoutsLost:n,scrums:n,scrumsLost:n,fatigue:n.max(100)});
+export const intelligenceSchema=z.object({version:z.literal(1),samples:z.tuple([z.array(sample).max(8),z.array(sample).max(8)]),changes:z.array(z.object({side,minute:n.max(100),before:rugbySchema,after:rugbySchema,reason:text,sample})).max(24)});
+export const memorySchema=z.array(z.object({id:text,date:text,competition:text,teams:z.array(z.object({id:text,name:text,attack:text,defence:text,score:n.int(),log,linebreaks:n,errors:n,lineouts:n,lineoutsLost:n,scrums:n,scrumsLost:n})).length(2)})).max(320);
+export const contextSchema=z.object({attack:text,zone:text,carrierGroup:text.optional(),playerRole:text.optional()});

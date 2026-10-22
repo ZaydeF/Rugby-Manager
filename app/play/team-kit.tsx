@@ -1,0 +1,9 @@
+import {Shirt} from 'lucide-react';
+import type {CSSProperties} from 'react';
+const palettes:Record<string,[string,string]>={
+ '1':['#214dba','#f2cb42'],'2':['#c82d43','#101826'],'3':['#66bcec','#183e64'],'4':['#9b2545','#f5f1df'],'5':['#147aaf','#73dfe3'],'6':['#1c4070','#f38642'],'7':['#2446af','#90cdfb'],'8':['#262b31','#edc53e'],'9':['#1766b5','#f1d758'],'10':['#1e3153','#eccc69'],'11':['#f1cf36','#172b4b'],
+ 'npc-1':['#285ca6','#f1f3f7'],'npc-2':['#e8c539','#1750a3'],'npc-3':['#bf3041','#1b2131'],'npc-4':['#20232b','#c8434e'],'npc-5':['#eff1f5','#232c3e'],'npc-6':['#248359','#f2f6f1'],'npc-7':['#8d2d4c','#edf0f5'],'npc-8':['#78c6e7','#f4f4ef'],'npc-9':['#e8c83e','#2453a2'],'npc-10':['#8f314b','#e7c045'],'npc-11':['#e1b72d','#1e2534'],'npc-12':['#c83247','#263b83'],'npc-13':['#cc303d','#e0b941'],'npc-14':['#202734','#e4c241']};
+export function kit(team:string,away=false){const [primary,secondary]=palettes[team]??['#4d68b3','#e5eaf5'];const fill=away?'#f2f4f8':primary;const rgb=fill.slice(1).match(/../g)!.map(x=>parseInt(x,16));return {primary:fill,secondary:away?primary:secondary,ink:rgb[0]*.299+rgb[1]*.587+rgb[2]*.114>155?'#101827':'#ffffff'};}
+export function kitStyle(team:string,away=false):CSSProperties{const c=kit(team,away);return {'--kit':c.primary,'--kit-trim':c.secondary,'--kit-ink':c.ink} as CSSProperties;}
+export function Jersey({team,number,away=false}:{team:string;number?:number|string;away?:boolean}){return <span className="team-jersey" style={kitStyle(team,away)} aria-hidden="true"><Shirt fill="var(--kit)" stroke="var(--kit-trim)" strokeWidth={1.7}/><b>{number??''}</b></span>}
+export function clash(home:string,away:string){const a=kit(home).primary,b=kit(away).primary;const rgb=(v:string)=>v.slice(1).match(/../g)!.map(x=>parseInt(x,16));return Math.hypot(...rgb(a).map((x,i)=>x-rgb(b)[i]))<105;}

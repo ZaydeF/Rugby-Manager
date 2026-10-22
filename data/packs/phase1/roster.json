@@ -1,0 +1,2728 @@
+{
+  "status": "Phase 1 active roster; exclusions applied to new and migrated careers",
+  "source": "data/generated/universe.json",
+  "excludedPlayers": [
+    {
+      "player_id": "61",
+      "name": "Dan Nelson",
+      "reason": "User requested removal on 2026-09-08"
+    },
+    {
+      "player_id": "244",
+      "name": "Hamish Muller",
+      "reason": "User requested removal on 2026-09-08"
+    },
+    {
+      "player_id": "395",
+      "name": "Moana Halfback",
+      "reason": "User requested removal on 2026-09-08"
+    },
+    {
+      "player_id": "448",
+      "name": "Sairusi Ravudi",
+      "reason": "User requested removal on 2026-09-08"
+    }
+  ],
+  "players": [
+    {
+      "player_id": "1",
+      "name": "Ben Ake",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "2",
+      "name": "Joshua Fusitu'a",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "3",
+      "name": "Jordan Lay",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "4",
+      "name": "Marcel Renata",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "5",
+      "name": "Ofa Tu'ungafasi",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "6",
+      "name": "Flyn Yates",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "7",
+      "name": "Kurt Eklund",
+      "club_id": "7",
+      "position": "hooker"
+    },
+    {
+      "player_id": "8",
+      "name": "James Mullan",
+      "club_id": "7",
+      "position": "hooker"
+    },
+    {
+      "player_id": "9",
+      "name": "Bradley Slater",
+      "club_id": "7",
+      "position": "hooker"
+    },
+    {
+      "player_id": "10",
+      "name": "Josh Beehre",
+      "club_id": "7",
+      "position": "lock"
+    },
+    {
+      "player_id": "11",
+      "name": "Tristyn Cook",
+      "club_id": "7",
+      "position": "lock"
+    },
+    {
+      "player_id": "12",
+      "name": "Sam Darry",
+      "club_id": "7",
+      "position": "lock"
+    },
+    {
+      "player_id": "13",
+      "name": "Laghlan McWhannell",
+      "club_id": "7",
+      "position": "lock"
+    },
+    {
+      "player_id": "14",
+      "name": "Patrick Tuipulotu",
+      "club_id": "7",
+      "position": "lock"
+    },
+    {
+      "player_id": "15",
+      "name": "Cameron Christie",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "16",
+      "name": "Che Clark",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "17",
+      "name": "Dalton Papali'i",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "18",
+      "name": "Terrell Peita",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "19",
+      "name": "Anton Segner",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "20",
+      "name": "Hoskins Sotutu",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "21",
+      "name": "Malachi Wrampling",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "22",
+      "name": "Finlay Christie",
+      "club_id": "7",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "23",
+      "name": "Taufa Funaki",
+      "club_id": "7",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "24",
+      "name": "Sam Nock",
+      "club_id": "7",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "25",
+      "name": "Beauden Barrett",
+      "club_id": "7",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "26",
+      "name": "Stephen Perofeta",
+      "club_id": "7",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "27",
+      "name": "Rico Simpson",
+      "club_id": "7",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "28",
+      "name": "Pita Ahki",
+      "club_id": "7",
+      "position": "center"
+    },
+    {
+      "player_id": "29",
+      "name": "James Cameron",
+      "club_id": "7",
+      "position": "center"
+    },
+    {
+      "player_id": "30",
+      "name": "Corey Evans",
+      "club_id": "7",
+      "position": "center"
+    },
+    {
+      "player_id": "31",
+      "name": "AJ Lam",
+      "club_id": "7",
+      "position": "center"
+    },
+    {
+      "player_id": "32",
+      "name": "Xavi Taele",
+      "club_id": "7",
+      "position": "center"
+    },
+    {
+      "player_id": "33",
+      "name": "Kade Banks",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "34",
+      "name": "Caleb Clarke",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "35",
+      "name": "Cole Forbes",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "36",
+      "name": "Payton Spencer",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "37",
+      "name": "Zarn Sullivan",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "38",
+      "name": "Codemeru Vai",
+      "club_id": "7",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "39",
+      "name": "Allan Alaalatoa",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "40",
+      "name": "Tevita Alatini",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "41",
+      "name": "Lington Ieli",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "42",
+      "name": "Blake Schoupp",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "43",
+      "name": "James Slipper",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "44",
+      "name": "Rhys van Nek",
+      "club_id": "10",
+      "position": "prop"
+    },
+    {
+      "player_id": "45",
+      "name": "Liam Bowron",
+      "club_id": "10",
+      "position": "hooker"
+    },
+    {
+      "player_id": "46",
+      "name": "Lachlan Lonergan",
+      "club_id": "10",
+      "position": "hooker"
+    },
+    {
+      "player_id": "47",
+      "name": "Chris Mickelson",
+      "club_id": "10",
+      "position": "hooker"
+    },
+    {
+      "player_id": "48",
+      "name": "Billy Pollard",
+      "club_id": "10",
+      "position": "hooker"
+    },
+    {
+      "player_id": "49",
+      "name": "Harvey Cordukes",
+      "club_id": "10",
+      "position": "lock"
+    },
+    {
+      "player_id": "50",
+      "name": "Nick Frost",
+      "club_id": "10",
+      "position": "lock"
+    },
+    {
+      "player_id": "51",
+      "name": "Cadeyrn Neville",
+      "club_id": "10",
+      "position": "lock"
+    },
+    {
+      "player_id": "52",
+      "name": "Lachie Shaw",
+      "club_id": "10",
+      "position": "lock"
+    },
+    {
+      "player_id": "53",
+      "name": "Charlie Cale",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "54",
+      "name": "Eli Langi",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "55",
+      "name": "Toby Macpherson",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "56",
+      "name": "Luke Reimer",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "57",
+      "name": "Rory Scott",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "58",
+      "name": "Tuaina Taii Tualima",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "59",
+      "name": "Rob Valetini",
+      "club_id": "10",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "60",
+      "name": "Ryan Lonergan",
+      "club_id": "10",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "62",
+      "name": "Klayton Thorn",
+      "club_id": "10",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "63",
+      "name": "Joe Dillon",
+      "club_id": "10",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "64",
+      "name": "Tane Edmed",
+      "club_id": "10",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "65",
+      "name": "Declan Meredith",
+      "club_id": "10",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "66",
+      "name": "Austin Anderson",
+      "club_id": "10",
+      "position": "center"
+    },
+    {
+      "player_id": "67",
+      "name": "Hudson Creighton",
+      "club_id": "10",
+      "position": "center"
+    },
+    {
+      "player_id": "68",
+      "name": "David Feliuai",
+      "club_id": "10",
+      "position": "center"
+    },
+    {
+      "player_id": "69",
+      "name": "Jarrah McLeod",
+      "club_id": "10",
+      "position": "center"
+    },
+    {
+      "player_id": "70",
+      "name": "Kadin Pritchard",
+      "club_id": "10",
+      "position": "center"
+    },
+    {
+      "player_id": "71",
+      "name": "Andy Muirhead",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "72",
+      "name": "Kye Oates",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "73",
+      "name": "Ollie Sapsford",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "74",
+      "name": "Corey Toole",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "75",
+      "name": "Shane Wilcox",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "76",
+      "name": "Tom Wright",
+      "club_id": "10",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "77",
+      "name": "Benét Kumeroa",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "78",
+      "name": "George Dyer",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "79",
+      "name": "Jared Proffit",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "80",
+      "name": "Ollie Norris",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "81",
+      "name": "Reuben O'Neill",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "82",
+      "name": "Sione Ahio",
+      "club_id": "8",
+      "position": "prop"
+    },
+    {
+      "player_id": "83",
+      "name": "Brodie McAlister",
+      "club_id": "8",
+      "position": "hooker"
+    },
+    {
+      "player_id": "84",
+      "name": "Samisoni Taukei'aho",
+      "club_id": "8",
+      "position": "hooker"
+    },
+    {
+      "player_id": "85",
+      "name": "Taine Kolose",
+      "club_id": "8",
+      "position": "hooker"
+    },
+    {
+      "player_id": "86",
+      "name": "Tyrone Thompson",
+      "club_id": "8",
+      "position": "hooker"
+    },
+    {
+      "player_id": "87",
+      "name": "Aisake Vakasiuola",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "88",
+      "name": "Fiti Sa",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "89",
+      "name": "Jayden Sa",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "90",
+      "name": "Josh Lord",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "91",
+      "name": "Seu Seu Naitoa Ah Kuoi",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "92",
+      "name": "Tupou Vaa'i",
+      "club_id": "8",
+      "position": "lock"
+    },
+    {
+      "player_id": "93",
+      "name": "Jahrome Brown",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "94",
+      "name": "Kaylum Boshier",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "95",
+      "name": "Luke Jacobson",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "96",
+      "name": "Samipeni Finau",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "97",
+      "name": "Simon Parker",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "98",
+      "name": "Wallace Sititi",
+      "club_id": "8",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "99",
+      "name": "Cortez Ratima",
+      "club_id": "8",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "100",
+      "name": "Te Toiroa Tahuriorangi",
+      "club_id": "8",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "101",
+      "name": "Xavier Roe",
+      "club_id": "8",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "102",
+      "name": "Damian McKenzie",
+      "club_id": "8",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "103",
+      "name": "Josh Jacomb",
+      "club_id": "8",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "104",
+      "name": "Tepaea Cook-Savage",
+      "club_id": "8",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "105",
+      "name": "Daniel Rona",
+      "club_id": "8",
+      "position": "center"
+    },
+    {
+      "player_id": "106",
+      "name": "Kyle Brown",
+      "club_id": "8",
+      "position": "center"
+    },
+    {
+      "player_id": "107",
+      "name": "Lalakai Foketi",
+      "club_id": "8",
+      "position": "center"
+    },
+    {
+      "player_id": "108",
+      "name": "Quinn Tupaea",
+      "club_id": "8",
+      "position": "center"
+    },
+    {
+      "player_id": "109",
+      "name": "Emoni Narawa",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "110",
+      "name": "Etene Nanai-Seturo",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "111",
+      "name": "Isaac Hutchinson",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "112",
+      "name": "Kyren Taumoefolau",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "113",
+      "name": "Leroy Carter",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "114",
+      "name": "Liam Coombes-Fabling",
+      "club_id": "8",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "115",
+      "name": "Scott Barrett",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "116",
+      "name": "George Bell",
+      "club_id": "2",
+      "position": "hooker"
+    },
+    {
+      "player_id": "117",
+      "name": "Ethan Blackadder",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "118",
+      "name": "George Bower",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "119",
+      "name": "Finlay Brewis",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "120",
+      "name": "Tahlor Cahill",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "121",
+      "name": "Seb Calder",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "122",
+      "name": "Dom Gardiner",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "123",
+      "name": "Cullen Grace",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "124",
+      "name": "Jamie Hannah",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "125",
+      "name": "Liam Jack",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "126",
+      "name": "Corey Kellow",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "127",
+      "name": "Manumaua Letiu",
+      "club_id": "2",
+      "position": "hooker"
+    },
+    {
+      "player_id": "128",
+      "name": "Christian Lio-Willie",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "129",
+      "name": "Fletcher Newell",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "130",
+      "name": "Xavier Saifoloi",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "131",
+      "name": "Antonio Shalfoon",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "132",
+      "name": "Kershawl Sykes-Martin",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "133",
+      "name": "Codie Taylor",
+      "club_id": "2",
+      "position": "hooker"
+    },
+    {
+      "player_id": "134",
+      "name": "Tamaiti Williams",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "135",
+      "name": "Toby Bell",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "136",
+      "name": "Louie Chapman",
+      "club_id": "2",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "137",
+      "name": "Braydon Ennor",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "138",
+      "name": "Leicester Fainga'anuku",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "139",
+      "name": "Chay Fihaki",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "140",
+      "name": "David Havili",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "141",
+      "name": "Noah Hotham",
+      "club_id": "2",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "142",
+      "name": "Will Jordan",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "143",
+      "name": "Taha Kemara",
+      "club_id": "2",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "144",
+      "name": "Maloni Kunawave",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "145",
+      "name": "Dallas McLeod",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "146",
+      "name": "Johnny McNicholl",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "147",
+      "name": "Kyle Preston",
+      "club_id": "2",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "148",
+      "name": "Sevu Reece",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "149",
+      "name": "Rivez Reihana",
+      "club_id": "2",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "150",
+      "name": "Macca Springer",
+      "club_id": "2",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "151",
+      "name": "Aki Tuivailala",
+      "club_id": "2",
+      "position": "center"
+    },
+    {
+      "player_id": "152",
+      "name": "James White",
+      "club_id": "2",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "153",
+      "name": "Josh Bartlett",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "154",
+      "name": "Ethan de Groot",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "155",
+      "name": "Sefo Kautai",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "156",
+      "name": "Daniel Lienert-Brown",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "157",
+      "name": "Saula Ma'u",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "158",
+      "name": "Angus Ta'avao",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "159",
+      "name": "Henry Bell",
+      "club_id": "1",
+      "position": "hooker"
+    },
+    {
+      "player_id": "160",
+      "name": "Jack Taylor",
+      "club_id": "1",
+      "position": "hooker"
+    },
+    {
+      "player_id": "161",
+      "name": "Soane Vikena",
+      "club_id": "1",
+      "position": "hooker"
+    },
+    {
+      "player_id": "162",
+      "name": "Nikora Broughton",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "163",
+      "name": "Tai Cribb",
+      "club_id": "1",
+      "position": "lock"
+    },
+    {
+      "player_id": "164",
+      "name": "Mitchell Dunshea",
+      "club_id": "1",
+      "position": "lock"
+    },
+    {
+      "player_id": "165",
+      "name": "Oliver Haig",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "166",
+      "name": "Fabian Holland",
+      "club_id": "1",
+      "position": "lock"
+    },
+    {
+      "player_id": "167",
+      "name": "Te Kamaka Howden",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "168",
+      "name": "Veveni Lasaqa",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "169",
+      "name": "Tomás Lavanini",
+      "club_id": "1",
+      "position": "lock"
+    },
+    {
+      "player_id": "170",
+      "name": "Hugh Renton",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "171",
+      "name": "Will Stodart",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "172",
+      "name": "Sean Withy",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "173",
+      "name": "Folau Fakatava",
+      "club_id": "1",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "174",
+      "name": "Adam Lennox",
+      "club_id": "1",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "175",
+      "name": "Dylan Pledger",
+      "club_id": "1",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "176",
+      "name": "Andrew Knewstubb",
+      "club_id": "1",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "177",
+      "name": "Cameron Millar",
+      "club_id": "1",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "178",
+      "name": "Taine Robinson",
+      "club_id": "1",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "179",
+      "name": "Reesjan Pasitoa",
+      "club_id": "1",
+      "position": "center"
+    },
+    {
+      "player_id": "180",
+      "name": "Timoci Tavatavanawai",
+      "club_id": "1",
+      "position": "center"
+    },
+    {
+      "player_id": "181",
+      "name": "Tanielu Tele'a",
+      "club_id": "1",
+      "position": "center"
+    },
+    {
+      "player_id": "182",
+      "name": "Jake Te Hiwi",
+      "club_id": "1",
+      "position": "center"
+    },
+    {
+      "player_id": "183",
+      "name": "Josh Whaanga",
+      "club_id": "1",
+      "position": "center"
+    },
+    {
+      "player_id": "184",
+      "name": "Jona Nareki",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "185",
+      "name": "Finn Hurley",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "186",
+      "name": "Jonah Lowe",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "187",
+      "name": "Jacob Ratumaitavuki-Kneepkens",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "188",
+      "name": "Stanley Solomon",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "189",
+      "name": "Caleb Tangitau",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "190",
+      "name": "Xavier Tito-Harris",
+      "club_id": "1",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "191",
+      "name": "Siale Lauaki",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "192",
+      "name": "Tyrel Lomax",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "193",
+      "name": "Tevita Mafile'o",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "194",
+      "name": "Xavier Numia",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "195",
+      "name": "Pouri Rakete-Stones",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "196",
+      "name": "Pasilio Tosi",
+      "club_id": "11",
+      "position": "prop"
+    },
+    {
+      "player_id": "197",
+      "name": "Asafo Aumua",
+      "club_id": "11",
+      "position": "hooker"
+    },
+    {
+      "player_id": "198",
+      "name": "Vernon Bason",
+      "club_id": "11",
+      "position": "hooker"
+    },
+    {
+      "player_id": "199",
+      "name": "Jacob Devery",
+      "club_id": "11",
+      "position": "hooker"
+    },
+    {
+      "player_id": "200",
+      "name": "Raymond Tuputupu",
+      "club_id": "11",
+      "position": "hooker"
+    },
+    {
+      "player_id": "201",
+      "name": "Tom Allen",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "202",
+      "name": "Warner Dearns",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "203",
+      "name": "Caleb Delany",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "204",
+      "name": "Hugo Plummer",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "205",
+      "name": "Isaia Walker-Leawere",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "206",
+      "name": "Devan Flanders",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "207",
+      "name": "Brayden Iose",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "208",
+      "name": "Du'Plessis Kirifi",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "209",
+      "name": "Peter Lakai",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "210",
+      "name": "Arese Poliko",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "211",
+      "name": "Brad Shields",
+      "club_id": "11",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "212",
+      "name": "Ere Enari",
+      "club_id": "11",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "213",
+      "name": "Cam Roigard",
+      "club_id": "11",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "214",
+      "name": "Jordi Viljoen",
+      "club_id": "11",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "215",
+      "name": "Brett Cameron",
+      "club_id": "11",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "216",
+      "name": "Harry Godfrey",
+      "club_id": "11",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "217",
+      "name": "Callum Harkin",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "218",
+      "name": "Lucas Cashmore",
+      "club_id": "11",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "219",
+      "name": "Jordie Barrett",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "220",
+      "name": "Riley Higgins",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "221",
+      "name": "Billy Proctor",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "222",
+      "name": "Jone Rova",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "223",
+      "name": "Bailyn Sullivan",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "224",
+      "name": "Josh Timu",
+      "club_id": "11",
+      "position": "center"
+    },
+    {
+      "player_id": "225",
+      "name": "Fehi Fineanganofo",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "226",
+      "name": "Ruben Love",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "227",
+      "name": "Josh Moorby",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "228",
+      "name": "Kini Naholo",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "229",
+      "name": "Ngantungane Punivai",
+      "club_id": "11",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "230",
+      "name": "Vaiuta Latu",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "231",
+      "name": "Josh Nasser",
+      "club_id": "4",
+      "position": "hooker"
+    },
+    {
+      "player_id": "232",
+      "name": "Matt Faessler",
+      "club_id": "4",
+      "position": "hooker"
+    },
+    {
+      "player_id": "233",
+      "name": "Richie Asiata",
+      "club_id": "4",
+      "position": "hooker"
+    },
+    {
+      "player_id": "234",
+      "name": "Jeffery Toomaga-Allen",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "235",
+      "name": "Zane Nonggorr",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "236",
+      "name": "Massimo De Lutiis",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "237",
+      "name": "Aidan Ross",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "238",
+      "name": "George Blake",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "239",
+      "name": "Nick Bloomfield",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "240",
+      "name": "Trevor King",
+      "club_id": "4",
+      "position": "prop"
+    },
+    {
+      "player_id": "241",
+      "name": "Josh Canham",
+      "club_id": "4",
+      "position": "lock"
+    },
+    {
+      "player_id": "242",
+      "name": "Seru Uru",
+      "club_id": "4",
+      "position": "lock"
+    },
+    {
+      "player_id": "243",
+      "name": "Lukhan Salakaia-Loto",
+      "club_id": "4",
+      "position": "lock"
+    },
+    {
+      "player_id": "245",
+      "name": "Fraser McReight",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "246",
+      "name": "Harry Wilson",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "247",
+      "name": "Joe Brial",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "248",
+      "name": "John Bryant",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "249",
+      "name": "Tate McDermott",
+      "club_id": "4",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "250",
+      "name": "Louis Werchon",
+      "club_id": "4",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "251",
+      "name": "Kalani Thomas",
+      "club_id": "4",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "252",
+      "name": "Tom Lynagh",
+      "club_id": "4",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "253",
+      "name": "Carter Gordon",
+      "club_id": "4",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "254",
+      "name": "Harry McLaughlin-Phillips",
+      "club_id": "4",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "255",
+      "name": "Josh Flook",
+      "club_id": "4",
+      "position": "center"
+    },
+    {
+      "player_id": "256",
+      "name": "Hunter Paisami",
+      "club_id": "4",
+      "position": "center"
+    },
+    {
+      "player_id": "257",
+      "name": "Isaac Henry",
+      "club_id": "4",
+      "position": "center"
+    },
+    {
+      "player_id": "258",
+      "name": "Dre Pakeho",
+      "club_id": "4",
+      "position": "center"
+    },
+    {
+      "player_id": "259",
+      "name": "Frankie Goldsbrough",
+      "club_id": "4",
+      "position": "center"
+    },
+    {
+      "player_id": "260",
+      "name": "Will McCulloch",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "261",
+      "name": "Nicholas Conway",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "262",
+      "name": "Jock Campbell",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "263",
+      "name": "Tim Ryan",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "264",
+      "name": "Heremaia Murray",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "265",
+      "name": "Lachie Anderson",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "266",
+      "name": "Treyvon Pritchard",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "267",
+      "name": "Filipo Daugunu",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "268",
+      "name": "Ben Volavola",
+      "club_id": "4",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "269",
+      "name": "Apolosi Ranawai",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "270",
+      "name": "Daniel Botha",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "271",
+      "name": "Isaac Kailea",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "272",
+      "name": "Jack Barrett",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "273",
+      "name": "Siosifa Amone",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "274",
+      "name": "Tom Lambert",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "275",
+      "name": "Will Goddard",
+      "club_id": "3",
+      "position": "prop"
+    },
+    {
+      "player_id": "276",
+      "name": "Ethan Dobbins",
+      "club_id": "3",
+      "position": "hooker"
+    },
+    {
+      "player_id": "277",
+      "name": "Folau Fainga'a",
+      "club_id": "3",
+      "position": "hooker"
+    },
+    {
+      "player_id": "278",
+      "name": "Ioane Moananu",
+      "club_id": "3",
+      "position": "hooker"
+    },
+    {
+      "player_id": "279",
+      "name": "Angus Blyth",
+      "club_id": "3",
+      "position": "lock"
+    },
+    {
+      "player_id": "280",
+      "name": "Ben Grant",
+      "club_id": "3",
+      "position": "lock"
+    },
+    {
+      "player_id": "281",
+      "name": "Eamon Doyle",
+      "club_id": "3",
+      "position": "lock"
+    },
+    {
+      "player_id": "282",
+      "name": "Matt Philip",
+      "club_id": "3",
+      "position": "lock"
+    },
+    {
+      "player_id": "283",
+      "name": "Miles Amatosero",
+      "club_id": "3",
+      "position": "lock"
+    },
+    {
+      "player_id": "284",
+      "name": "Austin Durbidge",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "285",
+      "name": "Charlie Gamble",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "286",
+      "name": "Jamie Adamson",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "287",
+      "name": "Lachlan Hooper",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "288",
+      "name": "Leafi Talataina",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "289",
+      "name": "Pete Samu",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "290",
+      "name": "Jake Gordon",
+      "club_id": "3",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "291",
+      "name": "Michael McDonald",
+      "club_id": "3",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "292",
+      "name": "Teddy Wilson",
+      "club_id": "3",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "293",
+      "name": "Jack Bowen",
+      "club_id": "3",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "294",
+      "name": "Jack Debreczeni",
+      "club_id": "3",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "295",
+      "name": "Lawson Creighton",
+      "club_id": "3",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "296",
+      "name": "George Poolman",
+      "club_id": "3",
+      "position": "center"
+    },
+    {
+      "player_id": "297",
+      "name": "Joey Walton",
+      "club_id": "3",
+      "position": "center"
+    },
+    {
+      "player_id": "298",
+      "name": "Joseph-Aukuso Suaalii",
+      "club_id": "3",
+      "position": "center"
+    },
+    {
+      "player_id": "299",
+      "name": "Andrew Kellaway",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "300",
+      "name": "Archie Saunders",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "301",
+      "name": "Harry Potter",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "302",
+      "name": "James Hendren",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "303",
+      "name": "Leo Jaques",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "304",
+      "name": "Max Jorgensen",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "305",
+      "name": "Sid Harvey",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "306",
+      "name": "Triston Reilly",
+      "club_id": "3",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "307",
+      "name": "Angus Scott-Young",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "308",
+      "name": "Sef Fa'agase",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "309",
+      "name": "Feao Fotuaika",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "310",
+      "name": "Harry Johnson-Holmes",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "311",
+      "name": "Marley Pearce",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "312",
+      "name": "Tom Robertson",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "313",
+      "name": "Joshua Smith",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "314",
+      "name": "Albert Alcock",
+      "club_id": "9",
+      "position": "hooker"
+    },
+    {
+      "player_id": "315",
+      "name": "Nic Dolly",
+      "club_id": "9",
+      "position": "hooker"
+    },
+    {
+      "player_id": "316",
+      "name": "Brandon Paenga-Amosa",
+      "club_id": "9",
+      "position": "hooker"
+    },
+    {
+      "player_id": "317",
+      "name": "Lopeti Faifua",
+      "club_id": "9",
+      "position": "lock"
+    },
+    {
+      "player_id": "318",
+      "name": "Franco Molina",
+      "club_id": "9",
+      "position": "lock"
+    },
+    {
+      "player_id": "319",
+      "name": "Darcy Swain",
+      "club_id": "9",
+      "position": "lock"
+    },
+    {
+      "player_id": "320",
+      "name": "Jeremy Williams",
+      "club_id": "9",
+      "position": "lock"
+    },
+    {
+      "player_id": "321",
+      "name": "Nicholas Champion de Crespigny",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "322",
+      "name": "Vaiolini Ekuasi",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "323",
+      "name": "Will Harris",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "324",
+      "name": "Kane Koteka",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "325",
+      "name": "Titi Nofoagatotoa",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "326",
+      "name": "Carlo Tizzano",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "327",
+      "name": "Agustin Moyano",
+      "club_id": "9",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "328",
+      "name": "Nathan Hastie",
+      "club_id": "9",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "329",
+      "name": "Doug Philipson",
+      "club_id": "9",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "330",
+      "name": "Henry Robertson",
+      "club_id": "9",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "331",
+      "name": "Max Burey",
+      "club_id": "9",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "332",
+      "name": "Ben Donaldson",
+      "club_id": "9",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "333",
+      "name": "Alex Harford",
+      "club_id": "9",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "334",
+      "name": "Boston Fakafanua",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "335",
+      "name": "Bayley Kuenzle",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "336",
+      "name": "Divad Palu",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "337",
+      "name": "Hamish Stewart",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "338",
+      "name": "Kurtley Beale",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "339",
+      "name": "George Bridge",
+      "club_id": "9",
+      "position": "center"
+    },
+    {
+      "player_id": "340",
+      "name": "Mac Grealy",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "341",
+      "name": "Darby Lancaster",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "342",
+      "name": "Ronan Leahy",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "343",
+      "name": "Dylan Pietsch",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "344",
+      "name": "Emosi Tuqiri",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "345",
+      "name": "Haereiti Hetet",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "346",
+      "name": "Meli Tuni",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "347",
+      "name": "Mesake Doge",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "348",
+      "name": "Peni Ravai",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "349",
+      "name": "Samu Tawake",
+      "club_id": "5",
+      "position": "prop"
+    },
+    {
+      "player_id": "350",
+      "name": "Kavaia Tagivetaua",
+      "club_id": "5",
+      "position": "hooker"
+    },
+    {
+      "player_id": "351",
+      "name": "Mesulame Dolokoto",
+      "club_id": "5",
+      "position": "hooker"
+    },
+    {
+      "player_id": "352",
+      "name": "Zuriel Togiatama",
+      "club_id": "5",
+      "position": "hooker"
+    },
+    {
+      "player_id": "353",
+      "name": "Angelo Smith",
+      "club_id": "5",
+      "position": "lock"
+    },
+    {
+      "player_id": "354",
+      "name": "Isoa Nasilasila",
+      "club_id": "5",
+      "position": "lock"
+    },
+    {
+      "player_id": "355",
+      "name": "Mesake Vocevoce",
+      "club_id": "5",
+      "position": "lock"
+    },
+    {
+      "player_id": "356",
+      "name": "Temo Mayanavanua",
+      "club_id": "5",
+      "position": "lock"
+    },
+    {
+      "player_id": "357",
+      "name": "Vilive Miramira",
+      "club_id": "5",
+      "position": "lock"
+    },
+    {
+      "player_id": "358",
+      "name": "Elia Canakaivata",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "359",
+      "name": "Etonia Waqa",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "360",
+      "name": "Isoa Tuwai",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "361",
+      "name": "Joseva Tamani",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "362",
+      "name": "Kitione Salawa",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "363",
+      "name": "Motikiai Murray",
+      "club_id": "5",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "364",
+      "name": "Frank Lomani",
+      "club_id": "5",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "365",
+      "name": "Issak Fines-Leleiwasa",
+      "club_id": "5",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "366",
+      "name": "Philip Baselala",
+      "club_id": "5",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "367",
+      "name": "Simione Kuruvoli",
+      "club_id": "5",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "368",
+      "name": "Isaiah Armstrong-Ravula",
+      "club_id": "5",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "369",
+      "name": "Kemu Valetini",
+      "club_id": "5",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "370",
+      "name": "Isikeli Rabitu",
+      "club_id": "5",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "371",
+      "name": "Inia Tabuavou",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "372",
+      "name": "Iosefo Namoce",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "373",
+      "name": "Joji Nasova",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "374",
+      "name": "Maika Tuitubou",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "375",
+      "name": "Tuidraki Samusamuvodre",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "376",
+      "name": "Aisea Nawai",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "377",
+      "name": "Epeli Momo",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "378",
+      "name": "Ilaisa Droasese",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "379",
+      "name": "Isikeli Basiyalo",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "380",
+      "name": "Manasa Mataele",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "381",
+      "name": "Ponipate Loganimasi",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "382",
+      "name": "Taniela Rakuro",
+      "club_id": "5",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "383",
+      "name": "Abraham Pole",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "384",
+      "name": "Alefosio Aho",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "385",
+      "name": "Allan Craig",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "386",
+      "name": "Augustine Pulu",
+      "club_id": "6",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "387",
+      "name": "Chris Apoua",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "388",
+      "name": "Dominic Ropeti",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "389",
+      "name": "Faletoi Peni",
+      "club_id": "6",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "390",
+      "name": "Feleti Sae-Ta'ufo'ou",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "391",
+      "name": "Glen Vaihu",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "392",
+      "name": "Israel Leota",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "393",
+      "name": "Jackson Garden-Bachop",
+      "club_id": "6",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "394",
+      "name": "Jimmy Tupou",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "396",
+      "name": "Julian Savea",
+      "club_id": "6",
+      "position": "center"
+    },
+    {
+      "player_id": "397",
+      "name": "Lalomilo Lalomilo",
+      "club_id": "6",
+      "position": "center"
+    },
+    {
+      "player_id": "398",
+      "name": "Malakai Hala-Ngatai",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "399",
+      "name": "Mamoru Harada",
+      "club_id": "6",
+      "position": "hooker"
+    },
+    {
+      "player_id": "400",
+      "name": "Melani Matavao",
+      "club_id": "6",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "401",
+      "name": "Millennium Sanerivi",
+      "club_id": "6",
+      "position": "hooker"
+    },
+    {
+      "player_id": "402",
+      "name": "Miracle Faiilagi",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "403",
+      "name": "Ngani Laumape",
+      "club_id": "6",
+      "position": "center"
+    },
+    {
+      "player_id": "404",
+      "name": "Niko Jones",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "405",
+      "name": "Ofa Tauatevalu",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "406",
+      "name": "Ola Tauelangi",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "407",
+      "name": "Patrick Pellegrini",
+      "club_id": "6",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "408",
+      "name": "Paula Latu",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "409",
+      "name": "Samiuela Moli",
+      "club_id": "6",
+      "position": "hooker"
+    },
+    {
+      "player_id": "410",
+      "name": "Semisi Paea",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "411",
+      "name": "Semisi Tupou Ta'eiloa",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "412",
+      "name": "Siaosi Nginingini",
+      "club_id": "6",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "413",
+      "name": "Solomon Alaimalo",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "414",
+      "name": "Tevita Latu",
+      "club_id": "6",
+      "position": "center"
+    },
+    {
+      "player_id": "415",
+      "name": "Tevita Ofa",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "416",
+      "name": "Tito Tuipulotu",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "417",
+      "name": "Tom Savage",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "418",
+      "name": "Tuna Tuitama",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "419",
+      "name": "Tupou Ma'afu-Afungia",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "420",
+      "name": "William Havili",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "421",
+      "name": "Will Tucker",
+      "club_id": "2",
+      "position": "lock"
+    },
+    {
+      "player_id": "422",
+      "name": "Leonel Oviedo",
+      "club_id": "9",
+      "position": "hooker"
+    },
+    {
+      "player_id": "423",
+      "name": "Jack Daly",
+      "club_id": "9",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "424",
+      "name": "Misinale Epenisa",
+      "club_id": "9",
+      "position": "prop"
+    },
+    {
+      "player_id": "425",
+      "name": "Henry Palmer",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "426",
+      "name": "Clem Halaholo",
+      "club_id": "3",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "427",
+      "name": "James Martens",
+      "club_id": "4",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "428",
+      "name": "Tom Robinson",
+      "club_id": "4",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "429",
+      "name": "Lucas Casey",
+      "club_id": "1",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "430",
+      "name": "Virimi Vakatawa",
+      "club_id": "5",
+      "position": "center"
+    },
+    {
+      "player_id": "431",
+      "name": "Torian Barnes",
+      "club_id": "7",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "432",
+      "name": "Mason Tupaea",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "433",
+      "name": "Rohan Wingham",
+      "club_id": "1",
+      "position": "prop"
+    },
+    {
+      "player_id": "434",
+      "name": "Finn Mackay",
+      "club_id": "4",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "435",
+      "name": "Xavier Rubens",
+      "club_id": "4",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "436",
+      "name": "Penaia Cakobau",
+      "club_id": "5",
+      "position": "hooker"
+    },
+    {
+      "player_id": "437",
+      "name": "Denzel Samoa",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "438",
+      "name": "Konrad Toleafoa",
+      "club_id": "6",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "439",
+      "name": "Simon-Peter Toleafoa",
+      "club_id": "6",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "440",
+      "name": "Lolani Faleiva",
+      "club_id": "6",
+      "position": "prop"
+    },
+    {
+      "player_id": "441",
+      "name": "Veikoso Poloniati",
+      "club_id": "6",
+      "position": "lock"
+    },
+    {
+      "player_id": "442",
+      "name": "Matolu Petaia",
+      "club_id": "11",
+      "position": "lock"
+    },
+    {
+      "player_id": "443",
+      "name": "Sam Matenga",
+      "club_id": "7",
+      "position": "prop"
+    },
+    {
+      "player_id": "444",
+      "name": "Joel Lam",
+      "club_id": "6",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "445",
+      "name": "Tyler Pulini",
+      "club_id": "6",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "446",
+      "name": "Johnny Lee",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "447",
+      "name": "Taj Annan",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "449",
+      "name": "Cooper Grant",
+      "club_id": "2",
+      "position": "fly_half"
+    },
+    {
+      "player_id": "450",
+      "name": "Zac Lomax",
+      "club_id": "9",
+      "position": "outside_back"
+    },
+    {
+      "player_id": "451",
+      "name": "Nic Shearer",
+      "club_id": "1",
+      "position": "scrum_half"
+    },
+    {
+      "player_id": "452",
+      "name": "Jack Sexton",
+      "club_id": "2",
+      "position": "prop"
+    },
+    {
+      "player_id": "453",
+      "name": "Oli Mathis",
+      "club_id": "2",
+      "position": "loose_forward"
+    },
+    {
+      "player_id": "454",
+      "name": "Dan Sinkinson",
+      "club_id": "8",
+      "position": "outside_back"
+    }
+  ]
+}

@@ -1,0 +1,3426 @@
+{
+  "1": {
+    "date": "2003-02-24",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Ben Ake",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "4": {
+    "date": "1994-02-24",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Marcel Renata",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "5": {
+    "date": "1992-04-19",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Ofa Tu'ungafasi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "6": {
+    "date": "2000-05-25",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Flyn Yates",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "7": {
+    "date": "1992-01-05",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Kurt Eklund",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "8": {
+    "date": "2002-11-20",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: James Mullan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "9": {
+    "date": "1998-09-23",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Bradley Slater",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "10": {
+    "date": "2002-03-30",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Josh Beehre",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "11": {
+    "date": "2004-12-18",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Tristyn Cook",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "12": {
+    "date": "2000-07-11",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Sam Darry",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "13": {
+    "date": "1998-10-20",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Laghlan McWhannell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "14": {
+    "date": "1993-01-23",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Patrick Tuipulotu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "16": {
+    "date": "2003-04-22",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Che Clark",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "17": {
+    "date": "1997-10-11",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Dalton Papali'i",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "18": {
+    "date": "2000-04-23",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Terrell Peita",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "19": {
+    "date": "2001-07-24",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Anton Segner",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "20": {
+    "date": "1998-07-12",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Hoskins Sotutu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "22": {
+    "date": "1994-09-19",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Finlay Christie",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "23": {
+    "date": "2000-07-29",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Taufa Funaki",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "24": {
+    "date": "1996-06-18",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Sam Nock",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "26": {
+    "date": "1997-03-12",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Stephen Perofeta",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "27": {
+    "date": "2005-12-21",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Rico Simpson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "29": {
+    "date": "2005-10-15",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: James Cameron",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "30": {
+    "date": "2001-01-11",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Corey Evans",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "31": {
+    "date": "1998-07-29",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: AJ Lam",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "32": {
+    "date": "2004-12-19",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Xavi Taele",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "33": {
+    "date": "2000-06-09",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Kade Banks",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "34": {
+    "date": "1999-03-29",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Caleb Clarke",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "35": {
+    "date": "1999-08-10",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Cole Forbes",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "36": {
+    "date": "2004-04-23",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Payton Spencer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "37": {
+    "date": "2000-10-07",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Zarn Sullivan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "38": {
+    "date": "2004-02-25",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Codemeru Vai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "39": {
+    "date": "1994-01-28",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Allan Alaalatoa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "40": {
+    "date": "2004-04-15",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Tevita Alatini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "41": {
+    "date": "2004-06-22",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Lington Ieli",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "42": {
+    "date": "1998-03-28",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Blake Schoupp",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "44": {
+    "date": "1999-07-17",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Rhys van Nek",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "45": {
+    "date": "2003-02-24",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Liam Bowron",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "46": {
+    "date": "1999-10-11",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Lachlan Lonergan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "47": {
+    "date": "2003-03-07",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Chris Mickelson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "48": {
+    "date": "2001-12-09",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Billy Pollard",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "49": {
+    "date": "2004-09-13",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Harvey Cordukes",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "50": {
+    "date": "1999-10-10",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Nick Frost",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "51": {
+    "date": "1988-11-09",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Cadeyrn Neville",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "53": {
+    "date": "2000-10-06",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Charlie Cale",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "54": {
+    "date": "2006-09-25",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Eli Langi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "55": {
+    "date": "2004-08-18",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Toby MacPherson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "56": {
+    "date": "2000-05-27",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Luke Reimer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "57": {
+    "date": "2000-09-15",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Rory Scott",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "58": {
+    "date": "1997-06-01",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Tuaina Taii Tualima",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "59": {
+    "date": "1998-09-03",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Rob Valetini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "60": {
+    "date": "1998-04-06",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Ryan Lonergan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "62": {
+    "date": "2003-06-06",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Klayton Thorn",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "63": {
+    "date": "2005-05-29",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Joe Dillon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "64": {
+    "date": "2000-08-16",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Tane Edmed",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "65": {
+    "date": "1999-06-28",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Declan Meredith",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "66": {
+    "date": "2003-11-18",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Austin Anderson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "67": {
+    "date": "2000-03-21",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Hudson Creighton",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "68": {
+    "date": "1997-05-16",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: David Feliuai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "69": {
+    "date": "2004-05-31",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Jarrah McLeod",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "70": {
+    "date": "2004-07-29",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Kadin Pritchard",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "71": {
+    "date": "1993-07-08",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Andy Muirhead",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "72": {
+    "date": "1999-09-01",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Kye Oates",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "73": {
+    "date": "1995-10-07",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Ollie Sapsford",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "74": {
+    "date": "2000-03-07",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Corey Toole",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "75": {
+    "date": "2005-02-14",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Shane Wilcox",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "76": {
+    "date": "1997-07-21",
+    "source": "https://www.sofascore.com/rugby/team/brumbies/4179",
+    "evidence": "Sofascore team roster: Tom Wright",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "77": {
+    "date": "2000-06-25",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Benet Kumeroa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "78": {
+    "date": "1999-10-22",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: George Dyer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "79": {
+    "date": "1993-09-14",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Jared Proffit",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "81": {
+    "date": "1995-02-17",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Reuben O'Neill",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "82": {
+    "date": "2001-01-29",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Sione Ahio",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "84": {
+    "date": "1997-08-08",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Samisoni Taukei'aho",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "85": {
+    "date": "2003-02-25",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Taine Kolose",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "86": {
+    "date": "2000-05-28",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Tyrone Thompson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "87": {
+    "date": "2005-05-05",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Aisake Vakasiuola",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "88": {
+    "date": "2003-04-04",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Fiti Sa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "89": {
+    "date": "2005-01-14",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Jayden Sa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "92": {
+    "date": "2000-01-27",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Tupou Vaa'i",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "93": {
+    "date": "1996-09-29",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Jahrome Brown",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "94": {
+    "date": "1999-04-09",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Kaylum Boshier",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "96": {
+    "date": "1999-05-10",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Samipeni Finau",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "100": {
+    "date": "1995-03-31",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Te Toiroa Tahuriorangi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "103": {
+    "date": "2001-06-23",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Josh Jacomb",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "104": {
+    "date": "2001-02-08",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Tepaea Cook-Savage",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "105": {
+    "date": "2000-09-10",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Daniel Rona",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "106": {
+    "date": "2002-08-03",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Kyle Brown",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "107": {
+    "date": "1994-12-22",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Lalakai Foketi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "108": {
+    "date": "1999-05-10",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Quinn Tupaea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "109": {
+    "date": "1999-07-13",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Emoni Narawa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "110": {
+    "date": "1999-08-20",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Etene Nanai-Seturo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "112": {
+    "date": "2003-05-08",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Kyren Taumoefolau",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "113": {
+    "date": "1999-02-24",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Leroy Carter",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "114": {
+    "date": "1998-07-07",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Liam Coombes-Fabling",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "116": {
+    "date": "2002-01-29",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: George Bell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "117": {
+    "date": "1995-03-22",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Ethan Blackadder",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "118": {
+    "date": "1992-05-28",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: George Bower",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "119": {
+    "date": "2000-02-10",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Finlay Brewis",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "120": {
+    "date": "2003-06-08",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Tahlor Cahill",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "121": {
+    "date": "2002-03-16",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Seb Calder",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "122": {
+    "date": "2001-07-12",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Dom Gardiner",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "124": {
+    "date": "2002-10-31",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Jamie Hannah",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "125": {
+    "date": "2004-08-22",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Liam Jack",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "126": {
+    "date": "2001-05-25",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Corey Kellow",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "127": {
+    "date": "2005-09-25",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Manumaua Letiu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "128": {
+    "date": "1998-08-26",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Christian Lio-Willie",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "129": {
+    "date": "2000-03-01",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Fletcher Newell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "130": {
+    "date": "2003-06-23",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Xavier Saifoloi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "131": {
+    "date": "1997-08-10",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Antonio Shalfoon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "132": {
+    "date": "1999-04-26",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Kershawl Sykes-Martin",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "133": {
+    "date": "1991-03-31",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Codie Taylor",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "135": {
+    "date": "2004-12-14",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Toby Bell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "136": {
+    "date": "2000-05-01",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Louie Chapman",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "138": {
+    "date": "1999-10-11",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Leicester Fainga'anuku",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "139": {
+    "date": "2001-01-03",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Chay Fihaki",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "140": {
+    "date": "1994-12-23",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: David Havili",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "141": {
+    "date": "2003-05-23",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Noah Hotham",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "143": {
+    "date": "2003-04-17",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Taha Kemara",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "144": {
+    "date": "2005-02-22",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Maloni Kunawave",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "145": {
+    "date": "1999-04-30",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Dallas McLeod",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "146": {
+    "date": "1990-09-24",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Johnny McNicholl",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "147": {
+    "date": "1999-09-13",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Kyle Preston",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "149": {
+    "date": "2000-05-25",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Rivez Reihana",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "150": {
+    "date": "2003-03-29",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Macca Springer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "152": {
+    "date": "2003-09-16",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: James White",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "153": {
+    "date": "2002-12-28",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Josh Bartlett",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "154": {
+    "date": "1998-07-22",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Ethan de Groot",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "155": {
+    "date": "1996-08-16",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Sefo Kautai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "156": {
+    "date": "1993-02-09",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Daniel Lienert-Brown",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "157": {
+    "date": "2000-04-29",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Saula Ma'u",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "158": {
+    "date": "1990-03-22",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Angus Ta'avao",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "159": {
+    "date": "1999-08-22",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Henry Bell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "160": {
+    "date": "2003-06-25",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Jack Taylor",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "161": {
+    "date": "2001-01-07",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Soane Vikena",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "162": {
+    "date": "2001-05-09",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Nikora Broughton",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "163": {
+    "date": "2004-02-09",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Tai Cribb",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "164": {
+    "date": "1995-11-18",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Mitchell Dunshea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "165": {
+    "date": "2002-01-03",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Oliver Haig",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "168": {
+    "date": "2002-06-04",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Veveni Lasaqa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "169": {
+    "date": "1993-01-22",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Tomás Lavanini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "170": {
+    "date": "1996-05-12",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Hugh Renton",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "171": {
+    "date": "2003-10-03",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Will Stodart",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "172": {
+    "date": "2001-02-01",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Sean Withy",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "173": {
+    "date": "1999-12-16",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Folau Fakatava",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "174": {
+    "date": "2002-11-04",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Adam Lennox",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "176": {
+    "date": "1995-09-14",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Andrew Knewstubb",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "177": {
+    "date": "2002-07-13",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Cameron Millar",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "178": {
+    "date": "2000-06-15",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Taine Robinson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "179": {
+    "date": "2001-12-04",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Reesjan Pasitoa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "181": {
+    "date": "1998-06-16",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Tanielu Tele'a",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "184": {
+    "date": "1997-12-27",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Jona Nareki",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "185": {
+    "date": "2003-06-25",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Finn Hurley",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "186": {
+    "date": "1996-05-09",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Jonah Lowe",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "187": {
+    "date": "2001-08-03",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Jacob Ratumaitavuki-Kneepkens",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "188": {
+    "date": "2005-04-05",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Stanley Solomon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "189": {
+    "date": "2003-03-19",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Caleb Tangitau",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "191": {
+    "date": "2003-05-30",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Siale Lauaki",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "192": {
+    "date": "1996-03-16",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Tyrel Lomax",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "193": {
+    "date": "1998-02-04",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Tevita Mafile’o",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "194": {
+    "date": "1998-11-29",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Xavier Numia",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "195": {
+    "date": "1997-06-17",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Pouri Rakete-Stones",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "196": {
+    "date": "1998-07-18",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Pasilio Tosi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "198": {
+    "date": "2004-10-10",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Vernon Bason",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "199": {
+    "date": "1998-10-21",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Jacob Devery",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "200": {
+    "date": "2003-04-11",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Raymond Tuputupu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "201": {
+    "date": "2004-07-23",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Tom Allen",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "202": {
+    "date": "2002-04-11",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Warner Dearns",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "203": {
+    "date": "2000-02-04",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Caleb Delany",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "204": {
+    "date": "2000-08-25",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Hugo Plummer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "205": {
+    "date": "1997-04-16",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Isaia Walker-Leawere",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "207": {
+    "date": "1998-08-26",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Brayden Iose",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "209": {
+    "date": "2003-03-04",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Peter Lakai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "210": {
+    "date": "2001-01-23",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Arese Poliko",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "211": {
+    "date": "1991-04-02",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Brad Shields",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "212": {
+    "date": "1997-05-30",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Ere Enari",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "214": {
+    "date": "2003-10-14",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Jordi Viljoen",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "215": {
+    "date": "1996-10-04",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Brett Cameron",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "217": {
+    "date": "1999-04-08",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Callum Harkin",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "218": {
+    "date": "2002-08-25",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Lucas Cashmore",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "219": {
+    "date": "1997-02-17",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Jordie Barrett",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "221": {
+    "date": "1999-05-14",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Billy Proctor",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "222": {
+    "date": "2002-07-12",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Jone Rova",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "223": {
+    "date": "1998-09-03",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Bailyn Sullivan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "224": {
+    "date": "1997-07-06",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Josh Timu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "225": {
+    "date": "2002-08-31",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Fehi Fineanganofo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "228": {
+    "date": "1999-04-16",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Kini Naholo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "230": {
+    "date": "2005-06-02",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Vaiuta Latu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "231": {
+    "date": "1999-06-23",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Josh Nasser",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "232": {
+    "date": "1998-12-21",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Matt Faessler",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "233": {
+    "date": "1996-05-03",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Richie Asiata",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "235": {
+    "date": "2001-03-30",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Zane Nonggorr",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "236": {
+    "date": "2003-11-18",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Massimo de Lutiis",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "237": {
+    "date": "1995-10-25",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Aidan Ross",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "238": {
+    "date": "2001-06-11",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: George Blake",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "239": {
+    "date": "2004-02-10",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Nick Bloomfield",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "241": {
+    "date": "2001-02-01",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Josh Canham",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "243": {
+    "date": "1996-09-19",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Lukhan Salakaia-Loto",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "245": {
+    "date": "1999-02-19",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Fraser McReight",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "246": {
+    "date": "1999-11-22",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Harry Wilson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "247": {
+    "date": "2002-01-07",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Joe Brial",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "248": {
+    "date": "2003-02-20",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: John Bryant",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "249": {
+    "date": "1998-09-18",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Tate McDermott",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "250": {
+    "date": "2002-10-24",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Louis Werchon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "251": {
+    "date": "2002-04-18",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Kalani Thomas",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "252": {
+    "date": "2003-04-14",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Tom Lynagh",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "253": {
+    "date": "2001-01-29",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Carter Gordon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "254": {
+    "date": "2004-04-13",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Harry McLaughlin-Phillips",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "255": {
+    "date": "2001-09-22",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Josh Flook",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "256": {
+    "date": "1998-04-10",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Hunter Paisami",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "257": {
+    "date": "1999-03-08",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Isaac Henry",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "262": {
+    "date": "1995-05-17",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Jock Campbell",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "263": {
+    "date": "2003-10-29",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Tim Ryan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "265": {
+    "date": "1997-08-27",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Lachie Anderson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "266": {
+    "date": "2007-04-04",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Treyvon Pritchard",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "267": {
+    "date": "1995-03-04",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Filipo Daugunu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "268": {
+    "date": "1991-01-13",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Ben Volavola",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "269": {
+    "date": "1994-04-16",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Apolosi Ranawai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "270": {
+    "date": "2001-12-16",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Daniel Botha",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "271": {
+    "date": "2000-07-13",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Isaac Kailea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "272": {
+    "date": "2004-05-03",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Jack Barrett",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "273": {
+    "date": "2002-02-25",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Siosifa Amone",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "274": {
+    "date": "2000-11-20",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Tom Lambert",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "275": {
+    "date": "2005-09-22",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Will Goddard",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "276": {
+    "date": "2000-05-03",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Ethan Dobbins",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "277": {
+    "date": "1995-05-05",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Folau Fainga'a",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "278": {
+    "date": "2001-02-08",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Ioane Moananu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "279": {
+    "date": "1998-03-04",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Angus Blyth",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "280": {
+    "date": "1998-05-18",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Ben Grant",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "281": {
+    "date": "2005-09-13",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Eamon Doyle",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "282": {
+    "date": "1994-03-07",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Matt Philip",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "283": {
+    "date": "2002-06-15",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Miles Amatosero",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "285": {
+    "date": "1996-04-25",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Charlie Gamble",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "286": {
+    "date": "1999-11-09",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Jamie Adamson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "287": {
+    "date": "2004-02-19",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Lachlan Hooper",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "288": {
+    "date": "2004-01-18",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Leafi Talataina",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "290": {
+    "date": "1993-07-06",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Jake Gordon",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "291": {
+    "date": "1999-06-24",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Michael McDonald",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "292": {
+    "date": "2003-02-25",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Teddy Wilson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "293": {
+    "date": "2003-12-30",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Jack Bowen",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "294": {
+    "date": "1993-06-06",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Jack Debreczeni",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "295": {
+    "date": "1998-07-21",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Lawson Creighton",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "296": {
+    "date": "2002-09-06",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: George Poolman",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "298": {
+    "date": "2003-08-01",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Joseph-Aukuso Sua'ali'i",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "299": {
+    "date": "1995-10-12",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Andrew Kellaway",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "301": {
+    "date": "1997-12-15",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Harry Potter",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "302": {
+    "date": "2003-01-22",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: James Hendren",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "303": {
+    "date": "2006-05-05",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Leo Jaques",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "304": {
+    "date": "2004-09-02",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Max Jorgensen",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "305": {
+    "date": "2005-10-07",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Sid Harvey",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "306": {
+    "date": "1999-01-14",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Triston Reilly",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "307": {
+    "date": "1997-04-23",
+    "source": "https://www.sofascore.com/rugby/team/nsw-waratahs/4186",
+    "evidence": "Sofascore team roster: Angus Scott-Young",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "308": {
+    "date": "1991-03-05",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Sef Fa'agase",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "309": {
+    "date": "1993-04-23",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Feao Fotuaika",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "310": {
+    "date": "1997-03-02",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Harry Johnson-Holmes",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "311": {
+    "date": "2003-08-03",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Marley Pearce",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "312": {
+    "date": "1994-08-28",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Tom Robertson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "315": {
+    "date": "1999-06-11",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Nic Dolly",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "316": {
+    "date": "1995-12-25",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Brandon Paenga-Amosa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "317": {
+    "date": "2002-01-22",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Lopeti Faifua",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "318": {
+    "date": "1997-08-28",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Franco Molina",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "319": {
+    "date": "1997-07-05",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Darcy Swain",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "320": {
+    "date": "2000-12-02",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Jeremy Williams",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "322": {
+    "date": "2001-10-11",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Vaiolini Ekuasi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "323": {
+    "date": "2000-08-06",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Will Harris",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "324": {
+    "date": "1994-01-08",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Kane Koteka",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "326": {
+    "date": "2000-02-02",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Carlo Tizzano",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "327": {
+    "date": "2003-06-12",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Agustín Moyano",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "328": {
+    "date": "2001-04-27",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Nathan Hastie",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "330": {
+    "date": "1999-10-22",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Henry Robertson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "331": {
+    "date": "1999-02-25",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Max Burey",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "332": {
+    "date": "1999-04-04",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Ben Donaldson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "334": {
+    "date": "2005-07-29",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Boston Fakafanua",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "335": {
+    "date": "1998-06-18",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Bayley Kuenzle",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "336": {
+    "date": "2004-01-17",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Divad Palu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "337": {
+    "date": "1998-03-03",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Hamish Stewart",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "338": {
+    "date": "1989-01-06",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Kurtley Beale",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "339": {
+    "date": "1995-04-01",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: George Bridge",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "340": {
+    "date": "2002-03-06",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Mac Grealy",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "341": {
+    "date": "2003-04-23",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Darby Lancaster",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "343": {
+    "date": "1998-04-23",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Dylan Pietsch",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "344": {
+    "date": "2000-12-28",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Emosi TuqirI",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "345": {
+    "date": "1997-07-10",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Haereiti Hetet",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "346": {
+    "date": "2000-06-29",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Meli Tuni",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "347": {
+    "date": "1993-04-01",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Mesake Doge",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "348": {
+    "date": "1990-06-16",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Peni Ravai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "350": {
+    "date": "2003-06-05",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Kavaia Tagivetaua",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "352": {
+    "date": "1999-02-03",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Zuriel Togiatama",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "353": {
+    "date": "2000-07-27",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Angelo Smith",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "354": {
+    "date": "1999-09-13",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Isoa Nasilasila",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "355": {
+    "date": "2003-05-16",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Mesake Vocevoce",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "356": {
+    "date": "1997-11-09",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Temo Mayanavanua",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "357": {
+    "date": "1999-03-21",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Vilive Miramira",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "358": {
+    "date": "1996-07-12",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Elia Canakaivata",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "359": {
+    "date": "1999-06-02",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Etonia Waqa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "360": {
+    "date": "2002-06-04",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Isoa Tuwai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "361": {
+    "date": "1997-04-02",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Joseva Tamani",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "362": {
+    "date": "2001-05-23",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Kitione Salawa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "363": {
+    "date": "2003-05-30",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Motikiai Murray",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "364": {
+    "date": "1996-04-18",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Frank Lomani",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "366": {
+    "date": "2004-09-14",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Philip Baselala",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "367": {
+    "date": "1999-01-02",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Simione Kuruvoli",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "368": {
+    "date": "2004-01-07",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Isaiah Armstrong-Ravula",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "369": {
+    "date": "1994-08-26",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Kemu Valetini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "370": {
+    "date": "2005-01-22",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Isikeli Rabitu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "371": {
+    "date": "2002-08-31",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Inia Tabuavou",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "372": {
+    "date": "2002-01-16",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Iosefo Namoce",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "373": {
+    "date": "2000-06-09",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Joji Nasova",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "374": {
+    "date": "2003-06-02",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Maika Tuitubou",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "375": {
+    "date": "1998-02-16",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Tuidraki Samusamuvodre",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "376": {
+    "date": "2005-04-10",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Aisea Nawai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "377": {
+    "date": "1999-10-22",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Epeli Momo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "378": {
+    "date": "1999-09-13",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Ilaisa Droasese",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "379": {
+    "date": "2004-06-13",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Isikeli Basiyalo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "380": {
+    "date": "1996-11-27",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Manasa Mataele",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "382": {
+    "date": "2000-05-28",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Taniela Rakuro",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "385": {
+    "date": "2002-04-19",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Allan Craig",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "386": {
+    "date": "1990-01-04",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Augustine Pulu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "387": {
+    "date": "1992-01-30",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Chris Apoua",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "388": {
+    "date": "2003-03-04",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Dominic Ropeti",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "390": {
+    "date": "2002-06-17",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Feleti Sae-Ta'ufo'ou",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "391": {
+    "date": "2001-10-08",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Glen Vaihu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "392": {
+    "date": "2005-01-02",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Israel Leota",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "393": {
+    "date": "1994-10-03",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Jackson Garden-Bachop",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "394": {
+    "date": "1992-08-08",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Jimmy Tupou",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "396": {
+    "date": "1990-08-07",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Julian Savea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "398": {
+    "date": "2003-01-07",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Malakai Hala-Ngatai",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "399": {
+    "date": "1999-04-15",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Mamoru Harada",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "400": {
+    "date": "1995-11-19",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Melani Matavao",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "401": {
+    "date": "1999-08-31",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Millennium Sanerivi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "402": {
+    "date": "1999-08-31",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Miracle Faiilagi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "403": {
+    "date": "1993-04-22",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Ngani Laumape",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "404": {
+    "date": "2000-07-22",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Niko Jones",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "405": {
+    "date": "2000-10-29",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Ofa Tauatevalu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "406": {
+    "date": "1999-11-28",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Ola Tauelangi",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "407": {
+    "date": "1998-09-28",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Patrick Pellegrini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "408": {
+    "date": "1996-02-14",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Paula Latu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "409": {
+    "date": "1998-12-24",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Samiuela Moli",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "410": {
+    "date": "1999-04-17",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Semisi Paea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "411": {
+    "date": "2003-11-25",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Semisi Tupou Ta'eiloa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "413": {
+    "date": "1995-12-27",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Solomon Alaimalo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "414": {
+    "date": "1998-12-15",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tevita Latu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "415": {
+    "date": "2002-01-18",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tevita Ofa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "416": {
+    "date": "2002-06-08",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tito Tuipulotu",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "417": {
+    "date": "1989-04-18",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tom Savage",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "418": {
+    "date": "2000-02-25",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tuna Tuitama",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "419": {
+    "date": "1999-09-12",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tupou Ma'afu-Afungia",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "420": {
+    "date": "1998-09-09",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: William Havili",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "421": {
+    "date": "1998-03-16",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Will Tucker",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "422": {
+    "date": "1998-02-16",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Leonel Oviedo",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "423": {
+    "date": "1998-08-12",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Jack Daly",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "424": {
+    "date": "2001-10-11",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Misinale Epenisa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "425": {
+    "date": "2003-07-05",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Henry Palmer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "427": {
+    "date": "2005-08-17",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: James Martens",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "428": {
+    "date": "2006-03-17",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Tom Robinson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "429": {
+    "date": "2003-04-30",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Lucas Casey",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "430": {
+    "date": "1992-05-01",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Virimi Vakatawa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "431": {
+    "date": "2003-10-14",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Torian Barnes",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "432": {
+    "date": "2002-10-16",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Mason Tupaea",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "433": {
+    "date": "2002-12-04",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Rohan Wingham",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "434": {
+    "date": "2007-06-04",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Finn Mackay",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "435": {
+    "date": "2005-05-26",
+    "source": "https://www.sofascore.com/rugby/team/queensland-reds/4180",
+    "evidence": "Sofascore team roster: Xavier Rubens",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "436": {
+    "date": "1993-12-28",
+    "source": "https://www.sofascore.com/rugby/team/fijian-drua/264380",
+    "evidence": "Sofascore team roster: Penaia Cakobau",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "437": {
+    "date": "2003-12-14",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Denzel Samoa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "438": {
+    "date": "2003-10-29",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Konrad Toleafoa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "439": {
+    "date": "1998-10-26",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Simon-Peter Toleafoa",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "440": {
+    "date": "1999-02-18",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Lolani Faleiva",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "441": {
+    "date": "1995-08-27",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Veikoso Poloniati",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "442": {
+    "date": "2004-04-09",
+    "source": "https://www.sofascore.com/rugby/team/hurricanes/4189",
+    "evidence": "Sofascore team roster: Matolu Petaia",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "443": {
+    "date": "1998-05-08",
+    "source": "https://www.sofascore.com/rugby/team/blues/4190",
+    "evidence": "Sofascore team roster: Sam Matenga",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "444": {
+    "date": "2002-05-17",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Joel Lam",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "445": {
+    "date": "2005-06-24",
+    "source": "https://www.sofascore.com/rugby/team/moana-pasifika/371577",
+    "evidence": "Sofascore team roster: Tyler Pulini",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "447": {
+    "date": "2003-08-16",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Taj Annan",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "449": {
+    "date": "2004-01-02",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Cooper Grant",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "450": {
+    "date": "1999-09-24",
+    "source": "https://www.sofascore.com/rugby/team/western-force/21995",
+    "evidence": "Sofascore team roster: Zac Lomax",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "451": {
+    "date": "2003-04-16",
+    "source": "https://www.sofascore.com/rugby/team/highlanders/4182",
+    "evidence": "Sofascore team roster: Nic Shearer",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "452": {
+    "date": "2001-05-17",
+    "source": "https://www.sofascore.com/rugby/team/crusaders/4181",
+    "evidence": "Sofascore team roster: Jack Sexton",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "454": {
+    "date": "2001-02-08",
+    "source": "https://www.sofascore.com/rugby/team/chiefs/4185",
+    "evidence": "Sofascore team roster: Dan Sinkinson",
+    "quality": "single_secondary",
+    "status": "accepted_bulk_candidate",
+    "acceptedAt": "2026-09-08"
+  },
+  "2": {
+    "date": "2001-05-01",
+    "source": "https://www.blues.rugby/joshua-fusitua-player-profile",
+    "evidence": "Official Blues profile: Born 1/5/2001",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "3": {
+    "date": "1992-11-05",
+    "source": "https://en.wikipedia.org/wiki/Jordan_Lay",
+    "evidence": "Wikipedia: born 5 November 1992; official Blues profile lists 05/11/1991",
+    "quality": "single_secondary",
+    "status": "user_accepted_conflict",
+    "acceptedAt": "2026-09-08"
+  },
+  "15": {
+    "date": "2004-06-06",
+    "source": "https://www.blues.rugby/cameron-christie-player-profile",
+    "evidence": "Official Blues profile: Born 06/06/04",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "21": {
+    "date": "2004-04-15",
+    "source": "https://en.wikipedia.org/wiki/Malachi_Wrampling",
+    "evidence": "Wikipedia: born 15 April 2004",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "28": {
+    "date": "1992-09-24",
+    "source": "https://en.wikipedia.org/wiki/Pita_Ahki",
+    "evidence": "Wikipedia: born 24 September 1992",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "52": {
+    "date": "2003-05-15",
+    "source": "https://brumbies.rugby/players/lachie-shaw/2322",
+    "evidence": "Official Brumbies profile: born 15 May 2003",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "91": {
+    "date": "1999-10-07",
+    "source": "https://chiefs.co.nz/player/naitoa-ah-kuoi/",
+    "evidence": "Official Chiefs profile: Oct 07, 1999",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "95": {
+    "date": "1997-04-20",
+    "source": "https://chiefs.co.nz/player/luke-jacobson/",
+    "evidence": "Official Chiefs profile: Apr 20, 1997",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "101": {
+    "date": "1998-12-13",
+    "source": "https://chiefs.co.nz/player/xavier-roe/",
+    "evidence": "Official Chiefs profile: Dec 13, 1998",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "111": {
+    "date": "2004-03-02",
+    "source": "https://chiefs.co.nz/player/isaac-hutchinson/",
+    "evidence": "Official Chiefs profile: Mar 02, 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "123": {
+    "date": "1999-12-20",
+    "source": "https://crusaders.co.nz/cullen-grace/",
+    "evidence": "Official Crusaders profile: 20 December 1999",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "137": {
+    "date": "1997-07-16",
+    "source": "https://crusaders.co.nz/braydon-ennor/",
+    "evidence": "Official Crusaders profile: 16 July 1997",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "148": {
+    "date": "1997-02-13",
+    "source": "https://crusaders.co.nz/sevu-reece/",
+    "evidence": "Official Crusaders profile: 13 February 1997",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "151": {
+    "date": "2004-09-24",
+    "source": "https://crusaders.co.nz/aki-tuivailala/",
+    "evidence": "Official Crusaders profile: 24 September 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "167": {
+    "date": "2001-01-28",
+    "source": "https://thehighlanders.co.nz/our-teams/highlanders-super-rugby/te-kamaka-howden/",
+    "evidence": "Official Highlanders profile: 28 January 2001",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "182": {
+    "date": "2002-01-02",
+    "source": "https://thehighlanders.co.nz/our-teams/highlanders-super-rugby/jake-te-hiwi/",
+    "evidence": "Official Highlanders profile: 2 January 2002; another database gives 2 February",
+    "quality": "verified_primary",
+    "status": "user_accepted_conflict",
+    "acceptedAt": "2026-09-08"
+  },
+  "183": {
+    "date": "2004-03-15",
+    "source": "https://thehighlanders.co.nz/our-teams/highlanders-super-rugby/josh-whaanga/",
+    "evidence": "Official Highlanders profile: 15 March 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "190": {
+    "date": "2005-01-05",
+    "source": "https://en.wikipedia.org/wiki/Xavier_Tito-Harris",
+    "evidence": "Wikipedia: born 5 January 2005",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "216": {
+    "date": "2003-01-03",
+    "source": "https://www.hurricanes.co.nz/squad/player/harry-godfrey",
+    "evidence": "Official Hurricanes profile: 03/01/2003",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "220": {
+    "date": "2002-09-10",
+    "source": "https://www.hurricanes.co.nz/squad/player/riley-higgins",
+    "evidence": "Official Hurricanes profile: 10/09/2002",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "229": {
+    "date": "1998-08-30",
+    "source": "https://en.wikipedia.org/wiki/Ngane_Punivai",
+    "evidence": "Wikipedia (Ngane Punivai): born 30 August 1998",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "234": {
+    "date": "1990-11-19",
+    "source": "https://reds.rugby/news/jeffery-toomagaallen-resigns-with-queensland-reds-for-2026-2025529",
+    "evidence": "Official Reds article: born 19/11/1990",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "240": {
+    "date": "2005-03-17",
+    "source": "https://www.ultimaterugby.com/trevor-king",
+    "evidence": "Ultimate Rugby: 17th March 2005",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "242": {
+    "date": "1997-01-03",
+    "source": "https://www.sofascore.com/rugby/player/seru-uru/1017875",
+    "evidence": "Sofascore: Jan 3, 1997; Reds and Super Rugby profiles show conflicting day/month values",
+    "quality": "single_secondary",
+    "status": "user_accepted_conflict",
+    "acceptedAt": "2026-09-08"
+  },
+  "258": {
+    "date": "2005-01-20",
+    "source": "https://en.wikipedia.org/wiki/Dre_Pakeho",
+    "evidence": "Wikipedia: born 20 January 2005",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "259": {
+    "date": "2006-01-13",
+    "source": "https://en.wikipedia.org/wiki/Frankie_Goldsbrough",
+    "evidence": "Wikipedia: born 13 January 2006",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "260": {
+    "date": "2004-01-05",
+    "source": "https://www.sofascore.com/rugby/player/will-mcculloch/1998822",
+    "evidence": "Sofascore: Jan 5, 2004",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "261": {
+    "date": "2007-02-14",
+    "source": "https://www.ultimaterugby.com/nick-conway",
+    "evidence": "Ultimate Rugby: 14th February 2007",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "264": {
+    "date": "2000-01-11",
+    "source": "https://reds.rugby/news/heremaia-murray-signs-for-queensland-reds-20241115",
+    "evidence": "Official Reds article: born 11 January 2000",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "284": {
+    "date": "2005-09-17",
+    "source": "https://waratahs.rugby/players/austin-durbidge/2765",
+    "evidence": "Official Waratahs profile: 17 September 2005",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "289": {
+    "date": "1991-12-17",
+    "source": "https://en.wikipedia.org/wiki/Pete_Samu",
+    "evidence": "Wikipedia: born 17 December 1991",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "297": {
+    "date": "2000-05-27",
+    "source": "https://en.wikipedia.org/wiki/Joey_Walton",
+    "evidence": "Wikipedia: born 27 May 2000",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "300": {
+    "date": "2004-01-30",
+    "source": "https://waratahs.rugby/players/archie-saunders/2337",
+    "evidence": "Official Waratahs profile: January 30, 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "313": {
+    "date": "2004-06-11",
+    "source": "https://westernforce.rugby/players/josh-smith/2789",
+    "evidence": "Official Western Force profile: June 11, 2004; Wikipedia gives a conflicting date",
+    "quality": "verified_primary",
+    "status": "user_accepted_conflict",
+    "acceptedAt": "2026-09-08"
+  },
+  "314": {
+    "date": "2003-11-18",
+    "source": "https://westernforce.rugby/players/albert-alcock/2785",
+    "evidence": "Official Western Force profile: November 18, 2003",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "321": {
+    "date": "1996-06-27",
+    "source": "https://westernforce.rugby/players/nick-champion-de-crespigny/2205",
+    "evidence": "Official Western Force profile: June 27, 1996",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "325": {
+    "date": "2002-08-17",
+    "source": "https://www.ultimaterugby.com/titi-nofoagatotoa",
+    "evidence": "Ultimate Rugby: 17th August 2002",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "329": {
+    "date": "2004-05-25",
+    "source": "https://westernforce.rugby/players/doug-philipson-1731379309845/2349",
+    "evidence": "Official Western Force profile: May 25, 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "333": {
+    "date": "1999-06-16",
+    "source": "https://westernforce.rugby/players/alex-harford/2724",
+    "evidence": "Official Western Force profile: June 16, 1999",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "342": {
+    "date": "2004-05-18",
+    "source": "https://westernforce.rugby/players/ronan-leahy/2352",
+    "evidence": "Official Western Force profile: May 18, 2004",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "349": {
+    "date": "1996-09-11",
+    "source": "https://drua.rugby/teams/men/player/samu-tawake",
+    "evidence": "Official Fijian Drua profile: 11 September 1996",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "351": {
+    "date": "1995-01-21",
+    "source": "https://drua.rugby/teams/men/player/mesulame-dolokoto",
+    "evidence": "Official Fijian Drua profile: 21 January 1995",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "365": {
+    "date": "1995-10-02",
+    "source": "https://drua.rugby/teams/men/player/issak-fines-leleiwasa",
+    "evidence": "Official Fijian Drua profile: 2 October 1995",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "381": {
+    "date": "1998-03-26",
+    "source": "https://drua.rugby/teams/men/player/ponipate-loganimasi",
+    "evidence": "Official Fijian Drua profile: 26 March 1998",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "383": {
+    "date": "1998-06-28",
+    "source": "https://moanapasifika.co.nz/player/abraham-pole/",
+    "evidence": "Official Moana Pasifika profile: Born 28/06/1998; other databases conflict",
+    "quality": "verified_primary",
+    "status": "user_accepted_conflict",
+    "acceptedAt": "2026-09-08"
+  },
+  "384": {
+    "date": "2003-02-15",
+    "source": "https://en.wikipedia.org/wiki/Alefosio_Aho",
+    "evidence": "Wikipedia: born 15 February 2003",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "389": {
+    "date": "2000-04-06",
+    "source": "https://en.wikipedia.org/wiki/Faletoi_Peni",
+    "evidence": "Wikipedia: born 6 April 2000",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "397": {
+    "date": "1999-02-12",
+    "source": "https://en.wikipedia.org/wiki/Lalomilo_Lalomilo",
+    "evidence": "Wikipedia: born 12 February 1999",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "412": {
+    "date": "1998-10-17",
+    "source": "https://moanapasifika.co.nz/player/siaosi-nginingini/",
+    "evidence": "Official Moana Pasifika profile: Born 17/10/1998",
+    "quality": "verified_primary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "426": {
+    "date": "2003-09-22",
+    "source": "https://en.wikipedia.org/wiki/Clem_Halaholo",
+    "evidence": "Wikipedia: born 22 September 2003",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  },
+  "446": {
+    "date": "2004-03-04",
+    "source": "https://en.wikipedia.org/wiki/Johnny_Lee_(rugby_union)",
+    "evidence": "Wikipedia: born 4 March 2004",
+    "quality": "single_secondary",
+    "status": "accepted_manual",
+    "acceptedAt": "2026-09-08"
+  }
+}

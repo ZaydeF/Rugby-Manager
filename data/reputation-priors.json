@@ -1,0 +1,60 @@
+{
+  "note": "Honours are sourced facts. Tier-to-rating values are configurable game-design judgements, not published player ratings. This is a limited documented 2024\u20132025 honours pass, not a complete international history.",
+  "tiers": {
+    "dream_team": 94,
+    "breakthrough": 88
+  },
+  "older_award_discount_per_year": 1,
+  "reference_year": 2025,
+  "players": [
+    {
+      "player_id": "142",
+      "name": "Will Jordan",
+      "tier": "dream_team",
+      "year": 2025,
+      "source": "https://www.world.rugby/news/1018839/seven-nations-represented-in-the-world-rugby-mens-15s-dream-team-of-the-year-2025"
+    },
+    {
+      "player_id": "213",
+      "name": "Cam Roigard",
+      "tier": "dream_team",
+      "year": 2025,
+      "source": "https://www.world.rugby/news/1018839/seven-nations-represented-in-the-world-rugby-mens-15s-dream-team-of-the-year-2025"
+    },
+    {
+      "player_id": "246",
+      "name": "Harry Wilson",
+      "tier": "dream_team",
+      "year": 2025,
+      "source": "https://www.world.rugby/news/1018839/seven-nations-represented-in-the-world-rugby-mens-15s-dream-team-of-the-year-2025"
+    },
+    {
+      "player_id": "192",
+      "name": "Tyrel Lomax",
+      "tier": "dream_team",
+      "year": 2024,
+      "source": "https://www.world.rugby/tournaments/awards/past-winners/2024"
+    },
+    {
+      "player_id": "102",
+      "name": "Damian McKenzie",
+      "tier": "dream_team",
+      "year": 2024,
+      "source": "https://www.world.rugby/tournaments/awards/past-winners/2024"
+    },
+    {
+      "player_id": "98",
+      "name": "Wallace Sititi",
+      "tier": "breakthrough",
+      "year": 2024,
+      "source": "https://www.world.rugby/tournaments/awards/past-winners/2024"
+    },
+    {
+      "player_id": "166",
+      "name": "Fabian Holland",
+      "tier": "breakthrough",
+      "year": 2025,
+      "source": "https://www.allblacks.com/news/all-blacks/fabian-holland-named-world-rugby-s-breakthrough-player-of-the-year"
+    }
+  ]
+}
