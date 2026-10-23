@@ -7,6 +7,7 @@ import type {PathwayDecision,PathwayPlan} from '@/lib/world/types';
 
 const planLabels:Record<PathwayPlan,string>={'regular-minutes':'Regular Otago minutes','protect-workload':'Protect workload','prepare-call-up':'Prepare for Highlanders','monitor':'Monitor only'};
 const decisionLabels:Record<PathwayDecision,string>={'call-up':'Call up','stay-developing':'Leave developing','protect':'Protect & monitor'};
+import {ReadinessBadge} from './world-fitness';
 const readinessTone=(value:string)=>value==='Ready for a look'?'world-good':value==='Protect'?'world-warning':'world-muted';
 
 export default function WorldPathway({s,mutate,onPlayer}:{s:Season;mutate:(fn:(n:Season)=>void)=>void;onPlayer:(id:string)=>void}){
@@ -21,7 +22,7 @@ export default function WorldPathway({s,mutate,onPlayer}:{s:Season;mutate:(fn:(n
   <div className="pathway-metrics"><div><b>{rows.length}</b><span>Otago prospects</span></div><div><b>{watch.length}</b><span>On your watchlist</span></div><div><b>{ready.length}</b><span>Ready for a look</span></div><div><b>{decided}</b><span>Decisions made</span></div></div>
   <section className="panel"><div className="panel-title"><div><span className="eyebrow">EVIDENCE BOARD</span><h2>Otago development squad</h2></div><span className="pathway-note">Plans change the conversation, not the underlying player data.</span></div><div className="pathway-grid">{rows.slice(0,12).map(row=><article className={`pathway-card ${row.watched?'is-watched':''}`} key={row.player.id}>
     <div className="pathway-card-head"><button className="player-link" onClick={()=>onPlayer(row.player.id)}><strong>{row.player.name}</strong><small>{row.player.position.replaceAll('_',' ')} · {row.age??'—'} years</small></button><button className="watch-toggle" aria-label={`${row.watched?'Remove':'Add'} ${row.player.name} ${row.watched?'from':'to'} watchlist`} onClick={()=>mutate(n=>{const p=ensurePathway(n);if(!p)return;if(p.watchlist.includes(row.player.id))p.watchlist=p.watchlist.filter(id=>id!==row.player.id);else if(p.watchlist.length<5)p.watchlist=[...p.watchlist,row.player.id];})}>{row.watched?<Star fill="currentColor" size={16}/>:<Star size={16}/>}</button></div>
-    <div className="pathway-status"><span className={readinessTone(row.readiness)}>{row.readiness}</span>{row.decision&&<span className="status-chip">{decisionLabels[row.decision]}</span>}</div>
+    <div className="pathway-status"><ReadinessBadge s={s} id={row.player.id} level="SR"/><span className={readinessTone(row.readiness)}>{row.readiness}</span>{row.decision&&<span className="status-chip">{decisionLabels[row.decision]}</span>}</div>
     <div className="pathway-evidence"><div><b>{row.apps}</b><span>apps</span></div><div><b>{row.minutes}</b><span>minutes</span></div><div><b>{row.rating?.toFixed(2)??'—'}</b><span>rating</span></div></div>
     <p className="pathway-reason">{row.reason}</p>
     <label className="pathway-plan"><span>Current brief</span><select value={row.plan} onChange={e=>mutate(n=>setPathwayPlan(n,row.player.id,e.target.value as PathwayPlan))}>{Object.entries(planLabels).map(([value,label])=><option value={value} key={value}>{label}</option>)}</select></label>

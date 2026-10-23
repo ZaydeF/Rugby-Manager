@@ -4,6 +4,7 @@ import {z} from 'zod';
 import type {Season} from '../sim/types.ts';
 import {DEFAULT_TACTICS} from '../sim/config.ts';
 import {catalog} from './catalog.ts';
+import {readinessSchema} from './readiness.ts';
 const finite=z.number().finite();
 const attribute=z.record(finite.min(0).max(100));
 const text=z.string().max(2000),id=z.string().min(1).max(100);
@@ -13,6 +14,7 @@ const profile=z.object({rich:attribute,savePA:finite.min(1).max(100),traits:z.ob
 export function validWorld(value:unknown,validMatch:(m:unknown)=>boolean):value is Season{try{if(!top.safeParse(value).success)return false;const s=value as Season,w=s.world;if(s.version!==6||s.modelVersion!==catalog.version||!w||w.version!==1||!Number.isInteger(s.year)||s.year<2026||!Number.isInteger(s.seed)||!s.management||!catalog.teams.some(t=>t.id===s.teamId&&t.competition===w.primary))return false;
  if(!['preseason','SR','international','NPC','offseason'].includes(w.phase)||!Array.isArray(w.generated)||w.generated.length>20000||!z.record(profile).safeParse(w.players).success)return false;const ids=new Set([...catalog.players.map(p=>p.id),...w.generated.map(p=>p.id)]);if(ids.size!==Object.keys(w.players).length||ids.size!==Object.keys(s.management.players).length||ids.size!==Object.keys(s.condition).length)return false;if(w.pathway){const p=w.pathway;if(p.version!==1||!ids.has(p.seniorTeamId)&&p.seniorTeamId!==s.teamId||p.watchlist.some(id=>!ids.has(id))||Object.keys(p.plans).some(id=>!ids.has(id))||Object.keys(p.decisions).some(id=>!ids.has(id))||p.events.some(e=>!ids.has(e.playerId)))return false;}
  for(const id of ids){const c=s.management.players[id],q=s.condition[id];if(!c||!q||!w.players[id]||!Number.isFinite(c.ability)||c.ability<1||c.ability>w.players[id].savePA+.001||!z.record(finite.min(0).max(100).nullable()).safeParse(c.attributes).success)return false;if(![q.fitness,q.fatigue,q.morale,q.sharpness].every(v=>Number.isFinite(v)&&v>=0&&v<=100)||!Number.isFinite(q.form)||Math.abs(q.form)>4||!Number.isInteger(q.injuryWeeks)||q.injuryWeeks<0||q.injuryWeeks>30)return false;}
+ if(w.readiness&&(!readinessSchema.safeParse(w.readiness).success||Object.keys(w.readiness).some(id=>!ids.has(id))))return false;
  if(w.pulse){const p=w.pulse;if([...p.watchlist,...p.awards.flatMap(a=>a.ids),...p.stories.flatMap(x=>x.players),...Object.keys(p.returns),...p.captainHistory.map(x=>x.id)].some(id=>!ids.has(id))||[p.captain,p.vice].some(id=>id&&!ids.has(id)))return false;if(new Set(p.matches.map(m=>m.id)).size!==p.matches.length||new Set(p.awards.map(a=>a.id)).size!==p.awards.length||new Set(p.stories.map(x=>x.id)).size!==p.stories.length)return false;}
  const unique=new Set<string>();for(const r of w.memberships){if(!ids.has(r.playerId)||!catalog.teams.some(t=>t.id===r.teamId&&t.competition===r.competition)||r.season!==s.year)return false;if(r.active){const key=r.playerId+r.competition;if(unique.has(key))return false;unique.add(key);}}
  if(!Array.isArray(s.selection)||s.selection.length!==23||s.selection.some(id=>id&&(!ids.has(id)||!w.memberships.some(r=>r.active&&r.playerId===id&&r.teamId===s.teamId))))return false;
