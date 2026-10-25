@@ -45,3 +45,6 @@ next-env.d.ts
 __pycache__/
 *.pyc
 *.tsbuildinfo
+
+# Reproducible per-match calibration samples; published distributions are tracked.
+/docs/cohesion-raw-*.json

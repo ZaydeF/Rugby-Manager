@@ -1,0 +1,184 @@
+{
+  "reviewDate": "2026-10-26",
+  "status": "Release candidate; all-checks gate not green",
+  "productionBuild": "passed",
+  "typescriptNoEmit": "passed",
+  "npmTest": {
+    "tests": 114,
+    "passed": 113,
+    "failed": 1,
+    "failure": "tests/rendered-html.test.mjs: default Node ESM loader cannot import cloudflare:",
+    "testsNotRemovedOrSkipped": true
+  },
+  "newCohesionTests": 9,
+  "standaloneScripts": [
+    {
+      "script": "test_market_edges.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "test_rugby.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "test_phase1.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "test_rating_review.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "test_squad_update.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "validate_database.ts",
+      "status": "passed",
+      "observation": "Executed during this implementation; generated fixture changes restored after test_squad_update."
+    },
+    {
+      "script": "test_simulation.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Legacy deterministic engine comparison differs."
+    },
+    {
+      "script": "test_management.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Expected save version 4; actual 5."
+    },
+    {
+      "script": "test_career_storage.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Expected response 200; actual 400."
+    },
+    {
+      "script": "test_future.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Expected save version 4; actual 5."
+    },
+    {
+      "script": "test_preparation.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Legacy halftime tactic expectation differs."
+    },
+    {
+      "script": "test_representative_update.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Expected readiness factor 1; actual 0.9925."
+    },
+    {
+      "script": "test_phase25.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Legacy cover/engine comparison differs."
+    },
+    {
+      "script": "test_foundation.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Legacy version-2 input assertion fails."
+    },
+    {
+      "script": "test_legacy_engine.ts",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Legacy deterministic engine comparison differs."
+    },
+    {
+      "script": "test_foundations.py",
+      "status": "failed",
+      "startingCommitAlsoFailed": true,
+      "startingCommit": "3a48d1f",
+      "diagnostic": "Three source/rating assertions fail."
+    },
+    {
+      "script": "validate_simulation.ts",
+      "status": "timeout",
+      "budgetSeconds": 180,
+      "diagnostic": "Default run did not finish within the recorded budget; no pass claimed."
+    },
+    {
+      "script": "validate_tactics.ts",
+      "status": "timeout",
+      "budgetSeconds": 180,
+      "diagnostic": "Default run did not finish within the recorded budget; no pass claimed."
+    },
+    {
+      "script": "calibrate-career-world.mjs",
+      "status": "timeout",
+      "budgetSeconds": 180,
+      "diagnostic": "Default run did not finish within the recorded budget; no pass claimed."
+    },
+    {
+      "script": "validate-career-pulse.mjs",
+      "status": "timeout",
+      "budgetSeconds": 180,
+      "diagnostic": "Default run did not finish within the recorded budget; no pass claimed."
+    },
+    {
+      "script": "validate-career-world.mjs",
+      "status": "failed",
+      "elapsedSeconds": 104.98,
+      "diagnostic": "at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n1 2026 SR 10 817\n1 2026 international 19 818\n1 2026 NPC 19 833\n1 2026 offseason 19 834\n1 2026 offseason 19 834\n1 2026 offseason 19 834\n1 2026 offseason 19 834\n1 2027 SR 3 890\n1 2027 SR 13 890\n1 2027 NPC 19 891\n1 2027 NPC 19 892\nnode:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2027 !== 2028\n\n    at file:///workspace/sites/super-rugby-manager/scripts/validate-career-world.mjs:12:402\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: 2027,\n  expected: 2028,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n\nNode.js v24.22.1\n"
+    },
+    {
+      "script": "validate-match-intelligence.mjs",
+      "status": "passed",
+      "elapsedSeconds": 181.4,
+      "diagnostic": "4,\n      \"tackles\": 289.716,\n      \"turnovers\": 13.844,\n      \"margin\": 19.296,\n      \"kicks\": 5.9,\n      \"breaks\": 5.032,\n      \"errors\": 3.856,\n      \"quick\": 105.06,\n      \"fatigue\": 20.11,\n      \"homeWin\": 0.588\n    },\n    \"Counterattack\": {\n      \"matches\": 250,\n      \"points\": 65.276,\n      \"tries\": 9.736,\n      \"penalties\": 23.124,\n      \"cards\": 1.264,\n      \"metres\": 955.684,\n      \"tackles\": 296.364,\n      \"turnovers\": 17.24,\n      \"margin\": 21.044,\n      \"kicks\": 5.528,\n      \"breaks\": 10.648,\n      \"errors\": 6.004,\n      \"quick\": 73.908,\n      \"fatigue\": 21.825,\n      \"homeWin\": 0.56\n    },\n    \"Out the back\": {\n      \"matches\": 250,\n      \"points\": 60.248,\n      \"tries\": 8.984,\n      \"penalties\": 21.432,\n      \"cards\": 1.064,\n      \"metres\": 868.004,\n      \"tackles\": 273.6,\n      \"turnovers\": 17.296,\n      \"margin\": 21.032,\n      \"kicks\": 5.196,\n      \"breaks\": 11.352,\n      \"errors\": 6.732,\n      \"quick\": 66.724,\n      \"fatigue\": 17.56,\n      \"homeWin\": 0.448\n    }\n  }\n}\n"
+    },
+    {
+      "script": "validate-world-pathways-v2.mjs",
+      "status": "timeout",
+      "elapsedSeconds": 420.08,
+      "diagnostic": ".48230215178842,\"pledgerDevelopment\":[{\"comp\":\"SR\",\"minutes\":0,\"gain\":0.009987887746973456},{\"comp\":\"SR\",\"minutes\":0,\"gain\":0.019369103634389262},{\"comp\":\"NPC\",\"minutes\":185.89227546447955,\"gain\":1.4531297332764126},{\"comp\":\"NPC\",\"minutes\":404.02622743396654,\"gain\":2.4242963994039854}]}\n{\"seed\":72,\"year\":2029,\"days\":934,\"players\":1023,\"pledger\":73.65897215124986,\"pledgerDevelopment\":[{\"comp\":\"SR\",\"minutes\":0,\"gain\":0.012332461518866467},{\"comp\":\"SR\",\"minutes\":108.28366502765044,\"gain\":0.7603230153494422},{\"comp\":\"NPC\",\"minutes\":180.00469558471735,\"gain\":0.8062063302045175},{\"comp\":\"NPC\",\"minutes\":311.70015002572126,\"gain\":1.5978081923886123}]}\n{\"seed\":72,\"year\":2030,\"days\":1245,\"players\":1087,\"pledger\":74.55123708805561,\"pledgerDevelopment\":[{\"comp\":\"SR\",\"minutes\":0,\"gain\":0.012171984148693582},{\"comp\":\"SR\",\"minutes\":0,\"gain\":0.00970455277148119},{\"comp\":\"NPC\",\"minutes\":97.35790883354285,\"gain\":0.21572980791631835},{\"comp\":\"NPC\",\"minutes\":192.41668114231064,\"gain\":0.654658591969266}]}\n",
+      "scope": "Daily calendar study reached 2031 for seed 33 and 2030 for seed 72; interrupted at 420 seconds before final aggregate. Not a full pass."
+    },
+    {
+      "script": "test_longevity.ts",
+      "status": "passed",
+      "elapsedSeconds": 11.31,
+      "diagnostic": "94},{\"id\":\"8\",\"squad\":43,\"payroll\":8321000,\"cap\":9190000,\"cash\":1285988},{\"id\":\"2\",\"squad\":43,\"payroll\":9073000,\"cap\":10790000,\"cash\":1723985},{\"id\":\"5\",\"squad\":43,\"payroll\":5085000,\"cap\":7000000,\"cash\":1511998},{\"id\":\"1\",\"squad\":38,\"payroll\":6033000,\"cap\":7580000,\"cash\":1492998},{\"id\":\"11\",\"squad\":38,\"payroll\":6513000,\"cap\":9560000,\"cash\":4487991},{\"id\":\"6\",\"squad\":45,\"payroll\":6959000,\"cap\":7000000,\"cash\":924982},{\"id\":\"3\",\"squad\":43,\"payroll\":5419000,\"cap\":7000000,\"cash\":1510991},{\"id\":\"4\",\"squad\":44,\"payroll\":7779000,\"cap\":8190000,\"cash\":517998},{\"id\":\"9\",\"squad\":44,\"payroll\":6704000,\"cap\":7050000,\"cash\":1538998}],\"season\":1,\"year\":2027,\"players\":863,\"retired\":218,\"elite\":12,\"saveMB\":9.588235855102539,\"sectionsMB\":{\"fixtures\":6.66,\"condition\":0.12,\"management\":0.93,\"market\":0.1,\"future\":1.08,\"representative\":0.41,\"coaching\":0.1,\"dynamics\":0.13},\"gzipMB\":1.222294807434082,\"elapsedSeconds\":10.619878669,\"champion\":\"2\"}\nLongevity structural checks passed. Balance gate: requires review\n",
+      "arguments": [
+        "1",
+        "75"
+      ],
+      "scope": "One legacy season passed. Default 20-season run earlier exceeded 180 seconds; full default run not passed."
+    }
+  ],
+  "studies": {
+    "legacyBaselineMatches": 5000,
+    "candidateMatches": 5000,
+    "controlledTacticalMatches": 1200,
+    "actualWorldSeasons": 100,
+    "actualWorldSeeds": 10,
+    "validSeasonCheckpoints": 100
+  },
+  "browser": {
+    "multiViewportScreens": 17,
+    "scaledProofImages": 51,
+    "focusedNativePlanProof": 1,
+    "requestedNativeResolutionGate": "incomplete"
+  }
+}

@@ -1,0 +1,8 @@
+import type {ReactNode} from 'react';
+import {DEPARTMENTS,department} from '@/lib/product/navigation';
+export function PageHeader({title,detail,action}:{title:string;detail?:string;action?:ReactNode}){return <header className="product-page-header"><div><h2>{title}</h2>{detail&&<p>{detail}</p>}</div>{action}</header>;}
+export function SectionNav({tab,navigate}:{tab:string;navigate:(tab:string)=>void}){const d=department(tab);return <nav className="product-section-nav" aria-label={`${d.name} pages`}>{d.pages.map(([id,label])=><button key={id} aria-current={tab===id||id==='Development'&&tab==='NPC Watch'||id==='Club'&&tab==='Union'?'page':undefined} onClick={()=>navigate(id)}>{label}</button>)}</nav>;}
+export function MetricRow({label,value}:{label:string;value:ReactNode}){return <div className="product-metric-row"><span>{label}</span><strong>{value}</strong></div>;}
+export function ActionQueue({actions}:{actions:{id:string;title:string;detail:string;action:()=>void;urgent?:boolean}[]}){return <div className="product-actions">{actions.length?actions.map(a=><button key={a.id} className={a.urgent?'urgent':''} onClick={a.action}><span><strong>{a.title}</strong><small>{a.detail}</small></span><span aria-hidden="true">→</span></button>):<p className="product-empty">No urgent decisions. Review your squad or continue to the next event.</p>}</div>;}
+export function StaffMessage({owner,date,title,children,onClick}:{owner:string;date:string;title:string;children:ReactNode;onClick?:()=>void}){return <article className="product-staff-message"><div><span>{owner}</span><time>{date}</time></div><h3>{onClick?<button onClick={onClick}>{title}</button>:title}</h3><p>{children}</p></article>;}
+export {DEPARTMENTS};

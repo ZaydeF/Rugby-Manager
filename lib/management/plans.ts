@@ -16,8 +16,8 @@ export function plannedSelection(s:Season,data:SimUniverse,opponent?:string,base
  const opp=opponent?careerUniverse(s,data).players.filter(p=>p.squad_id===opponent).sort((a,b)=>b.overall-a.overall).slice(0,15):[];
  const own=[...squad].sort((a,b)=>b.overall-a.overall).slice(0,15);const easy=opp.length>0&&own.reduce((n,p)=>n+p.overall,0)/15-opp.reduce((n,p)=>n+p.overall,0)/15>=4;
  const instructions=matchInstructions(s);const used=new Set<string>();return autoSelect(squad,s.condition,s.benchSplit).map((fallback,slot)=>{
-  const candidates=squad.filter(p=>!used.has(p.player_id)&&fits(p,slot,s.benchSplit)&&!p.unavailable&&!s.condition[p.player_id]?.injuryWeeks);
-  candidates.sort((a,b)=>score(b,slot)-score(a,slot)||a.player_id.localeCompare(b.player_id));const id=candidates[0]?.player_id??fallback;used.add(id);return id;
+  const candidates=squad.filter(p=>!used.has(p.player_id)&&p.position===squad.find(q=>q.player_id===fallback)?.position&&fits(p,slot,s.benchSplit)&&slotSuitability(p.position,slot,s.benchSplit).factor===1&&!p.unavailable&&!s.condition[p.player_id]?.injuryWeeks);
+  candidates.sort((a,b)=>score(b,slot)-score(a,slot)||a.player_id.localeCompare(b.player_id));const id=candidates[0]?.player_id??(!used.has(fallback)?fallback:'');used.add(id);return id;
  });
  function score(p:typeof squad[number],slot:number){const c=s.condition[p.player_id]??freshCondition(),plan=cfg.players[p.player_id];let n=selectionScore(p,c)-c.fatigue*.15-(1-slotSuitability(p.position,slot,s.benchSplit).factor)*100;if(base?.[slot]===p.player_id)n+=30;const instruction=instructions[p.player_id];if(instruction==='rest')n-=10000;if(instruction==='bench')n+=slot<15?-1000:1000;if(instruction==='start')n+=slot<15?2000:-500;if(slot===18&&p.position==='lock'||slot===19&&p.position==='loose_forward')n+=100;
   const pref=cfg.preferred[String(slot)];if(pref?.starter===p.player_id)n+=7;if(pref?.backup===p.player_id)n+=2;
