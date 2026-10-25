@@ -1,3 +1,4 @@
+import {staffDay} from '../club/staff.ts';
 import {weeklyDay} from '../product/weekly.ts';
 import {careerDay} from '../career-setup/state.ts';
 import {pulseDay,ensurePulse} from './pulse.ts';
@@ -17,11 +18,11 @@ export function advanceDay(s:Season){
  if(matchDue(s)&&!s.activeMatch?.finished)throw Error('Matchday: review the squads and choose Play match or Quick sim.');
  if(s.activeMatch&&!s.activeMatch.finished)throw Error('Finish your current match first.');
  if(['preseason','international','offseason'].includes(w.phase)){
- const year=s.year;advanceWorld(s);w.date=s.year!==year?`${s.year}-01-30`:day(new Date(Date.parse(date)+86400000).toISOString());representativeDay(s);schoolDeadline(s);dailyRecovery(s);syncContracts(s);pulseDay(s);careerDay(s);weeklyDay(s);return;
+ const year=s.year;advanceWorld(s);w.date=s.year!==year?`${s.year}-01-30`:day(new Date(Date.parse(date)+86400000).toISOString());representativeDay(s);schoolDeadline(s);dailyRecovery(s);syncContracts(s);pulseDay(s);careerDay(s);staffDay(s);weeklyDay(s);return;
  }
  const f=nextWorldFixture(s);
  if(f&&day(f.date)<=date)advanceWorld(s);else marketDay(s,projected(s));
- w.date=day(new Date(Date.parse(date)+86400000).toISOString());representativeDay(s);schoolDeadline(s);dailyRecovery(s);syncContracts(s);pulseDay(s);careerDay(s);weeklyDay(s);
+ w.date=day(new Date(Date.parse(date)+86400000).toISOString());representativeDay(s);schoolDeadline(s);dailyRecovery(s);syncContracts(s);pulseDay(s);careerDay(s);staffDay(s);weeklyDay(s);
 }
 // Convenience stops at matchday or a reply; never simulates the user's match.
 export function nextCalendarEvent(s:Season){for(let n=0;n<90;n++){if(matchDue(s)||s.activeMatch||s.world!.announcement!==null||s.world!.representative?.xvAnnouncement!=null)return;const before=s.market?.threads.reduce((n,t)=>n+t.messages.length,0)??0,phase=s.world!.phase,stories=ensurePulse(s).stories.length;advanceDay(s);if((s.market?.threads.reduce((n,t)=>n+t.messages.length,0)??0)!==before||s.world!.phase!==phase&&phase!=='preseason'||ensurePulse(s).stories.slice(0,Math.max(0,ensurePulse(s).stories.length-stories)).some(x=>x.important))return;}}

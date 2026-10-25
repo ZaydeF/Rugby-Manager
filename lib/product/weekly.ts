@@ -1,3 +1,4 @@
+import {staffQuality} from '../club/staff.ts';
 import {z} from 'zod';
 import type {Season,Side} from '../sim/types.ts';
 import {catalog,registration,worldPlayers,availability} from '../world/catalog.ts';
@@ -25,7 +26,7 @@ export function weeklyDay(s:Season){const w=ensureWeekly(s),date=calendarDate(s)
  // owner for this phase even when he has both an SR and NPC registration.
  if(weekday>=2&&weekday<=5)for(const team of catalog.teams){const c=w.clubs[team.id];if(c.applied===key)continue;c.applied=key;c.trained=c.emphasis;
  const f=c.familiarity,dimension=focusDimension(c.emphasis),signature=team.id===s.teamId?JSON.stringify(s.rugbyPlan):'AI';if(c.signature&&signature!==c.signature){f.attack=Math.max(45,f.attack-2);f.kicking=Math.max(45,f.kicking-2);}c.signature=signature;
- for(const d of Object.keys(f) as (keyof typeof f)[])f[d]=clamp(f[d]+(c.emphasis==='Recovery'||c.emphasis==='Conditioning'?.25:c.emphasis==='Balanced'||c.emphasis==='Match preparation'?1:d===dimension?2:.25),45,90);
+ for(const d of Object.keys(f) as (keyof typeof f)[])f[d]=clamp(f[d]+(c.emphasis==='Recovery'||c.emphasis==='Conditioning'?.25:c.emphasis==='Balanced'||c.emphasis==='Match preparation'?1:d===dimension?2*(1+Math.max(0,staffQuality(s,'Opposition Analyst',team.id)-10)/100):.25),45,90);
  for(const p of all){if(s.world!.players[p.id].retired)continue;const owner=registration(s,p.id,competition)?.teamId??registration(s,p.id,competition==='SR'?'NPC':'SR')?.teamId;if(owner!==team.id)continue;const q=s.condition[p.id];if(!q||q.injuryWeeks)continue;if(c.emphasis==='Recovery')q.fatigue=clamp(q.fatigue-2);else if(c.emphasis==='Conditioning'){q.fatigue=clamp(q.fatigue+1.5);q.fitness=clamp(q.fitness+1);}else if(c.emphasis==='Match preparation')q.sharpness=q.sharpness<70?Math.min(70,q.sharpness+.5):q.sharpness;}
  }
  const pulse=ensurePulse(s),own=all.filter(p=>s.world!.memberships.some(m=>m.active&&m.playerId===p.id&&m.teamId===s.teamId)),next=s.fixtures.filter(f=>!f.result&&[f.home,f.away].includes(s.teamId)&&f.date.slice(0,10)>=date).sort((a,b)=>a.date.localeCompare(b.date))[0],last=pulse.matches.filter(m=>[m.home,m.away].includes(s.teamId)).at(-1);
