@@ -1,0 +1,45 @@
+{
+  "method": "Four actual calendar careers over one full season/rollover each, all six tasks delegated. Every day validates; user matches explicitly delegated. This is bounded integration evidence, not a long-term balance calibration.",
+  "rows": [
+    {
+      "club": "5",
+      "days": 311,
+      "matches": 16,
+      "year": 2027,
+      "plans": 54,
+      "clubsWithNegativeCash": [],
+      "valid": true,
+      "staffPaidCurrentSeason": 7270
+    },
+    {
+      "club": "6",
+      "days": 311,
+      "matches": 14,
+      "year": 2027,
+      "plans": 53,
+      "clubsWithNegativeCash": [],
+      "valid": true,
+      "staffPaidCurrentSeason": 7693
+    },
+    {
+      "club": "4",
+      "days": 311,
+      "matches": 16,
+      "year": 2027,
+      "plans": 52,
+      "clubsWithNegativeCash": [],
+      "valid": true,
+      "staffPaidCurrentSeason": 7020
+    },
+    {
+      "club": "npc-9",
+      "days": 311,
+      "matches": 12,
+      "year": 2027,
+      "staffPaidCurrentSeason": 3212,
+      "plans": 42,
+      "clubsWithNegativeCash": [],
+      "valid": true
+    }
+  ]
+}

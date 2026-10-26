@@ -1,0 +1,31 @@
+import fs from 'node:fs';
+import {newWorld,prepare,advanceWorld} from '../lib/world/engine.ts';
+import {catalog,worldPlayers,worldAge,registration} from '../lib/world/catalog.ts';
+import {instantResult,advancePhase} from '../lib/sim/engine.ts';
+import {identityPlan,IDENTITIES} from '../lib/career-setup/state.ts';
+import {canonicalTactics} from '../lib/sim/tactics25.ts';
+import {validSave} from '../lib/sim/validation.ts';
+const mode=process.argv[2]??'baseline',output=process.argv[3]??`docs/cohesion-raw-${mode}.json`;
+const percentile=(a,p)=>{const v=[...a].sort((a,b)=>a-b);return v[Math.round((v.length-1)*p)]??null;};
+const distribution=values=>({n:values.length,mean:values.reduce((a,b)=>a+b,0)/Math.max(1,values.length),p05:percentile(values,.05),p25:percentile(values,.25),median:percentile(values,.5),p75:percentile(values,.75),p95:percentile(values,.95),min:Math.min(...values),max:Math.max(...values)});
+function summary(rows){return Object.fromEntries(Object.keys(rows[0]??{}).filter(k=>typeof rows[0][k]==='number').map(k=>[k,distribution(rows.map(r=>r[k]))]));}
+if(mode==='career'){
+ const from=Number(process.argv[4]??1),to=Number(process.argv[5]??10),rows=[];
+ for(let seed=from;seed<=to;seed++){const s=newWorld('1',seed),first=s.year;let guard=0;
+ while(s.year<first+10&&guard++<1200){advanceWorld(s);if(s.year>first&&s.world.phase==='preseason'){
+ const all=worldPlayers(s),active=all.filter(p=>!s.world.players[p.id].retired),abilities=active.map(p=>s.management.players[p.id].ability),ages=active.map(p=>worldAge(s,p)).filter(x=>x!==null),generated=active.filter(p=>p.sourceOrigin.startsWith('generated'));
+ const wages=catalog.teams.map(t=>active.filter(p=>s.management.players[p.id].clubId===t.id).reduce((n,p)=>n+s.management.players[p.id].salary,0));
+ rows.push({seed,year:s.year,players:active.length,ability:distribution(abilities),age:distribution(ages),generated:generated.length,generatedAbility:distribution(generated.map(p=>s.management.players[p.id].ability)),cash:distribution(Object.values(s.management.finances).map(f=>f.cash)),wages:distribution(wages),retired:all.length-active.length,transfers:s.management.transfers.length,shortSquads:catalog.teams.filter(t=>s.world.memberships.filter(m=>m.active&&m.teamId===t.id).length<23).map(t=>t.id),champions:s.world.reviews.filter(r=>r.year===s.year-1).map(r=>({competition:r.competition,id:r.champion})),valid:validSave(s,{})});fs.writeFileSync(output,JSON.stringify({mode,method:'Actual advanceWorld careers, all competitions, market window days, development and rollover; human club is deliberately unattended.',seasons:rows.length,rows},null,2));console.log(`career ${seed}: ${s.year}`);
+ }}if(s.year!==first+10)throw Error('Career guard reached');}
+}else{
+ const s=newWorld('1',75),cache=new Map(),rows=[];
+ function fixture(comp,i){const teams=catalog.teams.filter(t=>t.competition===comp),pairs=teams.flatMap(a=>teams.filter(b=>a.id!==b.id).map(b=>[a.id,b.id]));const [home,away]=pairs[i%pairs.length],key=comp+home+':'+away;if(!cache.has(key))cache.set(key,prepare(s,{id:key,round:1,date:'2026-03-01',home,away,stage:'Calibration',venue:'Home'},comp));return structuredClone(cache.get(key));}
+ function run(m,seed,fixed=false){if(mode==='baseline')delete m.cohesionVersion;m.seed=seed;m.rng=seed>>>0;if(fixed){for(const t of m.teams)t.autoHalfTime=false;while(!m.finished)advancePhase(m);}else instantResult(m);const [a,b]=m.teams.map(t=>t.stats);const half=m.events.filter(e=>e.minute<=40).at(-1)?.score??[0,0],late=m.events.filter(e=>e.minute<=70).at(-1)?.score??[0,0];return {points:a.score+b.score,winningScore:Math.max(a.score,b.score),losingScore:Math.min(a.score,b.score),margin:Math.abs(a.score-b.score),tries:a.tries+b.tries,penaltyGoals:a.penaltyGoals+b.penaltyGoals,goalAttempts:m.events.filter(e=>['penalty_goal','missed_kick'].includes(e.kind)&&!m.events.some((q,j)=>q===e&&m.events[j-1]?.kind==='try')).length,penalties:a.penalties+b.penalties,cards:a.yellow+a.red+b.yellow+b.red,homeWin:+(a.score>b.score),draw:+(a.score===b.score),blowout:+(Math.abs(a.score-b.score)>=28),close:+(Math.abs(a.score-b.score)<=7),comeback:+((half[0]-half[1])*(a.score-b.score)<0),lateReversal:+((late[0]-late[1])*(a.score-b.score)<0),breaks:a.linebreaks+b.linebreaks,turnovers:a.turnovers+b.turnovers,metres:a.metres+b.metres,tackles:a.tackles+b.tackles,errors:a.errors+b.errors,kicks:m.events.filter(e=>['rugby_kick','return_kick','kick'].includes(e.kind)).length,lineoutRetention:(a.lineouts+b.lineouts)/Math.max(1,a.lineouts+b.lineouts+a.lineoutsLost+b.lineoutsLost),scrumRetention:(a.scrums+b.scrums)/Math.max(1,a.scrums+b.scrums+a.scrumsLost+b.scrumsLost),homePossession:a.possessionSeconds/Math.max(1,a.possessionSeconds+b.possessionSeconds),homeTerritory:a.territorySeconds/Math.max(1,a.territorySeconds+b.territorySeconds)};}
+ const count=mode==='tactics'?100:Number(process.env.CALIBRATION_MATCHES_PER_COMP??2500);
+ for(const comp of ['SR','NPC'])for(let i=0;i<count;i++){
+ if(mode==='tactics'){for(const identity of IDENTITIES){const m=fixture(comp,i);m.teams[0].rugby=identityPlan(identity);m.teams[0].tactics=canonicalTactics(m.teams[0].rugby);rows.push({comp,identity,seed:10000+i,...run(m,10000+i,true)});}}
+ else rows.push({comp,home:fixture(comp,i).teams[0].id,away:fixture(comp,i).teams[1].id,seed:1000+i,...run(fixture(comp,i),1000+i)});
+ if(i%250===0)console.log(`${mode} ${comp} ${i}/${count}`);
+ }
+ const groups=mode==='tactics'?IDENTITIES:Object.keys({SR:1,NPC:1}),report={mode,method:mode==='tactics'?'Paired fixture/seeds across six identities; automatic tactical changes disabled on both sides.':`${count*2} matches, ${count} per competition; ordered home/away pairs cycled across every club; independent phase RNG seeds; one prepared kickoff snapshot per ordered pair (kickoff mood held fixed); active prepare path.`,matches:rows.length,summary:Object.fromEntries(groups.map(g=>[g,summary(rows.filter(r=>mode==='tactics'?r.identity===g:r.comp===g))])),rows};fs.writeFileSync(output,JSON.stringify(report,null,2));console.log(JSON.stringify({matches:report.matches,summary:Object.fromEntries(Object.entries(report.summary).map(([k,v])=>[k,{points:v.points.mean,penalties:v.penalties.mean,close:v.close.mean,homeWin:v.homeWin.mean}]))}));
+}
