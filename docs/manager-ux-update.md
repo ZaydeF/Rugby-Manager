@@ -88,10 +88,16 @@ Super Rugby results. No venue-specific tuning was invented for this update.
 ## Validation and limits
 
 - TypeScript and production build pass; whitespace/diff checks pass.
-- Final automated suite: **122/123 pass**, zero skipped. See `manager-ux-checks.json`.
-  The known worker HTML test still
-  cannot import `cloudflare:` using Node's default loader; it remains enabled. Its
-  request now targets `/play`, because `/` deliberately redirects.
+- Validation follow-up (27 October 2026): **123/123 pass**, zero skipped, through
+  `npm test` (fresh production build and the complete suite). TypeScript and diff
+  checks also pass. See `manager-ux-checks.json`.
+- The former worker HTML failure is fixed in the test harness. The actual compiled
+  worker now runs in Wrangler's local Cloudflare runtime, with temporary storage,
+  no remote bindings, no environment-file loading and outbound services blocked.
+  The check verifies `/` redirects to `/play`, the game HTML and preview metadata
+  render, the built JavaScript asset is served and unauthenticated account saves
+  return 401. Workerd provides the platform import; the application bundle is
+  tested in its supported runtime.
 - New tests exercise all 25 pathway registrations, all six Australian/Pacific intakes,
   actual development evidence, protected workload, legal senior decisions, rollover,
   wages/funding/idempotence, migration, staff costs, delegation and scouting accuracy.

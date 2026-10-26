@@ -4,11 +4,26 @@
   "diffCheck": "pass",
   "suite": {
     "tests": 123,
-    "pass": 122,
-    "fail": 1,
-    "failure": "tests/rendered-html.test.mjs: Node default loader cannot import cloudflare:",
+    "pass": 123,
+    "fail": 0,
+    "failure": null,
     "skipped": 0,
-    "summary": "1..123\n# tests 123\n# suites 0\n# pass 122\n# fail 1\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 18048.931854"
+    "summary": "\u2139 tests 123\n\u2139 suites 0\n\u2139 pass 123\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 44785.071365",
+    "previousRun": {
+      "tests": 123,
+      "pass": 122,
+      "fail": 1,
+      "failure": "tests/rendered-html.test.mjs: Node default loader cannot import cloudflare:",
+      "skipped": 0
+    },
+    "command": "npm test",
+    "workerRuntime": "Built artifact executed with installed Wrangler local workerd, no remote bindings or persistent storage",
+    "workerAssertions": [
+      "Home redirects to /play",
+      "Career HTML includes development metadata and loading shell",
+      "Client entry JavaScript is served successfully",
+      "Unauthenticated career save access returns 401"
+    ]
   },
   "homeAdvantage": {
     "method": "Identical player skills, condition, tactics, mood and team preparation on both sides. Independent phase seeds paired between neutral and configured scenarios. No venue, travel or crowd model. This measures model sensitivity, not agreement with real results.",
@@ -94,5 +109,6 @@
     ]
   },
   "release": "review branch only; no main merge or live deploy",
-  "balance": "New staff economics and intakes are not certified by the older long-career study."
+  "balance": "New staff economics and intakes are not certified by the older long-career study.",
+  "validationDate": "2026-10-27"
 }
