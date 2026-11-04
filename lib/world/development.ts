@@ -1,3 +1,4 @@
+import {goalSkills,projectGrowth} from '../club/identity.ts';
 import type {Season} from '../sim/types.ts';
 import {catalog,enrich,aggregate,average,KEY,worldPlayers,worldAge,ledger} from './catalog.ts';
 import type {WorldPlayer,CareerSkills,Competition} from './types.ts';
@@ -10,12 +11,12 @@ export function develop(s:Season,comp:Competition,checkpoint:'mid'|'end'='end'){
  let change=Math.min(headroom,ageFactor*(.035+opportunity*(.8+headroom*.32))*quality*challenge*performance*trait*variance*Math.min(1,headroom/4));
  const breakout=a<24&&headroom>12&&minutes>550&&form>7.1&&roll(s.seed,'breakout'+key+p.id)<.09;
  if(breakout)change=Math.min(headroom,change*1.7);
- const club=s.management!.players[p.id].clubId,coach=club?s.coaching?.clubs[club]?.staff[0]:null;change*=coach?.coaching?(.85+coach.coaching*.015):1;change*=clamp(1-((stats?.injuryWeeks??0)+(youth?.injuryWeeks??0))*.016,.55,1);change=Math.min(headroom,change);if(checkpoint==='mid'||w.processed.includes(`develop-${s.year}-${comp}-mid`))change*=.5;const old=c.ability,changes:Record<string,number>={};const keys=KEY[p.position]??['work_rate'];const physical=['pace','acceleration','agility','power','stamina'];
+ const club=s.management!.players[p.id].clubId,coach=club?s.coaching?.clubs[club]?.staff[0]:null;change*=coach?.coaching?(.85+coach.coaching*.015):1;change*=clamp(1-((stats?.injuryWeeks??0)+(youth?.injuryWeeks??0))*.016,.55,1);const project=projectGrowth(s,p.id,comp);change=Math.min(headroom,change*(1+project));if(checkpoint==='mid'||w.processed.includes(`develop-${s.year}-${comp}-mid`))change*=.5;const old=c.ability,changes:Record<string,number>={};const keys=KEY[p.position]??['work_rate'];const physical=['pace','acceleration','agility','power','stamina'];
  if(a>(peak[p.position]??28)-1){const decline=Math.max(0,a-(peak[p.position]??28)+roll(s.seed,key+'age'+p.id)*3-2)*.14*(1.4-v.traits.durability*.4);change-=decline;}
  const relevant=keys.filter(k=>change<0?physical.includes(k):!(a>25&&physical.includes(k)));
- const selected=relevant.length?relevant:change<0?physical:keys;
+ const selected=relevant.length?relevant:change<0?physical:keys;const goal=s.clubIdentity?.projects.find(x=>x.id===p.id)?.goal;const weight=(k:string)=>project>0&&goal&&change>0&&(goalSkills[goal] as readonly string[]).includes(k)?1.5:1;
  // CA responds to the weighted positional profile, anchored to the supplied baseline CA.
- const beforeMetric=average(v.rich,keys),caScale=clamp((100-p.ca)/Math.max(1,100-average(enrich(p.rich),keys)),.25,3);const weights=selected.length/keys.length;for(const k of selected){const delta=change/Math.max(.25,weights)/caScale;const next=clamp(v.rich[k]+delta,15,99);changes[k]=+(next-v.rich[k]).toFixed(2)||0;v.rich[k]=next;}
+ const beforeMetric=average(v.rich,keys),caScale=clamp((100-p.ca)/Math.max(1,100-average(enrich(p.rich),keys)),.25,3);const weights=selected.reduce((n,k)=>n+weight(k),0)/keys.length;for(const k of selected){const delta=change*weight(k)/Math.max(.25,weights)/caScale;const next=clamp(v.rich[k]+delta,15,99);changes[k]=+(next-v.rich[k]).toFixed(2)||0;v.rich[k]=next;}
  if((stats?.injuryWeeks??0)>=10&&roll(s.seed,'injury-'+key+p.id)>.92){for(const k of ['pace','acceleration']){v.rich[k]=Math.max(15,v.rich[k]-.7);changes[k]=(changes[k]??0)-.7;}}const delta=(average(v.rich,keys)-beforeMetric)*caScale;c.ability=clamp(old+delta,30,v.savePA);c.attributes=aggregate(v.rich);
  const note=breakout?'Breakout campaign: strong form and regular senior minutes accelerated development.':minutes<200&&youthMinutes>150?'U21 match exposure is supporting development; senior opportunities remain the next step.':minutes<200&&a<25?repMinutes>200?'Representative minutes provided a higher-level development challenge.':'Limited senior opportunities held back development.':change<-.2?'Physical decline is beginning to outweigh technical development.':change>.7?'Regular minutes improved position-specific skills.':'Steady development; potential remains uncertain.';
  v.development.push({year:s.year,competition:comp,before:old,after:c.ability,minutes,note,changes});
