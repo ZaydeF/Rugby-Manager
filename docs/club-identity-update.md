@@ -10,6 +10,8 @@ This update makes the game carry a management decision through from the tactics 
 
 ## Four weeks from the same starting save
 
+The [full-season follow-up](club-season-comparison.md) compares the tactical and academy decisions separately across multiple starting seeds.
+
 Each comparison uses the same starting save and seed (173), with four fixtures per branch. The Highlanders comparison isolates the tactical change. The Drua comparison changes both tactics and how staff time is spent, so it illustrates the combined trade-off.
 
 | Club and plan | Named launches | Gain-line wins | Possessions lost on launch | Record |
