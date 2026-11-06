@@ -17,3 +17,10 @@ export function advancePlayback(m:GameMatch){if(m.finished||m.pendingPenalty||m.
  return m;
 }
 export function nextHighlight(m:GameMatch){for(let i=0;i<1500&&!m.finished&&!m.pendingPenalty&&!m.live?.pause;i++){const start=m.nextEventId;advancePlayback(m);if(m.events.some(e=>e.id>=start&&KEY_EVENTS.has(e.kind)))break;}return m;}
+// Presentation-only batching: the same phases and decision stops run in the same
+// order; no additional RNG is consumed by the choice of highlight detail.
+const MATCH_HIGHLIGHTS=new Set(['try','penalty_goal','drop_goal','yellow','red','injury','missed_kick']);
+export function playbackSegment(match:GameMatch,detail:string){const next=structuredClone(match);let from=structuredClone(match),highlight=detail==='Full match';const until=match.minute+(detail==='Extended'?1.5:3);
+ for(let n=0;n<100&&!next.finished&&!next.pendingPenalty&&!next.live?.pause;n++){from=structuredClone(next);const id=next.nextEventId;advancePlayback(next);highlight=next.events.some(e=>e.id>=id&&(MATCH_HIGHLIGHTS.has(e.kind)||detail==='Extended'&&e.kind==='linebreak'));if(highlight||detail==='Full match'||next.minute>=until)break;}
+ return {next,from,highlight:detail!=='Commentary'&&(highlight||detail==='Full match')};
+}

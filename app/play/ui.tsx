@@ -1,5 +1,5 @@
-import {IntelligenceReport} from './match-intelligence';
 'use client';
+import {IntelligenceReport} from './match-intelligence';
 import {RugbyEvidence} from './rugby-workbench';
 import MatchInsights from './match-insights';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';

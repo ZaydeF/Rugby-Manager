@@ -1,0 +1,527 @@
+{
+  "configuredViewportProofs": 51,
+  "focusedNativeProofs": 1,
+  "nativeRequestedResolutionGate": "not completed; native captures of exact requested sizes timed out",
+  "proofs": [
+    {
+      "file": "cohesion-coaching-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "9713a12f54d7caf7c9a3fef650ebdf1eaec18114e5b1dfe36222fae4a165beb7"
+    },
+    {
+      "file": "cohesion-coaching-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "332502904642414230c748eebe017abaee3dd9f158a35b3e970ef3ab63fa638f"
+    },
+    {
+      "file": "cohesion-coaching-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "6d3bc4a5efc8854cbcea735db7cbb2c2ace5b84fbbd00c9acf39a6e22f855e7d"
+    },
+    {
+      "file": "cohesion-development-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "b11dd1d526e96c35c7baa8e5345a06cd60a76461857e6873a338c5996f09509a"
+    },
+    {
+      "file": "cohesion-development-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "65835322d0f0f6bc612feaf4c2f1325b7a01ff4d9727a43e1633ac57534051f9"
+    },
+    {
+      "file": "cohesion-development-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "0327d5d88f4df1fce6fc76a3b7e92b5dd39c09ee47c543864db27ff3f6905693"
+    },
+    {
+      "file": "cohesion-dynamics-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "ca9827e7c80b822446d4ba156f924923acfceae8263bf2d2c51d0531f19fdf29"
+    },
+    {
+      "file": "cohesion-dynamics-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "ab2ffa89bd8f2cee9eab63e8fca4ca6a3fd500f64924d849fc4bf394c93780f2"
+    },
+    {
+      "file": "cohesion-dynamics-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "fd115dfba75e700dbe0b114106b3f609108388f0933fb94cf2ef2ff0345e8fbe"
+    },
+    {
+      "file": "cohesion-halftime-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "db09093eba9fd9c15db7fc54cc240b0aac7a05870cfc23c06cdc85649a8c1b56"
+    },
+    {
+      "file": "cohesion-halftime-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "d4a8c6feacd2255c9554e8a0ec9bb035e05e0305db4712f4fc8487054834cae6"
+    },
+    {
+      "file": "cohesion-halftime-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "6a36dd422f9e4a02706cf52867288fbbe765e6169076d1723dd62b19f325c469"
+    },
+    {
+      "file": "cohesion-home-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "b24fa1790e124dc7cea997fdc4e2bccc7939474eba01ec6fc8855c6206bd0ad3"
+    },
+    {
+      "file": "cohesion-home-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "de6ad0d6fb1fad58b8e63094e17ac38e206aeab3f1bb67fef3d2bc116007366f"
+    },
+    {
+      "file": "cohesion-home-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "9c354110403b9a5ee0dfc88290309702c643261049f4062a8b6f3aba091f6865"
+    },
+    {
+      "file": "cohesion-live-match-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "b7b1929ef67b998f092a2ff873b2a472a967cc53d9a762aa8a1b9b06ff832e65"
+    },
+    {
+      "file": "cohesion-live-match-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "61695f203f9a6431bac5e39b36a9ae726abec9e71c602c56583341a9cd9912b0"
+    },
+    {
+      "file": "cohesion-live-match-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "aa977a5785bb64ed6475d366c737c43837590db7639398c2870e16cd4a2ed4da"
+    },
+    {
+      "file": "cohesion-match-preview-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "91081bd8beb5e99859801120d1c04434be1a45acbb6842b4d21d862e0155380d"
+    },
+    {
+      "file": "cohesion-match-preview-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "4a13b2b7be45b0abc1739698d42681bde9b3856cf78a0877df68afdce90b8684"
+    },
+    {
+      "file": "cohesion-match-preview-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "f122d7c4d8c2ff7718f1365ef0ffa12c48f28956b7623383ce3baadcdc8e19c7"
+    },
+    {
+      "file": "cohesion-medical-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "39acdd3f56b22b4c24f9a781144d8b2919f2a6525b233b897aeeddbb72fb5229"
+    },
+    {
+      "file": "cohesion-medical-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "58fbaf148a3ad638acd134d69f7c385ca367b0dac2b5cf08c281eca2bdcfd7de"
+    },
+    {
+      "file": "cohesion-medical-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "a87f17bf7d49550147331e1a42259ac4fb1bb2dc7ec6b208a78ac964c70568d1"
+    },
+    {
+      "file": "cohesion-new-career-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "29d57221e2882038f977157744f72038d633991965839bc72b63ab2bd6feca3e"
+    },
+    {
+      "file": "cohesion-new-career-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "f8c773ed70e8f0f8b5c1f11b75622cc1b9827c717154a118dc5adf0d06526d1b"
+    },
+    {
+      "file": "cohesion-new-career-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "16befbe86e4ebc78e41c0d4dfa60e246d42804a3950bac7d23c2f08f5914173f"
+    },
+    {
+      "file": "cohesion-offseason-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "32fa6ba0511cab60ed9bf0e2caed7a3f6d159559735273ffd769bbe2673a74b7"
+    },
+    {
+      "file": "cohesion-offseason-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "727c43778fdc8186e7834dd6bbb0eee44954d5eac261d6e65aad7d257c039ab9"
+    },
+    {
+      "file": "cohesion-offseason-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "f677d5d891b11465bfa44a968b9d79ee1046b68db43bd5a27437c36e6c80ad98"
+    },
+    {
+      "file": "cohesion-player-profile-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "6719eed89406962cc807b3ebccee04e9a47974dff3afd5484ac602cf14dc58f2"
+    },
+    {
+      "file": "cohesion-player-profile-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "4bd6e6e8b3c04cf7d1a4758f9e9e38c9d0e26595348f679ead5b5793d3c8f800"
+    },
+    {
+      "file": "cohesion-player-profile-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "ef14262ba32867d3fcf01825bb9d3d7c27c4342de47f4134c77d4f360edb2557"
+    },
+    {
+      "file": "cohesion-playing-plans-native.jpg",
+      "applicationViewport": "1348x926",
+      "capturePixels": [
+        1348,
+        926
+      ],
+      "scaled": false,
+      "sha256": "b8d835ca7c1568b87c44dc77eace5ab3a49cc93fe140169d3fee6f3344eaa656"
+    },
+    {
+      "file": "cohesion-postmatch-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "2a33e1853328ae03fcd3871b1b9a6bffcbc7ea5ae4ac3135cd680f450177b056"
+    },
+    {
+      "file": "cohesion-postmatch-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "c5f201bd71d1e37ff548387e356748d1bd601d73c9ea36a2d5af260f4c33cd2a"
+    },
+    {
+      "file": "cohesion-postmatch-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "e3726d015deb584be59252990b52edde8746722312525dfdf1cb915b5822a179"
+    },
+    {
+      "file": "cohesion-recruitment-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "10f1f919e7848b8d36f865302d4d21fc89773a5993877151d4fdb0843fe258e6"
+    },
+    {
+      "file": "cohesion-recruitment-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "f4852c4093d3d54c7541da66a8810a672694d808798ab721f5a9debe95cac500"
+    },
+    {
+      "file": "cohesion-recruitment-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "105f35cf36bbb0bf85e117a619918588acf8ece0a7ef8476585f91051598b922"
+    },
+    {
+      "file": "cohesion-selection-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "0a8db14f4a6bc67cefd98f180787c7e1916a38e7d0fad04871b0de537a1c4511"
+    },
+    {
+      "file": "cohesion-selection-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "efcb37dd5b2983c3581e5253ca7db964376c5063f0d8ad0fd9cf68ee0b6c81ee"
+    },
+    {
+      "file": "cohesion-selection-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "06126e15f79cdfc40986791df3176098f20c5e0584bc766372c24bde729fb85f"
+    },
+    {
+      "file": "cohesion-squad-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "ac184d38dafdbf2e741ec9bc39bfd8f470fdb6eecf49a7cff0f9a504fbac0340"
+    },
+    {
+      "file": "cohesion-squad-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "acc998f58ead8dfa6b71df7953a644a991973acf7b466c3339e49200812db324"
+    },
+    {
+      "file": "cohesion-squad-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "2bb91ef2310cb43dc7e9a69d9f9b03b299f46790f9d6382cd8f191cdff67de55"
+    },
+    {
+      "file": "cohesion-tactics-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "7a9f97df2ac787962332e0a69788a3445b5788a8c065473d2dc60355603523c9"
+    },
+    {
+      "file": "cohesion-tactics-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "66820cb34984cbe24efaf4448ac707fd9ee606293a45071e56657a74077184d7"
+    },
+    {
+      "file": "cohesion-tactics-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "a7279d76ab7d765c0d67d70a1300f1dcde391979090d202a2dde2f19ec2386af"
+    },
+    {
+      "file": "cohesion-weekly-preparation-1280x800.jpg",
+      "applicationViewport": "1280x800",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "628235a4c42a86de8385901939bd1757aa945326d356c5de82f821497f208e8c"
+    },
+    {
+      "file": "cohesion-weekly-preparation-1440x900.jpg",
+      "applicationViewport": "1440x900",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "039a5881471b8926f6069678ef38193f69d2df9622342f9b48ecb0f82f4563f9"
+    },
+    {
+      "file": "cohesion-weekly-preparation-1920x1080.jpg",
+      "applicationViewport": "1920x1080",
+      "capturePixels": [
+        1363,
+        936
+      ],
+      "scaled": true,
+      "sha256": "0b55791fce0b0f3b85c388c6ae777986db40c525d941196dd1681fd4af6027be"
+    }
+  ]
+}

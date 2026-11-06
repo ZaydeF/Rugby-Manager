@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "links": [
+    {
+      "seniorTeamId": "1",
+      "developmentTeamId": "npc-9",
+      "label": "Highlanders → Otago",
+      "seniorName": "Highlanders",
+      "developmentName": "Otago",
+      "description": "Use Otago minutes to create evidence for Highlanders selection."
+    }
+  ]
+}
