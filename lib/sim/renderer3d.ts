@@ -5,7 +5,7 @@ type Colour=[number,number,number,number];
 type Mesh={position:WebGLBuffer;normal:WebGLBuffer;index:WebGLBuffer;count:number};
 type Object3D={position:Vec3;scale:Vec3;colour:Colour;mesh?:'box'|'sphere'|'disc';rotation?:Vec3};
 export type TeamColours={primary:string;secondary:string;ink:string};
-export type CameraSettings={view:CameraView;zoom:number;azimuth:number;elevation:number;labels:boolean;quality:'Balanced'|'Low'};
+export type CameraSettings={view:CameraView;zoom:number;azimuth:number;elevation:number;labels:boolean;analysis?:boolean;quality:'Balanced'|'Low'};
 export const defaultCamera=():CameraSettings=>({view:'Broadcast',zoom:1,azimuth:0,elevation:0,labels:true,quality:'Balanced'});
 const identity=():Mat=>new Float32Array([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]);
 export function multiply(a:Mat,b:Mat):Mat {const m=new Float32Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)for(let k=0;k<4;k++)m[c*4+r]+=a[k*4+r]*b[c*4+k];return m;}
@@ -108,12 +108,19 @@ export class RugbyRenderer3D {
       for(const z of [-2.8,2.8]){add([x,6,z],[.20,12,.20],'#ecf0e7');add([x,1,z],[.6,2,.6],x<0?this.colours[0].primary:this.colours[1].primary);}
       add([x,3,0],[.2,.2,5.8],'#f6f4e8');
     }
+    for(const x of [-50,-28,0,28,50])for(const z of [-35.4,35.4]){
+      add([x,.72,z],[.12,1.45,.12],'#f7faf9');add([x+.32,1.25,z],[.65,.4,.09],this.colours[x<=0?0:1].primary);
+    }
+    // Dugouts face the field; team colours identify the technical areas.
+    for(const side of [-1,1]){const c=this.colours[side<0?0:1];
+      add([side*12,.55,38],[12,1,2],c.primary);add([side*12,2.6,38.9],[13,.2,3.4],'#a7b8c6');add([side*12,1.4,40],[13,2.4,.2],'#465665');
+    }
     // Tiered stands and seat banks are static geometry, with no downloaded models.
     for(const side of [-1,1]){
       add([0,1,side*39],[126,2,1.2],'#29394c');
       for(let tier=0;tier<4;tier++){
         add([0,1+tier*2,side*(44+tier*4)],[138,1.5,4.5],'#263347');
-        for(let block=0;block<14;block++)add([-62+block*9.5,2+tier*2,side*(43.5+tier*4)],[7.6,1.3,2.5],(block+tier)%3===0?'#677789':(block+tier)%2===0?'#3d5470':'#465c6f');
+        for(let block=0;block<14;block++)add([-62+block*9.5,2+tier*2,side*(43.5+tier*4)],[7.6,1.3,2.5],(block+tier)%5===0?this.colours[side<0?0:1].primary:(block+tier)%3===0?'#677789':(block+tier)%2===0?'#3d5470':'#465c6f');
       }
       add([0,12,side*61],[144,.6,5],'#263547');
       for(const x of [-64,-22,22,64])add([x,7,side*62],[.7,12,.7],'#506075');
@@ -161,12 +168,14 @@ export class RugbyRenderer3D {
     const part=(kind:'box'|'sphere',pos:Vec3,scale:Vec3,colour:Colour,rotation:Vec3=[0,0,0])=>this.draw(kind,multiply(base,model(pos,scale,rotation)),colour);
     this.draw('disc',model([p.position[0]+.25,.095,p.position[2]+.15],[.85,1,.52]),[.025,.09,.06,.32]);
     if(p.carrier)this.draw('disc',model([p.position[0],.11,p.position[2]],[1.15,1,.85]),[.94,.77,.3,.28]);
-    part('box',[0,1.4,0],[.63,.84,.85],kit);part('box',[0,1.8,0],[.66,.12,.88],trim);
+    part('sphere',[0,1.46,0],[.38,.52,.49],kit);part('sphere',[-.05,2.27,0],[.23,.14,.24],dark);part('box',[0,1.8,0],[.66,.12,.88],trim);
     part('box',[0,.91,0],[.62,.35,.8],dark);part('sphere',[0,2.08,0],[.25,.29,.25],neutral);
     for(const side of [-1,1]){
-      part('box',[Math.sin(p.stride*side)*.15,.45,side*.23],[.22,.75,.25],neutral,[0,0,p.stride*side*.45]);
+      part('sphere',[Math.sin(p.stride*side)*.15,.66,side*.23],[.15,.31,.16],neutral,[0,0,p.stride*side*.45]);
+      part('box',[Math.sin(p.stride*side)*.13,.32,side*.23],[.21,.37,.23],trim,[0,0,p.stride*side*.32]);
       part('box',[.13+Math.sin(p.stride*side)*.13,.12,side*.23],[.43,.19,.27],dark);
-      part('box',[Math.sin(p.stride*side)*-.1,1.35,side*.56],[.23,.77,.24],kit,[0,0,-p.stride*side*.7]);
+      part('sphere',[0,1.64,side*.46],[.18,.23,.18],kit);
+      part('box',[p.carrier?.23:Math.sin(p.stride*side)*-.12,1.37,side*.5],[.21,.48,.22],neutral,[0,0,p.carrier?.9:-p.stride*side*.7]);
     }
   }
   render(bridge:PlaybackScene,settings:CameraSettings,reducedMotion:boolean){
@@ -174,9 +183,10 @@ export class RugbyRenderer3D {
     const gl=this.gl,scene=matchScene(bridge,reducedMotion),focus=scene.ball;
     const desired:Vec3=[clamp(focus[0]*(settings.view==='Tactical'?.2:.58),-25,25),0,clamp(focus[2]*.22,-8,8)];
     for(let i=0;i<3;i++)this.target[i]+=(desired[i]-this.target[i])*(reducedMotion||!bridge.running?1:.12);
-    const elevation=clamp((settings.view==='Tactical'?1.24:settings.view==='End-on'?.42:.69)+settings.elevation,.22,1.48);
-    const azimuth=(settings.view==='End-on'?-Math.PI/2:settings.view==='Tactical'?.12:.24)+settings.azimuth;
-    const aspect=this.width/this.height,fit=aspect<1.5?1.15:1,range=(settings.view==='Tactical'?140:settings.view==='End-on'?105:108)*fit/settings.zoom;
+    const view=settings.view==='Director'?(scene.action==='lineout'||scene.action==='launch'?'Tactical':scene.action==='goal'?'End-on':'Broadcast'):settings.view;
+    const elevation=clamp((view==='Tactical'?1.24:view==='End-on'?.42:.69)+settings.elevation,.22,1.48);
+    const azimuth=(view==='End-on'?-Math.PI/2:view==='Tactical'?.12:.24)+settings.azimuth;
+    const aspect=this.width/this.height,fit=aspect<1.5?1.15:1,range=(view==='Tactical'?140:view==='End-on'?105:(settings.view==='Director'&&['carry','try','turnover'].includes(scene.action)?79:108))*fit/settings.zoom;
     const eye:Vec3=[this.target[0]+Math.sin(azimuth)*Math.cos(elevation)*range,Math.sin(elevation)*range,this.target[2]+Math.cos(azimuth)*Math.cos(elevation)*range];
     this.eye=eye;this.polygons=[];
     this.currentMatrix=multiply(perspective(aspect),lookAt(eye,this.target));
@@ -194,6 +204,13 @@ export class RugbyRenderer3D {
     this.draw('box',model([scene.ball[0],scene.ball[1]+.2,scene.ball[2]],[.30,.035,.07],[0,scene.ballSpin,scene.ballSpin*.65]),parseColour('#554d3c'));
     if(this.software)this.flushSoftware(false);
     this.paintLabels(scene.players,scene.carrier,settings.labels);
+    if(settings.analysis){
+      const ctx=this.overlay,w=Math.min(150,this.width*.26),h=w*.57,x=12,y=this.height-h-12;
+      ctx.save();ctx.fillStyle='rgba(12,34,35,.9)';ctx.fillRect(x,y,w,h);ctx.strokeStyle='#adcfc2';ctx.strokeRect(x,y,w,h);
+      ctx.beginPath();ctx.moveTo(x+w/2,y);ctx.lineTo(x+w/2,y+h);ctx.stroke();
+      for(const player of scene.players){ctx.beginPath();ctx.fillStyle=player.side===0?'#8be9c2':'#f5ac75';ctx.arc(x+(player.position[0]+60)/120*w,y+(player.position[2]+35)/70*h,2,0,Math.PI*2);ctx.fill();}
+      ctx.fillStyle='#fff';ctx.fillRect(x+(scene.ball[0]+60)/120*w-2,y+(scene.ball[2]+35)/70*h-2,4,4);ctx.restore();
+    }
   }
   private paintLabels(players:ScenePlayer[],carrier:string|null,labels:boolean){
     const ctx=this.overlay;ctx.setTransform(this.dpr,0,0,this.dpr,0,0);ctx.clearRect(0,0,this.width,this.height);this.picks=[];

@@ -3,11 +3,11 @@ import type {GameMatch,MatchEvent,SimPlayer} from './types.ts';
 // Presentation only. These positions visualise phase events; the renderer never
 // advances the simulation, consumes its RNG, or writes to the career/save.
 export type Vec3=[number,number,number];
-export type SceneAction='carry'|'kick'|'goal'|'try'|'scrum'|'lineout'|'turnover'|'stoppage';
+export type SceneAction='carry'|'kick'|'goal'|'try'|'scrum'|'lineout'|'turnover'|'launch'|'stoppage';
 export type ScenePlayer={id:string;name:string;side:number;shirt:number;position:Vec3;heading:number;stride:number;lean:number;carrier:boolean};
 export type MatchScene={players:ScenePlayer[];ball:Vec3;ballSpin:number;possession:number;action:SceneAction;carrier:string|null;direction:number;progress:number};
 export type PlaybackScene={from:GameMatch;to:GameMatch;progress:number;running:boolean};
-export type CameraView='Broadcast'|'Tactical'|'End-on';
+export type CameraView='Broadcast'|'Tactical'|'End-on'|'Director';
 export const clamp=(x:number,lo:number,hi:number)=>Math.max(lo,Math.min(hi,x));
 const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
 const smooth=(t:number)=>{const n=clamp(t,0,1);return n*n*(3-2*n);};
@@ -25,15 +25,15 @@ function formation(m:GameMatch,ball:Vec3):Map<string,Vec3>{
   for(let side=0;side<2;side++)m.teams[side].lineup.forEach((id,i)=>{
     const p=m.teams[side].players[id];if(!onField(p,m))return;
     const attack=side===m.possession;
-    const depth=attack?(i<8?-4-Math.floor(i/3)*2:i===8?-2:-9-(i-9)*.75):(i<8?6+(i%2)*1.5:i<14?10:23);
+    const call=m.teams[side].clubSystem?.plan;const depth=(attack&&i>=9?-((call?.launchDepth??2)-2):0)+(attack?(i<8?-4-Math.floor(i/3)*2:i===8?-2:-9-(i-9)*.75):(i<8?6+(i%2)*1.5:i<14?10:23));
     const lane=i<8?(i%4-1.5)*4.2:i===8?-1:i===9?5:(i-12)*10;
-    positions.set(id,[clamp(ball[0]+dir*depth,-53,53),0,clamp(attack?ball[2]*.35+lane:lane*.9,-31,31)]);
+    positions.set(id,[clamp(ball[0]+dir*depth,-53,53),0,clamp(attack?ball[2]*.35+lane:lane*(.9+((call?.edgeWidth??2)-2)*.07),-31,31)]);
   });
   return positions;
 }
 export function passageAction(from:GameMatch,to:GameMatch):{action:SceneAction;event:MatchEvent|undefined}{
   const events=to.events.filter(e=>e.id>=from.nextEventId);
-  const priorities:[SceneAction,string[]][]=[['try',['try']],['goal',['conversion','penalty_goal','drop_goal','missed_kick','drop_missed']],['kick',['territory_kick','rugby_kick','kick','box_kick','cross_kick','return_kick','kick_touch','kick_regain']],['lineout',['lineouts','lineout_plan']],['scrum',['scrums','scrum_plan','uncontested_scrum']],['turnover',['turnover','set_piece_turnover','error','strike_error']],['stoppage',['halftime','fulltime','yellow','red','injury','penalty_decision','penalty_wait']]];
+  const priorities:[SceneAction,string[]][]=[['try',['try']],['goal',['conversion','penalty_goal','drop_goal','missed_kick','drop_missed']],['kick',['territory_kick','rugby_kick','kick','box_kick','cross_kick','return_kick','kick_touch','kick_regain']],['launch',['club_launch']],['lineout',['lineouts','lineout_plan']],['scrum',['scrums','scrum_plan','uncontested_scrum']],['turnover',['turnover','set_piece_turnover','error','strike_error']],['stoppage',['halftime','fulltime','yellow','red','injury','penalty_decision','penalty_wait']]];
   for(const [action,kinds] of priorities){const event=events.find(e=>kinds.includes(e.kind));if(event)return {action,event};}
   return {action:'carry',event:events.find(e=>e.kind==='carry'||e.kind==='linebreak')??events.find(e=>e.playerId&&to.teams[e.side]?.players[e.playerId])};
 }
@@ -62,6 +62,12 @@ export function matchScene(bridge:PlaybackScene,reducedMotion=false):MatchScene 
     ball=[mix(origin[0],runner[0]+dir*.45,smooth(pass)),1.2+Math.sin(Math.PI*pass)*.4,mix(origin[2],runner[2],smooth(pass))];
     if(progress>.83)ball[1]=mix(1.2,.35,smooth((progress-.83)/.17));
   }
+  if(action==='launch'&&carrier){
+    const call=attack.clubSystem?.plan,distributors=call?[call.first,...(call.shape==='Two distributors'&&carrier!==call.runner?[call.second]:[])]:[];
+    const path=[start,...distributors.flatMap(id=>{const point=startPositions.get(id);return point?[point]:[]}),runStart,end];
+    const span=(path.length-1)*t,index=Math.min(path.length-2,Math.floor(span)),u=span-index;
+    const a=path[index],b=path[index+1];ball=[mix(a[0],b[0],u),1.2+Math.sin(Math.PI*u)*.55,mix(a[2],b[2],u)];
+  }
   const roster=progress>=.97?to:from,players:ScenePlayer[]=[];
   for(let ts=0;ts<2;ts++)roster.teams[ts].lineup.forEach((id,i)=>{
     const p=roster.teams[ts].players[id];if(!onField(p,roster))return;
@@ -76,6 +82,7 @@ export function matchScene(bridge:PlaybackScene,reducedMotion=false):MatchScene 
       const tackle=smooth((progress-.55)/.42);
       position=[mix(position[0],ball[0]+dir*.75,tackle),0,mix(position[2],ball[2]+.7,tackle)];lean=progress>.85?teamDir*.7*smooth((progress-.85)/.15):0;
     }
+    if(action==='launch'&&isCarrier){const run=smooth((progress-.72)/.28);position=[mix(runStart[0],end[0],run),0,mix(runStart[2],end[2],run)];}
     if(action==='scrum'&&i<8)position=[mix(start[0],end[0],t)+(ts===side?-1:1)*dir*(1.5+Math.floor(i/3)*1.2),0,start[2]+(i%3-1)*1.4];
     if(action==='scrum'&&i<8)lean=ts===side?-.65*dir:.65*dir;
     if(action==='lineout'&&i<8){position=[end[0]+(ts===side?-1.3:1.3),0,22+(i%4)*2];if(i===3||i===4)position[1]=Math.sin(Math.PI*t)*1.5;}

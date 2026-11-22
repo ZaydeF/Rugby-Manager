@@ -1,6 +1,6 @@
 import {z} from 'zod';
 import type {Season,Side,Fixture} from '../sim/types.ts';
-import {systemSchema,systemRoles,type ClubSystem} from '../sim/club-system.ts';
+import {launchKey,handover,systemSchema,systemRoles,type ClubSystem} from '../sim/club-system.ts';
 import {registration,worldPlayers,worldAge,availability,ledger} from '../world/catalog.ts';
 import {nextClubFixture} from '../management/advice.ts';
 import {addStory} from '../world/pulse.ts';
@@ -10,8 +10,8 @@ export const pathways=['Development XV','Senior opportunity'] as const;
 export const projectGoals=['Distribution','Gain line','Backfield','Throwing'] as const;
 export const goalSkills={Distribution:['passing','decision_making'],'Gain line':['carrying','power'],Backfield:['aerial','defensive_positioning'],Throwing:['throwing','composure']} as const;
 const projectSchema=z.object({id:z.string().min(1).max(100),goal:z.enum(projectGoals),route:z.enum(pathways),opened:z.number().int(),coach:z.string().max(100),reps:z.number().min(0).max(40),minutes:z.number().min(0).max(4000),matched:z.number().min(0).max(40),missed:z.number().int().min(0).max(40),lastMinutes:z.number().min(0).max(100),lastReview:z.string().max(100),senior:z.number().min(0).max(4000),youth:z.number().min(0).max(4000)}).strict();
-const blockSchema=z.object({fixture:z.string().max(100),week:z.number().int(),plan:systemSchema.nullable(),staff:z.array(z.string().max(100)).max(3),used:z.number().int().min(0).max(3),rehearsal:z.number().min(0).max(1),assignments:z.array(z.string().max(100)).max(3)}).strict();
-export const identitySchema=z.object({version:z.literal(1),system:systemSchema.nullable(),projects:z.array(projectSchema).max(2),block:blockSchema.nullable(),delegate:z.boolean(),brief:z.enum(['Any','Distribution','Gain line','Backfield']).default('Any')}).strict();
+const blockSchema=z.object({fixture:z.string().max(100),week:z.number().int(),plan:systemSchema.nullable(),assistantNote:z.string().max(550).optional(),staff:z.array(z.string().max(100)).max(3),used:z.number().int().min(0).max(3),backupKey:z.string().max(600).optional(),backupPractice:z.number().min(0).max(1).optional(),rehearsal:z.number().min(0).max(1),assignments:z.array(z.string().max(100)).max(3)}).strict();
+export const identitySchema=z.object({version:z.literal(1),system:systemSchema.nullable(),projects:z.array(projectSchema).max(2),block:blockSchema.nullable(),delegate:z.boolean(),priority:z.enum(['Adaptive','Backup combination','Academy','Recovery']).optional(),learning:z.record(z.number().min(0).max(1)).optional(),brief:z.enum(['Any','Distribution','Gain line','Backfield']).default('Any')}).strict();
 export type ClubIdentity=z.infer<typeof identitySchema>;
 export type ProjectGoal=typeof projectGoals[number];
 export type ProjectRoute=typeof pathways[number];
@@ -22,13 +22,18 @@ export function registered(s:Season,id:string){return !!s.world?.players[id]&&!s
 export function eligibleProjects(s:Season){return worldPlayers(s).filter(p=>registered(s,p.id)&&(worldAge(s,p)??99)<23);}
 function checkSystem(next:ClubSystem){if(!systemSchema.safeParse(next).success||!next.first||!next.runner||next.first===next.runner||next.shape==='Two distributors'&&(!next.second||[next.first,next.runner].includes(next.second)))throw Error('Name a different first distributor, runner and (for a two-distributor play) second distributor.');}
 export function setClubSystem(s:Season,next:ClubSystem|null){
- if(next)checkSystem(next);
+ if(next){checkSystem(next);for(const id of Object.values(next.succession??{}))if(id&&!['position','vacant'].includes(id)&&!registered(s,id))throw Error('Choose registered cover.');}
  if(s.activeMatch){
   const t=s.activeMatch.teams.find(t=>t.id===s.teamId);
   if(!t||!s.activeMatch.tacticalVersion||s.activeMatch.finished||s.activeMatch.pendingPenalty)throw Error('Finish the pending decision before making a live role change.');
   if(next&&systemRoles.some(role=>next[role]&&!t.players[next[role]]))throw Error('Choose a player in the matchday squad.');
   const previous=t.clubSystem?.plan.shape??'Standard playbook';
-  if(next)t.clubSystem={plan:{...next},rehearsal:rehearsalFor(s,s.activeMatch.id,next),reads:t.clubSystem?.plan.shape===next.shape?t.clubSystem.reads:Math.min(300,t.tacticalLog?.['system_read_'+next.shape]??0)};
+  if(next){
+   if(Object.values(next.succession??{}).some(id=>id&&!['position','vacant'].includes(id)&&!t.players[id]))throw Error('Choose matchday cover from the selected 23.');
+   const prev=t.clubSystem,b=s.clubIdentity?.block,key=launchKey(next),trained=b?.fixture===s.activeMatch.id?b:null;
+   t.clubSystem={plan:structuredClone(next),rehearsal:prev&&launchKey(prev.plan)===key?prev.rehearsal:trained?.backupKey===key?trained.backupPractice??0:rehearsalFor(s,s.activeMatch.id,next),
+    ...(trained?.backupKey?{backupKey:trained.backupKey,backupPractice:trained.backupPractice??0}:{}),reads:prev?.plan.shape===next.shape?prev.reads:Math.min(300,t.tacticalLog?.['system_read_'+next.shape]??0)};
+  }
   else delete t.clubSystem;
   const m=s.activeMatch;
   m.events.push({id:m.nextEventId++,kind:'club_system_change',minute:Math.floor(m.minute),side:m.teams.indexOf(t),text:`Role assignments adjusted: ${previous} → ${next?.shape??'Standard playbook'}.`,score:[m.teams[0].stats.score,m.teams[1].stats.score],field:m.field});
@@ -70,15 +75,20 @@ export function allocateSession(s:Season,target:'senior'|'recovery'|string){
  const b=previous?.week===week?previous:{fixture:fixture.id,week,plan:null,staff:[],used:0,rehearsal:0,assignments:[]};
  if(b.fixture!==fixture.id)throw Error('This week’s coaching block was assigned to the earlier fixture.');
  const staff=coaches(s)!.staff;
- if(target==='senior'){
+ if(target==='senior'||target==='backup'){
   const plan=c.system;if(!plan)throw Error('Name your lineout attack first.');
-  const required=[plan.first,plan.runner,...(plan.shape==='Two distributors'?[plan.second]:[])];
+  const roles:('first'|'second'|'runner')[]=plan.shape==='Two distributors'?['first','runner','second']:['first','runner'];
+  const required=roles.map(r=>target==='backup'&&registered(s,plan.succession?.[r]??'')?plan.succession![r]!:plan[r]);
+  if(new Set(required).size!==required.length||target==='backup'&&roles.every((r,i)=>required[i]===plan[r]))throw Error('Name distinct backup players before rehearsing the replacement combination.');
   if(required.some(id=>!registered(s,id)||availability(s,id)!=='AVAILABLE'))throw Error('All named launch players must be available to rehearse.');
   const coach=staff[plan.shape==='Carry first'?0:1];const fit=coach.style==='Skills'&&plan.shape==='Two distributors'||coach.style==='Power'&&plan.shape==='Carry first';
-  const gain=.26+coach.coaching*.009+(fit?.12:0);
-  b.rehearsal=Math.min(1,(b.plan&&sameLaunch(b.plan,plan)?b.rehearsal:0)+gain);b.plan={...plan};b.staff.push(coach.name);
+  const specialist=s.staffOffice?.clubs[s.teamId];const expertise=specialist?.funded?specialist.staff.find(p=>p.role==='Set Piece Coach')?.quality??0:0;const gain=.26+expertise*.009+coach.coaching*.009+(fit?.12:0);
+  const learning=c.learning??={};for(const [i,id] of required.entries()){const key=plan.shape+':'+roles[i]+':'+id;learning[key]=Math.min(1,(learning[key]??0)+.05);}
+  if(b.plan&&!sameLaunch(b.plan,plan)){b.rehearsal=0;b.backupPractice=0;delete b.backupKey;}
+  if(target==='backup'){const key=launchKey({...plan,...Object.fromEntries(roles.map((r,i)=>[r,required[i]]))});b.backupPractice=Math.min(1,(key===b.backupKey?b.backupPractice??0:0)+gain);b.backupKey=key;}
+  else b.rehearsal=Math.min(1,(b.plan&&sameLaunch(b.plan,plan)?b.rehearsal:0)+gain);b.plan={...plan};b.staff.push(coach.name);
   for(const id of required)s.condition[id].fatigue=Math.min(100,s.condition[id].fatigue+2);
-  b.assignments.push('Senior lineout rehearsal');
+  b.assignments.push(target==='backup'?'Replacement combination':'Senior lineout rehearsal');
  }else if(target==='recovery'){
   const coach=staff[0];b.staff.push(coach.name);
   for(const id of s.selection.slice(0,15))if(registered(s,id)&&!s.condition[id].injuryWeeks)s.condition[id].fatigue=Math.max(0,s.condition[id].fatigue-2-coach.coaching*.1);
@@ -87,13 +97,16 @@ export function allocateSession(s:Season,target:'senior'|'recovery'|string){
   const p=c.projects.find(p=>p.id===target),coach=p&&mentor(s,p.goal);
   if(!p||!coach||!registered(s,p.id)||availability(s,p.id)!=='AVAILABLE'||p.opened!==s.year)throw Error('This prospect is unavailable for a funded session.');
   if(b.assignments.includes(p.id))throw Error('Each prospect can receive one specialist session per fixture.');
-  p.coach=coach.id;p.reps=Math.min(40,p.reps+.5+coach.youth*.035);s.condition[p.id].fatigue=Math.min(100,s.condition[p.id].fatigue+2);
+  p.coach=coach.id;p.reps=Math.min(40,p.reps+.5+coach.youth*.035+(s.staffOffice?.clubs[s.teamId]?.funded?(s.staffOffice.clubs[s.teamId].staff.find(v=>v.role==='Pathway Coordinator')?.quality??0)*.025:0));s.condition[p.id].fatigue=Math.min(100,s.condition[p.id].fatigue+2);
   b.staff.push(coach.name);b.assignments.push(p.id);
  }
  b.used++;c.block=b;
 }
-export function assistantProgramme(s:Season){const c=s.clubIdentity;if(!c?.delegate||s.activeMatch||s.world?.phase!==s.world?.primary)return;const n=nextBlock(s);if(!n.fixture||n.used||!n.capacity)return;const tired=s.selection.slice(0,15).some(id=>(s.condition[id]?.fatigue??0)>=50);const project=c.projects.find(p=>p.opened===s.year&&registered(s,p.id)&&availability(s,p.id)==='AVAILABLE');try{allocateSession(s,tired?'recovery':c.system?'senior':project?.id??'recovery');}catch{ /* Leave the slot free if the named players are unavailable. */ }}
-export function attachSystem(s:Season,side:Side,f:Fixture){const plan=s.clubIdentity?.system;if(plan)side.clubSystem={plan:{...plan},rehearsal:rehearsalFor(s,f.id,plan),reads:0};}
+export function assistantProgramme(s:Season){const c=s.clubIdentity;if(!c?.delegate||s.activeMatch||s.world?.phase!==s.world?.primary)return;const n=nextBlock(s);if(!n.fixture||n.used||!n.capacity)return;const tired=s.selection.slice(0,15).some(id=>(s.condition[id]?.fatigue??0)>=50);const project=c.projects.find(p=>p.opened===s.year&&registered(s,p.id)&&availability(s,p.id)==='AVAILABLE');const priorities=c.priority==='Backup combination'?['backup','senior']:c.priority==='Recovery'?['recovery']:c.priority==='Academy'?[project?.id,'senior']:[tired?'recovery':'senior',project?.id];const missed:string[]=[];for(const choice of new Set([...priorities,'recovery']))if(choice)try{allocateSession(s,choice);if(c.block)c.block.assistantNote=(missed.length?'Changed the session: '+missed.join(' '):'First available priority in the '+(c.priority??'Adaptive')+' brief.')+' One coaching slot used.';break;}catch(e){missed.push((e as Error).message);}}
+export function attachSystem(s:Season,side:Side,f:Fixture){const plan=s.clubIdentity?.system;if(plan){const b=s.clubIdentity?.block,trained=b?.fixture===f.id&&b.plan&&sameLaunch(b.plan,plan);
+ side.clubSystem={plan:{...plan},rehearsal:Math.min(1,rehearsalFor(s,f.id,plan)+.18*Math.min(...(['first','runner',...(plan.shape==='Two distributors'?['second' as const]:[])] as const).map(r=>s.clubIdentity?.learning?.[plan.shape+':'+r+':'+plan[r]]??0))),...(trained&&b?.backupKey?{backupKey:b.backupKey}:{}),backupPractice:trained?b?.backupPractice??0:0,reads:0};
+ for(const [role,i] of [['first',9],['runner',12],['second',11],['chase',10],['cover',14]] as const)if(!side.lineup.includes(plan[role]))handover(side,plan[role],side.lineup[i],side.lineup);
+ }}
 export function academyPriority(s:Season,id:string){return s.clubIdentity?.projects.some(p=>p.id===id&&p.opened===s.year&&p.route==='Development XV'&&registered(s,id))??false;}
 export function reviewProjects(s:Season,fixture:string){
  for(const p of s.clubIdentity?.projects??[]){

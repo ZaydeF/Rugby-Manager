@@ -6,10 +6,13 @@ export const shapes=['Carry first','Two distributors'] as const;
 export const systemRoles=['first','second','runner','chase','cover'] as const;
 export const roleNames={first:'First distributor',second:'Second distributor',runner:'Hard-line runner',chase:'Chase leader',cover:'Backfield cover'} as const;
 const id=z.string().max(100);
-export const systemSchema=z.object({shape:z.enum(shapes),first:id,second:id,runner:id,chase:id,cover:id}).strict();
+export const systemSchema=z.object({shape:z.enum(shapes),first:id,second:id,runner:id,chase:id,cover:id,
+ succession:z.object({first:id.optional(),second:id.optional(),runner:id.optional(),chase:id.optional(),cover:id.optional()}).strict().optional(),
+ launchDepth:z.number().int().min(0).max(4).optional(), exitUrgency:z.number().int().min(0).max(4).optional(), edgeWidth:z.number().int().min(0).max(4).optional()}).strict();
 export type ClubSystem=z.infer<typeof systemSchema>;
 export type SystemRole=typeof systemRoles[number];
-export const matchSystemSchema=z.object({plan:systemSchema,rehearsal:z.number().min(0).max(1),reads:z.number().int().min(0).max(300)}).strict();
+export const matchSystemSchema=z.object({plan:systemSchema,rehearsal:z.number().min(0).max(1),backupKey:z.string().max(600).optional(),backupPractice:z.number().min(0).max(1).optional(),reads:z.number().int().min(0).max(300)}).strict();
+export function launchKey(p:ClubSystem){return JSON.stringify([p.shape,p.first,p.runner,p.shape==='Two distributors'?p.second:'']);}
 export type MatchSystem=z.infer<typeof matchSystemSchema>;
 export const roleSkills={first:['passing','decision_making'],second:['passing','decision_making'],runner:['carrying','power'],chase:['pace','work_rate'],cover:['aerial','defensive_positioning']} as const;
 const mean=(ps:SimPlayer[],keys:readonly string[])=>ps.reduce((n,p)=>n+richSkill(p,[...keys],'attack'),0)/Math.max(1,ps.length);
@@ -30,8 +33,27 @@ export function systemLaunch(side:Side,attack:SimPlayer[],defence:SimPlayer[],wi
  const carrier=split&&receivers.length?[...receivers].sort((a,b)=>systemSkill(b,'chase')-systemSkill(a,'chase'))[0]:runner;
  const quality=split?(systemSkill(first,'first')+systemSkill(passer,'second'))/2:systemSkill(first,'first');
  return {first,passer,runner,carrier,split,stretched,
-  gain:split?stretched:Math.max(-.5,Math.min(1.2,(threat-read)*.025+.45)),
+  gain:(split?stretched:Math.max(-.5,Math.min(1.2,(threat-read)*.025+.45)))-(plan.launchDepth===undefined?0:(plan.launchDepth-2)*.32),
   breaks:split?stretched*.013:0,
-  error:Math.max(.4,Math.min(3,(split?1.45:1.04)+(69-quality)*.045-rehearsal*.52)),
+  error:Math.max(.4,Math.min(3,(split?1.45:1.04)-((plan.launchDepth??2)-2)*.14+(69-quality)*.045-rehearsal*.52)),
   fallback:plan.shape==='Two distributors'&&!split};
 }
+
+// Only opted-in plans inherit jobs. Vacant and unavailable assignments stay explicit.
+export function handover(t:Side,out:string,incoming:string,activeIds:string[],policy?:'inherit'|'vacant'|'simple'){
+ const system=t.clubSystem;if(!system)return [];
+ const p=system.plan, original=launchKey(p),changes:string[]=[];
+ for(const role of systemRoles){
+  const old=p[role],rule=policy&&out===old?(policy==='vacant'?'vacant':'position'):p.succession?.[role];
+  if(!rule||!old||activeIds.includes(old))continue;
+  if(policy==='vacant'&&old===out)p.succession={...p.succession,[role]:'vacant'};
+  const candidate=rule==='position'?(old===out?incoming:''):rule==='vacant'?'':rule;
+  const collision=['first','second','runner'].includes(role)&&(['first','second','runner'] as const).some(r=>r!==role&&p[r]===candidate);
+  if(candidate&&activeIds.includes(candidate)&&!collision){p[role]=candidate;changes.push(roleNames[role]+': '+(t.players[candidate]?.name??candidate));}
+  else if(old===out)changes.push(roleNames[role]+': uncovered');
+ }
+ if(policy==='simple'){p.shape='Carry first';system.reads=0;system.rehearsal=0;changes.push('Switch to carry first');}
+ if(launchKey(p)!==original)system.rehearsal=system.backupKey===launchKey(p)?system.backupPractice??0:0;
+ return changes;
+}
+export const throwReasons={lost:'Throw lost',maul:'Maul called',standard:'Standard playbook',zone:'Exit zone',strike:'Other strike ordered',first:'No first distributor',runner:'No hard-line runner',interrupted:'Passage interrupted',called:'Named launch executed'} as const;

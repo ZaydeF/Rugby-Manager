@@ -1,4 +1,4 @@
-import {systemLaunch,systemSkill} from './club-system.ts';
+import {systemLaunch,systemSkill,handover} from './club-system.ts';
 import {COHESION_RULES} from './cohesion.ts';
 import {suitability} from './positions.ts';
 import {checkpoint,recordChange,aiDecision,group} from './intelligence.ts';
@@ -53,11 +53,13 @@ function tryDropGoal(m:GameMatch,side:number){const t=m.teams[side],p=plan(t.rug
 }
 function shouldKick(m:GameMatch,side:number){const p=plan(m.teams[side].rugby);if(m.field>88)return false;
  if(m.field<35&&p.exit==='Long exits'&&m.phase>=2)return random(m)<.35;
+ const urgency=m.teams[side].clubSystem?.plan.exitUrgency??2;
  const frequency=(p.attack==='Kick pressure'?1.8:1)*(p.kicking==='Territorial'?1.5:p.kicking==='Contestable'?1.25:1)*(p.box==='Frequent'?1.25:p.box==='Rare'?.8:1);
- return m.phase>=3&&random(m)<(m.field>65?(p.attackingKick==='Frequent'?.12:p.attackingKick==='Rare'?.01:.045):.075*frequency);
+ return m.phase>=(m.field<45?5-urgency:3)&&random(m)<(m.field>65?(p.attackingKick==='Frequent'?.12:p.attackingKick==='Rare'?.01:.045):.075*frequency);
 }
 function rugbyKick(m:GameMatch,side:number,forced?:'Cross-kick'|'Long exit'){const t=m.teams[side],other=1-side,r=plan(t.rugby),d=plan(m.teams[other].rugby),ps=active(m,side),u=personnel(ps),v=personnel(active(m,other));
  const leader=ps.find(p=>p.id===t.clubSystem?.plan.chase),cover=active(m,other).find(p=>p.id===m.teams[other].clubSystem?.plan.cover);
+ const width=(m.teams[other].clubSystem?.plan.edgeWidth??2)-2;
  const chaseEdge=leader?clamp((systemSkill(leader,'chase')-67)*.002,-.065,.065):0,coverEdge=cover?clamp((systemSkill(cover,'cover')-67)*.002,-.065,.065):0;
  const long=forced==='Long exit'||m.field<35&&r.exit==='Long exits',cross=forced==='Cross-kick'||!long&&m.field>65&&r.attackingKick!=='Rare'&&random(m)<.55;
  const box=!long&&!cross&&r.box!=='Rare'&&random(m)<(r.box==='Frequent'?.7:.25);
@@ -73,7 +75,7 @@ function rugbyKick(m:GameMatch,side:number,forced?:'Cross-kick'|'Long exit'){con
  if(!cross&&!contest&&random(m)<.67){setPiece(m,other,'lineouts',Math.max(8,100-landing));return;}
  changePossession(m,other,100-landing);logTactic(m.teams[other],'kick_receipts');
  const receiving=plan(m.teams[other].rugby);if(receiving.receipt==='Return kick'||receiving.receipt==='Balanced'&&m.field<30&&random(m)<.55){const back=cover??active(m,other).find(p=>p.id===m.teams[other].tacticalKicker)??fieldKicker(m,other);const metres=clamp(27+(richSkill(back,['tactical_kicking','kicking_distance'],'kicking')-70)*.18,18,40);logTactic(m.teams[other],'return_kicks');event(m,other,'return_kick',`${back.name} returns the kick to touch.`,back.id);setPiece(m,side,'lineouts',Math.max(8,100-m.field-metres));}
- else{m.teams[other].transition=true;logTactic(m.teams[other],'counterattacks');const room=clamp(4+(cover?clamp((systemSkill(cover,'cover')-67)*.055,-1.5,1.5):0)-chaseEdge*12+(v.handling-u.cover)*.08-(r.backfield==='Deep cover'?2:r.backfield==='Chase pressure'? -2:0),0,9);m.field=Math.min(98,m.field+room);event(m,other,'counterattack',`${m.teams[other].name} keep the ball and counterattack.`);}
+ else{m.teams[other].transition=true;logTactic(m.teams[other],'counterattacks');const room=clamp(4-width*.55+(cover?clamp((systemSkill(cover,'cover')-67)*.055,-1.5,1.5):0)-chaseEdge*12+(v.handling-u.cover)*.08-(r.backfield==='Deep cover'?2:r.backfield==='Chase pressure'? -2:0),0,9);m.field=Math.min(98,m.field+room);event(m,other,'counterattack',`${m.teams[other].name} keep the ball and counterattack.`);}
 }
 function executeStrike(m:GameMatch,side:number){const t=m.teams[side],r=plan(t.rugby),empty={gain:0,breaks:0,ended:false};
  const suitable=(id:Strike)=>id==='power'?m.field>=85:id==='exit'?m.field<45: id==='cross'?m.field>=55&&m.field<89: m.field>=30&&m.field<90;
@@ -91,6 +93,7 @@ function setPiece(m:GameMatch,side:number,kind:'lineouts'|'scrums',field:number)
  // Never award a scrum shove/penalty against a side unable to contest safely.
  if(kind==='scrums'&&m.teams.some(t=>t.lineup.slice(0,3).some(id=>t.players[id]?.playingPosition))&&[0,1].some(n=>m.teams[n].lineup.slice(0,3).some((id,i)=>{const p=m.teams[n].players[id];return !p||p.injured||p.sentOff||p.cardUntil>m.minute||p.position!==(i===1?'hooker':'prop')}))){t.stats.scrums++;if(m.intelligence)logTactic(t,'scrums_attempts');changePossession(m,side,field);t.launch='scrum';event(m,side,'uncontested_scrum',`${t.name} retain an uncontested scrum: a qualified front row is unavailable.`);return;}
  if(m.intelligence){logTactic(t,kind+'_attempts');if(kind==='lineouts')logTactic(t,'throw_'+plan(t.rugby).throw);}const diff=strength(m,side,'set_piece','forwards')-strength(m,other,'set_piece','forwards');const rp=plan(t.rugby),dp=plan(m.teams[other].rugby),u=personnel(active(m,side)),v=personnel(active(m,other));const advanced=m.rugbyVersion===2;const unit=(n:number)=>{const ps=active(m,n).filter(p=>kind==='scrums'?['prop','hooker'].includes(p.position):['hooker','lock'].includes(p.position));return ps.reduce((v,p)=>v+richSkill(p,kind==='scrums'?['scrum','strength']:p.position==='hooker'?['throwing','composure']:['lineout','aerial'],'set_piece'),0)/Math.max(1,ps.length)};const richEdge=active(m,side).some(p=>p.rich)?clamp((unit(side)-unit(other))*.002,-.12,.12):0;const retained=random(m)<clamp(richEdge+(advanced?(kind==='lineouts'?lineoutOdds(rp,dp,u,v):scrumOdds(rp,u,v)):clamp(.86+diff*.003,.63,.98)),.55,.98);
+ if(kind==='lineouts'&&t.tacticalLog?.throwLedger===1){if(retained)logTactic(t,'throw_pending');else logTactic(t,'reason_lost');}
  if(retained){t.stats[kind]++;let ps=active(m,side).filter(p=>kind==='scrums'?FORWARDS.includes(p.position):['hooker','lock','loose_forward'].includes(p.position));if(ps.length)pick(m,ps,p=>kind==='lineouts'&&p.position==='lock'?3:1).stats[kind]++;changePossession(m,side,field);if(advanced){t.launch=kind==='lineouts'?'lineout':'scrum';if(m.tacticalVersion===25)t.ballQuality=(kind==='lineouts'?rp.lineoutBall==='Quick':rp.scrum==='Quick release')?1:0;logTactic(t,kind);if(kind==='lineouts'){logTactic(t,'lineout_'+rp.lineoutTarget);if(rp.lineoutUse==='Maul'){const gain=clamp(3+(u.carrying-v.scrum)*.08-(dp.lineoutDefence==='Defend maul'?2:0),0,8);m.field=Math.min(98,m.field+gain);logTactic(t,'mauls');}else if(rp.lineoutBall==='Quick'){m.field=Math.min(98,m.field+2+(rp.lineoutSize==='Shortened'?1:0)-(dp.lineoutDefence==='Pressure halfback'?2:0));}event(m,side,'lineout_plan',`${rp.lineoutSize} lineout · ${rp.lineoutTarget.toLowerCase()} target · ${rp.throw.toLowerCase()} throw · ${rp.lineoutUse.toLowerCase()}, ${rp.lineoutBall.toLowerCase()} ball.`);}else{if(rp.scrum==='Eight-man pressure'){m.field=Math.min(98,m.field+clamp(2+(u.scrum-v.scrum)*.08,0,5));for(const forward of active(m,side).filter(p=>FORWARDS.includes(p.position)))forward.condition.fatigue=clamp(forward.condition.fatigue+.5,0,100);}if(rp.scrum==='Defensive survival')m.field=Math.max(5,m.field-1);if(rp.scrum==='Quick release')m.field=Math.min(98,m.field+1.5);event(m,side,'scrum_plan',`${rp.scrum} · ${rp.scrumLaunch.toLowerCase()}.`);if(rp.scrum==='Attack for penalty'&&random(m)<clamp(.10+(u.scrum-v.scrum)*.008,.025,.30)){const defenders=active(m,other),front=defenders.filter(p=>FORWARDS.includes(p.position));const offender=pick(m,front.length?front:defenders);add(m,other,offender,'penalties');event(m,side,'scrum_penalty',`${t.name} win a scrum penalty through sustained pressure.`,offender.id);takePenalty(m,side,true);return;}}}event(m,side,kind,`${t.name} secure their ${kind==='lineouts'?'lineout':'scrum'} and build again.`);}
  else{t.stats[kind==='lineouts'?'lineoutsLost':'scrumsLost']++;const winner=tackler(m,other);add(m,other,winner,'turnovers');changePossession(m,other,100-field);event(m,other,'set_piece_turnover',`${m.teams[other].name} disrupt the ${kind==='lineouts'?'lineout':'scrum'} and turn possession over.`,winner.id);}
 }
@@ -100,7 +103,7 @@ export function createMatch(id:string,seed:number,home:Side,away:Side,knockout=f
  for(const t of m.teams){t.rugby??=aiRugby(t.lineup.map(id=>t.players[id]));t.familiarity??=Object.fromEntries(t.rugby.plays.map(id=>[id,55]));t.tacticalLog??={};if(m.tacticalVersion===25){t.tactics=canonicalTactics(t.rugby,t.tactics);t.ballQuality=0;t.disrupted=false;if(!t.rugby.jobs&&t.autoHalfTime){t.rugby.jobs={};for(const [slot,p] of t.lineup.map((id,i)=>[i,t.players[id]] as const)){if(p.position==='loose_forward')t.rugby.jobs[String(slot)]=eventSkill(p,'impact')>eventSkill(p,'work_rate')?'Carrier':'Support';if(p.position==='fly_half')t.rugby.jobs[String(slot)]='Link';}}}}
  home.matchMood+=(random(m)+random(m)+random(m)-1.5)*5;away.matchMood+=(random(m)+random(m)+random(m)-1.5)*5;m.possession=random(m)<.5?0:1;event(m,m.possession,'kickoff',`${m.teams[m.possession].name} receive the kick-off. We are underway.`);return m;
 }
-export function substitute(m:GameMatch,side:number,outId:string,inId:string):string|null{
+export function substitute(m:GameMatch,side:number,outId:string,inId:string,rolePolicy?:'inherit'|'vacant'|'simple'):string|null{
  if(m.finished)return 'The match is finished.';const t=m.teams[side];const index=t.lineup.indexOf(outId),incoming=t.players[inId],outgoing=t.players[outId];
  if(index<0||!t.bench.includes(inId)||!incoming||!outgoing)return 'Choose an on-field player and an unused replacement.';
  if(outgoing.sentOff||outgoing.cardUntil>m.minute)return 'A carded player cannot be tactically replaced.';
@@ -108,6 +111,8 @@ export function substitute(m:GameMatch,side:number,outId:string,inId:string):str
  if(!canCover(incoming,outgoing))return 'That replacement cannot cover this position under the current game rules.';
  t.lineup[index]=inId;t.bench=t.bench.filter(id=>id!==inId);t.used.push(outId);outgoing.left=true;incoming.entered=true;
  incoming.playingPosition=outgoing.playingPosition??outgoing.position;const fit=suitability(incoming.position,incoming.playingPosition);if(fit.factor<1)event(m,side,'cover',`${incoming.name}: ${fit.label.toLowerCase()} cover. Positional execution is reduced; physical attributes are unchanged.`,inId);
+ const jobs=handover(t,outId,inId,active(m,side).map(p=>p.id),rolePolicy);
+ if(jobs.length)event(m,side,'role_handover',jobs.join(' · '),inId);
  event(m,side,'substitution',`${incoming.name} replaces ${outgoing.name}.`,inId);return null;
 }
 export function changeTactics(m:GameMatch,side:number,tactics:Tactics){if(m.finished)return;for(const v of Object.values(tactics))if(!Number.isInteger(v)||v<0||v>2)throw Error('Invalid tactical setting');if(m.tacticalVersion===25){const t=m.teams[side],next={...plan(t.rugby),tempo:tactics.tempo,risk:tactics.risk,attack:tactics.territory===2?'Kick pressure' as const:tactics.width===2?'Wide shape' as const:tactics.phaseStyle===0?'Forward power' as const:'Balanced phase play' as const};changeRugby(t,next);t.tactics=canonicalTactics(next);t.adjustment={minute:m.minute,before:{...t.tacticalLog}};t.lastAdviceMinute=m.minute;}else m.teams[side].tactics={...tactics};event(m,side,'tactics',`${m.teams[side].name} change their tactical approach.`);}
@@ -137,6 +142,14 @@ function autoSubs(m:GameMatch,side:number){
  }
 }
 export function advancePhase(m:GameMatch){
+ const side=m.possession,t=m.teams[side],l=t.tacticalLog;
+ if(m.finished||m.pendingPenalty||!l?.throw_pending)return resolvePhase(m);
+ const ids=active(m,side).map(p=>p.id),p=t.clubSystem?.plan;
+ const reason=plan(t.rugby).lineoutUse==='Maul'?'maul':!p?'standard':m.field<22?'zone':t.nextStrike?'strike':!ids.includes(p.first)?'first':!ids.includes(p.runner)?'runner':'interrupted';
+ const before=l.system_launches??0;l.throw_pending--;
+ const result=resolvePhase(m);logTactic(t,'reason_'+((l.system_launches??0)>before?'called':reason));return result;
+}
+function resolvePhase(m:GameMatch){
  if(m.finished||m.pendingPenalty)return m;
  checkpoint(m);
  if(m.halftime&&m.minute===40&&!m.halfTimeHandled){m.halfTimeHandled=true;for(let side=0;side<2;side++){const t=m.teams[side];if(!t.autoHalfTime)continue;const advice=halfTimeAdvice(m,side);if(m.tacticalVersion!==25&&advice.plan&&t.approach!=='Development')changeTactics(m,side,MATCH_PLANS[advice.plan]);for(const sub of advice.subs){if(!substitute(m,side,sub.off,sub.on))m.events[m.events.length-1].text+=' Assistant halftime: '+sub.reason+'.';}}}
@@ -163,12 +176,12 @@ export function advancePhase(m:GameMatch){
  if(!m.intelligence&&advanced&&m.minute>=65)for(let i=0;i<2;i++){const ai=m.teams[i];if(ai.autoHalfTime&&!ai.tacticalLog?.late_adjustment){const margin=ai.stats.score-m.teams[1-i].stats.score;const next={...plan(ai.rugby)};if(margin>7){next.exit='Long exits';next.kicking='Territorial';next.penalty='Posts';}else if(margin< -7){next.penalty='Corner';next.receipt='Counterattack';next.lineoutBall='Quick';}else continue;updateRugby(m,i,next);logTactic(ai,'late_adjustment');}}
  if(advanced&&t.launch==='lineout'&&rp.lineoutUse==='Launch'){effects.gain+=(rp.lineoutSize==='Shortened'?.35:0)+(rp.lineoutTarget==='Back'?.65:rp.lineoutTarget==='Middle'?.2:0);effects.breaks+=rp.throw==='Long'?.007:0;}
  if(advanced&&tryDropGoal(m,side))return m;
- const launch=advanced&&!t.nextStrike&&t.launch==='lineout'&&rp.lineoutUse==='Launch'&&m.field>=22?systemLaunch(t,active(m,side),active(m,other),def.defensiveWidth===2):null;
+ const launch=advanced&&!t.nextStrike&&t.launch==='lineout'&&rp.lineoutUse==='Launch'&&m.field>=22?systemLaunch(t,active(m,side),active(m,other),(d.clubSystem?.plan.edgeWidth??2)>2||def.defensiveWidth===2):null;
  const strike=advanced&&!launch?executeStrike(m,side):{gain:0,breaks:0,ended:false};if(strike.ended)return m;
  const transition=advanced&&t.transition;if(m.tacticalVersion===25&&transition)t.disrupted=true;t.transition=false;
  const attack=strength(m,side,'attack'),defence=strength(m,other,'defence');const pack=strength(m,side,'attack','forwards'),backs=strength(m,side,'attack','backs');const synergy=(tac.phaseStyle-1)*(backs-pack)*.11+(tac.width-1)*(backs-72)*.06;
  const fatigue=active(m,side).reduce((s,p)=>s+p.condition.fatigue,0)/active(m,side).length;
- const numerical=(active(m,side).length-active(m,other).length)*2.9;const diff=attack-defence+synergy+numerical+(transition&&rp.attack==='Counterattack'?clamp((u.handling-v.cover)*.15+3,-2,7):0);
+ const numerical=(active(m,side).length-active(m,other).length)*2.9;const edgeBias=(d.clubSystem?.plan.edgeWidth??2)-2;const diff=attack-defence+edgeBias*(rp.attack==='Wide shape'?-.8:.38)+synergy+numerical+(transition&&rp.attack==='Counterattack'?clamp((u.handling-v.cover)*.15+3,-2,7):0);
  const penaltyChance=CONFIG.penaltyRate*(m.cohesionVersion===1?COHESION_RULES.penaltyMultiplier:1)*(advanced&&!m.intelligence?(dp.contest==='Compete'?1.25:dp.contest==='Fan out'?.85:1)*(dp.defence==='Blitz'?1.12:1):1)*(1+.28*(def.breakdown-1)+.18*(def.lineSpeed-1))*clamp(1+(75-strength(m,other,'discipline'))*.012,.62,1.6);
  if(random(m)<penaltyChance){const offender=pick(m,active(m,other),p=>Math.max(.2,(120-skill(p,'discipline'))/40)*(m.tacticalVersion===25&&jobAt(d,p)==='Contest'?1.4:1));add(m,other,offender,'penalties');event(m,side,'penalty',`${offender.name} is penalised at the breakdown. Advantage ${t.name}.`,offender.id);const cardRoll=random(m);
   if(cardRoll<CONFIG.redPerPenalty){offender.sentOff=true;add(m,other,offender,'red');event(m,other,'red',`${offender.name} is sent off. ${d.name} will play short.`,offender.id);}
