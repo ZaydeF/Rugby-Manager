@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import {newWorld,start,advanceWorld} from '../lib/world/engine.ts';
+import {installSetup,defaults} from '../lib/career-setup/state.ts';
+import {pulseDay} from '../lib/world/pulse.ts';
+import {advancePhase,resolvePenalty,instantResult} from '../lib/sim/engine.ts';
+import {validSave} from '../lib/sim/validation.ts';
+const dir=process.argv[2];if(!dir)throw Error('Supply a temporary output directory');fs.mkdirSync(dir,{recursive:true});
+const base=newWorld('1',472,2027);installSetup(base,defaults('1',472));pulseDay(base);
+const write=(name,s)=>{if(!validSave(s,{}))throw Error(`Invalid QA fixture ${name}`);fs.writeFileSync(`${dir}/${name}.json`,JSON.stringify(s));};write('base',base);
+const live=structuredClone(base),f=live.fixtures.filter(f=>[f.home,f.away].includes(live.teamId)).sort((a,b)=>a.date.localeCompare(b.date))[0];live.round=f.round;live.world.phase=live.world.primary;live.world.date=f.date.slice(0,10);start(live);write('live',live);
+while(live.activeMatch.minute<40){advancePhase(live.activeMatch);if(live.activeMatch.pendingPenalty)resolvePenalty(live.activeMatch,'Game plan');}live.activeMatch.live.pause='Half-time';write('halftime',live);
+instantResult(live.activeMatch);write('postmatch',live);
+const offseason=structuredClone(base);let guard=0;while(offseason.world.phase!=='offseason'&&guard++<100)advanceWorld(offseason);if(offseason.world.phase!=='offseason')throw Error('Offseason guard reached');write('offseason',offseason);console.log('Five validated browser QA fixtures written.');

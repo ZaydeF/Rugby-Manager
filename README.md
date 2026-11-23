@@ -1,5 +1,12 @@
 # Super Rugby Manager — Management and annual development
 
+Product Cohesion 1.0 is available as a **release candidate on the feature branch**.
+It introduces six departments, a consistent graphite workspace, direct recruitment
+and player pages, weekly preparation and evidence-led match reviews. Read
+[the release report](docs/product-cohesion-release.md) for rules, calibration,
+validation and open balance issues before merging it. The existing career setup,
+fitness/readiness model and 3D match view are retained.
+
 A working 2026 squad and rating explorer built from the user's supplied historical fantasy data. It includes a seeded match engine, matchday selection, tactics, seasons/finals, account-backed saves, career squads, contracts, recruitment, player concerns, squad planning and annual progression/regression.
 
 ## Reproduce

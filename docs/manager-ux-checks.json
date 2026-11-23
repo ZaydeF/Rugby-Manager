@@ -1,0 +1,114 @@
+{
+  "typescript": "pass",
+  "productionBuild": "pass",
+  "diffCheck": "pass",
+  "suite": {
+    "tests": 123,
+    "pass": 123,
+    "fail": 0,
+    "failure": null,
+    "skipped": 0,
+    "summary": "\u2139 tests 123\n\u2139 suites 0\n\u2139 pass 123\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 44785.071365",
+    "previousRun": {
+      "tests": 123,
+      "pass": 122,
+      "fail": 1,
+      "failure": "tests/rendered-html.test.mjs: Node default loader cannot import cloudflare:",
+      "skipped": 0
+    },
+    "command": "npm test",
+    "workerRuntime": "Built artifact executed with installed Wrangler local workerd, no remote bindings or persistent storage",
+    "workerAssertions": [
+      "Home redirects to /play",
+      "Career HTML includes development metadata and loading shell",
+      "Client entry JavaScript is served successfully",
+      "Unauthenticated career save access returns 401"
+    ]
+  },
+  "homeAdvantage": {
+    "method": "Identical player skills, condition, tactics, mood and team preparation on both sides. Independent phase seeds paired between neutral and configured scenarios. No venue, travel or crowd model. This measures model sensitivity, not agreement with real results.",
+    "rows": [
+      {
+        "modifier": 0,
+        "matches": 500,
+        "homeWinRate": 0.462,
+        "drawRate": 0.064,
+        "meanHomeMargin": -0.526,
+        "meanTotalPoints": 53.306
+      },
+      {
+        "modifier": 3.5,
+        "matches": 500,
+        "homeWinRate": 0.602,
+        "drawRate": 0.028,
+        "meanHomeMargin": 4.378,
+        "meanTotalPoints": 53.238
+      }
+    ]
+  },
+  "calendarCareers": {
+    "method": "Four actual calendar careers over one full season/rollover each, all six tasks delegated. Every day validates; user matches explicitly delegated. This is bounded integration evidence, not a long-term balance calibration.",
+    "rows": [
+      {
+        "club": "5",
+        "days": 311,
+        "matches": 16,
+        "year": 2027,
+        "plans": 54,
+        "clubsWithNegativeCash": [],
+        "valid": true,
+        "staffPaidCurrentSeason": 7270
+      },
+      {
+        "club": "6",
+        "days": 311,
+        "matches": 14,
+        "year": 2027,
+        "plans": 53,
+        "clubsWithNegativeCash": [],
+        "valid": true,
+        "staffPaidCurrentSeason": 7693
+      },
+      {
+        "club": "4",
+        "days": 311,
+        "matches": 16,
+        "year": 2027,
+        "plans": 52,
+        "clubsWithNegativeCash": [],
+        "valid": true,
+        "staffPaidCurrentSeason": 7020
+      },
+      {
+        "club": "npc-9",
+        "days": 311,
+        "matches": 12,
+        "year": 2027,
+        "staffPaidCurrentSeason": 3212,
+        "plans": 42,
+        "clubsWithNegativeCash": [],
+        "valid": true
+      }
+    ]
+  },
+  "browser": {
+    "viewport": "1363x936",
+    "verified": [
+      "root redirect to /play",
+      "single correspondence pane and filters",
+      "stars and position labels",
+      "assistant responsibility controls",
+      "direct legal substitution and confirmation",
+      "full-match delegation reaches 80 minutes",
+      "suppressed confirmation survives reload",
+      "Fijian Drua development workload and watchlist"
+    ],
+    "limits": [
+      "Narrow viewport not browser-verified",
+      "Live account saving unavailable in the local browser session; imported/exported disposable careers used"
+    ]
+  },
+  "release": "review branch only; no main merge or live deploy",
+  "balance": "New staff economics and intakes are not certified by the older long-career study.",
+  "validationDate": "2026-10-27"
+}

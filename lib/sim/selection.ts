@@ -5,7 +5,7 @@ import type {Condition,Tactics,Side,TeamStats,MatchStats,SimPlayer} from './type
 import {SLOTS,DEFAULT_TACTICS,FORWARDS} from './config.ts';
 export function freshCondition():Condition{return {fitness:100,fatigue:0,form:0,morale:70,sharpness:80,injuryWeeks:0,injuryName:null};}
 export function fits(player:Player,slot:number,split:BenchSplit='5-3'){return slotSuitability(player.position,slot,split).allowed;}
-export function selectionScore(p:Player,c:Condition){return (p.rich?p.overall*.65+average(p.rich,KEY[p.position]??['work_rate'])*.35:p.overall)+c.form-.22*c.fatigue-.08*(100-c.fitness);}
+export function selectionScore(p:Player,c:Condition){return (p.rich?p.overall*.65+average(p.rich,KEY[p.position]??['work_rate'])*.35:p.overall)+c.form-.22*c.fatigue-.08*(100-c.fitness)-(p.readinessPenalty??0);}
 export function autoSelect(squad:Player[],conditions:Record<string,Condition>={},split:BenchSplit='5-3'):string[]{
  const used=new Set<string>();return matchSlots(split).map((_,i)=>{const candidates=squad.filter(p=>!used.has(p.player_id)&&fits(p,i,split)&&slotSuitability(p.position,i,split).factor===1&&!p.unavailable&&!(conditions[p.player_id]?.injuryWeeks));candidates.sort((a,b)=>(slotSuitability(b.position,i,split).factor-slotSuitability(a.position,i,split).factor)||selectionScore(b,conditions[b.player_id]??freshCondition())-selectionScore(a,conditions[a.player_id]??freshCondition())||a.player_id.localeCompare(b.player_id));const id=candidates[0]?.player_id??'';used.add(id);return id;});
 }

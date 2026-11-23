@@ -1,0 +1,662 @@
+[
+  {
+    "team": "1",
+    "seed": 173,
+    "off": "177",
+    "on": "173",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 17
+      },
+      {
+        "rule": "position",
+        "launches": 5,
+        "throws": 22
+      },
+      {
+        "rule": "named",
+        "launches": 5,
+        "throws": 22
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 17
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 5,
+        "throws": 22
+      }
+    ]
+  },
+  {
+    "team": "1",
+    "seed": 271,
+    "off": "177",
+    "on": "173",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 11
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 11
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 11
+      }
+    ]
+  },
+  {
+    "team": "1",
+    "seed": 397,
+    "off": "177",
+    "on": "173",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "position",
+        "launches": 2,
+        "throws": 16
+      },
+      {
+        "rule": "named",
+        "launches": 2,
+        "throws": 16
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 2,
+        "throws": 16
+      }
+    ]
+  },
+  {
+    "team": "1",
+    "seed": 557,
+    "off": "177",
+    "on": "173",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 17
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 17
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 17
+      }
+    ]
+  },
+  {
+    "team": "5",
+    "seed": 173,
+    "off": "368",
+    "on": "367",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 12
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 13
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 13
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 12
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 13
+      }
+    ]
+  },
+  {
+    "team": "5",
+    "seed": 271,
+    "off": "368",
+    "on": "367",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "position",
+        "launches": 4,
+        "throws": 13
+      },
+      {
+        "rule": "named",
+        "launches": 4,
+        "throws": 13
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 4,
+        "throws": 13
+      }
+    ]
+  },
+  {
+    "team": "5",
+    "seed": 397,
+    "off": "368",
+    "on": "367",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 17
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 18
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 18
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 17
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 18
+      }
+    ]
+  },
+  {
+    "team": "5",
+    "seed": 557,
+    "off": "368",
+    "on": "367",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "position",
+        "launches": 4,
+        "throws": 10
+      },
+      {
+        "rule": "named",
+        "launches": 4,
+        "throws": 10
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 4,
+        "throws": 10
+      }
+    ]
+  },
+  {
+    "team": "6",
+    "seed": 173,
+    "off": "407",
+    "on": "400",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 15
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 13
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 13
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 15
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 13
+      }
+    ]
+  },
+  {
+    "team": "6",
+    "seed": 271,
+    "off": "407",
+    "on": "400",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "position",
+        "launches": 5,
+        "throws": 10
+      },
+      {
+        "rule": "named",
+        "launches": 5,
+        "throws": 10
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 5,
+        "throws": 10
+      }
+    ]
+  },
+  {
+    "team": "6",
+    "seed": 397,
+    "off": "407",
+    "on": "400",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 8
+      },
+      {
+        "rule": "position",
+        "launches": 4,
+        "throws": 12
+      },
+      {
+        "rule": "named",
+        "launches": 4,
+        "throws": 12
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 8
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 4,
+        "throws": 12
+      }
+    ]
+  },
+  {
+    "team": "6",
+    "seed": 557,
+    "off": "407",
+    "on": "400",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 5
+      },
+      {
+        "rule": "position",
+        "launches": 0,
+        "throws": 5
+      },
+      {
+        "rule": "named",
+        "launches": 0,
+        "throws": 5
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 5
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 0,
+        "throws": 5
+      }
+    ]
+  },
+  {
+    "team": "4",
+    "seed": 173,
+    "off": "253",
+    "on": "251",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "position",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "named",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 0,
+        "throws": 13
+      }
+    ]
+  },
+  {
+    "team": "4",
+    "seed": 271,
+    "off": "253",
+    "on": "251",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "position",
+        "launches": 4,
+        "throws": 8
+      },
+      {
+        "rule": "named",
+        "launches": 4,
+        "throws": 8
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 4,
+        "throws": 8
+      }
+    ]
+  },
+  {
+    "team": "4",
+    "seed": 397,
+    "off": "253",
+    "on": "251",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "position",
+        "launches": 2,
+        "throws": 11
+      },
+      {
+        "rule": "named",
+        "launches": 2,
+        "throws": 11
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 2,
+        "throws": 11
+      }
+    ]
+  },
+  {
+    "team": "4",
+    "seed": 557,
+    "off": "253",
+    "on": "251",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "position",
+        "launches": 5,
+        "throws": 8
+      },
+      {
+        "rule": "named",
+        "launches": 5,
+        "throws": 8
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 13
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 5,
+        "throws": 8
+      }
+    ]
+  },
+  {
+    "team": "npc-9",
+    "seed": 173,
+    "off": "407",
+    "on": "175",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "position",
+        "launches": 6,
+        "throws": 12
+      },
+      {
+        "rule": "named",
+        "launches": 6,
+        "throws": 12
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 10
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 6,
+        "throws": 12
+      }
+    ]
+  },
+  {
+    "team": "npc-9",
+    "seed": 271,
+    "off": "407",
+    "on": "175",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 14
+      },
+      {
+        "rule": "position",
+        "launches": 5,
+        "throws": 15
+      },
+      {
+        "rule": "named",
+        "launches": 5,
+        "throws": 15
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 14
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 5,
+        "throws": 15
+      }
+    ]
+  },
+  {
+    "team": "npc-9",
+    "seed": 397,
+    "off": "407",
+    "on": "175",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "position",
+        "launches": 4,
+        "throws": 16
+      },
+      {
+        "rule": "named",
+        "launches": 4,
+        "throws": 16
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 16
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 4,
+        "throws": 16
+      }
+    ]
+  },
+  {
+    "team": "npc-9",
+    "seed": 557,
+    "off": "407",
+    "on": "175",
+    "arms": [
+      {
+        "rule": "vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "position",
+        "launches": 2,
+        "throws": 10
+      },
+      {
+        "rule": "named",
+        "launches": 2,
+        "throws": 10
+      },
+      {
+        "rule": "override-vacant",
+        "launches": 0,
+        "throws": 9
+      },
+      {
+        "rule": "override-inherit",
+        "launches": 2,
+        "throws": 10
+      }
+    ]
+  }
+]

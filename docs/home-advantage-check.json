@@ -1,0 +1,21 @@
+{
+  "method": "Identical player skills, condition, tactics, mood and team preparation on both sides. Independent phase seeds paired between neutral and configured scenarios. No venue, travel or crowd model. This measures model sensitivity, not agreement with real results.",
+  "rows": [
+    {
+      "modifier": 0,
+      "matches": 500,
+      "homeWinRate": 0.462,
+      "drawRate": 0.064,
+      "meanHomeMargin": -0.526,
+      "meanTotalPoints": 53.306
+    },
+    {
+      "modifier": 3.5,
+      "matches": 500,
+      "homeWinRate": 0.602,
+      "drawRate": 0.028,
+      "meanHomeMargin": 4.378,
+      "meanTotalPoints": 53.238
+    }
+  ]
+}

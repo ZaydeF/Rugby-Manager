@@ -1,0 +1,173 @@
+{
+  "method": "Same 1200 controlled tactical matches. Quality is fresh world top-23 mean ability. Stronger side is at least five ability points ahead. This cohort is not a real-world benchmark.",
+  "identities": {
+    "Adaptive": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.9259259259259259,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.5753424657534246,
+          "drawRate": 0.02054794520547945
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.9047619047619048,
+          "drawRate": 0.023809523809523808
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 1,
+          "drawRate": 0
+        }
+      },
+      "homeWinRate": 0.47,
+      "points": 56.16,
+      "tries": 8.3,
+      "errors": 9.805,
+      "territory": 0.4985263488630236,
+      "possession": 0.49239412496936036
+    },
+    "Territory & pressure": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.8703703703703703,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.6095890410958904,
+          "drawRate": 0.0410958904109589
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.8571428571428571,
+          "drawRate": 0
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 0.9166666666666666,
+          "drawRate": 0
+        }
+      },
+      "homeWinRate": 0.425,
+      "points": 51.44,
+      "tries": 7.625,
+      "errors": 8.63,
+      "territory": 0.5307983619338779,
+      "possession": 0.47151160505266887
+    },
+    "Power game": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.8333333333333334,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.6027397260273972,
+          "drawRate": 0.03424657534246575
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.7857142857142857,
+          "drawRate": 0.047619047619047616
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 1,
+          "drawRate": 0
+        }
+      },
+      "homeWinRate": 0.55,
+      "points": 48.67,
+      "tries": 7.155,
+      "errors": 6.64,
+      "territory": 0.5372845300523365,
+      "possession": 0.56093118785416
+    },
+    "High tempo": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.9444444444444444,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.6438356164383562,
+          "drawRate": 0.03424657534246575
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.9523809523809523,
+          "drawRate": 0.023809523809523808
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 0.9166666666666666,
+          "drawRate": 0.08333333333333333
+        }
+      },
+      "homeWinRate": 0.555,
+      "points": 68.515,
+      "tries": 10.3,
+      "errors": 13.215,
+      "territory": 0.4864233268907841,
+      "possession": 0.40356718401347097
+    },
+    "Transition": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.8518518518518519,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.6232876712328768,
+          "drawRate": 0.0684931506849315
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.8095238095238095,
+          "drawRate": 0.023809523809523808
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 1,
+          "drawRate": 0
+        }
+      },
+      "homeWinRate": 0.595,
+      "points": 62.635,
+      "tries": 9.415,
+      "errors": 10.46,
+      "territory": 0.521773728722059,
+      "possession": 0.49967203591457277
+    },
+    "Possession control": {
+      "matches": 200,
+      "strongerCohort": 54,
+      "strongerWinRate": 0.9259259259259259,
+      "strengthBands": {
+        "0–5": {
+          "matches": 146,
+          "strongerWinRate": 0.6506849315068494,
+          "drawRate": 0.0547945205479452
+        },
+        "5–10": {
+          "matches": 42,
+          "strongerWinRate": 0.9047619047619048,
+          "drawRate": 0
+        },
+        "10–100": {
+          "matches": 12,
+          "strongerWinRate": 1,
+          "drawRate": 0
+        }
+      },
+      "homeWinRate": 0.4,
+      "points": 53.87,
+      "tries": 8.025,
+      "errors": 10.97,
+      "territory": 0.4823991932799133,
+      "possession": 0.48212392257267644
+    }
+  }
+}

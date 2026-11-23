@@ -1,0 +1,440 @@
+{
+  "highlanders": {
+    "club": "1",
+    "seed": 173,
+    "results": [
+      {
+        "strategy": "Adapt to squad",
+        "start": "2026-02-06",
+        "end": "2026-03-06",
+        "matches": [
+          {
+            "opponent": "Chiefs",
+            "score": [
+              27,
+              19
+            ],
+            "launches": 14,
+            "split": 0,
+            "positive": 1,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 9,
+            "breaks": 0,
+            "firstIncident": "Cameron Millar sends Tanielu Tele'a into the hard line."
+          },
+          {
+            "opponent": "Moana Pasifika",
+            "score": [
+              5,
+              43
+            ],
+            "launches": 0,
+            "split": 0,
+            "positive": 0,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 8,
+            "breaks": 0,
+            "firstIncident": null
+          },
+          {
+            "opponent": "ACT Brumbies",
+            "score": [
+              19,
+              31
+            ],
+            "launches": 7,
+            "split": 0,
+            "positive": 3,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 9,
+            "breaks": 0,
+            "firstIncident": "Cameron Millar sends Tanielu Tele'a into the hard line."
+          },
+          {
+            "opponent": "Hurricanes",
+            "score": [
+              24,
+              24
+            ],
+            "launches": 0,
+            "split": 0,
+            "positive": 0,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 4,
+            "breaks": 0,
+            "firstIncident": null
+          }
+        ],
+        "allocations": [
+          {
+            "date": "2026-02-06",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-13",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-20",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-27",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          }
+        ],
+        "project": null,
+        "uncommittedCash": 2900024,
+        "spentSinceStart": 99976,
+        "valid": true
+      },
+      {
+        "strategy": "Develop two distributors",
+        "start": "2026-02-06",
+        "end": "2026-03-06",
+        "matches": [
+          {
+            "opponent": "Chiefs",
+            "score": [
+              23,
+              17
+            ],
+            "launches": 11,
+            "split": 11,
+            "positive": 2,
+            "losses": 0,
+            "reads": 9,
+            "fallbacks": 0,
+            "chases": 5,
+            "breaks": 1,
+            "firstIncident": "Cameron Millar pulls the ball back to Timoci Tavatavanawai; Tanielu Tele'a holds the inside line and Caleb Tangitau takes it wide."
+          },
+          {
+            "opponent": "Moana Pasifika",
+            "score": [
+              17,
+              28
+            ],
+            "launches": 0,
+            "split": 0,
+            "positive": 0,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 4,
+            "breaks": 0,
+            "firstIncident": null
+          },
+          {
+            "opponent": "ACT Brumbies",
+            "score": [
+              45,
+              35
+            ],
+            "launches": 10,
+            "split": 10,
+            "positive": 1,
+            "losses": 1,
+            "reads": 8,
+            "fallbacks": 0,
+            "chases": 4,
+            "breaks": 0,
+            "firstIncident": "Cameron Millar pulls the ball back to Timoci Tavatavanawai; Tanielu Tele'a holds the inside line and Caleb Tangitau takes it wide."
+          },
+          {
+            "opponent": "Hurricanes",
+            "score": [
+              19,
+              28
+            ],
+            "launches": 0,
+            "split": 0,
+            "positive": 0,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 8,
+            "breaks": 0,
+            "firstIncident": null
+          }
+        ],
+        "allocations": [
+          {
+            "date": "2026-02-06",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-13",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-20",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-27",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          }
+        ],
+        "project": null,
+        "uncommittedCash": 2900024,
+        "spentSinceStart": 99976,
+        "valid": true
+      }
+    ]
+  },
+  "fijianDrua": {
+    "club": "5",
+    "seed": 173,
+    "results": [
+      {
+        "strategy": "Adapt to squad",
+        "start": "2026-02-06",
+        "end": "2026-03-06",
+        "matches": [
+          {
+            "opponent": "NSW Waratahs",
+            "score": [
+              28,
+              24
+            ],
+            "launches": 10,
+            "split": 0,
+            "positive": 4,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 9,
+            "breaks": 2,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line."
+          },
+          {
+            "opponent": "Blues",
+            "score": [
+              35,
+              43
+            ],
+            "launches": 10,
+            "split": 0,
+            "positive": 5,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 7,
+            "breaks": 1,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line."
+          },
+          {
+            "opponent": "Western Force",
+            "score": [
+              33,
+              36
+            ],
+            "launches": 1,
+            "split": 0,
+            "positive": 1,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 7,
+            "breaks": 1,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line."
+          },
+          {
+            "opponent": "Queensland Reds",
+            "score": [
+              36,
+              31
+            ],
+            "launches": 9,
+            "split": 0,
+            "positive": 6,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 7,
+            "breaks": 1,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line."
+          }
+        ],
+        "allocations": [
+          {
+            "date": "2026-02-06",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-13",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-20",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          },
+          {
+            "date": "2026-02-27",
+            "used": [
+              "Senior rehearsal",
+              "XV recovery"
+            ]
+          }
+        ],
+        "project": null,
+        "uncommittedCash": 2903473,
+        "spentSinceStart": 96527,
+        "valid": true
+      },
+      {
+        "strategy": "Develop two distributors",
+        "start": "2026-02-06",
+        "end": "2026-03-06",
+        "matches": [
+          {
+            "opponent": "NSW Waratahs",
+            "score": [
+              28,
+              24
+            ],
+            "launches": 9,
+            "split": 9,
+            "positive": 2,
+            "losses": 0,
+            "reads": 7,
+            "fallbacks": 0,
+            "chases": 9,
+            "breaks": 1,
+            "firstIncident": "Isaiah Armstrong-Ravula pulls the ball back to Tuidraki Samusamuvodre; Virimi Vakatawa holds the inside line and Ilaisa Droasese takes it wide."
+          },
+          {
+            "opponent": "Blues",
+            "score": [
+              14,
+              71
+            ],
+            "launches": 4,
+            "split": 0,
+            "positive": 2,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 4,
+            "chases": 4,
+            "breaks": 1,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line (carry fallback)."
+          },
+          {
+            "opponent": "Western Force",
+            "score": [
+              33,
+              35
+            ],
+            "launches": 2,
+            "split": 2,
+            "positive": 1,
+            "losses": 0,
+            "reads": 0,
+            "fallbacks": 0,
+            "chases": 5,
+            "breaks": 0,
+            "firstIncident": "Isaiah Armstrong-Ravula pulls the ball back to Tuidraki Samusamuvodre; Virimi Vakatawa holds the inside line and Joji Nasova takes it wide."
+          },
+          {
+            "opponent": "Queensland Reds",
+            "score": [
+              24,
+              14
+            ],
+            "launches": 8,
+            "split": 0,
+            "positive": 3,
+            "losses": 1,
+            "reads": 0,
+            "fallbacks": 8,
+            "chases": 4,
+            "breaks": 0,
+            "firstIncident": "Isaiah Armstrong-Ravula sends Virimi Vakatawa into the hard line (carry fallback)."
+          }
+        ],
+        "allocations": [
+          {
+            "date": "2026-02-06",
+            "used": [
+              "Senior rehearsal",
+              "Prospect coaching"
+            ]
+          },
+          {
+            "date": "2026-02-13",
+            "used": [
+              "Senior rehearsal",
+              "Prospect coaching"
+            ]
+          },
+          {
+            "date": "2026-02-20",
+            "used": [
+              "Senior rehearsal",
+              "Prospect coaching"
+            ]
+          },
+          {
+            "date": "2026-02-27",
+            "used": [
+              "Senior rehearsal",
+              "Prospect coaching"
+            ]
+          }
+        ],
+        "project": {
+          "name": "Eroni Vakaloloma",
+          "route": "Development XV",
+          "minutes": 260,
+          "coachedEvidence": 2.42,
+          "missed": 0
+        },
+        "uncommittedCash": 2897473,
+        "spentSinceStart": 102527,
+        "valid": true
+      }
+    ]
+  }
+}
